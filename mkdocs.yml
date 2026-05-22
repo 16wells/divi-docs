@@ -117,6 +117,7 @@ nav:
       - Icon: modules/icon.md
       - Icon List: modules/icon-list.md
       - Image: modules/image.md
+      - Instagram Feed: modules/the-instagram-feed-module-in-divi-5.md
       - Link: modules/link.md
       - Lottie: modules/lottie.md
       - Map: modules/map.md
@@ -134,9 +135,12 @@ nav:
       - Sidebar: modules/sidebar.md
       - Slider: modules/slider.md
       - Social Media Follow: modules/social-media-follow.md
+      - SVG: modules/the-svg-module-in-divi-5.md
+      - Table of Contents: modules/the-table-of-contents-module-in-divi-5.md
       - Tabs: modules/tabs.md
       - Testimonial: modules/testimonial.md
       - Text: modules/text.md
+      - Timeline: modules/the-timeline-module-in-divi-5.md
       - Toggle: modules/toggle.md
       - Video: modules/video.md
       - Video Slider: modules/video-slider.md
@@ -231,6 +235,7 @@ nav:
       - Relative Colors & HSL: builder/relative-colors-hsl.md
       - Style Inspector: builder/style-inspector.md
       - Gradient Builder: builder/gradient-builder.md
+      - Aspect Ratio, Image Framing & Image Presets: builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md
     - Content & Data:
       - Dynamic Content: builder/dynamic-content.md
       - Loop Builder: builder/loop-builder.md

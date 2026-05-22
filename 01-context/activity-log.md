@@ -25,6 +25,11 @@
 
 ## Session Entries (newest first)
 
+### 2026-05-22 — Claude Code on the Web — Five New Modules announcement stubs
+
+- Digested the ET *Five New Modules for Divi 5* announcement (Timeline, Breadcrumbs, Table of Contents, SVG, Instagram Feed). Created stub pages for the four missing modules (`docs/modules/the-timeline-module-in-divi-5.md`, `the-svg-module-in-divi-5.md`, `the-table-of-contents-module-in-divi-5.md`, `the-instagram-feed-module-in-divi-5.md`) plus the related builder page (`docs/builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md`). Added `## Elegant Themes tutorials` sections linking the blog post on each new page and on the existing Breadcrumbs page. Added the blog row to `planning/et-blog-tutorials-map.md`. Updated `mkdocs.yml` nav and ran `mkdocs build` cleanly. Stubs have TODO settings tables because the sandbox network policy blocks `elegantthemes.com` / `help.elegantthemes.com` (see insights). Next weekly monitor run with network access should fill them in.
+- See decision: stubs-vs-full-pages (2026-05-22).
+
 ### 2026-05-21 — Claude Code — Re-template from `client-project` to `internal-product`
 
 - Renamed `01-context/client-profile.md` → `01-context/product-charter.md` via `git mv` and substantially expanded the content into the internal-product charter schema (One-liner, Stage, Why We're Building It, The User with three audiences, Anti-persona, Content Layers table, Scope Boundaries, Success/Kill Criteria, Editorial Voice, Trust Signals). Original positioning preserved and built out.

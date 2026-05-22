@@ -36,6 +36,12 @@
 
 *(Add entries with a short heading. Keep bullets tight.)*
 
+### 2026-05-22 — Claude Code on the Web sandbox blocks ET hosts
+
+- The remote-execution environment's egress proxy returned 403 `host_not_allowed` for both `elegantthemes.com` and `help.elegantthemes.com` (and for `web.archive.org` + `r.jina.ai`). That blocks `scripts/scrape_docs.py`, `scripts/monitor_updates.py`, and the weekly external-link check unless the environment's network policy is widened.
+- This is environment-level, not Claude Desktop or local-machine — easy to misdiagnose. Fix is at claude.ai/code → environment → network policy.
+- Implication for weekly monitor: until policy is widened, run the monitor and scrape scripts from a local machine (or a session with a permissive policy), not the default Claude Code on the Web environment.
+
 <!-- Example format:
 
 ### YYYY-MM-DD — [Short topic]

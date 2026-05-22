@@ -17,6 +17,7 @@ Every entry should have a date, a short description, and ideally a one-line rati
 | Date | Decision | Rationale |
 |---|---|---|
 | 2026-05 | Retrofit this repo with project-memory scaffold files only | Preserve website behavior while enabling cross-session continuity |
+| 2026-05-22 | Ship 5 new-module pages as stubs now rather than waiting for full scrapes | Sandbox network policy blocks `elegantthemes.com` / `help.elegantthemes.com`; stubs preserve nav + ET blog linkage, full settings tables fill in via next monitor run when network access is restored. |
 
 ---
 

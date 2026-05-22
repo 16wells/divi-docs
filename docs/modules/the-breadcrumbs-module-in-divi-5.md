@@ -122,6 +122,10 @@ The Advanced tab gives experienced designers extra control - custom CSS, semanti
 
 <!-- TODO: Add 2-3 real-world use cases -->
 
+## Elegant Themes tutorials
+
+- [Five New Modules for Divi 5 (Timeline, Breadcrumbs, Table of Contents, SVG, Instagram Feed)](https://www.elegantthemes.com/blog/theme-releases/five-new-modules){:target="_blank"} — release announcement; calls out the Breadcrumbs module as simple but well-suited to Theme Builder templates.
+
 ## Version Notes
 
 !!! note "Divi 5 Only"

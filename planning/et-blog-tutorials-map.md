@@ -25,6 +25,7 @@
 | 4 Grid Styles For Divi 5 (Free Download!) | https://www.elegantthemes.com/blog/divi-resources/grid-styles-for-divi-5 | `docs/builder/css-grid.md` | 2026-04-21 |
 | Better Form Styling, Field Presets, Focus Editing, And CF7 Module for Divi 5 | https://www.elegantthemes.com/blog/theme-releases/new-form-options-field-presets-focus-editing-and-cf7-module | `docs/modules/contact-form.md`, `docs/modules/contact-form-7.md`, `docs/options-groups/fields.md` | 2026-04-21 |
 | Divi 5 Sizing System & Color Palette Variable Generator | https://www.elegantthemes.com/blog/theme-releases/variable-generator | `docs/builder/design-variables.md`, `docs/builder/global-variables.md`, `docs/builder/advanced-units.md`, `docs/builder/relative-colors-hsl.md` | 2026-04-30 |
+| Five New Modules for Divi 5 (Timeline, Breadcrumbs, Table of Contents, SVG, Instagram Feed) | https://www.elegantthemes.com/blog/theme-releases/five-new-modules | `docs/modules/the-timeline-module-in-divi-5.md`, `docs/modules/the-breadcrumbs-module-in-divi-5.md`, `docs/modules/the-table-of-contents-module-in-divi-5.md`, `docs/modules/the-svg-module-in-divi-5.md`, `docs/modules/the-instagram-feed-module-in-divi-5.md`, `docs/builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md` | 2026-05-22 |
 
 ## Rows to add later
 
