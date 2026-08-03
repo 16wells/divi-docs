@@ -1,0 +1,232 @@
+
+[31m │  ⚠  Warning from the Material for MkDocs team[0m
+[31m │[0m
+[31m │[0m  MkDocs 2.0, the underlying framework of Material for MkDocs,
+[31m │[0m  will introduce backward-incompatible changes, including:
+[31m │[0m
+[31m │  × [0mAll plugins will stop working – the plugin system has been removed
+[31m │  × [0mAll theme overrides will break – the theming system has been rewritten
+[31m │  × [0mNo migration path exists – existing projects cannot be upgraded
+[31m │  × [0mClosed contribution model – community members can't report bugs
+[31m │  × [0mCurrently unlicensed – unsuitable for production use
+[31m │[0m
+[31m │[0m  Our full analysis:
+[31m │[0m
+[31m │[0m  [4mhttps://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/[0m
+[0m
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /home/runner/work/divi-docs/divi-docs/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - assets/imports/16wells-dev-style-guide-test.md
+  - builder/advanced-content-management-using-dynamic-content-in-divi-5.md
+  - builder/advanced-styling-using-option-group-presets-in-divi-5.md
+  - builder/backward-compatibility-and-third-party-divi-module-support.md
+  - builder/build-custom-loops-using-loop-builder-in-divi-5.md
+  - builder/build-custom-templates-using-the-theme-builder-in-divi-5.md
+  - builder/building-templates-for-your-website-with-theme-builder-in-divi-5.md
+  - builder/create-a-new-website-using-a-pre-made-starter-site.md
+  - builder/create-and-build-a-page-with-divi-5-from-scratch.md
+  - builder/create-and-build-a-page-with-divi-5-using-a-premade-layout.md
+  - builder/customize-the-divi-5-s-default-breakpoints.md
+  - builder/divi-5-theme-options.md
+  - builder/divi-5-update-status.md
+  - builder/divi-library-in-divi-5.md
+  - builder/editable-theme-builder-areas-in-divi-5.md
+  - builder/editing-and-customizing-theme-builder-templates-in-divi-5.md
+  - builder/exploring-divi-5-s-new-features.md
+  - builder/getting-started-with-divi-5-theme-builder.md
+  - builder/how-to-rollback-to-divi-4.md
+  - builder/how-to-safely-migrate-from-divi-4-to-divi-5.md
+  - builder/inspect-element-styles-using-divi-5-style-inspector.md
+  - builder/install-and-activate-divi-5.md
+  - builder/managing-theme-builder-templates-in-divi-5.md
+  - builder/nested-options-presets-in-divi-5.md
+  - builder/new-gradient-editor-gradient-variables-text-effects-in-divi-5.md
+  - builder/responsive-editor-in-divi-5-visual-builder.md
+  - builder/setting-up-the-basic-website-design-system.md
+  - builder/the-grid-editor-in-divi-5.md
+  - builder/the-support-center-in-divi-5.md
+  - builder/understanding-divi-s-css-grid-layout.md
+  - builder/understanding-divi-s-new-flexbox-layout.md
+  - builder/understanding-flex-align-items-options-in-divi-5.md
+  - builder/understanding-flex-column-class-options-in-divi-5.md
+  - builder/understanding-flex-column-structure-changes-in-divi-5.md
+  - builder/understanding-flex-horizontal-and-vertical-gap-in-divi-5.md
+  - builder/understanding-flex-justify-content-in-divi-5.md
+  - builder/understanding-flex-layout-direction-in-divi-5.md
+  - builder/understanding-flex-layout-wrapping-options-in-divi-5.md
+  - builder/understanding-flex-order-option-in-divi-5.md
+  - builder/understanding-flex-wrapping-alignment-options-in-divi-5.md
+  - builder/understanding-the-body-text-option-group-in-divi-5.md
+  - builder/understanding-the-captcha-text-option-group-in-divi-5.md
+  - builder/understanding-the-caption-text-option-group-in-divi-5.md
+  - builder/understanding-the-carousel-item-title-text-option-group-in-divi-5.md
+  - builder/understanding-the-comment-count-text-option-group-in-divi-5.md
+  - builder/understanding-the-comment-text-option-group-in-divi-5.md
+  - builder/understanding-the-currency-frequency-text-option-group-in-divi-5.md
+  - builder/understanding-the-description-text-option-group-in-divi-5.md
+  - builder/understanding-the-excluded-item-text-option-group-in-divi-5.md
+  - builder/understanding-the-filter-criteria-text-option-group-in-divi-5.md
+  - builder/understanding-the-form-title-text-option-group-in-divi-5.md
+  - builder/understanding-the-label-text-option-group-in-divi-5.md
+  - builder/understanding-the-link-text-option-group-in-divi-5.md
+  - builder/understanding-the-position-text-option-group-in-divi-5.md
+  - builder/understanding-the-price-text-option-group-in-divi-5.md
+  - builder/understanding-the-result-message-text-option-group-in-divi-5.md
+  - builder/understanding-the-separator-text-option-group-in-divi-5.md
+  - builder/understanding-the-subtitle-text-option-group-in-divi-5.md
+  - builder/use-theme-builder-to-customize-your-website-s-header-and-footer.md
+  - builder/what-is-the-divi-5-migrator-system.md
+  - builder/why-divi-5-is-better-than-divi-4.md
+  - builder/workspaces-in-divi-5.md
+  - modules/the-row-in-divi-5.md
+  - modules/the-section-in-divi-5.md
+  - modules/the-tooltip-module-in-divi-5.md
+  - troubleshooting/how-to-connect-the-instagram-feed-module-with-an-instagram-account-in-divi-5.md
+  - troubleshooting/how-to-control-the-contact-form-module-s-field-widths-in-divi-5.md
+  - troubleshooting/how-to-convert-a-global-element-to-a-non-global-element-in-divi-5.md
+  - troubleshooting/how-to-create-a-custom-search-results-page-in-divi-5-using-theme-builder.md
+  - troubleshooting/how-to-display-posts-in-a-grid-layout-on-archive-pages-using-divi-5-theme-builder.md
+  - troubleshooting/how-to-fix-the-dropdown-menu-that-s-cut-off-or-hidden-behind-page-content-in-divi-5.md
+  - troubleshooting/how-to-troubleshoot-menu-issues-after-an-update-in-divi-5.md
+  - troubleshooting/how-to-use-the-divi-5-black-friday-2025-freebies.md
+  - troubleshooting/why-the-hamburger-menu-icon-is-invisible-or-unclickable-in-divi-5.md
+  - troubleshooting/why-the-live-page-looks-different-from-the-visual-builder-in-divi-5.md
+  - troubleshooting/why-the-page-is-blank-or-missing-content-on-the-live-site-in-divi-5.md
+  - troubleshooting/why-the-site-shows-the-wrong-header-or-a-menu-listing-every-page-in-divi-5.md
+WARNING -  Doc file 'builder/advanced-styling-using-option-group-presets-in-divi-5.md' contains a link '../assets/screenshots/builder/advanced-styling-using-option-group-presets-in-divi-5/overview.png', but the target 'assets/screenshots/builder/advanced-styling-using-option-group-presets-in-divi-5/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md' contains a link '../assets/screenshots/builder/aspect-ratio-image-framing-and-image-presets/overview.png', but the target 'assets/screenshots/builder/aspect-ratio-image-framing-and-image-presets/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/build-custom-loops-using-loop-builder-in-divi-5.md' contains a link '../assets/screenshots/builder/loop-builder/overview.png', but the target 'assets/screenshots/builder/loop-builder/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/build-custom-templates-using-the-theme-builder-in-divi-5.md' contains a link '../assets/screenshots/builder/build-custom-templates/overview.png', but the target 'assets/screenshots/builder/build-custom-templates/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-a-new-website-using-a-pre-made-starter-site.md' contains a link '../assets/screenshots/builder/create-a-new-website-using-a-pre-made-starter-site/overview.png', but the target 'assets/screenshots/builder/create-a-new-website-using-a-pre-made-starter-site/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/overview.png', but the target 'assets/screenshots/builder/create-page-from-scratch/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-1-create-page.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-1-create-page.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-2-launch-builder.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-2-launch-builder.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-3-add-section.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-3-add-section.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-4-add-heading.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-4-add-heading.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-5-add-text.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-5-add-text.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-6-add-button.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-6-add-button.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-7-add-services.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-7-add-services.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-8-add-cta.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-8-add-cta.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-9-layers-panel.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-9-layers-panel.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-10-responsive-preview.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-10-responsive-preview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/step-12-publish.png', but the target 'assets/screenshots/builder/create-page-from-scratch/step-12-publish.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/pattern-hero-cta.png', but the target 'assets/screenshots/builder/create-page-from-scratch/pattern-hero-cta.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/pattern-services-grid.png', but the target 'assets/screenshots/builder/create-page-from-scratch/pattern-services-grid.png' is not found among documentation files.
+WARNING -  Doc file 'builder/create-and-build-a-page-with-divi-5-from-scratch.md' contains a link '../assets/screenshots/builder/create-page-from-scratch/pattern-testimonials.png', but the target 'assets/screenshots/builder/create-page-from-scratch/pattern-testimonials.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-5-theme-options.md' contains a link '../assets/screenshots/builder/divi-5-theme-options/overview.png', but the target 'assets/screenshots/builder/divi-5-theme-options/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-5-theme-options.md' contains a link '../assets/screenshots/builder/divi-5-theme-options/settings-general.png', but the target 'assets/screenshots/builder/divi-5-theme-options/settings-general.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-5-theme-options.md' contains a link '../assets/screenshots/builder/divi-5-theme-options/settings-navigation.png', but the target 'assets/screenshots/builder/divi-5-theme-options/settings-navigation.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-5-theme-options.md' contains a link '../assets/screenshots/builder/divi-5-theme-options/settings-builder.png', but the target 'assets/screenshots/builder/divi-5-theme-options/settings-builder.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-5-theme-options.md' contains a link '../assets/screenshots/builder/divi-5-theme-options/settings-layout.png', but the target 'assets/screenshots/builder/divi-5-theme-options/settings-layout.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-5-theme-options.md' contains a link '../assets/screenshots/builder/divi-5-theme-options/settings-seo.png', but the target 'assets/screenshots/builder/divi-5-theme-options/settings-seo.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-5-theme-options.md' contains a link '../assets/screenshots/builder/divi-5-theme-options/settings-integration.png', but the target 'assets/screenshots/builder/divi-5-theme-options/settings-integration.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-5-theme-options.md' contains a link '../assets/screenshots/builder/divi-5-theme-options/settings-updates.png', but the target 'assets/screenshots/builder/divi-5-theme-options/settings-updates.png' is not found among documentation files.
+WARNING -  Doc file 'builder/divi-library-in-divi-5.md' contains a link '../assets/screenshots/builder/divi-library-in-divi-5/overview.png', but the target 'assets/screenshots/builder/divi-library-in-divi-5/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/overview.png', but the target 'assets/screenshots/builder/exploring-new-features/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/flexbox-layout.png', but the target 'assets/screenshots/builder/exploring-new-features/flexbox-layout.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/grid-layout.png', but the target 'assets/screenshots/builder/exploring-new-features/grid-layout.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/nested-modules.png', but the target 'assets/screenshots/builder/exploring-new-features/nested-modules.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/loop-builder.png', but the target 'assets/screenshots/builder/exploring-new-features/loop-builder.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/group-carousel.png', but the target 'assets/screenshots/builder/exploring-new-features/group-carousel.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/lottie-module.png', but the target 'assets/screenshots/builder/exploring-new-features/lottie-module.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/icon-list-module.png', but the target 'assets/screenshots/builder/exploring-new-features/icon-list-module.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/design-variables.png', but the target 'assets/screenshots/builder/exploring-new-features/design-variables.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/style-inspector.png', but the target 'assets/screenshots/builder/exploring-new-features/style-inspector.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/command-center.png', but the target 'assets/screenshots/builder/exploring-new-features/command-center.png' is not found among documentation files.
+WARNING -  Doc file 'builder/exploring-divi-5-s-new-features.md' contains a link '../assets/screenshots/builder/exploring-new-features/interactions.png', but the target 'assets/screenshots/builder/exploring-new-features/interactions.png' is not found among documentation files.
+WARNING -  Doc file 'builder/inspect-element-styles-using-divi-5-style-inspector.md' contains a link '../assets/screenshots/builder/inspect-element-styles-using-divi-5-style-inspector/overview.png', but the target 'assets/screenshots/builder/inspect-element-styles-using-divi-5-style-inspector/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/inspect-element-styles-using-divi-5-style-inspector.md' contains a link '../assets/screenshots/builder/inspect-element-styles-using-divi-5-style-inspector/settings-styles.png', but the target 'assets/screenshots/builder/inspect-element-styles-using-divi-5-style-inspector/settings-styles.png' is not found among documentation files.
+WARNING -  Doc file 'builder/inspect-element-styles-using-divi-5-style-inspector.md' contains a link '../assets/screenshots/builder/inspect-element-styles-using-divi-5-style-inspector/settings-content.png', but the target 'assets/screenshots/builder/inspect-element-styles-using-divi-5-style-inspector/settings-content.png' is not found among documentation files.
+WARNING -  Doc file 'builder/inspect-element-styles-using-divi-5-style-inspector.md' contains a link '../assets/screenshots/builder/inspect-element-styles-using-divi-5-style-inspector/settings-presets.png', but the target 'assets/screenshots/builder/inspect-element-styles-using-divi-5-style-inspector/settings-presets.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'builder/nested-options-presets-in-divi-5.md' as new (0 days old, threshold: 30)
+WARNING -  Doc file 'builder/new-form-field-options-in-divi-5.md' contains a link '../assets/screenshots/builder/new-form-field-options/overview.png', but the target 'assets/screenshots/builder/new-form-field-options/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/new-form-field-options-in-divi-5.md' contains a link '../assets/screenshots/builder/new-form-field-options/field-options-harmony.png', but the target 'assets/screenshots/builder/new-form-field-options/field-options-harmony.png' is not found among documentation files.
+WARNING -  Doc file 'builder/new-form-field-options-in-divi-5.md' contains a link '../assets/screenshots/builder/new-form-field-options/focus-checked-states.png', but the target 'assets/screenshots/builder/new-form-field-options/focus-checked-states.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'builder/new-gradient-editor-gradient-variables-text-effects-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'builder/responsive-editor-in-divi-5-visual-builder.md' contains a link '../assets/screenshots/builder/responsive-editor/overview.png', but the target 'assets/screenshots/builder/responsive-editor/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/responsive-editor-in-divi-5-visual-builder.md' contains a link '../assets/screenshots/builder/responsive-editor/panel.png', but the target 'assets/screenshots/builder/responsive-editor/panel.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'builder/the-grid-editor-in-divi-5.md' as new (0 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/the-support-center-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'builder/understanding-divi-s-css-grid-layout.md' contains a link '../assets/screenshots/builder/css-grid-layout/overview.png', but the target 'assets/screenshots/builder/css-grid-layout/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-divi-s-css-grid-layout.md' contains a link '../assets/screenshots/builder/css-grid-layout/settings-gaps.png', but the target 'assets/screenshots/builder/css-grid-layout/settings-gaps.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-divi-s-css-grid-layout.md' contains a link '../assets/screenshots/builder/css-grid-layout/settings-alignment.png', but the target 'assets/screenshots/builder/css-grid-layout/settings-alignment.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-divi-s-css-grid-layout.md' contains a link '../assets/screenshots/builder/css-grid-layout/offset-rules.png', but the target 'assets/screenshots/builder/css-grid-layout/offset-rules.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-divi-s-css-grid-layout.md' contains a link '../assets/screenshots/builder/css-grid-layout/pattern-magazine.png', but the target 'assets/screenshots/builder/css-grid-layout/pattern-magazine.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-divi-s-css-grid-layout.md' contains a link '../assets/screenshots/builder/css-grid-layout/pattern-dashboard.png', but the target 'assets/screenshots/builder/css-grid-layout/pattern-dashboard.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-divi-s-css-grid-layout.md' contains a link '../assets/screenshots/builder/css-grid-layout/pattern-gallery.png', but the target 'assets/screenshots/builder/css-grid-layout/pattern-gallery.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-divi-s-new-flexbox-layout.md' contains a link '../assets/screenshots/builder/flexbox-layout/overview.png', but the target 'assets/screenshots/builder/flexbox-layout/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-divi-s-new-flexbox-layout.md' contains a link '../assets/screenshots/builder/flexbox-layout/pattern-equal-columns.png', but the target 'assets/screenshots/builder/flexbox-layout/pattern-equal-columns.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-flex-column-structure-changes-in-divi-5.md' contains a link '../assets/screenshots/builder/flex-column-structure/overview.png', but the target 'assets/screenshots/builder/flex-column-structure/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-flex-column-structure-changes-in-divi-5.md' contains a link '../assets/screenshots/builder/flex-column-structure/controls.png', but the target 'assets/screenshots/builder/flex-column-structure/controls.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-flex-layout-direction-in-divi-5.md' contains a link '../assets/screenshots/builder/flex-layout-direction/overview.png', but the target 'assets/screenshots/builder/flex-layout-direction/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-flex-layout-direction-in-divi-5.md' contains a link '../assets/screenshots/builder/flex-layout-direction/settings.png', but the target 'assets/screenshots/builder/flex-layout-direction/settings.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-grid-offset-rules-in-divi-5.md' contains a link '../assets/screenshots/builder/grid-offset-rules/overview.png', but the target 'assets/screenshots/builder/grid-offset-rules/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-grid-offset-rules-in-divi-5.md' contains a link '../assets/screenshots/builder/grid-offset-rules/settings-design.png', but the target 'assets/screenshots/builder/grid-offset-rules/settings-design.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-grid-offset-rules-in-divi-5.md' contains a link '../assets/screenshots/builder/grid-offset-rules/pattern-alternating-span.png', but the target 'assets/screenshots/builder/grid-offset-rules/pattern-alternating-span.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-grid-offset-rules-in-divi-5.md' contains a link '../assets/screenshots/builder/grid-offset-rules/pattern-hero-item.png', but the target 'assets/screenshots/builder/grid-offset-rules/pattern-hero-item.png' is not found among documentation files.
+WARNING -  Doc file 'builder/understanding-grid-offset-rules-in-divi-5.md' contains a link '../assets/screenshots/builder/grid-offset-rules/pattern-every-n.png', but the target 'assets/screenshots/builder/grid-offset-rules/pattern-every-n.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'builder/understanding-the-body-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-captcha-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-caption-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-carousel-item-title-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'builder/understanding-the-checkbox-option-group-in-divi-5.md' contains a link '../assets/screenshots/builder/checkbox-option-group/overview.png', but the target 'assets/screenshots/builder/checkbox-option-group/overview.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'builder/understanding-the-comment-count-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-comment-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-currency-frequency-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-description-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-excluded-item-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'builder/understanding-the-fields-option-group-in-divi-5.md' contains a link '../assets/screenshots/builder/fields-option-group/overview.png', but the target 'assets/screenshots/builder/fields-option-group/overview.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'builder/understanding-the-filter-criteria-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-form-title-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-label-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-link-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-position-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-price-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'builder/understanding-the-radio-option-group-in-divi-5.md' contains a link '../assets/screenshots/builder/radio-option-group/overview.png', but the target 'assets/screenshots/builder/radio-option-group/overview.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'builder/understanding-the-result-message-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-separator-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'builder/understanding-the-subtitle-text-option-group-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'builder/variable-generator-in-divi-5.md' contains a link '../assets/screenshots/builder/variable-generator/overview.png', but the target 'assets/screenshots/builder/variable-generator/overview.png' is not found among documentation files.
+WARNING -  Doc file 'builder/variable-generator-in-divi-5.md' contains a link '../assets/screenshots/builder/variable-generator/manager-location.png', but the target 'assets/screenshots/builder/variable-generator/manager-location.png' is not found among documentation files.
+WARNING -  Doc file 'builder/variable-generator-in-divi-5.md' contains a link '../assets/screenshots/builder/variable-generator/color-palette-generator.png', but the target 'assets/screenshots/builder/variable-generator/color-palette-generator.png' is not found among documentation files.
+WARNING -  Doc file 'builder/variable-generator-in-divi-5.md' contains a link '../assets/screenshots/builder/variable-generator/fluid-sizing-generator.png', but the target 'assets/screenshots/builder/variable-generator/fluid-sizing-generator.png' is not found among documentation files.
+WARNING -  Doc file 'builder/variable-generator-in-divi-5.md' contains a link '../assets/screenshots/builder/variable-generator/token-families.png', but the target 'assets/screenshots/builder/variable-generator/token-families.png' is not found among documentation files.
+WARNING -  Doc file 'builder/variable-generator-in-divi-5.md' contains a link '../assets/screenshots/builder/variable-generator/customize-scale.png', but the target 'assets/screenshots/builder/variable-generator/customize-scale.png' is not found among documentation files.
+WARNING -  Doc file 'builder/variable-generator-in-divi-5.md' contains a link '../assets/screenshots/builder/variable-generator/results-preview.png', but the target 'assets/screenshots/builder/variable-generator/results-preview.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'builder/workspaces-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'modules/group-carousel.md' contains a link '../assets/screenshots/modules/group-carousel/element.png', but the target 'assets/screenshots/modules/group-carousel/element.png' is not found among documentation files.
+WARNING -  Doc file 'modules/group.md' contains a link '../assets/screenshots/modules/group/element.png', but the target 'assets/screenshots/modules/group/element.png' is not found among documentation files.
+WARNING -  Doc file 'modules/heading.md' contains a link '../assets/screenshots/modules/heading/element.png', but the target 'assets/screenshots/modules/heading/element.png' is not found among documentation files.
+WARNING -  Doc file 'modules/hero.md' contains a link '../assets/screenshots/modules/hero/element.png', but the target 'assets/screenshots/modules/hero/element.png' is not found among documentation files.
+WARNING -  Doc file 'modules/icon-list.md' contains a link '../assets/screenshots/modules/icon-list/element.png', but the target 'assets/screenshots/modules/icon-list/element.png' is not found among documentation files.
+WARNING -  Doc file 'modules/image.md' contains a link '../assets/screenshots/modules/image/element.png', but the target 'assets/screenshots/modules/image/element.png' is not found among documentation files.
+WARNING -  Doc file 'modules/lottie.md' contains a link '../assets/screenshots/modules/lottie/element.png', but the target 'assets/screenshots/modules/lottie/element.png' is not found among documentation files.
+WARNING -  Doc file 'modules/pagination.md' contains a link '../assets/screenshots/modules/pagination/element.png', but the target 'assets/screenshots/modules/pagination/element.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-breadcrumbs-module-in-divi-5.md' contains a link '../assets/screenshots/modules/breadcrumbs/overview.png', but the target 'assets/screenshots/modules/breadcrumbs/overview.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-breadcrumbs-module-in-divi-5.md' contains a link '../assets/screenshots/modules/breadcrumbs/add-module.png', but the target 'assets/screenshots/modules/breadcrumbs/add-module.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-breadcrumbs-module-in-divi-5.md' contains a link '../assets/screenshots/modules/breadcrumbs/settings-content.png', but the target 'assets/screenshots/modules/breadcrumbs/settings-content.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-breadcrumbs-module-in-divi-5.md' contains a link '../assets/screenshots/modules/breadcrumbs/settings-design.png', but the target 'assets/screenshots/modules/breadcrumbs/settings-design.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-breadcrumbs-module-in-divi-5.md' contains a link '../assets/screenshots/modules/breadcrumbs/settings-advanced.png', but the target 'assets/screenshots/modules/breadcrumbs/settings-advanced.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-canvas-portal-module-in-divi-5.md' contains a link '../assets/screenshots/modules/canvas-portal/add-module.png', but the target 'assets/screenshots/modules/canvas-portal/add-module.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-canvas-portal-module-in-divi-5.md' contains a link '../assets/screenshots/modules/canvas-portal/settings-content.png', but the target 'assets/screenshots/modules/canvas-portal/settings-content.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-canvas-portal-module-in-divi-5.md' contains a link '../assets/screenshots/modules/canvas-portal/settings-design.png', but the target 'assets/screenshots/modules/canvas-portal/settings-design.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-canvas-portal-module-in-divi-5.md' contains a link '../assets/screenshots/modules/canvas-portal/settings-advanced.png', but the target 'assets/screenshots/modules/canvas-portal/settings-advanced.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-contact-form-7-styler-module-in-divi-5.md' contains a link '../assets/screenshots/modules/contact-form-7-styler/overview.png', but the target 'assets/screenshots/modules/contact-form-7-styler/overview.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-contact-form-7-styler-module-in-divi-5.md' contains a link '../assets/screenshots/modules/contact-form-7-styler/add-module.png', but the target 'assets/screenshots/modules/contact-form-7-styler/add-module.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-contact-form-7-styler-module-in-divi-5.md' contains a link '../assets/screenshots/modules/contact-form-7-styler/settings-content.png', but the target 'assets/screenshots/modules/contact-form-7-styler/settings-content.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-contact-form-7-styler-module-in-divi-5.md' contains a link '../assets/screenshots/modules/contact-form-7-styler/settings-design.png', but the target 'assets/screenshots/modules/contact-form-7-styler/settings-design.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-contact-form-7-styler-module-in-divi-5.md' contains a link '../assets/screenshots/modules/contact-form-7-styler/settings-advanced.png', but the target 'assets/screenshots/modules/contact-form-7-styler/settings-advanced.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-row-in-divi-5.md' contains a link '../assets/screenshots/modules/the-row/overview.png', but the target 'assets/screenshots/modules/the-row/overview.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-section-in-divi-5.md' contains a link '../assets/screenshots/modules/the-section/overview.png', but the target 'assets/screenshots/modules/the-section/overview.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-svg-module-in-divi-5.md' contains a link '../assets/screenshots/modules/svg/overview.png', but the target 'assets/screenshots/modules/svg/overview.png' is not found among documentation files.
+WARNING -  Doc file 'modules/the-timeline-module-in-divi-5.md' contains a link '../assets/screenshots/modules/timeline/overview.png', but the target 'assets/screenshots/modules/timeline/overview.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'modules/the-tooltip-module-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'modules/video-slider.md' contains a link '../assets/screenshots/modules/video-slider/element.png', but the target 'assets/screenshots/modules/video-slider/element.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'troubleshooting/how-to-control-the-contact-form-module-s-field-widths-in-divi-5.md' as new (28 days old, threshold: 30)
+WARNING -  Doc file 'troubleshooting/how-to-create-the-ken-burns-effect-in-divi-5.md' contains a link '../assets/screenshots/troubleshooting/ken-burns/step-1.png', but the target 'assets/screenshots/troubleshooting/ken-burns/step-1.png' is not found among documentation files.
+WARNING -  Doc file 'troubleshooting/how-to-create-the-ken-burns-effect-in-divi-5.md' contains a link '../assets/screenshots/troubleshooting/ken-burns/step-2.png', but the target 'assets/screenshots/troubleshooting/ken-burns/step-2.png' is not found among documentation files.
+INFO    -  new_badge: Marked 'troubleshooting/why-the-live-page-looks-different-from-the-visual-builder-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/why-the-page-is-blank-or-missing-content-on-the-live-site-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  new_badge: Marked 'troubleshooting/why-the-site-shows-the-wrong-header-or-a-menu-listing-every-page-in-divi-5.md' as new (28 days old, threshold: 30)
+INFO    -  Documentation built in 13.43 seconds
