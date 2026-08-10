@@ -5,9 +5,11 @@ category: modules
 tags: ["modules", "woocommerce", "ecommerce", "product", "gallery", "images", "slider", "grid"]
 related: ["woo-product-images", "gallery", "image"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/12033711"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Woo Product Gallery
 
@@ -78,6 +80,8 @@ The Content tab controls which product's gallery images are displayed and which 
 | Background | background controls | Set a background color, gradient, image, or video behind the gallery module container. |
 | Order | select | Set the flexbox order of the module relative to sibling elements in the same row. |
 | Meta | admin label | Assign an admin label and control module visibility inside the Visual Builder. |
+| Content |  | Choose which product the module should display the Gallery Images.Show Pagination(applies to theGrid Layoutonly) - Display or Hide the Pagination.Show Title and Caption(applies to theGrid Layoutonly) - Display or Hide the image's title and caption text. <!-- AUTO-ADDED --> |
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
 
 <!-- ![Woo Product Gallery Content tab settings](../assets/screenshots/modules/woo-product-gallery/settings-content.png){ loading=lazy } -->
 
@@ -94,6 +98,16 @@ The Design tab controls the gallery layout mode, image styling, and all text ele
 | Title Text | text styling | Customize the font, size, color, weight, and letter spacing of image titles. Only active when Grid layout and Show Title and Caption are enabled. |
 | Caption Text | text styling | Style the caption text displayed below each gallery image. Only active when Grid layout and Show Title and Caption are enabled. |
 | Pagination Text | text styling | Customize the appearance of pagination controls. Only active when Grid layout and Show Pagination are enabled. |
+| Slider |  | Displays the product gallery in a slider format/layout. <!-- AUTO-ADDED --> |
+| Grid |  | Displays the product gallery images in a 4-column grid layout. <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall text styles for the Woo Product Gallery module. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Woo Product Gallery module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Product Gallery module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Product Gallery module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Product Gallery module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Product Gallery module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Product Gallery module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Product Gallery module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -127,6 +141,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Product Gallery module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Product Gallery module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Woo Product Gallery's module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Product Gallery module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Product Gallery module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 <!-- ![Woo Product Gallery Advanced tab settings](../assets/screenshots/modules/woo-product-gallery/settings-advanced.png){ loading=lazy } -->
 

@@ -42,6 +42,7 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Icon](icon.md) | Display a single icon | ✅ Documented |
 | [Icon List](icon-list.md) | Styled list with custom icons per item | ✅ Documented |
 | [Image](image.md) | Display a single image | ✅ Documented |
+| [Instagram Feed](the-instagram-feed-module-in-divi-5.md) | Display a grid of recent Instagram posts | 📝 Stub |
 | [Lottie](lottie.md) | Lightweight JSON/SVG animation player | ✅ Documented |
 | [Link](link.md) | Styled link with optional icon | ✅ Documented |
 | [Map](map.md) | Google Maps embed | ✅ Documented |
@@ -52,15 +53,20 @@ Divi modules are the individual content elements you place inside rows and colum
 | [Portfolio](portfolio.md) | Portfolio grid display | ✅ Documented |
 | [Post Navigation](post-navigation.md) | Previous/next post links | ✅ Documented |
 | [Post Content](post-content.md) | Display current post/page content | ✅ Documented |
+| [Post Filter](the-post-filter-module-in-divi-5.md) | Filter controls for a Post Filter Items loop | 📝 Stub |
+| [Post Filter Items](the-post-filter-items-in-divi-5.md) | Filterable grid/list of posts driven by a Post Filter module | 📝 Stub |
 | [Post Slider](post-slider.md) | Blog posts in slider format | ✅ Documented |
 | [Post Title](post-title.md) | Dynamic post title display | ✅ Documented |
 | [Pricing Table](pricing-table.md) | Pricing comparison table | ✅ Documented |
 | [Sidebar](sidebar.md) | Widget area display | ✅ Documented |
 | [Slider](slider.md) | Image and content slider | ✅ Documented |
 | [Social Media Follow](social-media-follow.md) | Social media icon links | ✅ Documented |
+| [SVG](the-svg-module-in-divi-5.md) | Place SVG graphics with native stroke and width settings | 📝 Stub |
+| [Table of Contents](the-table-of-contents-module-in-divi-5.md) | Auto-generated jump-to-section navigation | 📝 Stub |
 | [Tabs](tabs.md) | Tabbed content sections | ✅ Documented |
 | [Testimonial](testimonial.md) | Customer testimonial display | ✅ Documented |
 | [Text](text.md) | Rich text content block | ✅ Documented |
+| [Timeline](the-timeline-module-in-divi-5.md) | Animated, loop-aware vertical/horizontal timeline of events | 📝 Stub |
 | [Toggle](toggle.md) | Individual collapsible panel | ✅ Documented |
 | [Video](video.md) | Embed video content | ✅ Documented |
 | [Video Slider](video-slider.md) | Video carousel slider | ✅ Documented |

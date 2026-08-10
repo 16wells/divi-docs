@@ -5,9 +5,11 @@ category: modules
 tags: ["modules", "content-modules", "portfolio", "projects", "grid", "fullwidth", "pagination", "dynamic-content"]
 related: ["filterable-portfolio", "gallery", "blog"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/10358290-the-portfolio-module-in-divi-5"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Portfolio Module
 
@@ -74,6 +76,8 @@ The Content tab controls which projects appear, what metadata is visible, and ho
 | Background | background controls | Set a background color, gradient, image, or video behind the entire Portfolio module container. Supports multi-layered backgrounds with blend modes. |
 | Order | order controls | Define the display order of the Portfolio module within Flexbox and CSS Grid parent layouts. Useful when the visual order should differ from the DOM order. |
 | Meta | admin label | Assign a custom admin label to the module for easier identification in the Visual Builder layer panel. Force visibility in the builder interface. |
+| Content |  | Choose how many Projects the module will display and from which Project Categories. <!-- AUTO-ADDED --> |
+| Elements |  | Enable or Disable the visibility of the Project's title, Categories, and Pagination. <!-- AUTO-ADDED --> |
 
 #### Portfolio Content Settings Detail
 
@@ -93,6 +97,21 @@ The Design tab provides full visual control over the portfolio layout, image pre
 | Setting | Type | Description |
 |---------|------|-------------|
 | Layout | layout controls | Choose between Fullwidth (list) and Grid layout modes. In Grid mode, configure the underlying grid method (Flexbox or CSS Grid), number of columns, and column spacing to control the visual density of the portfolio. |
+| Fullwidth |  | (Default) <!-- AUTO-ADDED --> |
+| Grid layout |  | Choose betweenFlexboxandGridlayout, the number of columns, the space between columns, and much more. <!-- AUTO-ADDED --> |
+| Overlay |  | Choose the hover overlay's styles. <!-- AUTO-ADDED --> |
+| Image |  | Choose the styles applied to each project's Featured Image. <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall Portfolio module's text styles for this module. <!-- AUTO-ADDED --> |
+| Title Text |  | Choose the Portfolio module's title styles. <!-- AUTO-ADDED --> |
+| Meta Text |  | Choose the module's body text styles. <!-- AUTO-ADDED --> |
+| Pagination Text |  | Choose the module's pagination text styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Portfolio module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Portfolio module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Portfolio module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Portfolio module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Portfolio module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Portfolio module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Portfolio module's animation styles. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -128,6 +147,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Portfolio module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Portfolio's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Portfolio's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Portfolio's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Portfolio module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

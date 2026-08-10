@@ -77,13 +77,13 @@ The Form Fields section uses a repeater interface. Each field is an individual i
 | Setting | Type | Description |
 |---------|------|-------------|
 | Form Fields (Add, Edit, Remove) | repeater | Manage individual form fields. Click **+** to add a new field, the pencil icon to edit, the trash icon to delete, and drag handles to reorder. |
-| Elements |  | Add, Edit, and Remove- Allows you toadd new form fields, remove existing form fields, or edit a form field.Add nested modules- Allows you to nest other Divi modules inside the Contact Form module. | <!-- AUTO-ADDED -->
-| Add, Edit, and Remove |  | Allows you toadd new form fields, remove existing form fields, or edit a form field. | <!-- AUTO-ADDED -->
-| Add nested modules |  | Allows you to nest other Divi modules inside the Contact Form module. | <!-- AUTO-ADDED -->
-| Text |  | Enter the Contact Form's Title text, Success Message, and the Submit Button's text. | <!-- AUTO-ADDED -->
-| Email |  | Enter the email address to which the form will be sent, as well as theMessage Pattern. | <!-- AUTO-ADDED -->
-| Redirect |  | Choose how the form should behave after a successful submission. | <!-- AUTO-ADDED -->
-| Spam Protection |  | Choose the type of Spam Protection. | <!-- AUTO-ADDED -->
+| Elements |  | Add, Edit, and Remove- Allows you toadd new form fields, remove existing form fields, or edit a form field.Add nested modules- Allows you to nest other Divi modules inside the Contact Form module. <!-- AUTO-ADDED --> |
+| Add, Edit, and Remove |  | Allows you toadd new form fields, remove existing form fields, or edit a form field. <!-- AUTO-ADDED --> |
+| Add nested modules |  | Allows you to nest other Divi modules inside the Contact Form module. <!-- AUTO-ADDED --> |
+| Text |  | Enter the Contact Form's Title text, Success Message, and the Submit Button's text. <!-- AUTO-ADDED --> |
+| Email |  | Enter the email address to which the form will be sent, as well as theMessage Pattern. <!-- AUTO-ADDED --> |
+| Redirect |  | Choose how the form should behave after a successful submission. <!-- AUTO-ADDED --> |
+| Spam Protection |  | Choose the type of Spam Protection. <!-- AUTO-ADDED --> |
 
 Each field in the repeater exposes these settings:
 
@@ -148,23 +148,23 @@ The Design tab controls the visual presentation of every element within the form
 | **Input** | Text inputs, textareas, selects, and similar controls — typography, spacing, borders, backgrounds, labels, placeholders, and state styles via pseudo-class modes (including **:focus**). |
 | **Checkbox** | Checkbox inputs and related label text — including **:checked** (and hover/focus where applicable). |
 | **Radio** | Radio inputs and related label text — including **:checked** for the selected option. |
-| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid | <!-- AUTO-ADDED -->
-| Block |  |  | <!-- AUTO-ADDED -->
-| Flex |  | (default) | <!-- AUTO-ADDED -->
-| Grid |  |  | <!-- AUTO-ADDED -->
-| Fields |  | Choose the Contact Form module's text and text area fields design options. | <!-- AUTO-ADDED -->
-| Checkbox- |  | Choose the Contact Form module's checkbox fields design options. | <!-- AUTO-ADDED -->
-| Radio- |  | Choose the Contact Form module's radio button field design options. | <!-- AUTO-ADDED -->
-| Text |  | Choose the overall Contact Form module's text styles for this module. | <!-- AUTO-ADDED -->
-| Title Text |  | Choose the Contact Form module's title styles. | <!-- AUTO-ADDED -->
-| Button |  | Choose the Contact Form module's button styles. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Contact Form module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Contact Form module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Contact Form module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Contact Form module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Contact Form module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Contact Form module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Contact Form module's animation styles, adding personality and interactivity while keeping a polished, professional feel. | <!-- AUTO-ADDED -->
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
+| Fields |  | Choose the Contact Form module's text and text area fields design options. <!-- AUTO-ADDED --> |
+| Checkbox- |  | Choose the Contact Form module's checkbox fields design options. <!-- AUTO-ADDED --> |
+| Radio- |  | Choose the Contact Form module's radio button field design options. <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall Contact Form module's text styles for this module. <!-- AUTO-ADDED --> |
+| Title Text |  | Choose the Contact Form module's title styles. <!-- AUTO-ADDED --> |
+| Button |  | Choose the Contact Form module's button styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Contact Form module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Contact Form module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Contact Form module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Contact Form module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Contact Form module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Contact Form module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Contact Form module's animation styles, adding personality and interactivity while keeping a polished, professional feel. <!-- AUTO-ADDED --> |
 
 Each group exposes Divi’s full range of design options (and works with [form field presets](../options-groups/fields.md#form-field-presets) on **Input**, **Checkbox**, and **Radio**). Older single **Fields** buckets and one-off “focus only” pickers have been **refactored** in favor of **focus editing mode** inside the pseudo-class workflow; update Divi if your panel still shows only legacy field controls.
 
@@ -207,20 +207,20 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Contact Form module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Contact Form's module visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long the Contact Form's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Contact Form's module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Contact Form module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Open the Contact Form Module |  | Click on the Contact Form module on your page or click the Gear icon to open its settings. | <!-- AUTO-ADDED -->
-| Edit an Item |  | Click thePencil iconnext to the Contact Form item you want to edit(1). | <!-- AUTO-ADDED -->
-| Add a New Item |  | In theContenttab, clickAdd New Field (2). | <!-- AUTO-ADDED -->
-| Duplicate a Field |  | Click on theDuplicate icon(4). | <!-- AUTO-ADDED -->
-| Delete Item |  | Click theTrash icon (3)next to the Contact Form item to delete it. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Contact Form module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Contact Form's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Contact Form's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Contact Form's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Contact Form module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Open the Contact Form Module |  | Click on the Contact Form module on your page or click the Gear icon to open its settings. <!-- AUTO-ADDED --> |
+| Edit an Item |  | Click thePencil iconnext to the Contact Form item you want to edit(1). <!-- AUTO-ADDED --> |
+| Add a New Item |  | In theContenttab, clickAdd New Field (2). <!-- AUTO-ADDED --> |
+| Duplicate a Field |  | Click on theDuplicate icon(4). <!-- AUTO-ADDED --> |
+| Delete Item |  | Click theTrash icon (3)next to the Contact Form item to delete it. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ![Contact Form Advanced tab settings](../assets/screenshots/modules/contact-form/settings-advanced.png){ loading=lazy }
 <!-- TODO: Capture Advanced tab screenshot -->

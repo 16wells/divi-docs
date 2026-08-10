@@ -5,9 +5,11 @@ category: modules
 tags: [toggle, accordion, collapsible, faq, expandable-content, content-modules]
 related: [accordion, tabs]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/10368052-the-toggle-module-in-divi-5"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Toggle Module
 
@@ -90,6 +92,13 @@ The Content tab holds the toggle's text content, default state, and structural c
 | **Meta** | | |
 | Admin Label | text | A custom label shown in the builder layers panel for easy identification |
 | Disable On | toggle | Disable the module on specific device sizes (phone, tablet, desktop) |
+| Text |  | Set the Toggle's title and body text. <!-- AUTO-ADDED --> |
+| State |  | Choose the initial state of the toggle: open or closed. <!-- AUTO-ADDED --> |
+| Link |  | Make the entire Toggle module clickable, creating a seamless way to direct users to another page, section, or external site. <!-- AUTO-ADDED --> |
+| Background |  | Choose the Toggle module's background styles. <!-- AUTO-ADDED --> |
+| Loop |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order |  | Choose the order in which the Toggle module appears inside a Flexbox and Grid layout. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Toggle Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -108,6 +117,22 @@ The Design tab provides visual controls for the toggle icon, title bar appearanc
 | Open Toggle Icon Color | color | Icon color when the toggle is in the open state |
 | Closed Toggle Icon Color | color | Icon color when the toggle is in the closed state |
 | Closed Title Text | typography group | Font family, weight, style, color, size, letter spacing, line height, text shadow for the title when the toggle is closed |
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
+| Icon |  | Choose the open and closed icon styles. <!-- AUTO-ADDED --> |
+| Toggle |  | Choose the background color for the toggle's open and close states. <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall Toggle module's text styles for this module. <!-- AUTO-ADDED --> |
+| Title Text |  | Choose the Toggle module's title styles. <!-- AUTO-ADDED --> |
+| Body Text |  | Choose the module's body text styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Toggle module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Toggle module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Toggle module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Toggle module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Toggle module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Toggle module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Toggle module's animation styles. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -141,6 +166,15 @@ The Advanced tab provides technical controls for custom attributes, CSS override
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Toggle module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Toggle module's visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Toggle's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Toggle's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Toggle module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

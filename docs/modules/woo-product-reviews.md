@@ -82,9 +82,9 @@ The Content tab controls which product's reviews are displayed and which review 
 | Order | select | Control the module's placement order within Flexbox and Grid parent layouts. |
 | Meta — Admin Label | text | Set a custom label for the module in the Visual Builder's layer panel. |
 | Meta — Disable On | device toggles | Control builder-level visibility across devices. |
-| Elements |  | Choose to display or hide various elements:Show Author Avatar- Display or hide the reviewer's Avatar image.Show Comment Count- Display or hide the total number of comments (reviews)Show Meta- Display or hide each comment's meta information.Show Rating- Display or hide the Rating system. | <!-- AUTO-ADDED -->
-| Order- |  | Choose the Flexbox order of the module. | <!-- AUTO-ADDED -->
-| Meta |  | Choose the Woo Product Reviews Module's Label text and force its Visibility inside the Visual Builder. | <!-- AUTO-ADDED -->
+| Elements |  | Choose to display or hide various elements:Show Author Avatar- Display or hide the reviewer's Avatar image.Show Comment Count- Display or hide the total number of comments (reviews)Show Meta- Display or hide each comment's meta information.Show Rating- Display or hide the Rating system. <!-- AUTO-ADDED --> |
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Woo Product Reviews Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -101,15 +101,15 @@ The Design tab provides controls for styling every visual aspect of the reviews 
 | Comment Text | text styling | Style the actual review content text including font, size, line height, and color. |
 | Star Rating | color/size controls | Adjust the star rating appearance including alignment, filled color, empty color, star size, and spacing between stars. |
 | Button | button styling | Customize the review submit button including font, text color, background color, border, border radius, padding, and hover effects. |
-| Image |  | Choose the avatar image's design styles, such as border, box shadow, and filter styles. | <!-- AUTO-ADDED -->
-| Text |  | Choose the style for the number of reviews text. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Woo Product Reviews module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Woo Product Reviews module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Woo Product Reviews module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Woo Product Reviews module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Woo Product Reviews module's filters, including hue shifts, saturation adjustments, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Woo Product Reviews module's advanced design effects, including scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Woo Product Reviews module's animation styles to add personality and interactivity while maintaining a polished, professional feel. | <!-- AUTO-ADDED -->
+| Image |  | Choose the avatar image's design styles, such as border, box shadow, and filter styles. <!-- AUTO-ADDED --> |
+| Text |  | Choose the style for the number of reviews text. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Woo Product Reviews module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Product Reviews module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Product Reviews module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Product Reviews module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Product Reviews module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Product Reviews module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Product Reviews module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -142,15 +142,15 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS |  | Allows you to add custom CSS to the Woo Product Reviews module. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Woo Product Reviews module's visibility according to different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Woo Product Reviews' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose the Woo Product Reviews module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Woo Product Reviews module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Product Reviews module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Product Reviews module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Woo Product Reviews' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Product Reviews module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Product Reviews module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

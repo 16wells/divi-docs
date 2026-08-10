@@ -93,14 +93,14 @@ The Design tab controls the visual styling of the tab headers, body content, and
 | Setting | Type | Description |
 |---------|------|-------------|
 | Tab Text | text styling | Style the tab header labels with independent font family, size, weight, style, color, alignment, letter spacing, and line height settings. Separate styling can be configured for active and inactive tab states. |
-| Body Text |  | Choose the module's body text styles. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Tabs module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Tabs module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Tabs module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Tabs module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Tabs module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Tabs module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Tabs module's animation styles. | <!-- AUTO-ADDED -->
+| Body Text |  | Choose the module's body text styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Tabs module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Tabs module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Tabs module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Tabs module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Tabs module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Tabs module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Tabs module's animation styles. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -132,20 +132,20 @@ The Advanced tab provides low-level controls for custom attributes, CSS targetin
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Tabs module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Tabs module visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Tabs's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Tabs' module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Tabs module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Open the Tab Module |  | Click on the Tab module on your page or click the Gear icon to open its settings. | <!-- AUTO-ADDED -->
-| Edit an Item |  | Click thePencil iconnext to the Tab item you want to update(1). Modify the title, body content, or design settings as needed. | <!-- AUTO-ADDED -->
-| Add a New Item |  | In theContenttab, clickAdd New Tab Item (2). Enter the title and body content, then customize design options like background color or text style. Click the arrow icon at the top left to return to the main module settings. | <!-- AUTO-ADDED -->
-| Duplicate |  | Click on theDuplicateiconto duplicate the selected Tab item. | <!-- AUTO-ADDED -->
-| Delete Item |  | Click theTrash icon (3)next to the Tab item to delete it. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Tabs module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Tabs module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Tabs's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Tabs' module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Tabs module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Open the Tab Module |  | Click on the Tab module on your page or click the Gear icon to open its settings. <!-- AUTO-ADDED --> |
+| Edit an Item |  | Click thePencil iconnext to the Tab item you want to update(1). Modify the title, body content, or design settings as needed. <!-- AUTO-ADDED --> |
+| Add a New Item |  | In theContenttab, clickAdd New Tab Item (2). Enter the title and body content, then customize design options like background color or text style. Click the arrow icon at the top left to return to the main module settings. <!-- AUTO-ADDED --> |
+| Duplicate |  | Click on theDuplicateiconto duplicate the selected Tab item. <!-- AUTO-ADDED --> |
+| Delete Item |  | Click theTrash icon (3)next to the Tab item to delete it. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

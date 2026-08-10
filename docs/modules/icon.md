@@ -89,10 +89,10 @@ The Content tab controls which icon is displayed, its link destination, backgrou
 | **Meta** | | |
 | Admin Label | text | Custom label displayed in the Visual Builder layers panel to help identify the module. |
 | Disable On | toggle | Forces the module to remain visible in the Visual Builder even when front-end visibility is restricted. |
-| Link |  | Make the entire Icon module clickable, creating a seamless way to direct users to another page, section, or external site. | <!-- AUTO-ADDED -->
-| Background |  | Choose the Icon module's background styles. | <!-- AUTO-ADDED -->
-| Order |  | Choose the order in which the Icon module appears inside a Flexbox and Grid layout. | <!-- AUTO-ADDED -->
-| Meta |  | Choose the Icon Module's Label text and force its Visibility inside the Visual Builder. | <!-- AUTO-ADDED -->
+| Link |  | Make the entire Icon module clickable, creating a seamless way to direct users to another page, section, or external site. <!-- AUTO-ADDED --> |
+| Background |  | Choose the Icon module's background styles. <!-- AUTO-ADDED --> |
+| Order |  | Choose the order in which the Icon module appears inside a Flexbox and Grid layout. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Icon Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -105,14 +105,14 @@ The Design tab controls the icon's visual properties including color, size, alig
 | Icon Color | color | Sets the color of the icon. Supports solid colors and can be set independently for default and hover states. |
 | Icon Size | range | Controls the display size of the icon in pixels, em, rem, or other CSS units. |
 | Module Alignment | alignment | Sets the horizontal alignment of the icon within its column (left, center, right). |
-| Icon |  | Choose the Icon module's color and size. | <!-- AUTO-ADDED -->
-| Alignment |  | Choose the Icon module's alignement. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Icon module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Icon module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Icon module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Icon module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Icon module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Icon module's animation styles. | <!-- AUTO-ADDED -->
+| Icon |  | Choose the Icon module's color and size. <!-- AUTO-ADDED --> |
+| Alignment |  | Choose the Icon module's alignement. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Icon module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Icon module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Icon module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Icon module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Icon module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Icon module's animation styles. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -142,15 +142,15 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Icon module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Icon's module visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long the Icon's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Icon's module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Icon module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Icon module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Icon's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Icon's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Icon's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Icon module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

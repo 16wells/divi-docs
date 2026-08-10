@@ -81,10 +81,10 @@ The Content tab controls which product images are displayed and their visibility
 | Loop | toggle | Enable the Loop Builder feature for dynamic template contexts. |
 | Order | select | Set the flexbox order of the module relative to sibling elements in the same row. |
 | Meta | admin label | Assign an admin label and control module visibility inside the Visual Builder. |
-| Content |  | Choose which product the module should display the Featured Image. | <!-- AUTO-ADDED -->
-| Element |  | Display or hide various elements such as:Show Featured Image- Show or Hide the Featured Image from the main and thumbnails list.Show Gallery Images- Show or Hide the Thumbnails gallery.Show Sale Badge- Show or Hide the Sale Badge (only avaiable if the product has a Sale Price set. | <!-- AUTO-ADDED -->
-| Loop- |  | Enables the loop builder. | <!-- AUTO-ADDED -->
-| Order- |  | Choose the Flexbox order of the module. | <!-- AUTO-ADDED -->
+| Content |  | Choose which product the module should display the Featured Image. <!-- AUTO-ADDED --> |
+| Element |  | Display or hide various elements such as:Show Featured Image- Show or Hide the Featured Image from the main and thumbnails list.Show Gallery Images- Show or Hide the Thumbnails gallery.Show Sale Badge- Show or Hide the Sale Badge (only avaiable if the product has a Sale Price set. <!-- AUTO-ADDED --> |
+| Loop- |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
 
 <!-- ![Woo Product Images Content tab settings](../assets/screenshots/modules/woo-product-images/settings-content.png){ loading=lazy } -->
 
@@ -98,13 +98,13 @@ The Design tab controls the visual styling of the product images and sale badge.
 |---------|------|-------------|
 | Image | image styling | Customize design options applied to product images, including border-radius, alignment, and hover effects for both the featured image and gallery thumbnails. |
 | Sale Badge | badge styling | Style the sale badge appearance, including background color, text color, font size, padding, and positioning on the image. |
-| Sizing |  | Choose the Woo Product Images module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Woo Product Images module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Woo Product Images module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Woo Product Images module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Woo Product Images module's filters, including hue shifts, saturation adjustments, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Woo Product Images module's advanced design effects, including scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Woo Product Images module's animation styles to add personality and interactivity while maintaining a polished, professional feel. | <!-- AUTO-ADDED -->
+| Sizing |  | Choose the Woo Product Images module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Product Images module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Product Images module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Product Images module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Product Images module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Product Images module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Product Images module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -137,15 +137,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS |  | Allows you to add custom CSS to the Woo Product Images module. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Woo Product Images module's visibility according to different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Woo Product Images' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose the Woo Product Images module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Woo Product Images module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Product Images module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Product Images module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Woo Product Images' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Product Images module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Product Images module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 <!-- ![Woo Product Images Advanced tab settings](../assets/screenshots/modules/woo-product-images/settings-advanced.png){ loading=lazy } -->
 

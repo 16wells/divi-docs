@@ -5,9 +5,11 @@ category: modules
 tags: ["modules", "team", "profile", "social-media", "image", "bio", "staff", "about"]
 related: ["blurb", "testimonial", "social-media-follow"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/10353818-the-person-module-in-divi-5"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Person
 
@@ -80,6 +82,13 @@ The Content tab holds all the informational fields for the profile, including th
 | **Order** | number | Set the display order of the module inside a Flexbox or CSS Grid layout |
 | **Meta — Label** | text | Assign a label for identification in the Visual Builder layer panel |
 | **Meta — Force Visibility** | toggle | Keep the module visible in the Visual Builder even when conditions would normally hide it |
+| Text |  | Choose the Name, Position, Social Media Profile URLs, and Body Text. <!-- AUTO-ADDED --> |
+| Image |  | Choose the Profile Image. <!-- AUTO-ADDED --> |
+| Link |  | Make the entire Person module clickable, creating a seamless way to direct users to another page, section, or external site. <!-- AUTO-ADDED --> |
+| Background |  | Choose the Person module's background styles. <!-- AUTO-ADDED --> |
+| Loop |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order |  | Choose the order in which the Person module appears inside a Flexbox and Grid layout. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Person Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -92,6 +101,23 @@ The Design tab provides independent styling controls for every visual component 
 | Icon — Font Size | range | Set the size of the social media icons displayed on the profile card |
 | Icon — Color | color | Choose the color for social media icons, with optional hover state color |
 | Position Text | text styling | Font, weight, style, color, size, letter spacing, line height, and text shadow for the position or job title text |
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
+| Icon |  | Choose the Social Media Icon's font size and color. <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall Person module's text styles for this module. <!-- AUTO-ADDED --> |
+| Image |  | Choose the Profile Image's styles, such as:Border RadiusBorder StylesBox ShadowImage Filters <!-- AUTO-ADDED --> |
+| Title Text |  | Choose the Person module's title styles. <!-- AUTO-ADDED --> |
+| Body Text |  | Choose the module's body text styles. <!-- AUTO-ADDED --> |
+| Button |  | Choose the Person module's button styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Person module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Person module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Person module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Person module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Person module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Person module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Person module's animation styles. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -127,6 +153,14 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Person module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Person's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Person's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Person module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

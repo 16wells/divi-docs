@@ -75,7 +75,7 @@ The Content tab holds the code editor and controls for linking, background, and 
 | Loop | toggle | Connect the module to the loop builder for use in dynamic templates that repeat across posts or custom post types. |
 | Order | select | Control the module's display order when the parent row uses Flexbox or Grid layout modes. |
 | Meta | admin label | Assign an admin label visible only in the Visual Builder to help identify this module in the layers panel. |
-| Text |  | Add HTML, CSS, and/or JS code. | <!-- AUTO-ADDED -->
+| Text |  | Add HTML, CSS, and/or JS code. <!-- AUTO-ADDED --> |
 
 ![Code Content tab settings](../assets/screenshots/modules/code/settings-content.png){ loading=lazy }
 <!-- TODO: Capture Content tab screenshot -->
@@ -96,14 +96,14 @@ The Design tab controls the visual presentation of the module container and any 
 | [Filters](../options-groups/filters.md) | CSS filters (brightness, contrast, etc.) |
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew |
 | [Animation](../options-groups/animation.md) | Entrance animation styles |
-| Text |  | Choose the overall Code module's text styles for this module. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Code module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Code module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Code module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Code module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Code module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Code module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Code module's animation styles, adding personality and interactivity while keeping a polished, professional feel. | <!-- AUTO-ADDED -->
+| Text |  | Choose the overall Code module's text styles for this module. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Code module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Code module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Code module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Code module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Code module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Code module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Code module's animation styles, adding personality and interactivity while keeping a polished, professional feel. <!-- AUTO-ADDED --> |
 
 ![Code Design tab settings](../assets/screenshots/modules/code/settings-design.png){ loading=lazy }
 <!-- TODO: Capture Design tab screenshot -->
@@ -125,15 +125,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Code module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Code's module visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Code's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Code's module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Code module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Code module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Code's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Code's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Code's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Code module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ![Code Advanced tab settings](../assets/screenshots/modules/code/settings-advanced.png){ loading=lazy }
 <!-- TODO: Capture Advanced tab screenshot -->

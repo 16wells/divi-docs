@@ -5,9 +5,11 @@ category: modules
 tags: ["modules", "woocommerce", "ecommerce", "cart", "checkout", "pricing"]
 related: ["woo-cart-products", "woo-checkout-billing"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/12095355"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Woo Cart Totals
 
@@ -70,6 +72,9 @@ The Content tab controls the module's background and layout positioning. The car
 | Order | select | Set the Flexbox order of the module within its parent row. |
 | Meta — Admin Label | text | Set a custom label for the module in the Visual Builder's layer panel. |
 | Meta — Disable On | device toggles | Control builder-level visibility across devices. |
+| Loop- |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Woo Cart Totals Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -87,6 +92,14 @@ The Design tab provides controls for styling the totals table, typography, the c
 | Table Cell | styling controls | Control individual cell appearance including padding, alignment, and borders. |
 | Fields | styling controls | Style the shipping calculator input fields (country, state, postcode) including border, background, and text color. |
 | Button | styling controls | Customize the "Proceed to Checkout" button including font, text color, background color, border, border radius, padding, and hover effects. |
+| Text |  | Choose the overall text styles for the Woo Cart Totals module. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Woo Cart Totals module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Cart Totals module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Cart Totals module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Cart Totals module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Cart Totals module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Cart Totals module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Cart Totals module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -118,6 +131,15 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Attributes |  | Choose the button's attributes. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Cart Totals module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Cart Totals module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Woo Cart Totals' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Cart Totals module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Cart Totals module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 
