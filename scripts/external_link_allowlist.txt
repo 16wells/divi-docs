@@ -3,3 +3,8 @@
 
 # Placeholder / sample URLs in documentation (not live endpoints)
 example.com
+
+# Confirmed false positive (2026-08-10): 16wells.com returns 301 -> www.16wells.com -> 200
+# for a normal browser/curl request; the checker's request signature trips bot/WAF
+# protection on the root domain and gets a 403. Verified live and working.
+16wells.com
