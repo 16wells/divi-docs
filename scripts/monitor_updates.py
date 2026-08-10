@@ -298,6 +298,7 @@ def parse_local_settings(content: str) -> dict:
                 setting_name = cells[0]
                 setting_type = cells[1]
                 description = cells[2] if len(cells) == 3 else cells[-1]
+                description = re.sub(r"\s*<!--.*?-->\s*$", "", description).strip()
                 if current_tab not in settings_by_tab:
                     settings_by_tab[current_tab] = []
                 settings_by_tab[current_tab].append({
@@ -711,7 +712,7 @@ def auto_update_page(source_url: str, local_path: str, dry_run: bool = False) ->
             # If we were in a tab and the table ended but we haven't flushed, flush now
             if current_tab and current_tab in pending_additions and in_table:
                 for s in pending_additions[current_tab]:
-                    row = f"| {s['setting']} | {s['type']} | {s['description']} | <!-- AUTO-ADDED -->"
+                    row = f"| {s['setting']} | {s['type']} | {s['description']} <!-- AUTO-ADDED --> |"
                     output_lines.append(row)
                     result["settings_added"] += 1
                 if current_tab not in result["tabs_updated"]:
@@ -732,7 +733,7 @@ def auto_update_page(source_url: str, local_path: str, dry_run: bool = False) ->
             # Table just ended — flush additions
             if current_tab and current_tab in pending_additions:
                 for s in pending_additions[current_tab]:
-                    row = f"| {s['setting']} | {s['type']} | {s['description']} | <!-- AUTO-ADDED -->"
+                    row = f"| {s['setting']} | {s['type']} | {s['description']} <!-- AUTO-ADDED --> |"
                     output_lines.append(row)
                     result["settings_added"] += 1
                 if current_tab not in result["tabs_updated"]:
@@ -746,7 +747,7 @@ def auto_update_page(source_url: str, local_path: str, dry_run: bool = False) ->
     # Flush any remaining pending additions (if table was at end of file)
     if current_tab and current_tab in pending_additions and in_table:
         for s in pending_additions[current_tab]:
-            row = f"| {s['setting']} | {s['type']} | {s['description']} | <!-- AUTO-ADDED -->"
+            row = f"| {s['setting']} | {s['type']} | {s['description']} <!-- AUTO-ADDED --> |"
             output_lines.append(row)
             result["settings_added"] += 1
         if current_tab not in result["tabs_updated"]:
