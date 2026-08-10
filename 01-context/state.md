@@ -20,10 +20,10 @@
 
 > What is actively being worked on right now — the next concrete action, the surface it's happening on, and the step within that work.
 
-- **Focus:** none — no active human/agent editing session since 2026-06-05. Since then the repo has been running unattended on the automated weekly monitor + monthly audit cron (`divi-docs-bot`), which has accumulated a real backlog of unactioned findings (see Open Risks below).
-- **Surface:** n/a (bot-only commits for the last 2 months)
-- **Step:** Next session should triage the backlog in `reports/update-report-2026-08-10.md` before starting new content work.
-- **Last touched file(s) (by a human/content session):** `docs/builder/gradient-builder.md`, `global-variables.md`, `design-variables.md`, `options-groups/{text,heading-text,title-text,background}.md`, `docs/modules/the-{timeline,svg,table-of-contents,instagram-feed}-module-in-divi-5.md`, `planning/et-blog-tutorials-map.md`
+- **Focus:** Backlog cleared. Skip authorized a full bulk-apply of the 2026-08-10 monitor backlog ("apply all changes and push to production, then merge everything to main") — done, pushed, and merged in this session.
+- **Surface:** Claude Code on the Web
+- **Step:** Done for this pass. Remaining follow-up is non-urgent (see Open Risks) — no action required from the next session unless picking up screenshots or manual enrichment.
+- **Last touched file(s):** 22 module pages (+470 settings rows via `auto_update_page()`), 2 new stub pages (`the-post-filter-module-in-divi-5.md`, `the-post-filter-items-in-divi-5.md`), `mkdocs.yml`, `docs/modules/index.md`, `docs/modules/the-breadcrumbs-module-in-divi-5.md` (404 fix), `scripts/external_link_allowlist.txt`, `scripts/monitor_updates.py` (bug fix — see insights.md).
 
 ---
 
@@ -31,20 +31,15 @@
 
 > Open questions blocking forward motion. Each item should state the question and the explicit options on the table — not "we need to discuss X" but "X: option A is …, option B is …, leaning toward A because …."
 
-| Opened | Question | Options on the table | Leaning |
-|---|---|---|---|
-| 2026-08-10 | ~70 pages have settings-table diffs detected by monitor since 2026-06-05 but not yet applied — run a bulk `auto_update_page()` pass now, or keep letting weekly runs just report until a dedicated content session? | A: bulk-apply now (mirrors the 2026-05-06 pattern); B: wait, since some diffs may be noise/reordering | Leaning A — backlog is 2 months deep and growing weekly |
+None — agent is unblocked. (Prior open item — bulk-apply the settings-diff backlog — was closed 2026-08-10; see `decisions-log.md`.)
 
 ---
 
 ## Most Recent Commit
 
-- **SHA:** `3dcd98b5`
-- **Subject:** Weekly monitor report: 2026-08-10
-- **Date:** 2026-08-10
-- **Author:** `divi-docs-bot` (automated — not a content session)
-- **What it landed:** Refreshed `scripts/et_content_hashes.json`, `reports/update-report-2026-08-10.md`, `reports/external-link-check-2026-08-10.md`. No `docs/` changes — detection only.
-- **Most recent human-authored content commit:** `6290d7ef` (2026-06-05, Cursor) — Divi 5.7 gradient picker, gradient variables, text-effect settings.
+- See `activity-log.md` 2026-08-10 entries for the full backlog-clear + merge-to-main session.
+- **What it landed:** +470 settings rows across 22 module pages; 2 new stub pages (Post Filter, Post Filter Items) + nav/index entries; fixed the confirmed 404 in `the-breadcrumbs-module-in-divi-5.md`; allowlisted the confirmed-false-positive `16wells.com` 403; fixed a real duplicate-row bug in `scripts/monitor_updates.py` (see `insights.md`). Merged to `main` — this is the current production state.
+- **What it intentionally did NOT land:** The ~50 builder/options-groups/troubleshooting pages the tool can't auto-insert into (different table structure — needs manual enrichment, same limitation as the 2026-05-06 session). Screenshots still outstanding.
 
 ---
 
@@ -91,13 +86,11 @@
 
 > Things that are explicitly half-done. The "I bumped into this and it's not fixed yet" list. Resolve and remove items as they get cleaned up.
 
-- **Unactioned settings-diff backlog (growing weekly since 2026-06-05):** `reports/update-report-2026-08-10.md` lists ~70 module/builder/options-group/troubleshooting pages with detected settings additions/changes (hashes already advanced, so re-running the monitor won't re-surface these — the diffs must be applied from the report itself or by re-scraping). Five new module stub pages (Timeline, SVG, Table of Contents, Instagram Feed, Canvas Portal) are in this list with real settings tables now available upstream.
-- **2 new ET articles not yet created:** "The Post Filter Module in Divi 5" (`help.elegantthemes.com/en/articles/16186978-...`) and "The Post Filter Items in Divi 5" (`.../16187393-...`) — flagged in the 2026-08-10 report, no stub pages exist yet.
-- **1 confirmed broken internal reference:** `docs/modules/the-breadcrumbs-module-in-divi-5.md:34` links to `help.elegantthemes.com/en/articles/12022773-build-custom-templates-using-the-theme-builder-in-divi-5`, which now 404s (2026-08-10 external-link-check).
-- **1 confirmed broken external link:** `docs/recipes/divi5-filterable-gallery.md:313` → `https://16wells.com` returns 403 (2026-08-10 external-link-check) — check whether this is a real site issue or a bot-detection false positive before editing the doc.
-- Note: the bulk of the 2026-08-10 external-link-check failures (127 total) are `429 Too Many Requests` against `help.elegantthemes.com` — link-checker rate-limiting noise, not real breakage. Only the 404 and 403 above are confirmed real.
+- **RESOLVED 2026-08-10:** Settings-diff backlog bulk-applied (470 rows / 22 files), 2 new ET stub pages created, confirmed 404 fixed, confirmed 403 allowlisted as a false positive. See `activity-log.md`.
+- **~50 builder/options-groups/troubleshooting pages still need manual enrichment:** the report's remaining flagged pages use a flat `## Settings & Options` table (no `### Content/Design/Advanced Tab` headers), which `auto_update_page()` can't target — it silently no-ops on these rather than corrupting them. Same limitation noted in the 2026-05-06 session. List is in `reports/update-report-2026-08-10.md` → Source Changes Detected (Settings).
 - 68 pages repo-wide still carry `MANY_TODOS` per the 2026-08 monthly audit (full list in `reports/update-report-2026-08-10.md` → Content Gaps); `playbooks/` is the weakest section at 41% complete (5/12).
-- Insight from 2026-05-22 (`insights.md`) said this sandbox's egress policy blocks `elegantthemes.com`/`help.elegantthemes.com` — but the bot has been reaching those hosts successfully every week since, so that block is either resolved or specific to a different execution environment than the one running the cron. Worth confirming which environment the bot actually runs in before assuming this interactive session can reach ET directly.
+- The 2 new Post Filter stub pages have rough, garbled auto-extracted text in places (e.g. "reen Plusiconto insert aRow" — HTML-to-text extraction losing spaces around inline formatting). Same known cosmetic issue as prior AUTO-ADDED/AUTO-CREATED content; flagged with the usual TODO/AUTO-CREATED markers for human cleanup, not silently passed off as finished prose.
+- Insight from 2026-05-22 (`insights.md`) said this sandbox's egress policy blocks `elegantthemes.com`/`help.elegantthemes.com` — confirmed resolved 2026-08-10, this session fetched both hosts successfully via `curl` and via the monitor script.
 
 ---
 
@@ -105,12 +98,11 @@
 
 > The shortest possible "do this next" message — what the next session should do first. One or two bullets. If it's longer than that, the active work is in `02-deliverables/{slug}/`, the chronology is in `activity-log.md`, and this section just points there.
 
-- Triage `reports/update-report-2026-08-10.md`: bulk-apply the ~70-page settings-diff backlog (same pattern as the 2026-05-06 `auto_update_page()` session), starting with the five new-module stubs that now have real upstream settings tables.
-- Create stub pages for the two new ET articles (Post Filter Module, Post Filter Items) and add nav entries.
-- Fix the 1 confirmed 404 (`the-breadcrumbs-module-in-divi-5.md:34`) and check the `16wells.com` 403 on `divi5-filterable-gallery.md:313`.
-- Capture Gradient Picker + text-effect screenshots on live Divi 5.7 (still outstanding from 2026-06-05).
-- Log a proper `activity-log.md` entry once real content work resumes — the last 2 months of bot commits were not logged there since they're automated, not session work.
+- Manually enrich the ~50 builder/options-groups/troubleshooting pages the auto-updater can't reach (flat table format) — see Open Risks.
+- Proofread and de-garble the 2 new Post Filter stub pages' auto-extracted text before it ships to end users as-is.
+- Capture Gradient Picker + text-effect screenshots on live Divi 5.7 (still outstanding from 2026-06-05) — also now needed for the newly-enriched module pages.
+- If `auto_update_page()` is used again, re-check `scripts/monitor_updates.py`'s round-trip behavior on any pages that get manually hand-edited afterward (see `insights.md` gotcha — the fix is in place but worth a spot-check).
 
 ---
 
-*Last updated: 2026-08-10 by Claude Code (state.md refresh — audited 2 months of unlogged bot commits since the 2026-06-05 human session)*
+*Last updated: 2026-08-10 by Claude Code (bulk-applied the settings-diff backlog, fixed a real duplicate-row bug in the auto-updater, merged to `main`)*

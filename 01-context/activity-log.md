@@ -25,6 +25,19 @@
 
 ## Session Entries (newest first)
 
+### 2026-08-10 — Claude Code on the Web — Backlog clear + merge to main
+
+- Skip authorized: "Apply all changes and push to production, then merge everything to main," acting on the open decision from the earlier `state.md` refresh this same day.
+- Confirmed this session's egress can reach `elegantthemes.com`/`help.elegantthemes.com` directly (the 2026-05-22 block no longer applies here).
+- Before bulk-applying, found a real bug in `scripts/monitor_updates.py`: `auto_update_page()` wrote AUTO-ADDED rows without a closing pipe, making them invisible to its own re-parser — a second run on an already-updated file would have silently duplicated every previously-added row. Caught it via a dry run that showed exact duplicates in 13 files, reverted, fixed the row template + parser (see `insights.md`), and normalized 434 pre-existing old-format rows across 20 files so the fix protects them too.
+- Re-ran the bulk apply cleanly: **+470 settings rows across 22 module pages**, 0 errors, spot-checked for duplicates (found none — only pre-existing unrelated boilerplate repeats). ~50 builder/options-groups/troubleshooting pages in the report were left untouched — the tool can't insert into their non-tab table format (known limitation, same as 2026-05-06).
+- Created 2 new stub pages via `create_stub_page()`: `the-post-filter-module-in-divi-5.md`, `the-post-filter-items-in-divi-5.md`. Added both to `mkdocs.yml` nav and `docs/modules/index.md` status table; also backfilled 4 pre-existing stub pages (Timeline, SVG, Table of Contents, Instagram Feed) that were missing from that same status table since 2026-05-22.
+- Fixed the confirmed 404 in `the-breadcrumbs-module-in-divi-5.md:34` (ET article ID changed: `12022773` → `13644980`, verified live). Verified the `16wells.com` 403 is a checker false positive (curl confirms 301→200) and added it to `scripts/external_link_allowlist.txt`.
+- `mkdocs build` clean — no errors, no broken cross-reference links, only pre-existing screenshot-placeholder warnings.
+- Committed and pushed to `claude/divi-docs-last-update-9ox7ij`, then merged PR #2 to `main` (production). Site deploy runs via the existing GitHub Actions gh-pages workflow on push to `main`.
+- **In progress:** none.
+- **Queued:** See `state.md` Resume Notes — manual enrichment of the ~50 non-tab-format pages, proofreading the 2 new stub pages' garbled auto-extracted text, and screenshot capture.
+
 ### 2026-08-10 — Claude Code on the Web — `state.md` refresh + backlog audit
 
 - User asked when the docs were last updated, then asked for a `state.md` refresh. Found the file was stale since 2026-06-05 while `divi-docs-bot` had been running weekly monitor + monthly audit cron jobs unattended for 2 months (12 automated commits, `6290d7ef`→`3dcd98b5`), none of which were logged here since they're automated, not session work.

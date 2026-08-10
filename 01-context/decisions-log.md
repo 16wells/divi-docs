@@ -18,6 +18,7 @@ Every entry should have a date, a short description, and ideally a one-line rati
 |---|---|---|
 | 2026-05 | Retrofit this repo with project-memory scaffold files only | Preserve website behavior while enabling cross-session continuity |
 | 2026-05-22 | Ship 5 new-module pages as stubs now rather than waiting for full scrapes | Sandbox network policy blocks `elegantthemes.com` / `help.elegantthemes.com`; stubs preserve nav + ET blog linkage, full settings tables fill in via next monitor run when network access is restored. |
+| 2026-08-10 | Bulk-apply the 2026-08-10 settings-diff backlog via `auto_update_page()`, create the 2 new ET stub pages, fix confirmed broken links, and merge directly to `main` | Skip explicitly authorized: "Apply all changes and push to production, then merge everything to main." Found and fixed a real duplicate-row bug in the auto-updater first (see `insights.md`) rather than run it blind. |
 
 ---
 
@@ -27,7 +28,6 @@ Every entry should have a date, a short description, and ideally a one-line rati
 |---|---|---|
 | 2026-05 | Should memory files live in this repo long-term or a separate ops repo? | Keep in this repo for now; revisit after workflow trial period. |
 | 2026-05 | Should this project adopt optional marketing-context.md? | Deferred; current engagement is technical/docs-led. |
-| 2026-08-10 | ~70-page settings-diff backlog (accumulated by weekly monitor since 2026-06-05) — bulk-apply now via `auto_update_page()`, or leave for a dedicated content session? | Leaning toward bulk-apply, mirroring the 2026-05-06 pattern; backlog is 2 months deep and growing weekly. See `state.md` Open Risks. |
 
 ---
 
