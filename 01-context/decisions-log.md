@@ -27,6 +27,7 @@ Every entry should have a date, a short description, and ideally a one-line rati
 |---|---|---|
 | 2026-05 | Should memory files live in this repo long-term or a separate ops repo? | Keep in this repo for now; revisit after workflow trial period. |
 | 2026-05 | Should this project adopt optional marketing-context.md? | Deferred; current engagement is technical/docs-led. |
+| 2026-08-10 | ~70-page settings-diff backlog (accumulated by weekly monitor since 2026-06-05) — bulk-apply now via `auto_update_page()`, or leave for a dedicated content session? | Leaning toward bulk-apply, mirroring the 2026-05-06 pattern; backlog is 2 months deep and growing weekly. See `state.md` Open Risks. |
 
 ---
 

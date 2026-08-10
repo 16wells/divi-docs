@@ -25,6 +25,14 @@
 
 ## Session Entries (newest first)
 
+### 2026-08-10 — Claude Code on the Web — `state.md` refresh + backlog audit
+
+- User asked when the docs were last updated, then asked for a `state.md` refresh. Found the file was stale since 2026-06-05 while `divi-docs-bot` had been running weekly monitor + monthly audit cron jobs unattended for 2 months (12 automated commits, `6290d7ef`→`3dcd98b5`), none of which were logged here since they're automated, not session work.
+- Audited `reports/update-report-2026-08-10.md` and `reports/external-link-check-2026-08-10.md`: found a real ~70-page settings-diff backlog never applied, 2 new ET articles with no stub pages yet (Post Filter Module, Post Filter Items), 1 confirmed 404 and 1 confirmed 403 (rest of the 127 "failed" links are `429` rate-limit noise from the checker, not real breakage).
+- Rewrote `01-context/state.md` In-Progress Work, Awaiting Human Decision, Most Recent Commit, Scheduled/Recurring Jobs, Open Risks, and Resume Notes sections to reflect this.
+- **In progress:** none — this was a memory-file refresh only, no doc content changed.
+- **Queued:** See `state.md` Resume Notes — bulk-apply the settings-diff backlog, create the 2 new module stubs, fix the confirmed broken links.
+
 ### 2026-06-05 — Cursor — Divi 5.7 gradient editor + text effects doc pass
 
 - Reviewed ET theme release [New Gradient Editor, Gradient Variables, Text Effects and More](https://www.elegantthemes.com/blog/theme-releases/new-gradient-editor-gradient-variables-text-effects-and-more) (June 5, 2026 email).
