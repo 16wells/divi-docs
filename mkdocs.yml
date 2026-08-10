@@ -128,6 +128,8 @@ nav:
       - Portfolio: modules/portfolio.md
       - Post Carousel: modules/post-carousel.md
       - Post Content: modules/post-content.md
+      - Post Filter: modules/the-post-filter-module-in-divi-5.md
+      - Post Filter Items: modules/the-post-filter-items-in-divi-5.md
       - Post Navigation: modules/post-navigation.md
       - Post Slider: modules/post-slider.md
       - Post Title: modules/post-title.md
