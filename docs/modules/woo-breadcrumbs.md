@@ -77,10 +77,10 @@ The Content tab controls the breadcrumb data source, home link configuration, se
 | Order | select | Set the Flexbox order of the module within its parent row. |
 | Meta — Admin Label | text | Set a custom label for the module in the Visual Builder's layer panel. |
 | Meta — Disable On | device toggles | Control builder-level visibility across devices. |
-| Content |  | Choose the product details displayed by the Woo Breadcrumbs module.Product- Choose the product for which the Breadcrumbs module will be used.Home Text- Choose the text of the Breadcrumb's first item. You can also use Dynamic Content.Home Link- Choose the link for the first Breadcrumb's item. You can also use Dynamic Content.Separator: Choose how the Breadcrumbs items are separated. | <!-- AUTO-ADDED -->
-| Loop- |  | Enables the loop builder. | <!-- AUTO-ADDED -->
-| Order- |  | Choose the Flexbox order of the module. | <!-- AUTO-ADDED -->
-| Meta |  | Choose the Woo Breadcrumbs Module's Label text and force its Visibility inside the Visual Builder. | <!-- AUTO-ADDED -->
+| Content |  | Choose the product details displayed by the Woo Breadcrumbs module.Product- Choose the product for which the Breadcrumbs module will be used.Home Text- Choose the text of the Breadcrumb's first item. You can also use Dynamic Content.Home Link- Choose the link for the first Breadcrumb's item. You can also use Dynamic Content.Separator: Choose how the Breadcrumbs items are separated. <!-- AUTO-ADDED --> |
+| Loop- |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Woo Breadcrumbs Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -102,14 +102,14 @@ This module does not have module-specific design settings beyond the shared opti
 | [Filters](../options-groups/filters.md) | Brightness, contrast, saturation, hue rotation, blur, invert, sepia, opacity, blend mode |
 | [Transform](../options-groups/transform.md) | Scale, translate, rotate, skew, transform origin |
 | [Animation](../options-groups/animation.md) | Entrance animation style, direction, duration, delay, intensity |
-| Text |  | Choose the overall text styles for the Woo Breadcrumbs module. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Woo Breadcrumbs module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Woo Breadcrumbs module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Woo Breadcrumbs module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Woo Breadcrumbs module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Woo Breadcrumbs module's filters, including hue shifts, saturation adjustments, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Woo Breadcrumbs module's advanced design effects, including scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Woo Breadcrumbs module's animation styles to add personality and interactivity while maintaining a polished, professional feel. | <!-- AUTO-ADDED -->
+| Text |  | Choose the overall text styles for the Woo Breadcrumbs module. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Woo Breadcrumbs module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Breadcrumbs module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Breadcrumbs module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Breadcrumbs module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Breadcrumbs module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Breadcrumbs module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Breadcrumbs module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 ### Advanced Tab
 
@@ -128,15 +128,15 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS |  | Allows you to add custom CSS to the Woo Breadcrumbs module. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Woo Breadcrumbs module's visibility according to different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Woo Breadcrumbs's module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose the Woo Breadcrumbs module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Woo Breadcrumbs module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Breadcrumbs module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Breadcrumbs module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Woo Breadcrumbs's module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Breadcrumbs module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Breadcrumbs module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

@@ -4,9 +4,11 @@ category: modules
 tags: [button, hover, presets, css-classes, styling, design-system, custom-css]
 related: [button, design-system-setup, global-elements]
 divi_version: "5.x"
-last_updated: 2026-05-06
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/10259665-the-button-module-divi-5"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Button Module — Styling Reference
 
@@ -53,6 +55,14 @@ The **Design → Button** panel contains all visual styling controls for the but
 | Button Text Transform | Select | None | Letter case transformation: Uppercase, Lowercase, Capitalize, None. |
 | Button Font Size | Range (px) | Theme default | Size of button text. |
 | Button Font Weight | Select | Theme default | Text weight: 300, 400, 500, 600, 700, 800, 900. |
+| Alignment |  | Choose the Button module's alignment on the page. <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall Button module's text styles for this module. <!-- AUTO-ADDED --> |
+| Button |  | Choose the Button module's design styles. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Button module's spacing. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Button module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Button module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Button module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Button module's animation styles, adding personality and interactivity while keeping a polished, professional feel. <!-- AUTO-ADDED --> |
 
 ### Responsive Editor — Hover States
 
@@ -76,6 +86,17 @@ Custom HTML attributes (including CSS classes) are added here, not via a dedicat
 | Add Attribute | Button | — | Click to add a new key-value pair. Each attribute is a separate row. |
 | Attribute Name | Text | — | The attribute name (e.g., `class`, `data-tracking`, `aria-label`). |
 | Attribute Value | Text | — | The attribute value (e.g., `light-cta`, `button-click`, `Shop now`). |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Button module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| HTML |  | Choose the semantic HTML tag for the Button module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Interactions |  | Create custom interactions, such as showing or hiding the Button, and many more. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Button's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Button's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Button's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Button module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ### Advanced Tab — Custom CSS
 

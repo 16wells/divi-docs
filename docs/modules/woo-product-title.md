@@ -79,9 +79,9 @@ The Content tab controls which product's title is displayed and provides access 
 | Order | select | Control the module's placement order within Flexbox and Grid parent layouts. |
 | Meta — Admin Label | text | Set a custom label for the module in the Visual Builder's layer panel. |
 | Meta — Disable On | device toggles | Control builder-level visibility across devices. |
-| Loop- |  | Enable the Loop Builder. | <!-- AUTO-ADDED -->
-| Order- |  | Choose the Flexbox order of the module. | <!-- AUTO-ADDED -->
-| Meta |  | Choose the Woo Product Title Module's Label text and force its Visibility inside the Visual Builder. | <!-- AUTO-ADDED -->
+| Loop- |  | Enable the Loop Builder. <!-- AUTO-ADDED --> |
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Woo Product Title Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -92,13 +92,13 @@ The Design tab provides typography controls for the product title text.
 | Setting | Type | Description |
 |---------|------|-------------|
 | Title Text | text styling | Full typography controls for the product title including font family, font weight, font style, text alignment, text color, font size, letter spacing, line height, and text shadow. Supports responsive settings for different values on desktop, tablet, and phone. |
-| Sizing |  | Choose the Woo Product Title module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Woo Product Title module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Woo Product Title module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Woo Product Title module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Woo Product Title module's filters, including hue shifts, saturation adjustments, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Woo Product Title module's advanced design effects, including scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Woo Product Title module's animation styles to add personality and interactivity while maintaining a polished, professional feel. | <!-- AUTO-ADDED -->
+| Sizing |  | Choose the Woo Product Title module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Product Title module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Product Title module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Product Title module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Product Title module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Product Title module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Product Title module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -129,15 +129,15 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS |  | Allows you to add custom CSS to the Woo Product Title module. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Woo Product Title module's visibility according to different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Woo Product Title's module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose the Woo Product Title module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Woo Product Title module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Product Title module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Product Title module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Woo Product Title's module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Product Title module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Product Title module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

@@ -78,7 +78,7 @@ The Content tab controls the text displayed above the form, the post-login redir
 | Loop | toggle | When used inside a dynamic layout such as a Theme Builder template, this setting controls whether the module repeats for each item in a post loop. |
 | Order | select | Determines the display order of the module relative to sibling modules within the same container. |
 | Meta | group | Contains the admin label field for assigning a custom name to this module instance in the Visual Builder layers panel. |
-| Elements |  | Allows you to add nested modules, such as theLink moduleand more. | <!-- AUTO-ADDED -->
+| Elements |  | Allows you to add nested modules, such as theLink moduleand more. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -89,21 +89,21 @@ The Design tab provides styling controls for the form fields, button, typography
 | Setting | Type | Description |
 |---------|------|-------------|
 | Fields | group | Style the username and password input fields. Control the field background color, text color, placeholder color, focus border color, and field border radius. These settings determine how the form inputs look in their default, focused, and filled states. |
-| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid | <!-- AUTO-ADDED -->
-| Block |  |  | <!-- AUTO-ADDED -->
-| Flex |  | (default) | <!-- AUTO-ADDED -->
-| Grid |  |  | <!-- AUTO-ADDED -->
-| Text |  | Choose the overall Login module's text styles for this module. | <!-- AUTO-ADDED -->
-| Title Text |  | Choose the Login module's title styles. | <!-- AUTO-ADDED -->
-| Body Text |  | Choose the module's body text styles. | <!-- AUTO-ADDED -->
-| Button |  | Choose the Login module's button styles. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Login module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Login module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Login module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Login module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Login module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Login module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Login module's animation styles. | <!-- AUTO-ADDED -->
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall Login module's text styles for this module. <!-- AUTO-ADDED --> |
+| Title Text |  | Choose the Login module's title styles. <!-- AUTO-ADDED --> |
+| Body Text |  | Choose the module's body text styles. <!-- AUTO-ADDED --> |
+| Button |  | Choose the Login module's button styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Login module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Login module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Login module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Login module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Login module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Login module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Login module's animation styles. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -138,15 +138,15 @@ The Advanced tab provides low-level HTML, CSS, and behavior controls.
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Login module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Login module's visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long the Login module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Login module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Login module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Login module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Login module's visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Login module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Login module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Login module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

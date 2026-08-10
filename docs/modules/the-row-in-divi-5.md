@@ -4,9 +4,11 @@ category: modules
 tags: ["modules", "row", "layout", "columns", "grid", "responsive"]
 related: ["the-section-in-divi-5", "advanced-styling-using-option-group-presets-in-divi-5", "element-presets"]
 divi_version: "5.x"
-last_updated: 2026-05-06
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/10316106-the-row-in-divi-5"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # The Row in Divi 5
 
@@ -73,6 +75,12 @@ Every row consists of:
 | **Loop** | Enable the loop builder to repeat the row's content for dynamic data sources (e.g., repeating product cards). |
 | **Order** | Control the row's order when the parent section uses Flexbox or Grid layout (useful for responsive reordering). |
 | **Meta** | Assign a custom label to the row for easier identification in the builder; force its visibility in the visual editor. |
+| Change Column Structure |  | Choose the Row's column structure. <!-- AUTO-ADDED --> |
+| Link |  | Make the entire Row clickable, creating a seamless way to direct users to another page, Row, or external site. <!-- AUTO-ADDED --> |
+| Background |  | Choose the Row's background styles. <!-- AUTO-ADDED --> |
+| Loop |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order |  | Choose the order in which the Row module appears inside a Flexbox and Grid layout. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Row's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -85,6 +93,14 @@ Every row consists of:
 | **Filters** | Apply CSS filters: hue rotation, saturation, brightness, contrast, blur, opacity, blend modes. |
 | **Transform** | Apply 2D/3D transforms: scale, rotate, skew, translate. |
 | **Animation** | Choose entrance, loop, or exit animations with customizable timing. |
+| Layout |  | Choose how the Row arranges its columns and modules - as a standard block, aFlexbox layout, or aCSS Grid layout. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Row's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Row's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Row's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Row's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Row's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Row's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Row's animation styles. <!-- AUTO-ADDED --> |
 
 ### Advanced Tab
 
@@ -99,6 +115,22 @@ Every row consists of:
 | **Transitions** | Set animation duration, delay, and easing. |
 | **Position** | Use CSS position properties and offset values (top, left, z-index) for precise placement. |
 | **Scroll Effects** | Define scroll-triggered effects: parallax, fade, scale, or custom animations. |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Row, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| HTML |  | Choose the semantic HTML tag for the Row. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Interactions |  | Create custom interactions, such as showing or hiding the Row, and many more. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Row's visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Row's animation takes, adding subtle, impactful animations that enhance user experience and make your Row stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Row's placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Row behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Open the Row setting |  | Click on the Row on your page or click the Gear icon to open its settings. <!-- AUTO-ADDED --> |
+| Edit a Column |  | Click thePencil icon(1)next to the Column item you want to update. Modify the title, body content, or design settings as needed. <!-- AUTO-ADDED --> |
+| Add a New Item |  | In theContenttab, clickAdd New Column (2). Click the arrow icon at the top left to return to the main Row settings. <!-- AUTO-ADDED --> |
+| Duplicate |  | Click on theDuplicateiconto duplicate the selected Column item. <!-- AUTO-ADDED --> |
+| Delete Item |  | Click theTrash icon (3)next to the Column item to delete it. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Common Patterns
 

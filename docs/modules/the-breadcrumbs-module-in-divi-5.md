@@ -4,9 +4,11 @@ category: modules
 tags: ["modules", "breadcrumbs", "navigation", "seo"]
 related: ["woo-breadcrumbs", "menu"]
 divi_version: "5.x"
-last_updated: 2026-05-06
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/14852183-the-breadcrumbs-module-in-divi-5"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # The Breadcrumbs Module in Divi 5
 
@@ -31,7 +33,7 @@ When you load the Visual Builder, Divi automatically adds a **[Section](https://
 
 ## Use Cases
 
-- **Site-wide navigation aid**: Place the module inside a **[Theme Builder](https://help.elegantthemes.com/en/articles/12022773-build-custom-templates-using-the-theme-builder-in-divi-5)** header so every page on your site shows the same breadcrumb trail.
+- **Site-wide navigation aid**: Place the module inside a **[Theme Builder](https://help.elegantthemes.com/en/articles/13644980-build-custom-templates-using-the-theme-builder-in-divi-5)** header so every page on your site shows the same breadcrumb trail.
 - **Deep content hierarchies**: Use breadcrumbs on blogs, knowledge bases, or documentation sites where visitors land on pages several levels below the home page.
 - **Accessibility and SEO**: Give visitors a visible content trail and search engines a structured navigation path that mirrors your site's information architecture.
 
@@ -56,6 +58,12 @@ The Content tab is where you set the home item's text and link, choose a separat
 | [Background](../options-groups/background.md) | group | Choose the Breadcrumbs Module's background color, gradient, image, video, or pattern. |
 | [Loop](https://help.elegantthemes.com/en/articles/11863867-loop-builder-in-divi-5) | group | Enable the Loop Builder to repeat the module across a set of items. |
 | [Meta](https://help.elegantthemes.com/en/articles/10066900-understanding-the-meta-option-group-in-divi-5) | group | Set the module's label inside the Visual Builder and force its visibility while editing. |
+| Content |  | Configure the text and starting link for the breadcrumb trail.Home Text- The label for the first item in the trail. Defaults to "Home." SupportsDynamic Content.Home URL- The destination URL for the first item. Defaults to your site's home page. SupportsDynamic Content.Separator- The character or symbol that appears between each item in the trail (for example,/,>, or|). <!-- AUTO-ADDED --> |
+| Link |  | Make the entire Breadcrumbs Module clickable, sending visitors to a page, section, or external URL when they click anywhere on the module. <!-- AUTO-ADDED --> |
+| Elements |  | Toggle on or off any optional pieces of the breadcrumb trail. <!-- AUTO-ADDED --> |
+| Background |  | Choose the Breadcrumbs Module's background color, gradient, image, video, or pattern. <!-- AUTO-ADDED --> |
+| Loop |  | Enable the Loop Builder to repeat the module across a set of items. <!-- AUTO-ADDED --> |
+| Meta |  | Set the module's label inside the Visual Builder and force its visibility while editing. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -86,6 +94,17 @@ Each sub-element exposes its own **Background**, **Text**, **Sizing**, **Spacing
 | [Filters](../options-groups/filters.md) | group | Apply visual filters such as hue shifts, saturation changes, and blending modes. |
 | [Transform](../options-groups/transform.md) | group | Scale, rotate, skew, or translate the module. |
 | [Animation](../options-groups/animation.md) | group | Add an entrance or hover animation to the module. |
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
+| Sizing |  | Set the Breadcrumbs Module's overall width, height, and alignment. <!-- AUTO-ADDED --> |
+| Spacing |  | Adjust the module's outer margin and inner padding. <!-- AUTO-ADDED --> |
+| Border |  | Add or style the module's border and rounded corners. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Apply a shadow around the module. <!-- AUTO-ADDED --> |
+| Filters |  | Apply visual filters such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Scale, rotate, skew, or translate the module. <!-- AUTO-ADDED --> |
+| Animation |  | Add an entrance or hover animation to the module. <!-- AUTO-ADDED --> |
 
 **Note**: Save a styled Breadcrumbs Module as a Preset using **[Option Group Presets](https://help.elegantthemes.com/en/articles/10725144-how-to-use-option-group-presets-in-divi-5)** so the same Composable Settings stay enabled everywhere you reuse it.
 
@@ -107,6 +126,17 @@ The Advanced tab gives experienced designers extra control - custom CSS, semanti
 | [Transitions](https://help.elegantthemes.com/en/articles/10102770) | group | Set how long the module's hover and state animations take. |
 | [Position](https://help.elegantthemes.com/en/articles/10102783) | group | Pin the module to a specific spot on the page or relative to its container. |
 | [Scroll Effects](https://help.elegantthemes.com/en/articles/10102792) | group | Animate the Breadcrumbs Module as the visitor scrolls. |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the module. <!-- AUTO-ADDED --> |
+| CSS |  | Add custom CSS to fine-tune the Breadcrumbs Module beyond the built-in design options. <!-- AUTO-ADDED --> |
+| HTML |  | Choose the semantic HTML tag wrapping the module (such asnavordiv). <!-- AUTO-ADDED --> |
+| Conditions |  | Show or hide the module based on conditions like logged-in status, post category, or date. <!-- AUTO-ADDED --> |
+| Interactions |  | Trigger custom behaviors, such as showing or hiding the Breadcrumbs Module when another element is clicked. <!-- AUTO-ADDED --> |
+| Visibility |  | Hide the Breadcrumbs Module on phone, tablet, or desktop. <!-- AUTO-ADDED --> |
+| Transitions |  | Set how long the module's hover and state animations take. <!-- AUTO-ADDED --> |
+| Position |  | Pin the module to a specific spot on the page or relative to its container. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Animate the Breadcrumbs Module as the visitor scrolls. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

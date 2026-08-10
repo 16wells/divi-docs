@@ -5,7 +5,7 @@ category: modules
 tags: ["modules", "content-modules", "blog", "posts", "grid", "list", "pagination", "dynamic-content", "masonry"]
 related: ["portfolio", "filterable-portfolio", "post-slider"]
 divi_version: "5.x"
-last_updated: 2026-05-06
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/10226327-the-blog-module-in-divi-5"
 ---
 
@@ -109,19 +109,23 @@ The Design tab provides full visual control over the blog's layout mode, image o
 | Layout | layout controls | Choose between Fullwidth (list) and Grid layout modes. In Grid mode, set the number of columns (1-4) and enable or disable masonry positioning. Masonry allows posts of varying heights to tile together without gaps. |
 | Overlay | overlay controls | Configure the hover overlay that appears on featured images. Set the overlay color, icon, and icon color. The overlay adds a visual cue that the post image is interactive. |
 | Read More Text | text styling | Control the appearance of the "read more" link at the end of each excerpt. Style it as a standard link or as a button-like element using font, size, and color settings. |
-| Image |  | Choose the style for the Post's Featured Images. | <!-- AUTO-ADDED -->
-| Text |  | Choose the overall Blog module's text styles for this module. | <!-- AUTO-ADDED -->
-| Title Text |  | Choose the Blog module's title styles. | <!-- AUTO-ADDED -->
-| Meta Text |  | Choose the Blog module's title text styles for toggles that are closed. | <!-- AUTO-ADDED -->
-| Pagination Text |  | Choose the Pagination text's styles. | <!-- AUTO-ADDED -->
-| Body Text |  | Choose the Blog module's body text styles. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Blog module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Blog module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Blog module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Blog module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Blog module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Blog module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Blog module's animation styles, adding personality and interactivity while keeping a polished, professional feel. | <!-- AUTO-ADDED -->
+| Image |  | Choose the style for the Post's Featured Images. <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall Blog module's text styles for this module. <!-- AUTO-ADDED --> |
+| Title Text |  | Choose the Blog module's title styles. <!-- AUTO-ADDED --> |
+| Meta Text |  | Choose the Blog module's title text styles for toggles that are closed. <!-- AUTO-ADDED --> |
+| Pagination Text |  | Choose the Pagination text's styles. <!-- AUTO-ADDED --> |
+| Body Text |  | Choose the Blog module's body text styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Blog module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Blog module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Blog module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Blog module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Blog module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Blog module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Blog module's animation styles, adding personality and interactivity while keeping a polished, professional feel. <!-- AUTO-ADDED --> |
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlexGrid(default) <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  |  <!-- AUTO-ADDED --> |
+| Grid |  | (default) <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -160,15 +164,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Blog module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Blog's module visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long the Blog's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Blog's module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Blog module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Blog module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Blog's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Blog's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Blog's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Blog module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ![Blog Advanced tab settings](../assets/screenshots/modules/blog/settings-advanced.png){ loading=lazy }
 

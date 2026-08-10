@@ -5,9 +5,11 @@ category: modules
 tags: ["modules", "content-modules", "before-after", "image", "comparison", "slider", "interactive"]
 related: ["image", "gallery", "slider"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/13714462"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Before After Image
 
@@ -81,6 +83,8 @@ The Content tab controls the two comparison images, label text, nested elements,
 | Loop | toggle | Enable the Loop Builder to dynamically generate comparison instances from WordPress data. |
 | Order | select | Set the flexbox order of the module relative to sibling elements in the same row. |
 | Meta | admin label | Assign an admin label and control module visibility inside the Visual Builder. |
+| Images |  | Choose the Before and After Images. <!-- AUTO-ADDED --> |
+| Labels |  | Choose the text each label (before and after) displays. <!-- AUTO-ADDED --> |
 
 <!-- ![Before After Image Content tab settings](../assets/screenshots/modules/before-after-image/settings-content.png){ loading=lazy } -->
 
@@ -95,6 +99,17 @@ The Design tab controls the comparison layout, slider handle appearance, label s
 | Layout | select | Choose how the module and any nested child elements are arranged: Block (stacked), Flex (flexible alignment, default), or Grid (CSS Grid layout). |
 | Labels | composite styling | Style the before/after label text, including font styles, spacing, border, and background. Controls how the text labels appear on top of the comparison images. |
 | Slider | composite styling | Configure the slider handle appearance: orientation (Horizontal or Vertical), handle color, initial handle position (percentage), and arrow color. |
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Before/After Image module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the spacing for the Before/After Image module. <!-- AUTO-ADDED --> |
+| Border |  | Choose the border styles for the Before/After Image module. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Box Shadow styles for the Before/After Image module. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Before/After Image module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Before/After Image module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Before/After Image module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -127,6 +142,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Before/After Image module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the visibility of the Before/After Image module for different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Before/After Image's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Before/After Image's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Before/After Image module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 <!-- ![Before After Image Advanced tab settings](../assets/screenshots/modules/before-after-image/settings-advanced.png){ loading=lazy } -->
 

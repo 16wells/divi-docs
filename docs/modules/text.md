@@ -5,7 +5,7 @@ category: modules
 tags: [text, content-modules, rich-text, wysiwyg, paragraphs, headings, html]
 related: [blurb, code, button]
 divi_version: "5.x"
-last_updated: 2026-06-05
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/10365197-the-text-module-in-divi-5"
 ---
 
@@ -90,12 +90,12 @@ The Content tab contains the text editor and structural controls for the module.
 | **Meta** | | |
 | Admin Label | text | A custom label shown in the builder layers panel for easy identification |
 | Disable On | toggle | Disable the module on specific device sizes (phone, tablet, desktop) |
-| Text |  | Set the module's text content. | <!-- AUTO-ADDED -->
-| Link |  | Make the entire Text module clickable, creating a seamless way to direct users to another page, section, or external site. | <!-- AUTO-ADDED -->
-| Background |  | Choose the Text module's background styles. | <!-- AUTO-ADDED -->
-| Loop |  | Enables the loop builder. | <!-- AUTO-ADDED -->
-| Order |  | Choose the order in which the Text module appears inside a Flexbox and Grid layout. | <!-- AUTO-ADDED -->
-| Meta |  | Choose the Text Module's Label text and force its Visibility inside the Visual Builder. | <!-- AUTO-ADDED -->
+| Text |  | Set the module's text content. <!-- AUTO-ADDED --> |
+| Link |  | Make the entire Text module clickable, creating a seamless way to direct users to another page, section, or external site. <!-- AUTO-ADDED --> |
+| Background |  | Choose the Text module's background styles. <!-- AUTO-ADDED --> |
+| Loop |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order |  | Choose the order in which the Text module appears inside a Flexbox and Grid layout. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Text Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -115,16 +115,20 @@ The Design tab provides typography, sizing, and visual styling controls for all 
 | Unordered List Font | typography | Font settings for unordered list items |
 | Ordered List Font | typography | Font settings for ordered list items |
 | Block Quote Font | typography | Font settings for blockquote elements |
-| Text |  | Choose the overall Text module's text style for this module. | <!-- AUTO-ADDED -->
-| Heading Text |  | Choose the Text module's title styles. | <!-- AUTO-ADDED -->
-| Body Text |  | Choose the module's body text styles. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Text module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Text module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Text module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Text module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Text module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Text module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Text module's animation styles. | <!-- AUTO-ADDED -->
+| Text |  | Choose the overall Text module's text style for this module. <!-- AUTO-ADDED --> |
+| Heading Text |  | Choose the Text module's title styles. <!-- AUTO-ADDED --> |
+| Body Text |  | Choose the module's body text styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Text module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Text module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Text module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Text module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Text module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Text module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Text module's animation styles. <!-- AUTO-ADDED --> |
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -157,15 +161,15 @@ The Advanced tab provides technical controls for custom attributes, CSS override
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Text module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Text module's visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Text's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Text's module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Text module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Text module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Text module's visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Text's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Text's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Text module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

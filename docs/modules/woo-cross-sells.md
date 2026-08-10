@@ -5,9 +5,11 @@ category: modules
 tags: ["modules", "woocommerce", "ecommerce", "cart", "cross-sells"]
 related: ["woo-cart-products", "woo-related-products"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/12095391"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Woo Cross Sells
 
@@ -75,6 +77,8 @@ The Content tab controls the module's link behavior, background, ordering, and m
 | Loop | toggle | Enable the Loop Builder feature for dynamic template contexts. |
 | Order | select | Set the flexbox order of the module relative to sibling elements in the same row. |
 | Meta | admin label | Assign an admin label and control module visibility inside the Visual Builder. |
+| Loop- |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
 
 <!-- ![Woo Cross Sells Content tab settings](../assets/screenshots/modules/woo-cross-sells/settings-content.png){ loading=lazy } -->
 
@@ -88,6 +92,14 @@ The Design tab controls the visual styling of the cross-sell product cards and t
 |---------|------|-------------|
 | Title Text | text styling | Customize the font, size, color, weight, and letter spacing of cross-sell product titles. |
 | Price Text | text styling | Style the price display on each cross-sell product card, including font, color, and size. |
+| Text |  | Choose the overall text styles for the Woo Cross Sells module. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Woo Cross Sells module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Cross Sells module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Cross Sells module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Cross Sells module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Cross Sells module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Cross Sells module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Cross Sells module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -121,6 +133,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Cross Sells module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Cross Sells module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Woo Cross Sells' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Cross Sells module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Cross-Sells module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 <!-- ![Woo Cross Sells Advanced tab settings](../assets/screenshots/modules/woo-cross-sells/settings-advanced.png){ loading=lazy } -->
 

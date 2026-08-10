@@ -4,9 +4,11 @@ category: modules
 tags: ["modules", "canvas", "popup", "overlay", "portal"]
 related: ["canvases"]
 divi_version: "5.x"
-last_updated: 2026-05-06
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/14718409-the-canvas-portal-module-in-divi-5"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # The Canvas Portal Module in Divi 5
 
@@ -50,6 +52,10 @@ The Content tab is where you pick the canvas the module displays, along with lin
 | [Link](https://help.elegantthemes.com/en/articles/10066994-understanding-the-link-option-group-in-divi-5) | group | Make the entire Canvas Portal clickable, creating a seamless way to direct users to another page, section, or external site. |
 | [Background](../options-groups/background.md) | group | Choose the Canvas Portal's background styles. |
 | [Meta](https://help.elegantthemes.com/en/articles/10066900-understanding-the-meta-option-group-in-divi-5) | group | Set the Canvas Portal's Label text and force its Visibility inside the Visual Builder. |
+| Canvas |  | Select an existing canvas from the dropdown to display inside the module. The canvas content renders in place of the Canvas Portal on the front end. <!-- AUTO-ADDED --> |
+| Link |  | Make the entire Canvas Portal clickable, creating a seamless way to direct users to another page, section, or external site. <!-- AUTO-ADDED --> |
+| Background |  | Choose the Canvas Portal's background styles. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Canvas Portal's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -67,6 +73,13 @@ All the design styles and options for the **Canvas Portal Module** are in this t
 | [Filters](../options-groups/filters.md) | group | Choose the Canvas Portal's filters, such as hue shifts, saturation changes, and blending modes. |
 | [Transform](../options-groups/transform.md) | group | Choose the Canvas Portal's advanced design effects, such as scaling, rotating, skewing, and translating. |
 | [Animation](../options-groups/animation.md) | group | Choose the Canvas Portal's animation styles, adding personality and interactivity while keeping a polished, professional feel. |
+| Sizing |  | Choose the Canvas Portal's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Canvas Portal's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Canvas Portal's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Canvas Portal's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Canvas Portal's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Canvas Portal's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Canvas Portal's animation styles, adding personality and interactivity while keeping a polished, professional feel. <!-- AUTO-ADDED --> |
 
 ### Advanced Tab
 
@@ -86,6 +99,17 @@ The **Advanced tab** provides tools for experienced designers, including options
 | [Transitions](https://help.elegantthemes.com/en/articles/10102770-understanding-the-transitions-option-group-in-divi-5) | group | Choose how long the Canvas Portal's animation takes, adding subtle, impactful animations that enhance user experience and make your module stand out. |
 | [Position](https://help.elegantthemes.com/en/articles/10102783-understanding-the-position-option-group-in-divi-5) | group | Choose precise control of the Canvas Portal's placement and create dynamic, visually engaging designs. |
 | [Scroll Effects](https://help.elegantthemes.com/en/articles/10102792-understanding-the-scroll-effects-option-group-in-divi-5) | group | Control how the Canvas Portal behaves and transforms during scrolling. |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS code to fine-tune your Canvas Portal, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| HTML |  | Choose the semantic HTML tag for the Canvas Portal module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Interactions |  | Create custom interactions, such as showing or hiding the Canvas Portal, and many more. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Canvas Portal's visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Canvas Portal's animation takes, adding subtle, impactful animations that enhance user experience and make your module stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Canvas Portal's placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Canvas Portal behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

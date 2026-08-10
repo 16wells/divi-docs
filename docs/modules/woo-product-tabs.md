@@ -79,8 +79,8 @@ The Content tab controls which product's information is displayed and which WooC
 | Order | select | Control the module's placement order within Flexbox and Grid parent layouts. |
 | Meta — Admin Label | text | Set a custom label for the module in the Visual Builder's layer panel. |
 | Meta — Disable On | device toggles | Control builder-level visibility across devices. |
-| Order- |  | Choose the Flexbox order of the module. | <!-- AUTO-ADDED -->
-| Meta |  | Choose the Woo Product Tabs Module's Label text and force its Visibility inside the Visual Builder. | <!-- AUTO-ADDED -->
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Woo Product Tabs Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -92,13 +92,13 @@ The Design tab provides controls for styling the tab navigation and the body con
 |---------|------|-------------|
 | Body Text | text styling | Customize the font, size, color, weight, line height, and letter spacing for the content displayed within each tab panel. This affects the description text, attribute table text, and review content. |
 | Tab Text | text styling | Style the tab navigation labels including font family, size, weight, color, and active/inactive state styling. Active tab text can be styled differently from inactive tabs to provide clear visual feedback. |
-| Sizing |  | Choose the Woo Product Tabs module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Woo Product Tabs module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Woo Product Tabs module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Woo Product Tabs module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Woo Product Tabs module's filters, including hue shifts, saturation adjustments, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Woo Product Tabs module's advanced design effects, including scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Woo Product Tabs module's animation styles to add personality and interactivity while maintaining a polished, professional feel. | <!-- AUTO-ADDED -->
+| Sizing |  | Choose the Woo Product Tabs module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Product Tabs module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Product Tabs module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Product Tabs module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Product Tabs module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Product Tabs module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Product Tabs module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -129,15 +129,15 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS |  | Allows you to add custom CSS to the Woo Product Tabs module. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Woo Product Tabs module's visibility according to different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Woo Product Tabs' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose the Woo Product Tabs module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Woo Product Tabs module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Product Tabs module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Product Tabs module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Woo Product Tabs' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Product Tabs module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Product Tabs module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

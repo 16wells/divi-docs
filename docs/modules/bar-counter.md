@@ -100,16 +100,16 @@ The Design tab controls the visual appearance of the bars, text, and overall mod
 |---------|------|-------------|
 | Layout | layout options | Control the overall arrangement and orientation of the bar elements within the module. |
 | Bar | bar styling | Style the bar elements themselves, including the bar fill color, unfilled/track color, height, and border radius of the bars. |
-| Text |  | Choose the overall Bar Counters module's text styles for this module. | <!-- AUTO-ADDED -->
-| Title Text |  | Choose the Bar Counters module's title styles. | <!-- AUTO-ADDED -->
-| Percentage Text |  | Choose the Bar Counters module's Percentage text styles. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Bar Counters module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Bar Counters module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Bar Counters module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Bar Counters module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Bar Counters module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Bar Counters module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Bar Counters module's animation styles, adding personality and interactivity while keeping a polished, professional feel. | <!-- AUTO-ADDED -->
+| Text |  | Choose the overall Bar Counters module's text styles for this module. <!-- AUTO-ADDED --> |
+| Title Text |  | Choose the Bar Counters module's title styles. <!-- AUTO-ADDED --> |
+| Percentage Text |  | Choose the Bar Counters module's Percentage text styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Bar Counters module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Bar Counters module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Bar Counters module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Bar Counters module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Bar Counters module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Bar Counters module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Bar Counters module's animation styles, adding personality and interactivity while keeping a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -145,20 +145,20 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Bar Counters module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Bar Counters' module visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long the Bar Counters' module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Bar Counters' module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Bar Counters module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Open the Bar Counters module settings |  | Click on the Bar Counters module on your page or click on the Gear icon to open its settings. | <!-- AUTO-ADDED -->
-| Edit an Item |  | Click the Pencil icon next to the Bar Counter item you want to update(1). | <!-- AUTO-ADDED -->
-| Add a New Item |  | In theContenttab, clickAdd New Bar Counter Item (2). Enter the title and body content, then customize design options like background color, text style, or icons. Click the arrow icon at the top left to return to the main module settings. | <!-- AUTO-ADDED -->
-| Clone an existing item |  | Click on the Duplicate icon (4) to clone an existing item. | <!-- AUTO-ADDED -->
-| Delete Item |  | Click theTrash icon (3)next to the Bar Counter item to delete it. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Bar Counters module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Bar Counters' module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Bar Counters' module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Bar Counters' module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Bar Counters module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Open the Bar Counters module settings |  | Click on the Bar Counters module on your page or click on the Gear icon to open its settings. <!-- AUTO-ADDED --> |
+| Edit an Item |  | Click the Pencil icon next to the Bar Counter item you want to update(1). <!-- AUTO-ADDED --> |
+| Add a New Item |  | In theContenttab, clickAdd New Bar Counter Item (2). Enter the title and body content, then customize design options like background color, text style, or icons. Click the arrow icon at the top left to return to the main module settings. <!-- AUTO-ADDED --> |
+| Clone an existing item |  | Click on the Duplicate icon (4) to clone an existing item. <!-- AUTO-ADDED --> |
+| Delete Item |  | Click theTrash icon (3)next to the Bar Counter item to delete it. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ![Bar Counter Advanced tab settings](../assets/screenshots/modules/bar-counter/settings-advanced.png){ loading=lazy }
 

@@ -5,9 +5,11 @@ category: modules
 tags: ["modules", "group", "container", "layout", "flexbox", "grid", "wrapper"]
 related: ["group-carousel", "tabs"]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/11170855"
 ---
+
+<!-- AUTO-UPDATED: 2026-08-10 — verify changes -->
 
 # Group
 
@@ -83,6 +85,16 @@ The Design tab controls the Group's layout mode, dimensions, spacing, and visual
 | Setting | Type | Description |
 |---------|------|-------------|
 | Layout | dropdown | Choose between Block, Flex, or Grid layout modes for arranging child modules within the Group. Flex is the default and supports horizontal alignment, wrapping, and gap controls. Grid enables CSS Grid placement. |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the desired sizing for the Group module. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the spacing for the Group module. <!-- AUTO-ADDED --> |
+| Border |  | Choose the border styles for the Group module. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Group module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Group module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Group module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Group module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -115,6 +127,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Group module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Group's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Group's module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Group's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Group module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 <!-- ![Group Advanced tab settings](../assets/screenshots/modules/group/settings-advanced.png){ loading=lazy } -->
 

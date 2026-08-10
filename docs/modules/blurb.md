@@ -5,7 +5,7 @@ category: modules
 tags: ["modules", "content-modules", "blurb", "icon", "image", "feature-box", "service-card"]
 related: ["icon", "text", "call-to-action"]
 divi_version: "5.x"
-last_updated: 2026-05-06
+last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/10226428-the-blurb-module-in-divi-5"
 ---
 
@@ -90,16 +90,20 @@ The Design tab provides full visual control over the icon/image appearance, typo
 | Setting | Type | Description |
 |---------|------|-------------|
 | Image & Icon | icon/image styling | Control the image or icon's visual presentation. For icons: set color, size, background shape (circle or square), background color, and padding. For images: set max width, alignment, border radius, and responsive sizing. Configure the placement position (top, left, or right) relative to the text content. |
-| Text |  | Choose the overall Blurb module's text styles for this module. | <!-- AUTO-ADDED -->
-| Title Text |  | Choose the Blurb module's title styles. | <!-- AUTO-ADDED -->
-| Body Text |  | Choose the Blurb module's body text styles. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Blurb module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Blurb module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Blurb module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Blurb module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Blurb module's filters, such as hue shifts, saturation changes, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Blurb module's advanced design effects, such as scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Blurb module's animation styles, adding personality and interactivity while keeping a polished, professional feel. | <!-- AUTO-ADDED -->
+| Text |  | Choose the overall Blurb module's text styles for this module. <!-- AUTO-ADDED --> |
+| Title Text |  | Choose the Blurb module's title styles. <!-- AUTO-ADDED --> |
+| Body Text |  | Choose the Blurb module's body text styles. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Blurb module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Blurb module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Blurb module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Blurb module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Blurb module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Blurb module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Blurb module's animation styles, adding personality and interactivity while keeping a polished, professional feel. <!-- AUTO-ADDED --> |
+| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlex(default)Grid <!-- AUTO-ADDED --> |
+| Block |  |  <!-- AUTO-ADDED --> |
+| Flex |  | (default) <!-- AUTO-ADDED --> |
+| Grid |  |  <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -135,15 +139,15 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Blurb module, enabling advanced styling that perfectly aligns with your vision. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Blurb's module visibility based on different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long Blurb's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose precise control of the Blurb's module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Blurb module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS- |  | Allows you to add custom CSS code to fine-tune your Blurb module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Blurb's module visibility based on different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long Blurb's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose precise control of the Blurb's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Blurb module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ![Blurb Advanced tab settings](../assets/screenshots/modules/blurb/settings-advanced.png){ loading=lazy }
 

@@ -72,9 +72,9 @@ The Content tab controls the module's background and layout positioning. The bil
 | Order | select | Set the Flexbox order of the module within its parent row. |
 | Meta — Admin Label | text | Set a custom label for the module in the Visual Builder's layer panel. |
 | Meta — Disable On | device toggles | Control builder-level visibility across devices. |
-| Loop- |  | Enables the loop builder. | <!-- AUTO-ADDED -->
-| Order- |  | Choose the Flexbox order of the module. | <!-- AUTO-ADDED -->
-| Meta |  | Choose the Woo Checkout Billing Module's Label text and force its Visibility inside the Visual Builder. | <!-- AUTO-ADDED -->
+| Loop- |  | Enables the loop builder. <!-- AUTO-ADDED --> |
+| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
+| Meta |  | Choose the Woo Checkout Billing Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -89,17 +89,17 @@ The Design tab provides controls for the form layout, typography, field styling,
 | Field Labels | text styling | Style the label text above each form field including font, size, weight, and color. |
 | Fields | styling controls | Style the input fields including border, background color, text color, padding, border radius, and focus states. |
 | Form Notice | styling controls | Style validation error messages including background color, text color, border, and padding. These notices appear when required fields are missing or invalid. |
-| Default |  | Default WooCommerce field layout. | <!-- AUTO-ADDED -->
-| Fullwidth |  | All fields are full-width. | <!-- AUTO-ADDED -->
-| 2 Columns |  | All fields are displayed in a 2-column layout. | <!-- AUTO-ADDED -->
-| Text |  | Choose the overall text styles for the Woo Checkout Billing module. | <!-- AUTO-ADDED -->
-| Sizing |  | Choose the Woo Checkout Billing module's sizing. | <!-- AUTO-ADDED -->
-| Spacing |  | Choose the Woo Checkout Billing module's spacing. | <!-- AUTO-ADDED -->
-| Border |  | Choose the Woo Checkout Billing module's border styles. | <!-- AUTO-ADDED -->
-| Box Shadow |  | Choose the Woo Checkout Billing module's Box Shadow styles. | <!-- AUTO-ADDED -->
-| Filters |  | Choose the Woo Checkout Billing module's filters, including hue shifts, saturation adjustments, and blending modes. | <!-- AUTO-ADDED -->
-| Transform |  | Choose the Woo Checkout Billing module's advanced design effects, including scaling, rotating, skewing, and translating. | <!-- AUTO-ADDED -->
-| Animation |  | Choose the Woo Checkout Billing module's animation styles to add personality and interactivity while maintaining a polished, professional feel. | <!-- AUTO-ADDED -->
+| Default |  | Default WooCommerce field layout. <!-- AUTO-ADDED --> |
+| Fullwidth |  | All fields are full-width. <!-- AUTO-ADDED --> |
+| 2 Columns |  | All fields are displayed in a 2-column layout. <!-- AUTO-ADDED --> |
+| Text |  | Choose the overall text styles for the Woo Checkout Billing module. <!-- AUTO-ADDED --> |
+| Sizing |  | Choose the Woo Checkout Billing module's sizing. <!-- AUTO-ADDED --> |
+| Spacing |  | Choose the Woo Checkout Billing module's spacing. <!-- AUTO-ADDED --> |
+| Border |  | Choose the Woo Checkout Billing module's border styles. <!-- AUTO-ADDED --> |
+| Box Shadow |  | Choose the Woo Checkout Billing module's Box Shadow styles. <!-- AUTO-ADDED --> |
+| Filters |  | Choose the Woo Checkout Billing module's filters, including hue shifts, saturation adjustments, and blending modes. <!-- AUTO-ADDED --> |
+| Transform |  | Choose the Woo Checkout Billing module's advanced design effects, including scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
+| Animation |  | Choose the Woo Checkout Billing module's animation styles to add personality and interactivity while maintaining a polished, professional feel. <!-- AUTO-ADDED --> |
 
 **Shared design options** — see [Options Groups](../options-groups/index.md) for detailed documentation:
 
@@ -131,15 +131,15 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. | <!-- AUTO-ADDED -->
-| CSS |  | Allows you to add custom CSS to the Woo Checkout Billing module. | <!-- AUTO-ADDED -->
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. | <!-- AUTO-ADDED -->
-| Visibility |  | Choose the Woo Checkout Billing module's visibility according to different devices. | <!-- AUTO-ADDED -->
-| Transitions |  | Choose how long the Woo Checkout Billing module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. | <!-- AUTO-ADDED -->
-| Position |  | Choose the Woo Checkout Billing module placement and create dynamic, visually engaging designs. | <!-- AUTO-ADDED -->
-| Scroll Effects |  | Control how the Woo Checkout Billing module behaves and transforms during scrolling. | <!-- AUTO-ADDED -->
-| Save |  | k on theSavebutton. | <!-- AUTO-ADDED -->
-| Exit |  | k on theExitbutton. | <!-- AUTO-ADDED -->
+| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
+| CSS |  | Allows you to add custom CSS to the Woo Checkout Billing module. <!-- AUTO-ADDED --> |
+| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
+| Visibility |  | Choose the Woo Checkout Billing module's visibility according to different devices. <!-- AUTO-ADDED --> |
+| Transitions |  | Choose how long the Woo Checkout Billing module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
+| Position |  | Choose the Woo Checkout Billing module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
+| Scroll Effects |  | Control how the Woo Checkout Billing module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
+| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
+| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 
