@@ -78,7 +78,7 @@ A few principles for how to actually do the work. Drawn from Andrej Karpathy's g
 
 ## Git Operations
 
-- Pushes to `main` require explicit user authorization — pause and confirm before pushing.
+- Pushing to `main` is fine — no special authorization gate. Push as part of the normal flow, don't pause to ask.
 - After completing a fix or feature, default sequence is: `mkdocs build` → verify the change actually works end-to-end → commit → push, unless told otherwise.
 
 ## File Editing
