@@ -1,0 +1,52 @@
+---
+title: "How To Update the Divi Theme"
+category: modules
+tags: [modules]
+related: []
+divi_version: "5.x"
+last_updated: 2026-09-07
+source_url: "https://help.elegantthemes.com/en/articles/8626491-how-to-update-the-divi-theme"
+---
+
+# How To Update the Divi Theme
+
+<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+
+## Overview
+
+For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/8626491-how-to-update-the-divi-theme).
+
+<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+
+## Settings & Options
+
+### General
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Testing Website, |  | ng Website,which is active. This one can also be deleted or deactivated. |
+| Github Divi |  | Github Divi, which has been deactivated. This can also be deleted or activated. |
+
+## Code Examples
+
+<!-- TODO: Add CSS/PHP code examples -->
+
+## Common Patterns
+
+<!-- TODO: Document 2-3 common usage patterns -->
+
+## Troubleshooting
+
+<!-- TODO: Document common issues and solutions -->
+
+## AI Interaction Notes
+
+| Task | Confidence | Notes |
+|------|-----------|-------|
+| Basic placement | 🔬 Needs Testing | Untested — stub page |
+| Settings configuration | 🔬 Needs Testing | Untested — stub page |
+| Custom styling | 🔬 Needs Testing | Untested — stub page |
+
+## Related
+
+<!-- TODO: Add links to related documentation pages -->

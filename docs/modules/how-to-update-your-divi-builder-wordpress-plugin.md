@@ -1,0 +1,54 @@
+---
+title: "How To Update Your Divi Builder WordPress Plugin"
+category: modules
+tags: [modules]
+related: []
+divi_version: "5.x"
+last_updated: 2026-09-07
+source_url: "https://help.elegantthemes.com/en/articles/8650887-how-to-update-your-divi-builder-wordpress-plugin"
+---
+
+# How To Update Your Divi Builder WordPress Plugin
+
+<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+
+## Overview
+
+For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/8650887-how-to-update-your-divi-builder-wordpress-plugin).
+
+<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+
+## Settings & Options
+
+### General
+
+| Setting | Type | Description |
+|---------|------|-------------|
+| Username |  | Key. YourUsernameis the username you use when logging in toElegantThemes.com, and your API Key can be found by logging into your Elegant Themes account and clicking on theAccount menu item → Username and API key. |
+| API Key |  | haven't created anyAPI Keyso far, click on theGenerate New API keybutton: |
+| Divi → Plugin Options → Updates tab |  | s taband enter your information. |
+| Dashboard |  | theDashboard→Updatestab |
+
+## Code Examples
+
+<!-- TODO: Add CSS/PHP code examples -->
+
+## Common Patterns
+
+<!-- TODO: Document 2-3 common usage patterns -->
+
+## Troubleshooting
+
+<!-- TODO: Document common issues and solutions -->
+
+## AI Interaction Notes
+
+| Task | Confidence | Notes |
+|------|-----------|-------|
+| Basic placement | 🔬 Needs Testing | Untested — stub page |
+| Settings configuration | 🔬 Needs Testing | Untested — stub page |
+| Custom styling | 🔬 Needs Testing | Untested — stub page |
+
+## Related
+
+<!-- TODO: Add links to related documentation pages -->
