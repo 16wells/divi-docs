@@ -1,0 +1,147 @@
+{
+  "context": "et_builder",
+  "data": [],
+  "presets": [],
+  "global_colors": [
+    ["gcid-color-brand-primary", { "color": "#2176ff", "status": "active", "label": "Brand · Primary" }],
+    ["gcid-color-brand-dark", { "color": "#1a2332", "status": "active", "label": "Brand · Dark" }],
+    ["gcid-color-neutral-text", { "color": "#374151", "status": "active", "label": "Neutral · Text" }]
+  ],
+  "global_variables": [
+    {
+      "id": "gvid-color-brand-primary",
+      "label": "Color · Brand · Primary",
+      "value": "#2176ff",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "colors",
+      "type": "colors",
+      "groupKey": "colors"
+    },
+    {
+      "id": "gvid-color-brand-dark",
+      "label": "Color · Brand · Dark",
+      "value": "#1a2332",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "colors",
+      "type": "colors",
+      "groupKey": "colors"
+    },
+    {
+      "id": "gvid-color-neutral-text",
+      "label": "Color · Neutral · Text",
+      "value": "#374151",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "colors",
+      "type": "colors",
+      "groupKey": "colors"
+    },
+    {
+      "id": "gvid-font-heading-family",
+      "label": "Font · Heading · Family",
+      "value": "Inter",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "fonts",
+      "type": "fonts",
+      "groupKey": "fonts"
+    },
+    {
+      "id": "gvid-font-body-family",
+      "label": "Font · Body · Family",
+      "value": "Inter",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "fonts",
+      "type": "fonts",
+      "groupKey": "fonts"
+    },
+    {
+      "id": "gvid-type-h1-size",
+      "label": "Type · H1 · Size",
+      "value": "48px",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "numbers",
+      "type": "numbers",
+      "groupKey": "type"
+    },
+    {
+      "id": "gvid-type-body-size",
+      "label": "Type · Body · Size",
+      "value": "16px",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "numbers",
+      "type": "numbers",
+      "groupKey": "type"
+    },
+    {
+      "id": "gvid-space-2",
+      "label": "Space · 2",
+      "value": "16px",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "numbers",
+      "type": "numbers",
+      "groupKey": "space"
+    },
+    {
+      "id": "gvid-space-4",
+      "label": "Space · 4",
+      "value": "32px",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "numbers",
+      "type": "numbers",
+      "groupKey": "space"
+    },
+    {
+      "id": "gvid-radius-sm",
+      "label": "Radius · Sm",
+      "value": "4px",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "numbers",
+      "type": "numbers",
+      "groupKey": "radius"
+    },
+    {
+      "id": "gvid-layout-container-max",
+      "label": "Layout · Container · Max",
+      "value": "1200px",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "numbers",
+      "type": "numbers",
+      "groupKey": "layout"
+    },
+    {
+      "id": "gvid-link-site",
+      "label": "Link · Site",
+      "value": "https://16wells.dev",
+      "order": "",
+      "status": "active",
+      "lastUpdated": "2026-03-17T12:00:00.000Z",
+      "variableType": "links",
+      "type": "links",
+      "groupKey": "links"
+    }
+  ],
+  "canvases": [],
+  "images": [],
+  "thumbnails": []
+}

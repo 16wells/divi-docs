@@ -1,0 +1,48 @@
+{
+  "name": "Divi 5 Technical Documentation",
+  "description": "Community-maintained documentation for the Divi WordPress Theme",
+  "version": "0.1.0",
+  "divi_versions_covered": ["5.x"],
+  "primary_version": "5.x",
+  "scope": "Divi 5 only. Divi 4 is out of scope.",
+  "categories": {
+    "modules": {
+      "description": "Individual Divi Builder module documentation",
+      "path": "docs/modules/"
+    },
+    "theme-options": {
+      "description": "Divi Theme Options panel settings",
+      "path": "docs/theme-options/"
+    },
+    "builder": {
+      "description": "Visual Builder and Theme Builder features",
+      "path": "docs/builder/"
+    },
+    "api": {
+      "description": "Hooks, filters, and custom module development",
+      "path": "docs/api/"
+    },
+    "css-reference": {
+      "description": "CSS class names, selectors, and common overrides",
+      "path": "docs/css-reference/"
+    },
+    "recipes": {
+      "description": "Step-by-step how-to walkthroughs",
+      "path": "docs/recipes/"
+    },
+    "troubleshooting": {
+      "description": "Common issues and solutions",
+      "path": "docs/troubleshooting/"
+    }
+  },
+  "frontmatter_schema": {
+    "title": "string, required — human-readable page title",
+    "category": "string, required — matches a key in categories above",
+    "tags": "array of strings — searchable keywords",
+    "related": "array of strings — slugs of related doc pages",
+    "divi_version": "string — Divi version this applies to (e.g. '5.x')",
+    "last_updated": "date string — YYYY-MM-DD format"
+  },
+  "contributing": "https://16wells.github.io/divi-docs/contributing/",
+  "repository": "https://github.com/16wells/divi-docs"
+}
