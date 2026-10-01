@@ -77,8 +77,6 @@ The Content tab controls which cart elements are visible and the module's backgr
 | Meta — Admin Label | text | Set a custom label for the module in the Visual Builder's layer panel. |
 | Meta — Disable On | device toggles | Control builder-level visibility across devices. |
 | Elements |  | Choose to display or hide various elements:Show Product Image- Display or hide the feature image of each product that is in the cart.Show Coupon Code- Display or hide the Coupon form.Show Update Cart Button- Display or hide the Update cart button.Show Remove Item Icon- Display or hide the remove item icon. <!-- AUTO-ADDED --> |
-| Loop- |  | Enables the loop builder. <!-- AUTO-ADDED --> |
-| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
 | Meta |  | Choose the Woo Cart Products Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
@@ -103,7 +101,6 @@ The Design tab provides extensive control over the cart table appearance, includ
 | Horizontal |  | (default) <!-- AUTO-ADDED --> |
 | Vertical |  | each element is displayed on a separate table row. <!-- AUTO-ADDED --> |
 | Text |  | Choose the overall text styles for the Woo Cart Products module. <!-- AUTO-ADDED --> |
-| Button- |  | Choose the button's design styles. Those will apply to the Apply Coupon button as well as the Update Cart button - when it becomes active. <!-- AUTO-ADDED --> |
 | Sizing |  | Choose the Woo Cart Products module's sizing. <!-- AUTO-ADDED --> |
 | Spacing |  | Choose the Woo Cart Products module's spacing. <!-- AUTO-ADDED --> |
 | Border |  | Choose the Woo Cart Products module's border styles. <!-- AUTO-ADDED --> |
@@ -142,15 +139,6 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
-| CSS |  | Allows you to add custom CSS to the Woo Cart Products module. <!-- AUTO-ADDED --> |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
-| Visibility |  | Choose the Woo Cart Products module's visibility according to different devices. <!-- AUTO-ADDED --> |
-| Transitions |  | Choose how long Woo Cart Products' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
-| Position |  | Choose the Woo Cart Products module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
-| Scroll Effects |  | Control how the Woo Cart Products module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
-| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
-| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

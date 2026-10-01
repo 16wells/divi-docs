@@ -83,11 +83,6 @@ The Content tab holds all the informational fields for the profile, including th
 | **Meta — Label** | text | Assign a label for identification in the Visual Builder layer panel |
 | **Meta — Force Visibility** | toggle | Keep the module visible in the Visual Builder even when conditions would normally hide it |
 | Text |  | Choose the Name, Position, Social Media Profile URLs, and Body Text. <!-- AUTO-ADDED --> |
-| Image |  | Choose the Profile Image. <!-- AUTO-ADDED --> |
-| Link |  | Make the entire Person module clickable, creating a seamless way to direct users to another page, section, or external site. <!-- AUTO-ADDED --> |
-| Background |  | Choose the Person module's background styles. <!-- AUTO-ADDED --> |
-| Loop |  | Enables the loop builder. <!-- AUTO-ADDED --> |
-| Order |  | Choose the order in which the Person module appears inside a Flexbox and Grid layout. <!-- AUTO-ADDED --> |
 | Meta |  | Choose the Person Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
@@ -153,14 +148,6 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Person module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
-| Visibility |  | Choose the Person's module visibility based on different devices. <!-- AUTO-ADDED --> |
-| Transitions |  | Choose how long the Person's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
-| Scroll Effects |  | Control how the Person module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
-| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
-| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

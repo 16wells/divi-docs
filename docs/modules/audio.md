@@ -138,15 +138,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Audio module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
-| Visibility |  | Choose the Audio module's visibility based on different devices. <!-- AUTO-ADDED --> |
-| Transitions |  | Choose how long Audio's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
-| Position |  | Choose precise control of the Audio module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
-| Scroll Effects |  | Control how the Audio module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
-| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
-| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ![Audio Advanced tab settings](../assets/screenshots/modules/audio/settings-advanced.png){ loading=lazy }
 

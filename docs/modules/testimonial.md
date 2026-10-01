@@ -99,13 +99,6 @@ The Content tab holds all the primary data fields for the testimonial, including
 | **Meta** | | |
 | Admin Label | text | A custom label shown in the builder layers panel for easy identification |
 | Disable On | toggle | Disable the module on specific device sizes (phone, tablet, desktop) |
-| Text |  | Set the Testimonial's Author Name, Job Title, Company, and body text. <!-- AUTO-ADDED --> |
-| Elements |  | Choose to display or hide the quote icon. <!-- AUTO-ADDED --> |
-| Link |  | Make the entire Testimonial module clickable, creating a seamless way to direct users to another page, section, or external site. <!-- AUTO-ADDED --> |
-| Background |  | Choose the Testimonial module's background styles. <!-- AUTO-ADDED --> |
-| Loop |  | Enables the loop builder. <!-- AUTO-ADDED --> |
-| Order |  | Choose the order in which the Testimonial module appears inside a Flexbox and Grid layout. <!-- AUTO-ADDED --> |
-| Meta |  | Choose the Testimonial Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
 
@@ -168,15 +161,6 @@ The Advanced tab provides technical controls for custom attributes, CSS override
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Testimonial module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
-| Visibility |  | Choose the Testimonial's module visibility based on different devices. <!-- AUTO-ADDED --> |
-| Transitions |  | Choose how long the Testimonial module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
-| Position |  | Choose precise control of the Testimonial's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
-| Scroll Effects |  | Control how the Testimonial module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
-| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
-| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

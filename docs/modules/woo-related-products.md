@@ -90,10 +90,7 @@ The Content tab controls which related products display, how they are filtered a
 | Order (Flexbox) | select | Control the module's placement order within Flexbox and Grid parent layouts. |
 | Meta — Admin Label | text | Set a custom label for the module in the Visual Builder's layer panel. |
 | Meta — Disable On | device toggles | Control builder-level visibility across devices. |
-| Content |  | Choose the product for which you want to display the related products.Product Count- Choose how many linked upsell products the module displays.Column Layout- Choose the number of columns in which the linked upsell products are displayed.Order- Choose how the linked upsell products are ordered.Included Categories- Choose based on which WooCommerce categories the related products should be generated.Product Offset Number- Choose the number of products that are offset. <!-- AUTO-ADDED --> |
 | Elements |  | Choose to display or hide different elements, such as:Show Name- Display or hide the product's titles.Show Image- Display or hide the product's featured image.Show Price- Display or hide the product's price.Show Rating -Display or hide the product's ratings.Show Sale Badge- Display or hide the product's sale badge. <!-- AUTO-ADDED --> |
-| Show Rating - |  | Display or hide the product's ratings. <!-- AUTO-ADDED --> |
-| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
 | Meta |  | Choose the Woo Related Products Module's Label text and force its Visibility inside the Visual Builder. <!-- AUTO-ADDED --> |
 
 ### Design Tab
@@ -151,15 +148,6 @@ The Advanced tab provides low-level control over HTML attributes, custom CSS, co
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
-| CSS |  | Allows you to add custom CSS to the Woo Related Products module. <!-- AUTO-ADDED --> |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
-| Visibility |  | Choose the Woo Related Products module's visibility according to different devices. <!-- AUTO-ADDED --> |
-| Transitions |  | Choose how long the Woo Related Products' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
-| Position |  | Choose the Woo Related Products module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
-| Scroll Effects |  | Control how the Woo Related Products module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
-| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
-| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ## Code Examples
 

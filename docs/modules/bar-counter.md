@@ -145,20 +145,11 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Bar Counters module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
-| Visibility |  | Choose the Bar Counters' module visibility based on different devices. <!-- AUTO-ADDED --> |
-| Transitions |  | Choose how long the Bar Counters' module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
-| Position |  | Choose precise control of the Bar Counters' module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
-| Scroll Effects |  | Control how the Bar Counters module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
-| Open the Bar Counters module settings |  | Click on the Bar Counters module on your page or click on the Gear icon to open its settings. <!-- AUTO-ADDED --> |
-| Edit an Item |  | Click the Pencil icon next to the Bar Counter item you want to update(1). <!-- AUTO-ADDED --> |
-| Add a New Item |  | In theContenttab, clickAdd New Bar Counter Item (2). Enter the title and body content, then customize design options like background color, text style, or icons. Click the arrow icon at the top left to return to the main module settings. <!-- AUTO-ADDED --> |
-| Clone an existing item |  | Click on the Duplicate icon (4) to clone an existing item. <!-- AUTO-ADDED --> |
-| Delete Item |  | Click theTrash icon (3)next to the Bar Counter item to delete it. <!-- AUTO-ADDED --> |
-| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
-| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
+| Open the Bar Counters module settings | Click on the Bar Counters module on your page or click on the Gear icon to open its settings. <!-- AUTO-ADDED --> |
+| Edit an Item | Click the Pencil icon next to the Bar Counter item you want to update(1). <!-- AUTO-ADDED --> |
+| Add a New Item | In theContenttab, clickAdd New Bar Counter Item (2). Enter the title and body content, then customize design options like background color, text style, or icons. Click the arrow icon at the top left to return to the main module settings. <!-- AUTO-ADDED --> |
+| Clone an existing item | Click on the Duplicate icon (4) to clone an existing item. <!-- AUTO-ADDED --> |
+| Delete Item | Click theTrash icon (3)next to the Bar Counter item to delete it. <!-- AUTO-ADDED --> |
 
 ![Bar Counter Advanced tab settings](../assets/screenshots/modules/bar-counter/settings-advanced.png){ loading=lazy }
 

@@ -77,8 +77,6 @@ The Content tab controls the module's link behavior, background, ordering, and m
 | Loop | toggle | Enable the Loop Builder feature for dynamic template contexts. |
 | Order | select | Set the flexbox order of the module relative to sibling elements in the same row. |
 | Meta | admin label | Assign an admin label and control module visibility inside the Visual Builder. |
-| Loop- |  | Enables the loop builder. <!-- AUTO-ADDED --> |
-| Order- |  | Choose the Flexbox order of the module. <!-- AUTO-ADDED --> |
 
 <!-- ![Woo Cross Sells Content tab settings](../assets/screenshots/modules/woo-cross-sells/settings-content.png){ loading=lazy } -->
 
@@ -133,15 +131,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
-| CSS |  | Allows you to add custom CSS to the Woo Cross Sells module. <!-- AUTO-ADDED --> |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
-| Visibility |  | Choose the Woo Cross Sells module's visibility according to different devices. <!-- AUTO-ADDED --> |
-| Transitions |  | Choose how long Woo Cross Sells' module animation takes, adding subtle and impactful animations that enhance the user experience and make your modules stand out. <!-- AUTO-ADDED --> |
-| Position |  | Choose the Woo Cross Sells module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
-| Scroll Effects |  | Control how the Woo Cross-Sells module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
-| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
-| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 <!-- ![Woo Cross Sells Advanced tab settings](../assets/screenshots/modules/woo-cross-sells/settings-advanced.png){ loading=lazy } -->
 

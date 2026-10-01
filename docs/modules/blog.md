@@ -122,7 +122,6 @@ The Design tab provides full visual control over the blog's layout mode, image o
 | Filters |  | Choose the Blog module's filters, such as hue shifts, saturation changes, and blending modes. <!-- AUTO-ADDED --> |
 | Transform |  | Choose the Blog module's advanced design effects, such as scaling, rotating, skewing, and translating. <!-- AUTO-ADDED --> |
 | Animation |  | Choose the Blog module's animation styles, adding personality and interactivity while keeping a polished, professional feel. <!-- AUTO-ADDED --> |
-| Layout - |  | Choose the Layout Style. It allows you to change how the child modules are being displayed.BlockFlexGrid(default) <!-- AUTO-ADDED --> |
 | Block |  |  <!-- AUTO-ADDED --> |
 | Flex |  |  <!-- AUTO-ADDED --> |
 | Grid |  | (default) <!-- AUTO-ADDED --> |
@@ -164,15 +163,6 @@ The Advanced tab provides developer-oriented controls for custom attributes, con
 | [Transitions](../options-groups/transitions.md) | Hover transition timing |
 | [Position](../options-groups/position.md) | CSS position and offsets |
 | [Scroll Effects](../options-groups/scroll-effects.md) | Scroll-driven animation effects |
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. <!-- AUTO-ADDED --> |
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Blog module, enabling advanced styling that perfectly aligns with your vision. <!-- AUTO-ADDED --> |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. <!-- AUTO-ADDED --> |
-| Visibility |  | Choose the Blog's module visibility based on different devices. <!-- AUTO-ADDED --> |
-| Transitions |  | Choose how long the Blog's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. <!-- AUTO-ADDED --> |
-| Position |  | Choose precise control of the Blog's module placement and create dynamic, visually engaging designs. <!-- AUTO-ADDED --> |
-| Scroll Effects |  | Control how the Blog module behaves and transforms during scrolling. <!-- AUTO-ADDED --> |
-| Save |  | k on theSavebutton. <!-- AUTO-ADDED --> |
-| Exit |  | k on theExitbutton. <!-- AUTO-ADDED --> |
 
 ![Blog Advanced tab settings](../assets/screenshots/modules/blog/settings-advanced.png){ loading=lazy }
 
