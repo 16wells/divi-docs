@@ -36,6 +36,15 @@
 
 *(Add entries with a short heading. Keep bullets tight.)*
 
+### 2026-10-01 — Live-site check found a second, pre-existing `auto_update_page()` defect: AUTO-ADDED rows appended to the wrong table
+
+- Verified the live site (homepage, a new stub page, the modules index) renders cleanly. But `docs/modules/code.md` on production shows a malformed Design/Advanced tab table — settings appear to repeat with the second instance missing its description.
+- Root cause is **not** the round-trip bug fixed 2026-08-10. It's a separate, older structural bug: when a tab section's only table is a 2-column `| Options Group | Description |` summary table (linking out to shared `options-groups/*.md` docs, no per-setting `Setting | Type | Description` table), `auto_update_page()`'s insertion logic still appends 3-column AUTO-ADDED rows after it — it finds "the last `|`-delimited line in this tab" without checking it's the right table shape. Result: a single malformed table with inconsistent column counts, which `mkdocs`/python-markdown renders as entries with blank/misaligned descriptions.
+- This predates the 2026-08-10 session — traced to `286ec90` (the original 2026-05-06 `auto_update_page()` run) via `git log -- docs/modules/code.md`. The 2026-08-10 bulk-apply didn't touch `code.md` (it correctly saw nothing new to add), so it neither caused nor caught this.
+- **Scope: confirmed in 36 of the ~37 module files** that have ever had AUTO-ADDED rows (found via a script comparing cell-count of each table row against the row before it). Same list as the 2026-08-10 `auto_update_page()`-touched files, which makes sense — it's a property of the tool, not any one page.
+- Caveat for next time: the 2026-08-10 "spot-check for duplicates" only grepped for literal repeated row text — it would not have caught this (these rows aren't textually identical, they're structurally mismatched against the table they landed in). A real check needs to diff column counts within each contiguous table block, not just look for repeated strings.
+- Not fixed yet — flagged to Skip rather than unilaterally editing 36 files, since the right fix is a content judgment call (delete the redundant AUTO-ADDED rows since the Options Group table above already covers the same ground, vs. give them their own properly-labeled table) as much as a mechanical one.
+
 ### 2026-08-10 — `auto_update_page()` had a round-trip bug that silently duplicates rows on re-run
 
 - `scripts/monitor_updates.py` wrote AUTO-ADDED settings rows as `| Setting | Type | Description | <!-- AUTO-ADDED -->` — no trailing pipe. Its own reader, `parse_local_settings()`, requires a line to both start **and** end with `|` to be recognized as a table row, so every previously-auto-added row was invisible to the parser on the next run.

@@ -25,6 +25,16 @@
 
 ## Session Entries (newest first)
 
+### 2026-10-01 — Claude Code on the Web — Live-site spot-check, found a pre-existing defect
+
+- Skip asked for a live-site check to confirm the 2026-08-10 backlog-clear rendered correctly. Checked the homepage, the new `the-post-filter-module-in-divi-5` stub page, and the modules index — all clean.
+- `docs/modules/code.md` on production showed a malformed Design/Advanced tab table. Traced it: `auto_update_page()` appends AUTO-ADDED settings rows after "the last table row it finds" in a tab section without checking the table is the right shape — when a tab's only table is a 2-column `Options Group | Description` summary (no per-setting table), the 3-column AUTO-ADDED rows land in it anyway, producing a column-count mismatch that renders with blank/misaligned descriptions.
+- This is a different bug from the 2026-08-10 round-trip fix, and predates that session (traced to the original `286ec90`, 2026-05-06). The 2026-08-10 bulk-apply didn't touch `code.md` and its duplicate-row spot-check wouldn't have caught this class of defect (structural mismatch, not literal text duplication).
+- Confirmed the same pattern in **36 of the ~37 files** that have ever had AUTO-ADDED rows, via a script comparing cell-count of each table row to the row before it.
+- Logged full root cause + file-count methodology in `insights.md`, opened a decision in `state.md` on fix approach (delete the redundant rows vs. give them a proper table), did not touch any `docs/` content pending Skip's call.
+- **In progress:** none — this was a check + report, not a fix.
+- **Queued:** Fix the 36-file table defect once Skip picks an approach; also do a fresh `state.md`/`activity-log.md`/`decisions-log.md` audit of the ~8 weeks of unlogged bot commits since 2026-08-10 (same pattern as the earlier refresh).
+
 ### 2026-08-10 — Claude Code on the Web — Backlog clear + merge to main
 
 - Skip authorized: "Apply all changes and push to production, then merge everything to main," acting on the open decision from the earlier `state.md` refresh this same day.
