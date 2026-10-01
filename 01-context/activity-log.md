@@ -25,6 +25,18 @@
 
 ## Session Entries (newest first)
 
+### 2026-10-01 — Claude Code on the Web — Fixed the 36-file malformed-table defect
+
+- Skip said "go ahead and fix the 36 files, option A" (delete the redundant AUTO-ADDED rows), following up on the live-site check logged earlier today.
+- Before mass-applying: individually checked the 4 files that showed an unusual mismatch direction in the earlier scan. Found `the-svg-module-in-divi-5.md` and `the-timeline-module-in-divi-5.md` are NOT the common case — their AUTO-ADDED rows are the only real settings content on those stub pages, with no Options Group table being duplicated. Deleting them under a literal reading of "option A" would have gutted the only documentation those two modules have.
+- Built the fix as a per-row rule instead of a per-file one: redundant (setting name already documented earlier in the same table, or a bare tab-name restatement) → delete; genuinely new → keep, reformatted to the table's actual column count. Also deleted a universal `Save`/`Exit` boilerplate-fragment pattern (`k on the{X}button.`) found near-identically in almost every file.
+- Result: 420 redundant rows deleted across 34 files, 125 rows reformatted (padded/collapsed) and kept across all 36 — including full preservation of the 30 real SVG settings and 40 real Timeline settings.
+- Verified with an independent script pass: zero remaining column-count mismatches in the 36 files (one pre-existing escaped-pipe false positive confirmed harmless). `mkdocs build` clean. Spot-checked rendered HTML for `modules/code/` (no dupes) and `modules/the-svg-module-in-divi-5/` (all settings intact, columns aligned).
+- Committed, pushed directly to `main` (no PR — per the 2026-08-29 policy change), "Deploy Divi Docs" GH Actions workflow confirmed green.
+- Logged the per-row-not-per-file reasoning in `insights.md`, closed the decision in `decisions-log.md`.
+- **In progress:** none.
+- **Queued:** Investigate 11 mismatched-table instances found in *unrelated* files during this fix's verification sweep (no AUTO-ADDED marker, different root cause — not yet confirmed real vs. false positive). See `state.md` Open Risks.
+
 ### 2026-10-01 — Claude Code on the Web — Live-site spot-check, found a pre-existing defect
 
 - Skip asked for a live-site check to confirm the 2026-08-10 backlog-clear rendered correctly. Checked the homepage, the new `the-post-filter-module-in-divi-5` stub page, and the modules index — all clean.
