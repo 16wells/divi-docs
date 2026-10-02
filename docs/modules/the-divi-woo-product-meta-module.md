@@ -37,7 +37,7 @@ For detailed information, see the [official Elegant Themes documentation](https:
 | Setting | Type | Description |
 |---------|------|-------------|
 | Product |  | Specify which product you want the module to relate to when it shows the product meta. By default, it’s set toThis Product. For our purposes, we’ll leave this setting set toThis Productso that it dynamically displays the product’s meta based on which product is being viewed. |
-| Separator |  | Type the separator you want between each element in the module. For example,|or+etc. |
+| Separator |  | Type the separator you want between each element in the module. For example,\|or+etc. |
 | Show Sku |  | Toggle this optiononoroffto show or hide the SKU number. |
 | Show Categories |  | Toggle this optiononoroffto show or hide the product’s categories. |
 | Show Tags |  | Toggle this optiononoroffto show or hide the product’s tags. |

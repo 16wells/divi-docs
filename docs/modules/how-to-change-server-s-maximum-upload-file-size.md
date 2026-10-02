@@ -37,7 +37,7 @@ For detailed information, see the [official Elegant Themes documentation](https:
 | .user.ini |  | edit a.user.inifile in the root directory of your WordPress installation |
 | .user.ini |  | ollowing lines to the.user.inifile:upload_max_filesize = 64Mpost_max_size = 64M |
 | upload_max_filesize |  | max_filesizeandpost_max_sizevalues |
-| MaxUploader – Increase Media Upload File Size | Increase Execution Time |  | crease Execution Time |
+| MaxUploader – Increase Media Upload File Size | Increase Execution Time | crease Execution Time |
 | WordPress Dashboard → Tools → Site Health |  | ashboard → Tools → Site Health→Info → Server |
 | upload_max_filesize |  | rease theupload_max_filesizeandpost_max_sizelimits. |
 | Is The WordPress Upload Limit Giving You Trouble? Here’s How To Change It |  | es on your server, please check ourIs The WordPress Upload Limit Giving You Trouble? Here’s How To Change Itarticle. |

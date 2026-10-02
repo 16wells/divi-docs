@@ -26,7 +26,7 @@ For detailed information, see the [official Elegant Themes documentation](https:
 |---------|------|-------------|
 | Gear icon |  | Tabs module settings by clicking on theGear icon |
 | Advanced Tab → CSS ID & Classes → CSS ID |  | SS IDand type indt-tabs |
-| https://your-domain-name.com/page-slug/#dt-tabs|1 |  | ebsite, add the link (this can also be used as the Button module's Link) ashttps://your-domain-name.com/page-slug/#dt-tabs|1 |
+| https://your-domain-name.com/page-slug/#dt-tabs\|1 |  | ebsite, add the link (this can also be used as the Button module's Link) ashttps://your-domain-name.com/page-slug/#dt-tabs\|1 |
 | WordPress Dashboard → Divi → Theme Options → Integrations Tab |  | s Tab |
 
 ## Code Examples

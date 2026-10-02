@@ -29,7 +29,7 @@ For detailed information, see the [official Elegant Themes documentation](https:
 | Bloom → Email Accounts |  | oom plugin, go toBloom → Email Accountsand click theRefresh iconto re-fetch the lists. |
 | MailChimp Account |  | Chimp Account |
 | Audience |  | eAudienceoption, click on theAll Contactoption |
-| Settings |  | theSettingsoption and chooseAudience fields and *|MERGE|* tagsoption |
+| Settings |  | theSettingsoption and chooseAudience fields and *\|MERGE\|* tagsoption |
 | MailChimp Account |  | Chimp Account |
 
 ## Code Examples
