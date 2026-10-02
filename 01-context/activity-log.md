@@ -25,6 +25,17 @@
 
 ## Session Entries (newest first)
 
+### 2026-10-01 — Claude Code on the Web — Fixed the 11 unrelated table mismatches
+
+- Skip said "continue on the mismatches," picking up the 11 escaped-pipe-suspected instances flagged (but not investigated) at the end of the previous session.
+- Checked each of the 7 affected files individually rather than batch-fixing. 6 turned out to be genuine content containing a literal `|` that was never escaped for markdown tables: a CSS border-radius format example, Divi's `#dt-tabs|1` tab-anchor URL syntax, Mailchimp's `*|MERGE|*` merge-tag syntax, and an SEO "separator character" example repeated identically in 4 rows across 2 files (Extra/Divi theme options share the same copy). Fixed by escaping each as `\|`.
+- The 7th (`how-to-change-server-s-maximum-upload-file-size.md`) was a different, genuine scrape-garbling artifact — a stray empty cell splitting one value across two columns. Fixed the structural break only (merged the empty cell away); did not rewrite the file's other rows, which have the same pre-existing truncated-prose quality issue but are out of scope here.
+- Caught a bug in my own verification script before trusting its "zero remaining" result: it counted raw `|` characters and didn't know about `\|` escaping, so it still flagged the rows I'd just correctly fixed. Fixed the detector to split on unescaped pipes only, then re-verified clean.
+- Also caught and fixed a self-inflicted mistake while logging this in `insights.md`: an earlier edit had overwritten the 2026-08-10 round-trip-bug entry's heading with a duplicate title, leaving its body mislabeled. Restored the correct heading.
+- `mkdocs build` clean, spot-checked rendered HTML for all 4 non-trivial cases. Committed and pushed directly to `main`.
+- **In progress:** none — `docs/modules/` now has zero table column-count mismatches.
+- **Queued:** Rewrite `how-to-change-server-s-maximum-upload-file-size.md`'s other rows (systemic truncated prose, not a structural issue); the broader `state.md` refresh for ~8 weeks of unlogged bot commits; the ~50-page manual enrichment; screenshots.
+
 ### 2026-10-01 — Claude Code on the Web — Fixed the 36-file malformed-table defect
 
 - Skip said "go ahead and fix the 36 files, option A" (delete the redundant AUTO-ADDED rows), following up on the live-site check logged earlier today.
