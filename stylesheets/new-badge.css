@@ -1,0 +1,28 @@
+/* ==========================================================================
+   NEW page status badge
+   Renders a small "NEW" pill next to page titles in the navigation sidebar.
+   Powered by MkDocs Material's built-in page status feature + our
+   hooks/new_badge.py hook that auto-injects status: new based on
+   last_updated frontmatter.
+   ========================================================================== */
+
+/* Badge in the navigation sidebar */
+.md-status--new::after {
+  content: "NEW";
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #2e7d32;
+  padding: 0.15em 0.45em;
+  border-radius: 0.8em;
+  margin-left: 0.4em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* Slightly brighter on hover for nav links */
+.md-nav__link:hover .md-status--new::after {
+  background-color: #388e3c;
+}
