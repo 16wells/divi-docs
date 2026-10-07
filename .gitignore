@@ -9,3 +9,6 @@ debug-screenshots/
 # Nested standalone repos prepped under 02-deliverables/ (e.g., the
 # Filterable Gallery plugin source which is its own GitHub repo).
 02-deliverables/divi-filterable-gallery/
+
+# local Claude Code settings
+.claude/settings.local.json
