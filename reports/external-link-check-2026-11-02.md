@@ -1,8 +1,8 @@
 # External link check — 2026-11-02
 
-- **Unique URLs:** 1018
-- **OK:** 259
-- **Failed:** 759
+- **Unique URLs:** 1022
+- **OK:** 283
+- **Failed:** 739
 
 Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 
@@ -10,28 +10,6 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 
 | URL | Status | Detail | Occurrences |
 |-----|--------|--------|-------------|
-| `https://help.elegantthemes.com/en/articles/11754241-understanding-divi-s-new-flexbox-layout` | 429 | Too Many Requests | `docs/modules/the-contact-form-7-styler-module-in-divi-5.md:57`; `docs/modules/the-contact-form-7-styler-module-in-divi-5.md:69` |
-| `https://help.elegantthemes.com/en/articles/11863867` | 429 | Too Many Requests | `docs/builder/loop-builder.md:26`; `docs/builder/loop-builder.md:34` |
-| `https://help.elegantthemes.com/en/articles/11863867-loop-builder-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-breadcrumbs-module-in-divi-5.md:59`; `docs/modules/the-contact-form-7-styler-module-in-divi-5.md:56` |
-| `https://help.elegantthemes.com/en/articles/11904025` | 429 | Too Many Requests | `docs/troubleshooting/custom-blog-loop-builder.md:19` |
-| `https://help.elegantthemes.com/en/articles/11930145` | 429 | Too Many Requests | `docs/troubleshooting/acf-fields-loop-builder.md:19` |
-| `https://help.elegantthemes.com/en/articles/11930200` | 429 | Too Many Requests | `docs/troubleshooting/acf-repeater-loop-builder.md:19` |
-| `https://help.elegantthemes.com/en/articles/11971717-how-to-enable-json-uploads-in-wordpress` | 429 | Too Many Requests | `docs/modules/how-to-enable-json-uploads-in-wordpress.md:17` |
-| `https://help.elegantthemes.com/en/articles/11982051` | 429 | Too Many Requests | `docs/modules/group-carousel.md:21`; `docs/modules/group-carousel.md:41` |
-| `https://help.elegantthemes.com/en/articles/11982058-the-lottie-module-in-divi-5` | 429 | Too Many Requests | `docs/modules/lottie.md:21`; `docs/modules/lottie.md:41` |
-| `https://help.elegantthemes.com/en/articles/11982062-the-icon-list-module-in-divi-5` | 429 | Too Many Requests | `docs/modules/icon-list.md:21`; `docs/modules/icon-list.md:41` |
-| `https://help.elegantthemes.com/en/articles/11982083` | 429 | Too Many Requests | `docs/troubleshooting/upload-svg-json.md:19` |
-| `https://help.elegantthemes.com/en/articles/12032822` | 429 | Too Many Requests | `docs/modules/woo-notice.md:21`; `docs/modules/woo-notice.md:39`; `docs/modules/woo-notice.md:61` |
-| `https://help.elegantthemes.com/en/articles/12032985` | 429 | Too Many Requests | `docs/modules/woo-breadcrumbs.md:23`; `docs/modules/woo-breadcrumbs.md:41` |
-| `https://help.elegantthemes.com/en/articles/12033379` | 429 | Too Many Requests | `docs/modules/woo-add-to-cart.md:21`; `docs/modules/woo-add-to-cart.md:41`; `docs/modules/woo-add-to-cart.md:63` |
-| `https://help.elegantthemes.com/en/articles/12033539` | 429 | Too Many Requests | `docs/modules/woo-product-description.md:21`; `docs/modules/woo-product-description.md:39`; `docs/modules/woo-product-description.md:61` |
-| `https://help.elegantthemes.com/en/articles/12033711` | 429 | Too Many Requests | `docs/modules/woo-product-gallery.md:23`; `docs/modules/woo-product-gallery.md:43`; `docs/modules/woo-product-gallery.md:65` |
-| `https://help.elegantthemes.com/en/articles/12033909` | 429 | Too Many Requests | `docs/modules/woo-product-images.md:23`; `docs/modules/woo-product-images.md:41`; `docs/modules/woo-product-images.md:63` |
-| `https://help.elegantthemes.com/en/articles/12034567` | 429 | Too Many Requests | `docs/modules/woo-product-meta.md:21`; `docs/modules/woo-product-meta.md:41`; `docs/modules/woo-product-meta.md:63` |
-| `https://help.elegantthemes.com/en/articles/12034706` | 429 | Too Many Requests | `docs/modules/woo-product-price.md:23`; `docs/modules/woo-product-price.md:41`; `docs/modules/woo-product-price.md:63` |
-| `https://help.elegantthemes.com/en/articles/12040851` | 429 | Too Many Requests | `docs/modules/woo-product-rating.md:21`; `docs/modules/woo-product-rating.md:41`; `docs/modules/woo-product-rating.md:63` |
-| `https://help.elegantthemes.com/en/articles/12041040` | 429 | Too Many Requests | `docs/modules/woo-product-reviews.md:23`; `docs/modules/woo-product-reviews.md:46` |
-| `https://help.elegantthemes.com/en/articles/12041304` | 429 | Too Many Requests | `docs/modules/woo-product-stock.md:21`; `docs/modules/woo-product-stock.md:46` |
 | `https://help.elegantthemes.com/en/articles/12041462` | 429 | Too Many Requests | `docs/modules/woo-product-tabs.md:23`; `docs/modules/woo-product-tabs.md:46` |
 | `https://help.elegantthemes.com/en/articles/12041561` | 429 | Too Many Requests | `docs/modules/woo-product-title.md:23`; `docs/modules/woo-product-title.md:46` |
 | `https://help.elegantthemes.com/en/articles/12041624` | 429 | Too Many Requests | `docs/modules/woo-product-upsell.md:21`; `docs/modules/woo-product-upsell.md:41`; `docs/modules/woo-product-upsell.md:63` |
@@ -54,6 +32,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/12672584` | 429 | Too Many Requests | `docs/builder/nested-modules.md:26`; `docs/builder/nested-modules.md:34` |
 | `https://help.elegantthemes.com/en/articles/12672584-nested-module-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-breadcrumbs-module-in-divi-5.md:57`; `docs/modules/the-contact-form-7-styler-module-in-divi-5.md:54` |
 | `https://help.elegantthemes.com/en/articles/12817235` | 429 | Too Many Requests | `docs/builder/stacked-nested-presets.md:26`; `docs/builder/stacked-nested-presets.md:34` |
+| `https://help.elegantthemes.com/en/articles/12918951` | 429 | Too Many Requests | `docs/troubleshooting/import-library-elements.md:19` |
 | `https://help.elegantthemes.com/en/articles/12991185` | 429 | Too Many Requests | `docs/builder/vb-interface.md:26`; `docs/builder/vb-interface.md:30` |
 | `https://help.elegantthemes.com/en/articles/12992094` | 429 | Too Many Requests | `docs/builder/keyboard-shortcuts.md:26`; `docs/builder/keyboard-shortcuts.md:30` |
 | `https://help.elegantthemes.com/en/articles/12992238` | 429 | Too Many Requests | `docs/builder/right-click-menus.md:26`; `docs/builder/right-click-menus.md:30` |
@@ -64,6 +43,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/13249775` | 429 | Too Many Requests | `docs/builder/canvases.md:26`; `docs/builder/canvases.md:34` |
 | `https://help.elegantthemes.com/en/articles/13249775-divi-5-canvases-off-canvas-menus-popups-canvas-portals` | 429 | Too Many Requests | `docs/modules/the-canvas-portal-module-in-divi-5.md:51` |
 | `https://help.elegantthemes.com/en/articles/13284097` | 429 | Too Many Requests | `docs/builder/semantic-elements.md:26`; `docs/builder/semantic-elements.md:34` |
+| `https://help.elegantthemes.com/en/articles/13284097-semantic-elements-custom-html-wrappers-for-divi-5` | 429 | Too Many Requests | `docs/modules/the-breadcrumbs-module-in-divi-5.md:108`; `docs/modules/the-canvas-portal-module-in-divi-5.md:95`; `docs/modules/the-contact-form-7-styler-module-in-divi-5.md:99` |
 | `https://help.elegantthemes.com/en/articles/13309833` | 429 | Too Many Requests | `docs/builder/copy-paste-attributes.md:27`; `docs/builder/copy-paste-attributes.md:31` |
 | `https://help.elegantthemes.com/en/articles/13342542` | 429 | Too Many Requests | `docs/builder/find-replace-attributes.md:26`; `docs/builder/find-replace-attributes.md:30` |
 | `https://help.elegantthemes.com/en/articles/13348842` | 429 | Too Many Requests | `docs/builder/global-variables.md:27`; `docs/builder/global-variables.md:35` |
@@ -77,6 +57,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/13557470` | 429 | Too Many Requests | `docs/builder/page-manager.md:26`; `docs/builder/page-manager.md:34` |
 | `https://help.elegantthemes.com/en/articles/13627727` | 429 | Too Many Requests | `docs/troubleshooting/fix-display-issues-after-update.md:19` |
 | `https://help.elegantthemes.com/en/articles/13627810` | 429 | Too Many Requests | `docs/builder/dynamic-content.md:34` |
+| `https://help.elegantthemes.com/en/articles/13627810-advanced-content-management-using-dynamic-content-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-breadcrumbs-module-in-divi-5.md:53`; `docs/modules/the-breadcrumbs-module-in-divi-5.md:54` |
 | `https://help.elegantthemes.com/en/articles/13644757` | 429 | Too Many Requests | `docs/builder/loop-builder.md:34` |
 | `https://help.elegantthemes.com/en/articles/13644757-build-custom-loops-using-loop-builder-in-divi-5` | 429 | Too Many Requests | `docs/builder/build-custom-loops-using-loop-builder-in-divi-5.md:22` |
 | `https://help.elegantthemes.com/en/articles/13644980-build-custom-templates-using-the-theme-builder-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-breadcrumbs-module-in-divi-5.md:36` |
@@ -151,6 +132,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/15529313-how-to-send-the-contact-form-s-message-to-multiple-e-mail-addresses-in-divi-5` | 429 | Too Many Requests | `docs/modules/how-to-send-the-contact-form-s-message-to-multiple-e-mail-addresses-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/15530394-part-4-mastering-divi-5-presets-for-faster-more-consistent-web-design` | 429 | Too Many Requests | `docs/modules/part-4-mastering-divi-5-presets-for-faster-more-consistent-web-design.md:17` |
 | `https://help.elegantthemes.com/en/articles/15530587-part-5-building-a-divi-5-homepage-from-scratch` | 429 | Too Many Requests | `docs/modules/part-5-building-a-divi-5-homepage-from-scratch.md:17` |
+| `https://help.elegantthemes.com/en/articles/15530763-part-6-building-a-custom-header-and-navigation-in-divi-5` | 429 | Too Many Requests | `docs/modules/part-6-building-a-custom-header-and-navigation-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/15530979-part-7-building-a-custom-footer-in-divi-5` | 429 | Too Many Requests | `docs/modules/part-7-building-a-custom-footer-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/15531015-part-8-using-divi-5-s-theme-builder-to-create-global-website-templates` | 429 | Too Many Requests | `docs/modules/part-8-using-divi-5-s-theme-builder-to-create-global-website-templates.md:17` |
 | `https://help.elegantthemes.com/en/articles/15533059-part-9-building-the-core-inner-pages-of-your-divi-5-website` | 429 | Too Many Requests | `docs/modules/part-9-building-the-core-inner-pages-of-your-divi-5-website.md:17` |
@@ -170,10 +152,15 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/16160284-how-to-create-a-stripe-payment-link` | 429 | Too Many Requests | `docs/modules/how-to-create-a-stripe-payment-link.md:17` |
 | `https://help.elegantthemes.com/en/articles/16186978-the-post-filter-module-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-post-filter-module-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/16187393-the-post-filter-items-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-post-filter-items-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/16196630-the-chart-module-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-chart-module-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/16197038-how-to-refresh-the-instagram-access-token` | 429 | Too Many Requests | `docs/modules/how-to-refresh-the-instagram-access-token.md:17` |
 | `https://help.elegantthemes.com/en/articles/16329250-how-to-roll-back-to-a-previous-divi-5-version` | 429 | Too Many Requests | `docs/modules/how-to-roll-back-to-a-previous-divi-5-version.md:17` |
 | `https://help.elegantthemes.com/en/articles/16406268-how-to-connect-the-payment-button-module-to-paypal` | 429 | Too Many Requests | `docs/modules/how-to-connect-the-payment-button-module-to-paypal.md:17` |
 | `https://help.elegantthemes.com/en/articles/16798164-the-divi-ai-agent-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-divi-ai-agent-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/17438196-the-slot-module-in-divi-5` | 429 | Too Many Requests | `docs/modules/the-slot-module-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/17633664-multi-select-and-bulk-editing-in-divi-5` | 429 | Too Many Requests | `docs/builder/multi-select-and-bulk-editing-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/17693045-the-icon-manager-in-divi-5` | 429 | Too Many Requests | `docs/builder/the-icon-manager-in-divi-5.md:17` |
+| `https://help.elegantthemes.com/en/articles/17741586-variable-math-and-inline-content-in-divi-5` | 429 | Too Many Requests | `docs/builder/variable-math-and-inline-content-in-divi-5.md:17` |
 | `https://help.elegantthemes.com/en/articles/2018037-do-i-lose-my-site-if-i-don-t-renew-my-subscription` | 429 | Too Many Requests | `docs/modules/do-i-lose-my-site-if-i-don-t-renew-my-subscription.md:17` |
 | `https://help.elegantthemes.com/en/articles/2018096-is-there-a-refund-policy` | 429 | Too Many Requests | `docs/modules/is-there-a-refund-policy.md:17` |
 | `https://help.elegantthemes.com/en/articles/2156325-adding-custom-fields-to-bloom-opt-in-forms` | 429 | Too Many Requests | `docs/modules/adding-custom-fields-to-bloom-opt-in-forms.md:17` |
@@ -181,6 +168,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/2165778-how-do-i-get-my-invoice` | 429 | Too Many Requests | `docs/modules/how-do-i-get-my-invoice.md:17` |
 | `https://help.elegantthemes.com/en/articles/2165810-how-do-i-cancel-my-subscription` | 429 | Too Many Requests | `docs/modules/how-do-i-cancel-my-subscription.md:17` |
 | `https://help.elegantthemes.com/en/articles/2165834-how-do-i-change-my-username` | 429 | Too Many Requests | `docs/modules/how-do-i-change-my-username.md:17` |
+| `https://help.elegantthemes.com/en/articles/2165848-i-forgot-to-cancel-my-subscription` | 429 | Too Many Requests | `docs/modules/i-forgot-to-cancel-my-subscription.md:17` |
 | `https://help.elegantthemes.com/en/articles/2165855-i-can-t-login-to-my-account` | 429 | Too Many Requests | `docs/modules/i-can-t-login-to-my-account.md:17` |
 | `https://help.elegantthemes.com/en/articles/2165912-i-forgot-my-password-or-username` | 429 | Too Many Requests | `docs/modules/i-forgot-my-password-or-username.md:17` |
 | `https://help.elegantthemes.com/en/articles/2165950-how-to-download-and-install-the-divi-builder-plugin` | 429 | Too Many Requests | `docs/modules/how-to-download-and-install-the-divi-builder-plugin.md:17` |
@@ -228,10 +216,12 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/2247989-how-to-fix-missing-comments-on-single-posts` | 429 | Too Many Requests | `docs/modules/how-to-fix-missing-comments-on-single-posts.md:17` |
 | `https://help.elegantthemes.com/en/articles/2248025-how-to-fix-missing-comments-section-on-wordpress-pages` | 429 | Too Many Requests | `docs/modules/how-to-fix-missing-comments-section-on-wordpress-pages.md:17` |
 | `https://help.elegantthemes.com/en/articles/2249798-how-to-use-divi-s-responsive-settings` | 429 | Too Many Requests | `docs/modules/how-to-use-divi-s-responsive-settings.md:17` |
+| `https://help.elegantthemes.com/en/articles/2254547-how-to-optimize-background-images-for-mobile-devices` | 429 | Too Many Requests | `docs/modules/how-to-optimize-background-images-for-mobile-devices.md:17` |
 | `https://help.elegantthemes.com/en/articles/2254593-how-to-use-divi-visibility-options-to-display-different-layout-structures-on-smaller-screen-devices` | 429 | Too Many Requests | `docs/modules/how-to-use-divi-visibility-options-to-display-different-layout-structures-on-smaller-screen-devices.md:17` |
 | `https://help.elegantthemes.com/en/articles/2254602-how-to-use-the-visibility-settings-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-use-the-visibility-settings-in-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/2254621-how-to-optimize-divi-layouts-for-mobile-devices` | 429 | Too Many Requests | `docs/modules/how-to-optimize-divi-layouts-for-mobile-devices.md:17` |
 | `https://help.elegantthemes.com/en/articles/2257592-how-to-fix-the-white-screen-of-death` | 429 | Too Many Requests | `docs/modules/how-to-fix-the-white-screen-of-death.md:17` |
+| `https://help.elegantthemes.com/en/articles/2258504-how-to-add-a-favicon-to-your-website` | 429 | Too Many Requests | `docs/modules/how-to-add-a-favicon-to-your-website.md:17` |
 | `https://help.elegantthemes.com/en/articles/2265199-divi-4-update-status` | 429 | Too Many Requests | `docs/modules/divi-4-update-status.md:17` |
 | `https://help.elegantthemes.com/en/articles/2267999-how-to-change-server-s-maximum-upload-file-size` | 429 | Too Many Requests | `docs/modules/how-to-change-server-s-maximum-upload-file-size.md:17` |
 | `https://help.elegantthemes.com/en/articles/2268061-how-to-disable-top-tier-dropdown-menu-links` | 429 | Too Many Requests | `docs/modules/how-to-disable-top-tier-dropdown-menu-links.md:17` |
@@ -244,7 +234,9 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/2292296-how-to-fix-display-issues-after-updating-divi` | 429 | Too Many Requests | `docs/modules/how-to-fix-display-issues-after-updating-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/2300049-how-to-fix-the-pclzip_err_bad_format-error` | 429 | Too Many Requests | `docs/modules/how-to-fix-the-pclzip-err-bad-format-error.md:17` |
 | `https://help.elegantthemes.com/en/articles/2301363-how-to-fix-text-formatting-changes-after-saving-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-fix-text-formatting-changes-after-saving-in-divi.md:17` |
+| `https://help.elegantthemes.com/en/articles/2301721-how-to-fix-divi-monarch-bloom-update-issues` | 429 | Too Many Requests | `docs/modules/how-to-fix-divi-monarch-bloom-update-issues.md:17` |
 | `https://help.elegantthemes.com/en/articles/2307418-how-to-fix-the-missing-images-in-the-blog-module-when-the-jetpack-plugin-is-active` | 429 | Too Many Requests | `docs/modules/how-to-fix-the-missing-images-in-the-blog-module-when-the-jetpack-plugin-is-active.md:17` |
+| `https://help.elegantthemes.com/en/articles/2308906-how-to-equalize-pricing-tables-height` | 429 | Too Many Requests | `docs/modules/how-to-equalize-pricing-tables-height.md:17` |
 | `https://help.elegantthemes.com/en/articles/2310642-how-to-troubleshoot-plugin-conflicts-in-the-divi-theme` | 429 | Too Many Requests | `docs/modules/how-to-troubleshoot-plugin-conflicts-in-the-divi-theme.md:17` |
 | `https://help.elegantthemes.com/en/articles/2310880-how-to-change-the-number-of-columns-in-the-blog-module` | 429 | Too Many Requests | `docs/modules/how-to-change-the-number-of-columns-in-the-blog-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/2315894-how-to-fix-missing-updates-notification` | 429 | Too Many Requests | `docs/modules/how-to-fix-missing-updates-notification.md:17` |
@@ -326,9 +318,12 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/2853888-how-to-use-the-flat-preloader-plugin` | 429 | Too Many Requests | `docs/modules/how-to-use-the-flat-preloader-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/2857936-how-to-customize-the-woocommerce-product-images-sizes` | 429 | Too Many Requests | `docs/modules/how-to-customize-the-woocommerce-product-images-sizes.md:17` |
 | `https://help.elegantthemes.com/en/articles/2865095-how-to-customize-default-email-s-subject-line-using-the-contact-form-module` | 429 | Too Many Requests | `docs/modules/how-to-customize-default-email-s-subject-line-using-the-contact-form-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/2865589-how-to-move-the-contact-form-module-to-a-child-theme` | 429 | Too Many Requests | `docs/modules/how-to-move-the-contact-form-module-to-a-child-theme.md:17` |
+| `https://help.elegantthemes.com/en/articles/2875227-how-to-prevent-losing-divi-theme-options-and-customizer-settings` | 429 | Too Many Requests | `docs/modules/how-to-prevent-losing-divi-theme-options-and-customizer-settings.md:17` |
 | `https://help.elegantthemes.com/en/articles/2894502-how-to-remove-the-space-between-sections-dividers` | 429 | Too Many Requests | `docs/modules/how-to-remove-the-space-between-sections-dividers.md:17` |
 | `https://help.elegantthemes.com/en/articles/2897629-how-to-create-a-masonry-layout-for-archive-category-pages` | 429 | Too Many Requests | `docs/modules/how-to-create-a-masonry-layout-for-archive-category-pages.md:17` |
 | `https://help.elegantthemes.com/en/articles/2912512-how-to-disable-ajax-pagination-in-the-blog-module` | 429 | Too Many Requests | `docs/modules/how-to-disable-ajax-pagination-in-the-blog-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/2917388-how-to-use-the-image-s-alt-text-inside-the-image-module` | 429 | Too Many Requests | `docs/modules/how-to-use-the-image-s-alt-text-inside-the-image-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/2920375-how-to-remove-the-default-cropping-of-the-post-s-featured-image-in-the-portfolio-module` | 429 | Too Many Requests | `docs/modules/how-to-remove-the-default-cropping-of-the-post-s-featured-image-in-the-portfolio-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/2920564-how-to-make-the-mega-menu-titles-clickable-in-extra` | 429 | Too Many Requests | `docs/modules/how-to-make-the-mega-menu-titles-clickable-in-extra.md:17` |
 | `https://help.elegantthemes.com/en/articles/2933023-how-to-fix-mysql-error-while-sending-query-packet` | 429 | Too Many Requests | `docs/modules/how-to-fix-mysql-error-while-sending-query-packet.md:17` |
@@ -340,10 +335,12 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/2974974-how-to-enable-the-fixed-navigation-bar-on-tablets-and-mobile-devices` | 429 | Too Many Requests | `docs/modules/how-to-enable-the-fixed-navigation-bar-on-tablets-and-mobile-devices.md:17` |
 | `https://help.elegantthemes.com/en/articles/2981190-change-the-image-shared-on-facebook-linkedin-twitter` | 429 | Too Many Requests | `docs/modules/change-the-image-shared-on-facebook-linkedin-twitter.md:17` |
 | `https://help.elegantthemes.com/en/articles/2993104-how-to-display-the-product-s-short-description-text-on-woocommerce-shop-category-pages-and-woo-products-module` | 429 | Too Many Requests | `docs/modules/how-to-display-the-product-s-short-description-text-on-woocommerce-shop-category-pages-and-woo-products-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/3013787-how-to-change-the-video-module-s-overlay-play-icon` | 429 | Too Many Requests | `docs/modules/how-to-change-the-video-module-s-overlay-play-icon.md:17` |
 | `https://help.elegantthemes.com/en/articles/3030197-how-to-enable-products-and-other-post-types-in-divi-s-search-module` | 429 | Too Many Requests | `docs/modules/how-to-enable-products-and-other-post-types-in-divi-s-search-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/3032056-how-to-add-an-overlay-over-a-background-video` | 429 | Too Many Requests | `docs/modules/how-to-add-an-overlay-over-a-background-video.md:17` |
 | `https://help.elegantthemes.com/en/articles/3049531-how-to-automatically-close-the-divi-slide-in-menu-when-a-menu-item-is-clicked-on-a-one-page-site` | 429 | Too Many Requests | `docs/modules/how-to-automatically-close-the-divi-slide-in-menu-when-a-menu-item-is-clicked-on-a-one-page-site.md:17` |
 | `https://help.elegantthemes.com/en/articles/3068176-how-to-change-the-order-of-the-divi-portfolio-items` | 429 | Too Many Requests | `docs/modules/how-to-change-the-order-of-the-divi-portfolio-items.md:17` |
+| `https://help.elegantthemes.com/en/articles/3084415-the-new-column-options-column-editing-interface` | 429 | Too Many Requests | `docs/modules/the-new-column-options-column-editing-interface.md:17` |
 | `https://help.elegantthemes.com/en/articles/3102553-how-to-change-divi-s-default-project-slug` | 429 | Too Many Requests | `docs/modules/how-to-change-divi-s-default-project-slug.md:17` |
 | `https://help.elegantthemes.com/en/articles/3109546-how-to-hide-menu-items-on-desktop-or-mobile-devices` | 429 | Too Many Requests | `docs/modules/how-to-hide-menu-items-on-desktop-or-mobile-devices.md:17` |
 | `https://help.elegantthemes.com/en/articles/3125902-how-to-update-the-url-in-the-browser-s-address-bar-when-anchor-links-are-used` | 429 | Too Many Requests | `docs/modules/how-to-update-the-url-in-the-browser-s-address-bar-when-anchor-links-are-used.md:17` |
@@ -365,6 +362,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/4107278-how-to-add-mailchimp-groups-to-the-divi-optin-module` | 429 | Too Many Requests | `docs/modules/how-to-add-mailchimp-groups-to-the-divi-optin-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/4474319-divi-sticky-options` | 429 | Too Many Requests | `docs/modules/divi-sticky-options.md:17` |
 | `https://help.elegantthemes.com/en/articles/4532734-how-to-move-the-blog-module-to-a-child-theme` | 429 | Too Many Requests | `docs/modules/how-to-move-the-blog-module-to-a-child-theme.md:17` |
+| `https://help.elegantthemes.com/en/articles/4532770-how-to-change-the-default-sorting-order-of-posts-in-the-blog-module` | 429 | Too Many Requests | `docs/modules/how-to-change-the-default-sorting-order-of-posts-in-the-blog-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/4532813-how-to-customize-the-blog-module-to-display-post-s-custom-fields` | 429 | Too Many Requests | `docs/modules/how-to-customize-the-blog-module-to-display-post-s-custom-fields.md:17` |
 | `https://help.elegantthemes.com/en/articles/4532841-how-to-preload-divi-s-icon-fonts` | 429 | Too Many Requests | `docs/modules/how-to-preload-divi-s-icon-fonts.md:17` |
 | `https://help.elegantthemes.com/en/articles/4532907-how-to-customize-the-woo-products-module-to-include-infinite-scrolling` | 429 | Too Many Requests | `docs/modules/how-to-customize-the-woo-products-module-to-include-infinite-scrolling.md:17` |
@@ -403,6 +401,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8352847-how-to-add-icons-to-divi-blog-posts-based-on-their-categories` | 429 | Too Many Requests | `docs/modules/how-to-add-icons-to-divi-blog-posts-based-on-their-categories.md:17` |
 | `https://help.elegantthemes.com/en/articles/8353694-how-to-add-custom-php-code-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-add-custom-php-code-in-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/8353855-how-to-fix-the-expected-rbrace-or-unexpected-token-css-errors-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-fix-the-expected-rbrace-or-unexpected-token-css-errors-in-divi.md:17` |
+| `https://help.elegantthemes.com/en/articles/8356116-how-to-display-the-desktop-menu-on-mobile-devices-with-the-menu-module` | 429 | Too Many Requests | `docs/modules/how-to-display-the-desktop-menu-on-mobile-devices-with-the-menu-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8357875-how-to-add-custom-css-to-divi` | 429 | Too Many Requests | `docs/modules/how-to-add-custom-css-to-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/8358053-how-to-check-for-errors-using-the-brower-s-console` | 429 | Too Many Requests | `docs/modules/how-to-check-for-errors-using-the-brower-s-console.md:17` |
 | `https://help.elegantthemes.com/en/articles/8359736-how-to-roll-back-divi-to-a-previous-version` | 429 | Too Many Requests | `docs/modules/how-to-roll-back-divi-to-a-previous-version.md:17` |
@@ -436,7 +435,9 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8548113-how-to-remove-the-suffix-number-from-the-page-s-post-s-url` | 429 | Too Many Requests | `docs/modules/how-to-remove-the-suffix-number-from-the-page-s-post-s-url.md:17` |
 | `https://help.elegantthemes.com/en/articles/8548251-how-to-enable-wordpress-debug-mode` | 429 | Too Many Requests | `docs/modules/how-to-enable-wordpress-debug-mode.md:17` |
 | `https://help.elegantthemes.com/en/articles/8548302-how-to-migrate-the-theme-customizer-settings-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-migrate-the-theme-customizer-settings-in-divi.md:17` |
+| `https://help.elegantthemes.com/en/articles/8548417-how-to-prevent-horizontal-page-scrolling-to-the-right` | 429 | Too Many Requests | `docs/modules/how-to-prevent-horizontal-page-scrolling-to-the-right.md:17` |
 | `https://help.elegantthemes.com/en/articles/8548504-how-to-remove-the-website-field-from-divi-s-comments-module` | 429 | Too Many Requests | `docs/modules/how-to-remove-the-website-field-from-divi-s-comments-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/8548592-how-to-add-a-background-color-or-image-to-the-entire-website` | 429 | Too Many Requests | `docs/modules/how-to-add-a-background-color-or-image-to-the-entire-website.md:17` |
 | `https://help.elegantthemes.com/en/articles/8548617-how-to-resolve-fatal-error-uncaught-error-call-to-undefined-function-get_header` | 429 | Too Many Requests | `docs/modules/how-to-resolve-fatal-error-uncaught-error-call-to-undefined-function-get-header.md:17` |
 | `https://help.elegantthemes.com/en/articles/8548665-how-to-fix-missing-sections-rows-modules-on-phones-tablets` | 429 | Too Many Requests | `docs/modules/how-to-fix-missing-sections-rows-modules-on-phones-tablets.md:17` |
 | `https://help.elegantthemes.com/en/articles/8555719-how-to-get-my-site-indexed-by-google` | 429 | Too Many Requests | `docs/modules/how-to-get-my-site-indexed-by-google.md:17` |
@@ -444,6 +445,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8556296-how-to-resolve-a-500-error-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-resolve-a-500-error-in-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/8556396-how-to-create-a-table-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-create-a-table-in-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/8556523-how-to-create-popups-in-the-divi-theme` | 429 | Too Many Requests | `docs/modules/how-to-create-popups-in-the-divi-theme.md:17` |
+| `https://help.elegantthemes.com/en/articles/8556657-how-to-change-the-default-background-gradient-color-stops` | 429 | Too Many Requests | `docs/modules/how-to-change-the-default-background-gradient-color-stops.md:17` |
 | `https://help.elegantthemes.com/en/articles/8556752-how-to-add-a-hover-effect-to-any-divi-element-section-row-module` | 429 | Too Many Requests | `docs/modules/how-to-add-a-hover-effect-to-any-divi-element-section-row-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8556844-how-to-display-the-email-opt-in-module-s-fields-inline` | 429 | Too Many Requests | `docs/modules/how-to-display-the-email-opt-in-module-s-fields-inline.md:17` |
 | `https://help.elegantthemes.com/en/articles/8559617-how-to-make-the-slider-s-module-navigation-arrows-always-visible` | 429 | Too Many Requests | `docs/modules/how-to-make-the-slider-s-module-navigation-arrows-always-visible.md:17` |
@@ -475,24 +477,18 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8570473-how-to-customize-the-width-of-divi-columns` | 429 | Too Many Requests | `docs/modules/how-to-customize-the-width-of-divi-columns.md:17` |
 | `https://help.elegantthemes.com/en/articles/8570577-how-to-customize-h1-h6-headings-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-customize-h1-h6-headings-in-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/8570721-how-to-create-a-list-of-related-posts-for-a-single-post-page-with-divi` | 429 | Too Many Requests | `docs/modules/how-to-create-a-list-of-related-posts-for-a-single-post-page-with-divi.md:17` |
+| `https://help.elegantthemes.com/en/articles/8570922-how-to-change-the-margins-between-posts-in-the-blog-module` | 429 | Too Many Requests | `docs/modules/how-to-change-the-margins-between-posts-in-the-blog-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8575022-how-to-add-social-share-icons-to-posts-in-the-blog-module-without-a-plugin` | 429 | Too Many Requests | `docs/modules/how-to-add-social-share-icons-to-posts-in-the-blog-module-without-a-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/8575483-how-to-add-youtube-as-a-section-s-background-video` | 429 | Too Many Requests | `docs/modules/how-to-add-youtube-as-a-section-s-background-video.md:17` |
 | `https://help.elegantthemes.com/en/articles/8596150-using-the-bloom-widget-opt-in` | 429 | Too Many Requests | `docs/modules/using-the-bloom-widget-opt-in.md:17` |
 | `https://help.elegantthemes.com/en/articles/8596179-how-to-update-your-bloom-plugin` | 429 | Too Many Requests | `docs/modules/how-to-update-your-bloom-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/8596214-how-to-use-triggers-in-bloom` | 429 | Too Many Requests | `docs/modules/how-to-use-triggers-in-bloom.md:17` |
+| `https://help.elegantthemes.com/en/articles/8596225-how-to-perform-split-testing` | 429 | Too Many Requests | `docs/modules/how-to-perform-split-testing.md:17` |
 | `https://help.elegantthemes.com/en/articles/8596264-how-to-update-your-monarch-plugin` | 429 | Too Many Requests | `docs/modules/how-to-update-your-monarch-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/8596292-using-popup-flyin-triggers-effectively-in-monarch` | 429 | Too Many Requests | `docs/modules/using-popup-flyin-triggers-effectively-in-monarch.md:17` |
 | `https://help.elegantthemes.com/en/articles/8596312-viewing-your-social-stats-in-monarch` | 429 | Too Many Requests | `docs/modules/viewing-your-social-stats-in-monarch.md:17` |
 | `https://help.elegantthemes.com/en/articles/8596331-using-the-floating-sidebar-in-monarch` | 429 | Too Many Requests | `docs/modules/using-the-floating-sidebar-in-monarch.md:17` |
 | `https://help.elegantthemes.com/en/articles/8596407-using-the-social-follow-shortcode-in-monarch` | 429 | Too Many Requests | `docs/modules/using-the-social-follow-shortcode-in-monarch.md:17` |
-| `https://help.elegantthemes.com/en/articles/8596429-an-overview-of-social-sharing-popups-in-monarch` | 429 | Too Many Requests | `docs/modules/an-overview-of-social-sharing-popups-in-monarch.md:17` |
-| `https://help.elegantthemes.com/en/articles/8596592-using-the-override-meta-box-in-monarch` | 429 | Too Many Requests | `docs/modules/using-the-override-meta-box-in-monarch.md:17` |
-| `https://help.elegantthemes.com/en/articles/8596682-using-inline-sharing-buttons-in-monarch` | 429 | Too Many Requests | `docs/modules/using-inline-sharing-buttons-in-monarch.md:17` |
-| `https://help.elegantthemes.com/en/articles/8596755-importing-and-exporting-your-monarch-settings` | 429 | Too Many Requests | `docs/modules/importing-and-exporting-your-monarch-settings.md:17` |
-| `https://help.elegantthemes.com/en/articles/8596777-an-overview-of-social-sharing-flyins` | 429 | Too Many Requests | `docs/modules/an-overview-of-social-sharing-flyins.md:17` |
-| `https://help.elegantthemes.com/en/articles/8596843-customizing-the-monarch-design` | 429 | Too Many Requests | `docs/modules/customizing-the-monarch-design.md:17` |
-| `https://help.elegantthemes.com/en/articles/8596945-divi-hosting-by-flywheel-overview` | 429 | Too Many Requests | `docs/modules/divi-hosting-by-flywheel-overview.md:17` |
-| `https://help.elegantthemes.com/en/articles/8596974-using-media-sharing-buttons-in-monarch` | 429 | Too Many Requests | `docs/modules/using-media-sharing-buttons-in-monarch.md:17` |
 | `https://help.elegantthemes.com/en/articles/8597075-divi-hosting-by-siteground-overview` | 429 | Too Many Requests | `docs/modules/divi-hosting-by-siteground-overview.md:17` |
 | `https://help.elegantthemes.com/en/articles/8597096-divi-hosting-by-pressable-overview` | 429 | Too Many Requests | `docs/modules/divi-hosting-by-pressable-overview.md:17` |
 | `https://help.elegantthemes.com/en/articles/8600681-creating-and-using-shortcodes-in-bloom` | 429 | Too Many Requests | `docs/modules/creating-and-using-shortcodes-in-bloom.md:17` |
@@ -500,6 +496,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8600819-adding-email-accounts-in-bloom` | 429 | Too Many Requests | `docs/modules/adding-email-accounts-in-bloom.md:17` |
 | `https://help.elegantthemes.com/en/articles/8600834-using-the-bloom-display-settings` | 429 | Too Many Requests | `docs/modules/using-the-bloom-display-settings.md:17` |
 | `https://help.elegantthemes.com/en/articles/8601205-using-the-bloom-opt-in-types` | 429 | Too Many Requests | `docs/modules/using-the-bloom-opt-in-types.md:17` |
+| `https://help.elegantthemes.com/en/articles/8601242-use-the-design-settings-to-customize-your-opt-in-form` | 429 | Too Many Requests | `docs/modules/use-the-design-settings-to-customize-your-opt-in-form.md:17` |
 | `https://help.elegantthemes.com/en/articles/8607587-using-the-bloom-below-post-opt-in` | 429 | Too Many Requests | `docs/modules/using-the-bloom-below-post-opt-in.md:17` |
 | `https://help.elegantthemes.com/en/articles/8607755-using-the-bloom-locked-content-opt-in` | 429 | Too Many Requests | `docs/modules/using-the-bloom-locked-content-opt-in.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608002-using-the-bloom-flyin-opt-in` | 429 | Too Many Requests | `docs/modules/using-the-bloom-flyin-opt-in.md:17` |
@@ -507,11 +504,13 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8608024-using-the-bloom-inline-opt-in` | 429 | Too Many Requests | `docs/modules/using-the-bloom-inline-opt-in.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608043-using-ecommerce-in-extra` | 429 | Too Many Requests | `docs/modules/using-ecommerce-in-extra.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608067-using-the-extra-theme-module-customizer` | 429 | Too Many Requests | `docs/modules/using-the-extra-theme-module-customizer.md:17` |
+| `https://help.elegantthemes.com/en/articles/8608100-the-extra-ads-module` | 429 | Too Many Requests | `docs/modules/the-extra-ads-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608157-the-extra-standard-blog-feed-module` | 429 | Too Many Requests | `docs/modules/the-extra-standard-blog-feed-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608159-the-extra-code-module` | 429 | Too Many Requests | `docs/modules/the-extra-code-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608178-the-extra-masonry-blog-feed-module` | 429 | Too Many Requests | `docs/modules/the-extra-masonry-blog-feed-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608208-the-extra-featured-posts-slider-module` | 429 | Too Many Requests | `docs/modules/the-extra-featured-posts-slider-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608209-the-divi-code-module` | 429 | Too Many Requests | `docs/modules/the-divi-code-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/8608310-the-extra-posts-module` | 429 | Too Many Requests | `docs/modules/the-extra-posts-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608313-the-extra-posts-carousel-module` | 429 | Too Many Requests | `docs/modules/the-extra-posts-carousel-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608317-the-extra-tabbed-posts-module` | 429 | Too Many Requests | `docs/modules/the-extra-tabbed-posts-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8608326-the-extra-text-module` | 429 | Too Many Requests | `docs/modules/the-extra-text-module.md:17` |
@@ -528,13 +527,16 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8616756-the-divi-audio-module` | 429 | Too Many Requests | `docs/modules/the-divi-audio-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8616758-the-divi-bar-counters-module` | 429 | Too Many Requests | `docs/modules/the-divi-bar-counters-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8617056-using-divi-s-blank-page-template` | 429 | Too Many Requests | `docs/modules/using-divi-s-blank-page-template.md:17` |
+| `https://help.elegantthemes.com/en/articles/8617111-the-divi-blog-module` | 429 | Too Many Requests | `docs/modules/the-divi-blog-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8617524-the-divi-blurb-module` | 429 | Too Many Requests | `docs/modules/the-divi-blurb-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/8617547-the-divi-button-module` | 429 | Too Many Requests | `docs/modules/the-divi-button-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8617719-the-divi-circle-counter-module` | 429 | Too Many Requests | `docs/modules/the-divi-circle-counter-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8624029-the-divi-comments-module` | 429 | Too Many Requests | `docs/modules/the-divi-comments-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8624032-the-divi-call-to-action-module` | 429 | Too Many Requests | `docs/modules/the-divi-call-to-action-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8624263-using-the-divi-theme-builder` | 429 | Too Many Requests | `docs/modules/using-the-divi-theme-builder.md:17` |
 | `https://help.elegantthemes.com/en/articles/8624843-the-divi-contact-form-module` | 429 | Too Many Requests | `docs/modules/the-divi-contact-form-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8625074-using-the-divi-theme-customizer` | 429 | Too Many Requests | `docs/modules/using-the-divi-theme-customizer.md:17` |
+| `https://help.elegantthemes.com/en/articles/8625232-adjusting-divi-button-styles-in-the-theme-customizer` | 429 | Too Many Requests | `docs/modules/adjusting-divi-button-styles-in-the-theme-customizer.md:17` |
 | `https://help.elegantthemes.com/en/articles/8625250-the-divi-header-navigation-theme-customizer-settings` | 429 | Too Many Requests | `docs/modules/the-divi-header-navigation-theme-customizer-settings.md:17` |
 | `https://help.elegantthemes.com/en/articles/8625289-divi-layout-typography-customizer-settings` | 429 | Too Many Requests | `docs/modules/divi-layout-typography-customizer-settings.md:17` |
 | `https://help.elegantthemes.com/en/articles/8625313-using-the-divi-mobile-customizer-settings` | 429 | Too Many Requests | `docs/modules/using-the-divi-mobile-customizer-settings.md:17` |
@@ -564,7 +566,9 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8637740-how-to-create-a-new-project-in-divi` | 429 | Too Many Requests | `docs/modules/how-to-create-a-new-project-in-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/8637837-the-divi-image-module` | 429 | Too Many Requests | `docs/modules/the-divi-image-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8637939-the-divi-login-module` | 429 | Too Many Requests | `docs/modules/the-divi-login-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/8637942-adding-a-custom-logo-image-in-divi` | 429 | Too Many Requests | `docs/modules/adding-a-custom-logo-image-in-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/8637947-the-divi-map-module` | 429 | Too Many Requests | `docs/modules/the-divi-map-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/8642820-creating-mega-menus-in-divi` | 429 | Too Many Requests | `docs/modules/creating-mega-menus-in-divi.md:17` |
 | `https://help.elegantthemes.com/en/articles/8642902-the-divi-email-optin-module` | 429 | Too Many Requests | `docs/modules/the-divi-email-optin-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8642911-the-divi-number-counter-module` | 429 | Too Many Requests | `docs/modules/the-divi-number-counter-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8643120-how-to-create-one-page-websites-with-divi` | 429 | Too Many Requests | `docs/modules/how-to-create-one-page-websites-with-divi.md:17` |
@@ -590,7 +594,6 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8650851-how-to-install-the-divi-builder-wordpress-plugin` | 429 | Too Many Requests | `docs/modules/how-to-install-the-divi-builder-wordpress-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/8650887-how-to-update-your-divi-builder-wordpress-plugin` | 429 | Too Many Requests | `docs/modules/how-to-update-your-divi-builder-wordpress-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/8650918-a-basic-overview-of-the-bloom-plugin` | 429 | Too Many Requests | `docs/modules/a-basic-overview-of-the-bloom-plugin.md:17` |
-| `https://help.elegantthemes.com/en/articles/8651030-how-to-download-and-install-bloom-wordpress-plugin` | 429 | Too Many Requests | `docs/modules/how-to-download-and-install-bloom-wordpress-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/8651063-how-to-install-your-monarch-wordpress-plugin` | 429 | Too Many Requests | `docs/modules/how-to-install-your-monarch-wordpress-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/8655833-a-complete-overview-of-the-monarch-plugin` | 429 | Too Many Requests | `docs/modules/a-complete-overview-of-the-monarch-plugin.md:17` |
 | `https://help.elegantthemes.com/en/articles/8655848-adding-and-managing-social-networks-in-monarch` | 429 | Too Many Requests | `docs/modules/adding-and-managing-social-networks-in-monarch.md:17` |
@@ -600,6 +603,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8655947-an-introduction-to-the-extra-theme` | 429 | Too Many Requests | `docs/modules/an-introduction-to-the-extra-theme.md:17` |
 | `https://help.elegantthemes.com/en/articles/8655973-the-divi-gallery-module` | 429 | Too Many Requests | `docs/modules/the-divi-gallery-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8656101-the-divi-countdown-timer-module` | 429 | Too Many Requests | `docs/modules/the-divi-countdown-timer-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/8656735-how-to-create-a-divi-extension` | 429 | Too Many Requests | `docs/modules/how-to-create-a-divi-extension.md:17` |
 | `https://help.elegantthemes.com/en/articles/8656748-divi-development-environment-setup` | 429 | Too Many Requests | `docs/modules/divi-development-environment-setup.md:17` |
 | `https://help.elegantthemes.com/en/articles/8656912-defining-module-settings` | 429 | Too Many Requests | `docs/modules/defining-module-settings.md:17` |
 | `https://help.elegantthemes.com/en/articles/8656929-advanced-field-types-for-module-settings` | 429 | Too Many Requests | `docs/modules/advanced-field-types-for-module-settings.md:17` |
@@ -619,6 +623,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8661797-the-divi-color-management-system` | 429 | Too Many Requests | `docs/modules/the-divi-color-management-system.md:17` |
 | `https://help.elegantthemes.com/en/articles/8661798-using-divi-dynamic-content-options` | 429 | Too Many Requests | `docs/modules/using-divi-dynamic-content-options.md:17` |
 | `https://help.elegantthemes.com/en/articles/8661799-using-divi-scroll-effects` | 429 | Too Many Requests | `docs/modules/using-divi-scroll-effects.md:17` |
+| `https://help.elegantthemes.com/en/articles/8661801-using-the-divi-multi-select-and-bulk-editing-features` | 429 | Too Many Requests | `docs/modules/using-the-divi-multi-select-and-bulk-editing-features.md:17` |
 | `https://help.elegantthemes.com/en/articles/8661804-using-divi-background-options` | 429 | Too Many Requests | `docs/modules/using-divi-background-options.md:17` |
 | `https://help.elegantthemes.com/en/articles/8662395-using-the-divi-layers-view` | 429 | Too Many Requests | `docs/modules/using-the-divi-layers-view.md:17` |
 | `https://help.elegantthemes.com/en/articles/8662481-using-the-divi-drag-and-drop-file-upload-feature` | 429 | Too Many Requests | `docs/modules/using-the-divi-drag-and-drop-file-upload-feature.md:17` |
@@ -627,6 +632,7 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8671185-using-the-divi-responsive-preview-system` | 429 | Too Many Requests | `docs/modules/using-the-divi-responsive-preview-system.md:17` |
 | `https://help.elegantthemes.com/en/articles/8671186-using-divi-spacing-options` | 429 | Too Many Requests | `docs/modules/using-divi-spacing-options.md:17` |
 | `https://help.elegantthemes.com/en/articles/8671187-using-divi-sizing-options` | 429 | Too Many Requests | `docs/modules/using-divi-sizing-options.md:17` |
+| `https://help.elegantthemes.com/en/articles/8671192-using-divi-box-shadow-options` | 429 | Too Many Requests | `docs/modules/using-divi-box-shadow-options.md:17` |
 | `https://help.elegantthemes.com/en/articles/8671537-using-divi-transform-options` | 429 | Too Many Requests | `docs/modules/using-divi-transform-options.md:17` |
 | `https://help.elegantthemes.com/en/articles/8671579-using-divi-filter-and-blend-mode-options` | 429 | Too Many Requests | `docs/modules/using-divi-filter-and-blend-mode-options.md:17` |
 | `https://help.elegantthemes.com/en/articles/8671664-using-divi-visibility-options` | 429 | Too Many Requests | `docs/modules/using-divi-visibility-options.md:17` |
@@ -652,6 +658,8 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/8679269-the-divi-woo-checkout-shipping-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-checkout-shipping-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8679271-the-divi-woo-checkout-details-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-checkout-details-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8679272-the-divi-woo-checkout-information-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-checkout-information-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/8679273-the-divi-woo-cart-totals-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-cart-totals-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/8679274-the-divi-woo-checkout-billing-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-checkout-billing-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8679275-the-divi-woo-breadcrumbs-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-breadcrumbs-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8679276-the-divi-woo-cart-products-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-cart-products-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/8679277-the-divi-woo-product-tabs-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-product-tabs-module.md:17` |
@@ -690,7 +698,9 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/articles/9515420-how-to-use-the-divi-code-ai` | 429 | Too Many Requests | `docs/modules/how-to-use-the-divi-code-ai.md:17` |
 | `https://help.elegantthemes.com/en/articles/9515672-how-to-use-divi-layouts-ai` | 429 | Too Many Requests | `docs/modules/how-to-use-divi-layouts-ai.md:17` |
 | `https://help.elegantthemes.com/en/articles/9551957-how-to-build-your-new-website-with-divi-quick-sites` | 429 | Too Many Requests | `docs/modules/how-to-build-your-new-website-with-divi-quick-sites.md:17` |
+| `https://help.elegantthemes.com/en/articles/9552416-the-divi-heading-module` | 429 | Too Many Requests | `docs/modules/the-divi-heading-module.md:17` |
 | `https://help.elegantthemes.com/en/articles/9556136-the-divi-woo-product-gallery-module` | 429 | Too Many Requests | `docs/modules/the-divi-woo-product-gallery-module.md:17` |
+| `https://help.elegantthemes.com/en/articles/9561444-how-to-use-divi-ai-full-site-generation` | 429 | Too Many Requests | `docs/modules/how-to-use-divi-ai-full-site-generation.md:17` |
 | `https://help.elegantthemes.com/en/articles/9571733-getting-started-with-divi-dash` | 429 | Too Many Requests | `docs/modules/getting-started-with-divi-dash.md:17` |
 | `https://help.elegantthemes.com/en/articles/9571881-how-to-add-a-wordpress-site-to-divi-dash` | 429 | Too Many Requests | `docs/modules/how-to-add-a-wordpress-site-to-divi-dash.md:17` |
 | `https://help.elegantthemes.com/en/articles/9571893-divi-dash-history-tab` | 429 | Too Many Requests | `docs/modules/divi-dash-history-tab.md:17` |
@@ -731,43 +741,13 @@ Allowlist: `scripts/external_link_allowlist.txt` (substring match per line).
 | `https://help.elegantthemes.com/en/collections/13895918-flexbox-layout-system` | 429 | Too Many Requests | `docs/builder/flexbox.md:27`; `docs/builder/flexbox.md:37` |
 | `https://help.elegantthemes.com/en/collections/15495410-css-grid-layout-system` | 429 | Too Many Requests | `docs/builder/css-grid.md:26`; `docs/builder/css-grid.md:36` |
 | `https://twitter.com/intent/tweet?url={permalink}` | 400 | Bad Request | `docs/theme-options/integration.md:62` |
-| `https://www.elegantthemes.com` | 429 | Too Many Requests | `docs/builder/build-custom-loops-using-loop-builder-in-divi-5.md:278` |
-| `https://www.elegantthemes.com/account` | 429 | Too Many Requests | `docs/builder/how-to-rollback-to-divi-4.md:58` |
-| `https://www.elegantthemes.com/blog/` | 429 | Too Many Requests | `docs/builder/understanding-divi-s-new-flexbox-layout.md:226` |
-| `https://www.elegantthemes.com/blog/divi-resources/building-interactive-image-cards-with-divi-5s-group-carousel-module` | 429 | Too Many Requests | `docs/modules/group-carousel.md:252` |
-| `https://www.elegantthemes.com/blog/divi-resources/divi-5-commands-every-power-user-should-know` | 429 | Too Many Requests | `docs/builder/command-center.md:126` |
-| `https://www.elegantthemes.com/blog/divi-resources/divi-5-launch-gift-design-system` | 429 | Too Many Requests | `docs/internals/library-import-json.md:13`; `docs/internals/library-import-json.md:568` |
-| `https://www.elegantthemes.com/blog/divi-resources/everything-you-need-to-know-about-composable-settings-in-divi-5` | 429 | Too Many Requests | `docs/builder/composable-settings-in-divi-5.md:218` |
-| `https://www.elegantthemes.com/blog/divi-resources/grid-styles-for-divi-5` | 429 | Too Many Requests | `docs/builder/css-grid.md:206` |
-| `https://www.elegantthemes.com/blog/divi-resources/how-editable-theme-builder-areas-improve-the-divi-5-workflow` | 429 | Too Many Requests | `docs/builder/theme-builder.md:226` |
-| `https://www.elegantthemes.com/blog/divi-resources/how-the-command-center-changes-the-divi-5-workflow` | 429 | Too Many Requests | `docs/builder/command-center.md:124` |
-| `https://www.elegantthemes.com/blog/divi-resources/how-to-add-hotspots-to-images-in-divi-5` | 429 | Too Many Requests | `docs/modules/image.md:262` |
-| `https://www.elegantthemes.com/blog/divi-resources/how-to-create-text-badges-in-divi-5` | 429 | Too Many Requests | `docs/modules/text.md:282` |
-| `https://www.elegantthemes.com/blog/divi-resources/queueing-commands-in-divi-5-to-build-entire-layouts` | 429 | Too Many Requests | `docs/builder/command-center.md:125` |
-| `https://www.elegantthemes.com/blog/divi-resources/semantic-links-vs-dynamic-click-areas-in-divi-5` | 429 | Too Many Requests | `docs/builder/semantic-elements.md:98` |
-| `https://www.elegantthemes.com/blog/theme-releases/five-new-modules` | 429 | Too Many Requests | `docs/builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md:41`; `docs/modules/the-breadcrumbs-module-in-divi-5.md:132`; `docs/modules/the-svg-module-in-divi-5.md:83`; `docs/modules/the-timeline-module-in-divi-5.md:91` |
-| `https://www.elegantthemes.com/blog/theme-releases/variable-generator` | 429 | Too Many Requests | `docs/builder/advanced-units.md:115`; `docs/builder/design-variables.md:147`; `docs/builder/global-variables.md:127`; `docs/builder/relative-colors-hsl.md:117` |
+| `https://www.elegantthemes.com/account` | 404 | Not Found | `docs/builder/how-to-rollback-to-divi-4.md:58` |
 | `https://www.elegantthemes.com/blog/wordpress/css-grid-layout-system` | 404 | Not Found | `docs/builder/understanding-divi-s-css-grid-layout.md:342` |
-| `https://www.elegantthemes.com/blog/wordpress/divi-gallery` | 429 | Too Many Requests | `docs/builder/divi-5-theme-options.md:241` |
-| `https://www.elegantthemes.com/blog/wordpress/divi-theme-options` | 429 | Too Many Requests | `docs/builder/divi-5-theme-options.md:240` |
-| `https://www.elegantthemes.com/blog/wordpress/divi-woocommerce` | 429 | Too Many Requests | `docs/builder/divi-5-theme-options.md:242` |
-| `https://www.elegantthemes.com/blog/wordpress/understand-flex-justify-content-divi` | 429 | Too Many Requests | `docs/builder/understanding-divi-s-css-grid-layout.md:343` |
-| `https://www.elegantthemes.com/documentation/developers/` | 429 | Too Many Requests | `docs/api/hooks-filters.md:24` |
-| `https://www.elegantthemes.com/documentation/divi/customizer` | 429 | Too Many Requests | `docs/theme-options/customizer.md:20` |
-| `https://www.elegantthemes.com/documentation/divi/divi-condition-options` | 429 | Too Many Requests | `docs/builder/condition-options.md:27` |
-| `https://www.elegantthemes.com/documentation/divi/divi-multi-select-and-bulk-editing-features` | 429 | Too Many Requests | `docs/builder/multi-select-bulk-editing.md:26` |
-| `https://www.elegantthemes.com/documentation/divi/ecommerce-divi/` | 429 | Too Many Requests | `docs/modules/shop.md:21` |
-| `https://www.elegantthemes.com/documentation/divi/gradient-builder` | 429 | Too Many Requests | `docs/builder/gradient-builder.md:27` |
-| `https://www.elegantthemes.com/documentation/divi/post-navigation/` | 429 | Too Many Requests | `docs/modules/post-navigation.md:21` |
-| `https://www.elegantthemes.com/documentation/divi/responsive-preview-system` | 429 | Too Many Requests | `docs/builder/responsive-preview.md:26` |
-| `https://www.elegantthemes.com/documentation/divi/theme-options/` | 429 | Too Many Requests | `docs/theme-options/ads.md:20`; `docs/theme-options/builder-settings.md:20`; `docs/theme-options/general.md:20`; `docs/theme-options/integration.md:20`; `docs/theme-options/layout.md:20` … (+3 more) |
-| `https://www.elegantthemes.com/documentation/divi/using-the-divi-support-center` | 429 | Too Many Requests | `docs/builder/support-center.md:26` |
-| `https://www.elegantthemes.com/documentation/divi/visual-builder/` | 429 | Too Many Requests | `docs/builder/visual-builder.md:27`; `docs/builder/visual-builder.md:31` |
-| `https://www.elegantthemes.com/marketplace/` | 429 | Too Many Requests | `docs/builder/backward-compatibility-and-third-party-divi-module-support.md:51`; `docs/builder/backward-compatibility-and-third-party-divi-module-support.md:94` |
-| `https://www.elegantthemes.com/marketplace/divi-contact-form-7/` | 429 | Too Many Requests | `docs/modules/contact-form-7.md:107` |
-| `https://www.elegantthemes.com/members-area/` | 429 | Too Many Requests | `docs/troubleshooting/report-bug.md:23` |
-| `https://www.elegantthemes.com/my-account/` | 429 | Too Many Requests | `docs/builder/install-and-activate-divi-5.md:27`; `docs/builder/install-and-activate-divi-5.md:70` |
-| `https://www.elegantthemes.com/support/` | 429 | Too Many Requests | `docs/builder/support-center.md:110` |
+| `https://www.elegantthemes.com/blog/wordpress/divi-gallery` | 404 | Not Found | `docs/builder/divi-5-theme-options.md:241` |
+| `https://www.elegantthemes.com/blog/wordpress/divi-theme-options` | 404 | Not Found | `docs/builder/divi-5-theme-options.md:240` |
+| `https://www.elegantthemes.com/blog/wordpress/understand-flex-justify-content-divi` | 404 | Not Found | `docs/builder/understanding-divi-s-css-grid-layout.md:343` |
+| `https://www.elegantthemes.com/members-area/` | 403 | Forbidden | `docs/troubleshooting/report-bug.md:23` |
+| `https://www.elegantthemes.com/my-account/` | 404 | Not Found | `docs/builder/install-and-activate-divi-5.md:27`; `docs/builder/install-and-activate-divi-5.md:70` |
 | `https://www.facebook.com/sharer/sharer.php?u={permalink}` | 500 | Internal Server Error | `docs/theme-options/integration.md:63` |
 
 ## Follow-up
