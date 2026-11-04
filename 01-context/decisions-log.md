@@ -51,3 +51,6 @@ Option A: delete/exclude from nav (matches charter: Divi 5 only). Option B: keep
 
 ## 2026-11-04 — Non-Divi-5 stubs: remove from nav (Skip) — partially moot
 Skip chose "remove from nav". Finding: none of the ~121 candidates were in the mkdocs.yml nav or linked from other pages; they are already orphans, still built and searchable. Refined list of 103 (false positives like Divi 5 Pricing Tables, Woo Checkout Billing, Divi Cloud in Divi 5 excluded) saved at `04-research/non-divi5-stub-pages.txt`. Nothing changed in nav. Open follow-up: also exclude from build/search via `exclude_docs`, or delete.
+
+## 2026-11-04 — CLOSED: 103 non-Divi-5 stub pages excluded from build
+Skip chose exclude. Added `exclude_docs` to mkdocs.yml (list from 04-research/non-divi5-stub-pages.txt). Files remain in repo; delete a line to restore a page.

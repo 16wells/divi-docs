@@ -187,3 +187,5 @@ If you're ever unsure, err toward logging it here briefly with a pointer to wher
 ## 2026-11-04 (3) — Claude Code — divi_version tagging
 - Set accurate `divi_version` (introduced-in, from the Help Center changelog) on 18 feature pages: Chart/Gravity/Payment/Imagely (5.11), Post Filter + Items (5.10), Grid Editor (5.9), Tooltip (5.8), Workspaces (5.7), Instagram Feed/Table of Contents (5.6), Timeline/SVG/Aspect Ratio (5.5), Variable Generator (5.4), CF7 Styler (5.3), Composable Settings (5.1), AI Agent (5.12).
 - Triage of TODO pages: 738 pages carry TODO markers, 705 are AUTO-CREATED stubs (685 under docs/modules/), ~121 look like non-Divi-5 topics (Extra, Bloom, Monarch, Marketplace, billing/FAQ, hosting). Not bulk-enriched: no fabrication allowed, and a scrape-and-fill pass would reproduce the garbled-table problem.
+
+## 2026-11-04 (4) — Claude Code — excluded 103 non-Divi-5 stub pages from the build via mkdocs.yml exclude_docs; build clean (only pre-existing missing-screenshot warnings).
