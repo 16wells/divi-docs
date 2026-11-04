@@ -101,7 +101,7 @@ None — agent is unblocked. (Prior item — the 36-file malformed-table fix —
 
 ## Resume Notes for the Next Agent
 
-- Still to do from 2026-11-04 pass: stub pages for Loop Filter modules and Variable Fonts (no local page); enrich the 4 stubs auto-created 2026-11-02 (Slot, Variable Math, Icon Manager, Multi-Select); review 24 flagged settings on `divi-5-update-status.md`; bump `divi_version` where 5.15 behavior differs.
+- Still to do (after 2026-11-04 passes): `divi_version` still `5.x` on most older pages; screenshots for Components, Icon Manager, variable fonts; the ~700 TODO pages; re-check when the official Divi MCP ships (update `playbooks/divi-mcp-servers.md`).
 
 > The shortest possible "do this next" message — what the next session should do first. One or two bullets. If it's longer than that, the active work is in `02-deliverables/{slug}/`, the chronology is in `activity-log.md`, and this section just points there.
 
@@ -113,4 +113,4 @@ None — agent is unblocked. (Prior item — the 36-file malformed-table fix —
 
 ---
 
-*Last updated: 2026-11-04 by Claude Code (added Components + Divi MCP Servers pages; see activity-log). Prior: 2026-10-01 by Claude Code (fixed the 11 unrelated escaped-pipe/garbled-row table mismatches — pushed and deployed; docs/modules/ now has zero table structural defects)*
+*Last updated: 2026-11-04 by Claude Code (Components, MCP status, release history, 4 stubs rewritten, variable fonts; see activity-log). Prior: 2026-10-01 by Claude Code (fixed the 11 unrelated escaped-pipe/garbled-row table mismatches — pushed and deployed; docs/modules/ now has zero table structural defects)*

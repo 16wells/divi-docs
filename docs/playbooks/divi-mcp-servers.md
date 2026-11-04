@@ -12,7 +12,7 @@ audience: llm
 # Divi MCP Servers
 
 !!! abstract "Quick Reference"
-    **Official Divi MCP server:** not released as of 2026-11-04. Elegant Themes' own AI tooling is the **Divi AI Agent** inside the Visual Builder.
+    **Official Divi MCP server:** announced by Elegant Themes on 2026-11-04 as "coming soon" (preview video, no release date). Not yet available. The shipped product is the **Divi AI Agent** inside the Visual Builder.
     **Third-party MCP servers exist** (DiviOps, Wiplink, Respira, D5MCP). They are independent projects, not endorsed by Elegant Themes. Verify version support and maintenance before relying on one.
     **Rule for assistants:** never describe a third-party MCP as official, and never invent tool names. Read the project's own tool list.
 
@@ -24,10 +24,11 @@ The Model Context Protocol lets an AI client (Claude Desktop, Claude Code, Curso
 
 | Item | Status (2026-11-04) |
 |---|---|
-| Divi AI Agent (in the Visual Builder, Divi AI subscribers) | Shipped September 2026. See [The Divi AI Agent in Divi 5](../modules/the-divi-ai-agent-in-divi-5.md) |
-| Official Divi MCP server | Announced as coming; no Elegant Themes release or help-center article found |
+| Divi AI Agent (in the Visual Builder, Divi AI subscribers) | Introduced in Divi 5.12 (2026-09-03). See [The Divi AI Agent in Divi 5](../modules/the-divi-ai-agent-in-divi-5.md) |
+| Divi AI Agent tools | Elegant Themes describes ~200 agentic tools that let an AI model work in the builder like a human |
+| Official Divi MCP server | **Coming soon** (Elegant Themes email, 2026-11-04). Exposes those tools over MCP so you can connect Divi sites to an AI agent of choice (ChatGPT, Codex, Claude Code, Cursor named). No release date, install steps, or help-center article yet |
 
-The "official MCP is coming" statement was found only in a reply on an Elegant Themes blog post and in a third-party roundup, so treat the timing as unconfirmed. When Elegant Themes publishes it, add the help-center article here and to the monitor's tracked list.
+Source: Elegant Themes email "First Look at the Divi MCP!" with a [preview video](https://www.youtube.com/watch?v=9_BHJGkt_qw). Until it ships, do not document connection steps, tool names, or authentication for it. When it is published, add the help-center article here and to the monitor's tracked list.
 
 ## Third-party servers (independent, unaffiliated)
 

@@ -176,3 +176,10 @@ If you're ever unsure, err toward logging it here briefly with a pointer to wher
 - Found the monitor does not discover the Components help-center collection (articles 17438180/185/188/191/193). Wrote `docs/builder/components.md` (original wording, 5.15+) and added to nav + builder index.
 - Divi 5.15 (Oct 2026) is the latest numbered release-notes post; ET posts weekly feature releases (Icon Manager, Multi-Select, Variable Math, Loop Filter, Variable Fonts, Divi AI Agents) rather than numbered notes.
 - MCP: no official Elegant Themes Divi MCP exists as of this date (only an unconfirmed "coming" comment). Added `docs/playbooks/divi-mcp-servers.md` documenting the AI Agent plus third-party servers, flagged as unaffiliated.
+
+## 2026-11-04 (2) — Claude Code — Divi update pass, part 2
+- Skip's email "First Look at the Divi MCP!" (2026-11-04) confirms: Divi AI Agent released (~200 agentic tools), official Divi MCP "coming soon" (preview video, no date). Updated `playbooks/divi-mcp-servers.md` accordingly.
+- Latest release is Divi 5.18.2 (2026-11-02), per the Help Center "Divi 5 Update Status" changelog (the `divi-5-update-status.md` source). Added `builder/divi-5-release-history.md` (5.0 to 5.18.2 timeline, features to version) and set `divi_version` on new/rewritten pages.
+- Replaced the 4 garbled auto-stubs with real pages: Slot module, Variable Math (5.18), Icon Manager (5.17), Multi-Select and Bulk Editing (5.16). Added `builder/variable-fonts-and-text-styling.md` (5.7/5.8.1).
+- Loop Filter modules already covered by the Post Filter pages (5.10); no new page needed.
+- Not done: the 24 flagged settings on `divi-5-update-status.md` (the page is a feature-overview table; the release history page covers the changelog instead); screenshots; ~700 older TODO pages.

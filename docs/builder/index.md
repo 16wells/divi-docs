@@ -30,6 +30,7 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 | [Multi-Select & Bulk Editing](multi-select-bulk-editing.md) | Select and edit multiple elements at once | ✅ Done |
 | [Layers View](layers-view.md) | Navigate page structure in a tree view | ✅ Done |
 | [Gradient Builder](gradient-builder.md) | Gradient Picker, gradient variables, background and text gradient fills | ✅ Done |
+| [Variable Fonts & Text Styling](variable-fonts-and-text-styling.md) | Variable font axes, text columns, drop caps, stroke position, hyphenation | ✅ Done |
 | [Condition Options](condition-options.md) | Conditional display logic for elements | ✅ Done |
 | [Support Center](support-center.md) | Debugging tools and safe mode | ✅ Done |
 | [Semantic Elements](semantic-elements.md) | Assign semantic HTML tags and custom HTML wrappers | ✅ Done |
@@ -44,6 +45,7 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 | [Nested Rows](nested-rows.md) | Place rows inside columns for sub-grid layouts | ✅ Done |
 | [Canvases](canvases.md) | Off-canvas workspaces for popups, menus, and staging | ✅ Done |
 | [Components](components.md) | Reusable synced modules, rows, and sections with selective sync and slots (Divi 5.15+) | ✅ Done |
+| [Release History (2026)](divi-5-release-history.md) | Which Divi 5 version introduced each feature, through 5.18.2 | ✅ Done |
 | [Command Center](command-center.md) | Keyboard-driven command palette for rapid builder actions | ✅ Done |
 | [Interactions](interactions.md) | Event-driven animations and dynamic behaviors | ✅ Done |
 | [Attribute Management](attribute-management.md) | Copy, paste, and reset element attributes | ✅ Done |

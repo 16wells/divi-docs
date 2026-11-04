@@ -201,6 +201,7 @@ nav:
     - Customizer: theme-options/customizer.md
   - Builder:
     - Overview: builder/index.md
+    - Release History (2026): builder/divi-5-release-history.md
     - Visual Builder Basics:
       - Visual Builder: builder/visual-builder.md
       - VB Interface: builder/vb-interface.md
@@ -237,6 +238,7 @@ nav:
       - Relative Colors & HSL: builder/relative-colors-hsl.md
       - Style Inspector: builder/style-inspector.md
       - Gradient Builder: builder/gradient-builder.md
+      - Variable Fonts & Text Styling: builder/variable-fonts-and-text-styling.md
       - Aspect Ratio, Image Framing & Image Presets: builder/aspect-ratio-image-framing-and-image-presets-in-divi-5.md
     - Content & Data:
       - Dynamic Content: builder/dynamic-content.md

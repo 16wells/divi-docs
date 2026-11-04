@@ -1,84 +1,56 @@
 ---
 title: "The Icon Manager in Divi 5"
+description: "The Divi 5 Icon Manager and compact icon picker: collections, SVG and icon font import, default collection, and import/export."
 category: builder
-tags: [builder]
+tags: [builder, icons]
 related: []
-divi_version: "5.x"
-last_updated: 2026-11-02
+divi_version: "5.17+"
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/17693045-the-icon-manager-in-divi-5"
 ---
 
 # The Icon Manager in Divi 5
 
-<!-- AUTO-CREATED: 2026-11-02 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Introduced in:** Divi 5.17 (2026-10-22).
+    **What it is:** A site-wide manager for icons, plus a compact icon picker used by every module with an icon setting.
+    **Built-in collections:** Divi Icons and Font Awesome (cannot be deleted). Some plugins add read-only collections.
+    **Import:** SVG files, or one icon font (WOFF2, WOFF, TTF, OTF). No ZIP files; no extra SVG-upload plugin needed.
+    **Open it:** the **Icon Manager** button at the bottom of the icon picker menu.
 
-## Overview
+## The icon picker
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/17693045-the-icon-manager-in-divi-5).
+The picker is used by modules such as Icon, Blurb, Icon List, Accordion, Timeline, Image, Gallery, Portfolio, Blog, Menu, Group Carousel, Fullwidth Header, and Fullwidth Image, and by every Button's icon setting. The setting shows a small preview (hover for name and collection).
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Click the preview (or the Plus icon if none is set).
+2. Choose a collection from the dropdown (**All Collections**, **Theme Icons**, **Custom Icons**, or a **Styles** filter such as Solid or Line) or use **Search Icons...**.
+3. Click an icon; the menu closes. Arrow keys move through the grid; Home and End jump to first and last.
 
-## Settings & Options
+The picker opens on the collection of the selected icon, or on your default collection.
 
-### General
+## Managing collections
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Icon |  | the settings of a module that uses an icon, such as theIconmodule. |
-| Plus |  | k the icon preview. If no icon is set yet, click thePlusicon instead. |
-| Search Icons... |  | n at the top to choose which collection to browse, or type in theSearch Icons...field to find an icon by name. |
-| All Collections |  | Shows every icon from every collection that's turned on. |
-| Theme Icons |  | Divi's built-in collections,Divi IconsandFont Awesome. |
-| Custom Icons |  | The collections you've created or imported. |
-| Styles |  | Filters the built-in icons by style, such asSolid IconsorLine Icons. |
-| Search icons... |  | Searches every collection at once, by icon name, search terms, or collection name. Collections with matching icons open automatically. |
-| New Collection |  | Creates an empty collection. |
-| Import Icons |  | Adds SVG files or an icon font to a collection. |
-| Import & Export Icon Collections |  | The import/export icon in the window header, for moving collections between sites. |
-| Collections |  | Each collection is listed by name. Click a name to expand it and see its icons. Collections with many icons show aShow Morebutton at the bottom. |
-| New Collection |  | ction. |
-| Collection name |  | theCollection namefield. |
-| Create |  | reate. |
-| SVG files |  | One or more individual SVG icons. |
-| An icon font |  | A single WOFF2, WOFF, TTF, or OTF font file. Divi adds every icon in the font. |
-| Import Icons |  | Icons. TheAdd Iconswindow opens. |
-| Icon File(s) |  | le(s), clickChoose Icon Filesand select your files. If you chose SVGs, you can clickAdd More SVGsto add more files to the same import. |
-| Name Mapping File |  | ng a font, you can also add aName Mapping File(optional, see below). |
-| Collection |  | lectiondropdown to choose where the icons go. Pick an existing collection, or leave it onNew Collectionand type a name in theCollection Namefield. |
-| Import |  | mport. A progress bar shows the upload, then the icons appear in the collection. |
-| Insert |  | Applies the icon to the setting you opened the Icon Manager from, then closes the Icon Manager. This appears only when exactly one icon is selected and you opened the Icon Manager from an icon picker. |
-| Remove |  | Removes the selected icons from this collection. |
-| Move |  | Moves the selected icons to another collection you pick from the list. |
-| Rename |  | Changes the collection's name. Type the new name and clickSave. |
-| Reset |  | Brings back icons you've removed from the collection. It doesn't remove anything you've added. |
-| Make Default |  | Makes this the collection the icon picker opens on. The default collection's button readsDefault. |
-| Delete |  | Deletes the collection. This appears only on collections you've created.Divi IconsandFont Awesomecan't be deleted. |
-| Make Default |  | fault. |
-| Import & Export Icon Collections |  | port & Export Icon Collectionsicon in the window header. |
-| Export |  | Exporttab, useCollectionsto choose which collections to include. All collections are selected by default. |
-| Import |  | he same window and switch to theImporttab. |
-| Reload Library |  | change icons at the same time, Divi may ask you to reload the library. ClickReload Libraryto see the latest version and try again. |
+The Icon Manager window can be dragged, resized, and expanded.
 
-## Code Examples
+| Control | Purpose |
+|---|---|
+| Search icons... | Searches all collections by icon name, search terms, or collection name |
+| New Collection | Creates an empty collection (name it, then **Create**) |
+| Import Icons | Adds SVGs or an icon font to a collection |
+| Import & Export Icon Collections | Moves collections between sites |
+| Per collection: Rename, Reset, Make Default, Delete | Delete only on collections you created; Reset restores removed icons without removing added ones |
+| Toggle switch | Hides or shows the collection in pickers site-wide; a hidden collection cannot be the default |
 
-<!-- TODO: Add CSS/PHP code examples -->
+**Importing:** click **Import Icons**, choose files (SVGs or one font, not both), optionally add a Name Mapping File for fonts, pick the target **Collection** (or create one), and click **Import**. Files are saved to the Media Library; SVGs are sanitized on upload and named after their file. SVG icons take the module's icon color, so multi-color SVGs render in one color.
 
-## Common Patterns
+**Selecting icons:** click to select; Shift, Cmd, or Ctrl-click for several in one collection. Actions (buttons or right-click): **Insert** (one icon, when opened from a picker), **Remove**, **Move**.
 
-<!-- TODO: Document 2-3 common usage patterns -->
+## Export and import
 
-## Troubleshooting
+Use the Import & Export icon in the window header. Export lets you choose collections (all by default) and includes the icon files; Import adds collections alongside existing ones without removing anything.
 
-<!-- TODO: Document common issues and solutions -->
+## Safety and permissions
 
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- Icons already used on pages keep displaying after you remove icons or hide or delete a collection. Original files stay in the Media Library. Divi asks for confirmation first.
+- Anyone who can edit pages can browse and insert icons. Creating, importing, renaming, moving, removing, and deleting needs an Administrator (or a role that can manage theme options and upload files). Import/export also needs the Role Editor portability permission.
+- Changes are site-wide. If two people edit at once, Divi may prompt **Reload Library**.

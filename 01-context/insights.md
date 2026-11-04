@@ -111,3 +111,6 @@
 
 ## 2026-11-04 — Monitor blind spot: Components collection
 `monitor_updates.py` reported "0 new articles" while 5 Components articles (IDs 17438180-193) had no local page; they were only visible via help-center search (`/en/search?q=`). Periodically search the help center for new feature names, not just the scanned collections. Also: official Divi MCP is not released; third-party ones exist (DiviOps, Wiplink, Respira, D5MCP).
+
+## 2026-11-04 (2) — Where the real Divi version/changelog lives
+The authoritative per-version changelog is the Help Center article `9973580-divi-5-update-status` (ET blog "release notes" posts stopped at 5.15). Feature dates map to versions there; use it to set `divi_version`. Gmail ET marketing emails are a useful early signal (the MCP preview arrived by email before any post/article).

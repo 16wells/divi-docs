@@ -1,96 +1,70 @@
 ---
 title: "Multi-Select and Bulk Editing in Divi 5"
+description: "Divi 5.16 multi-select on the canvas and Layers panel, bulk editing in the settings panel, mixed values, presets, shortcuts, and AI Agent scoping."
 category: builder
-tags: [builder]
-related: []
-divi_version: "5.x"
-last_updated: 2026-11-02
+tags: [builder, multi-select, bulk-editing]
+related: [multi-select-bulk-editing.md, presets.md, style-inspector.md]
+divi_version: "5.16+"
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/17633664-multi-select-and-bulk-editing-in-divi-5"
 ---
 
 # Multi-Select and Bulk Editing in Divi 5
 
-<!-- AUTO-CREATED: 2026-11-02 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Introduced in:** Divi 5.16 (2026-10-16). An earlier overview exists at [Multi-Select & Bulk Editing](multi-select-bulk-editing.md); this page follows the current Help Center article.
+    **Select:** Cmd/Ctrl + click adds or removes one element; Shift + click selects a range inside the same parent; Cmd/Ctrl + A selects all in the hovered container.
+    **Edit:** with two or more elements selected, the settings panel becomes **Elements** and every change applies to all of them.
+    **Clear:** Cmd/Ctrl + D, or a plain click on any element.
 
-## Overview
+## Selecting
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/17633664-multi-select-and-bulk-editing-in-divi-5).
+- Works on the canvas and in the **Layers** panel; both share one selection. Drag several selected layers to move them together.
+- Mix element types freely (modules and a row, for example).
+- Range selection (Shift + click) only works between elements in the same parent; clicking one in another container adds just that element.
+- In the Theme Builder a selection cannot span more than one template area.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Acting on a selection
 
-## Settings & Options
+- **Drag and drop** moves the whole selection (not possible if a locked element is included).
+- **Right-click menu** acts on all: Duplicate, Delete, Move (up, down, top, bottom, parent), Copy/Cut/Paste (only when all are the same type), Lock/Unlock, Paste Attributes, Reset Attributes, Add Element above/inside/below/around (Around only when all share a parent), Detach Component.
+- **Shortcuts:** Cmd/Ctrl + C/X/V, Shift + D (duplicate), Backspace (delete), Shift + K (lock), Shift + U (unlock), Up/Down Arrow (move), Shift + V (paste all attributes), Shift + 0 (reset all attributes), D (deselect), G (group). The Cmd/Ctrl modifier applies to all of these. Press Shift + ? for the searchable shortcut list.
+- **Group:** Cmd/Ctrl + G wraps selected *modules* in a new Group module at the first module's position. Sections, rows, columns, Groups, and child items cannot be grouped.
 
-### General
+## Bulk editing
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Cmd / Ctrl + click |  | Adds a single element to the selection, or removes it if it's already selected. Use it to pick non-adjacent elements. |
-| Shift + click |  | Selects a range of elements. Click the first element, then Shift + click the last one, and Divi selects every element in between. |
-| Cmd / Ctrl + A |  | Selects every element in the same container as the element you're hovering over. |
-| Shift + click |  | range selection works only between elements inside the same parent, for example, modules in the same column or rows in the same section. If you Shift + click an element in a different container, Divi adds just that element. |
-| Theme Builder |  | uilder, a selection can't span more than one template area. If you have elements selected in the header and click an element in the body, Divi starts a new selection. |
-| Cmd / Ctrl + click |  | a layer to add or remove it. |
-| Shift + click |  | a layer to select a range of layers inside the same parent. |
-| Cmd / Ctrl + click |  | ent from the selection,Cmd / Ctrl + clickit (orShift + clickit) again. |
-| Cmd / Ctrl + D |  | hole selection, pressCmd / Ctrl + D. |
-| Duplicate |  | orDeleteevery selected element. |
-| Move |  | the selection up, down, to the top, to the bottom, or to its parent. |
-| Copy |  | ,Cut, andPastethe selection. |
-| Lock |  | orUnlockevery selected element. |
-| Paste Attributes |  | onto every selected element. For example, copy the attributes of one Button, then paste its design onto five others. |
-| Reset Attributes |  | on every selected element. |
-| Add Element |  | above, inside, below, or around the selection.Add Element Aroundwraps the whole selection in a new element, and only appears when all selected elements share the same parent. |
-| Detach Component |  | for every selected component. |
-| Cmd / Ctrl + C |  | ,Cmd / Ctrl + X,Cmd / Ctrl + V- Copy, cut, and paste the selection. |
-| Cmd / Ctrl + Shift + D |  | Duplicate every selected element. |
-| Cmd / Ctrl + Backspace |  | Delete every selected element. |
-| Cmd / Ctrl + Shift + K |  | Lock every selected element. |
-| Cmd / Ctrl + Shift + U |  | Unlock every selected element. |
-| Cmd / Ctrl + Up Arrow |  | andCmd / Ctrl + Down Arrow- Move the selection up or down. |
-| Cmd / Ctrl + Shift + V |  | Paste all copied attributes onto every selected element. |
-| Cmd / Ctrl + Shift + 0 |  | Reset all attributes on every selected element. |
-| Cmd / Ctrl + D |  | Deselect all elements. |
-| Cmd / Ctrl + G |  | Group the selected modules. |
-| Text and number fields |  | Show an empty field with aMixedplaceholder. |
-| Dropdowns |  | ReadMixed, with no option highlighted. |
-| Color pickers |  | Show a gray swatch. A global color chip readsMixed. |
-| Previews |  | , such as a background image - Show aMixedlabel in place of the preview. |
-| Toggles |  | Show neither on nor off. |
-| Button options and checkboxes |  | Show every value used by any selected element in gray, with none marked as active. |
-| Blue |  | The value is set directly on this element, at the breakpoint and state you're editing. |
-| Gray |  | The value is inherited, for example from a preset, a default, a larger breakpoint, or the normal state when you're editing hover. |
-| Default Preset |  | resetto clear the presets from all selected elements. |
-| New Preset From Current Styles |  | tylesto create a preset from the styles of the selected elements and assign it to all of them. |
-| Reset |  | the field or option group on every selected element. |
-| Paste |  | copied attributes onto every selected element. |
-| Convert to Variable |  | Turns the field's values intoDesign Variables. Divi creates one variable for each different value and links each element to its matching variable. |
-| Copy |  | andExtendattributes. These only appear when all selected elements are the same type. |
-| Find & Replace |  | a value. |
-| Locked elements are skipped. |  | Bulk edits, resets, moves, and pastes leave locked elements untouched, and you can't drag a selection that includes one. |
-| Some actions only work on one element. |  | Copy Attributes,Extend Attributes,Inspect, andSave To Librarydon't appear in the right-click menu when more than one element is selected.Save as Componentisn't available in the settings panel header either. |
-| Editing a preset or a component returns to single-element editing. |  | While you're editing a preset or a component, the settings panel edits one element at a time. Your selection is kept, so bulk editing returns when you're done. |
-| Attributes, Interactions, and Conditions. |  | TheAttributes,Interactions, andConditionsoption groups don't show mixed values yet, so what you see there may only reflect one of the selected elements. To avoid overwriting different settings, edit these one element at a time. |
+- Content, Design, and Advanced tabs, search, and responsive/state controls all work; edits apply at the breakpoint or state you pick.
+- **Different types:** option groups from all types appear; shared groups (Spacing, Border) appear once and update everything; type-specific settings only change elements of that type.
+- **Elements option group:** with several containers selected, it lists all children, and **Add Element** adds one to every container.
 
-## Code Examples
+### Mixed values
 
-<!-- TODO: Add CSS/PHP code examples -->
+When selected elements disagree, the field shows **Mixed**: empty text/number fields with a placeholder, dropdowns with no option highlighted, gray color swatches, a "Mixed" label for previews, toggles neither on nor off, and button/checkbox options showing all used values in gray. Entering a value applies it to every element.
 
-## Common Patterns
+### Inherited vs. set values
 
-<!-- TODO: Document 2-3 common usage patterns -->
+For checkbox and button option fields, **blue** means set directly on the element at the current breakpoint and state; **gray** means inherited (from a preset, default, larger breakpoint, or normal state when editing hover).
 
-## Troubleshooting
+### Presets
 
-<!-- TODO: Document common issues and solutions -->
+In the panel header: preset chips show every preset in use (remove one to strip it from all); picking a preset adds it to every element lacking it (or removes it from all if all have it); **Default Preset** clears presets; **New Preset From Current Styles** creates and assigns a preset. With mixed element types, presets are grouped by type and new presets cannot be created from the menu. Option Group Presets work across types, so one border preset can go on a Text and an Image module together.
 
-## AI Interaction Notes
+### Field and group right-click
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+Reset, Paste attributes, **Convert to Variable** (one Design Variable per distinct value, each element linked to its match), Find & Replace; Copy and Extend only when all elements share a type.
 
-## Related
+## Inspector and AI Agent
 
-<!-- TODO: Add links to related documentation pages -->
+- The [Style Inspector](style-inspector.md) supports selections via the toolbar icon (the right-click *Inspect* appears only for a single element). Changes there affect only the selected elements.
+- With several elements selected, the [Divi AI Agent](../modules/the-divi-ai-agent-in-divi-5.md) shows each as a chip and applies your request to all. Removing a chip changes the Agent's scope, not your selection.
+
+## Limitations
+
+- Locked elements are skipped by bulk edits, resets, moves, and pastes.
+- Copy Attributes, Extend Attributes, Inspect, and Save To Library are hidden for multi-selections; Save as Component is unavailable in the panel header.
+- Editing a preset or component drops to single-element editing and returns afterward; the selection is kept.
+- **Attributes, Interactions, and Conditions** do not show mixed values yet; edit them one element at a time to avoid overwriting.
+
+## Official documentation
+
+- [Multi-Select and Bulk Editing in Divi 5](https://help.elegantthemes.com/en/articles/17633664-multi-select-and-bulk-editing-in-divi-5)
