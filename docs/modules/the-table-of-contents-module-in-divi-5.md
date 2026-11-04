@@ -3,7 +3,7 @@ title: "The Table of Contents module in Divi 5"
 category: modules
 tags: [modules]
 related: []
-divi_version: "5.x"
+divi_version: "5.6+"
 last_updated: 2026-06-01
 source_url: "https://help.elegantthemes.com/en/articles/15250736-the-table-of-contents-module-in-divi-5"
 ---

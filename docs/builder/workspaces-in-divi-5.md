@@ -3,7 +3,7 @@ title: "Workspaces in Divi 5"
 category: builder
 tags: [builder]
 related: []
-divi_version: "5.x"
+divi_version: "5.7+"
 last_updated: 2026-07-06
 source_url: "https://help.elegantthemes.com/en/articles/15459160-workspaces-in-divi-5"
 ---

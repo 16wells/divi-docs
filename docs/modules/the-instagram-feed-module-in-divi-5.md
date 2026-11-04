@@ -3,7 +3,7 @@ title: "The Instagram Feed Module in Divi 5"
 category: modules
 tags: [modules]
 related: []
-divi_version: "5.x"
+divi_version: "5.6+"
 last_updated: 2026-06-01
 source_url: "https://help.elegantthemes.com/en/articles/15250319-the-instagram-feed-module-in-divi-5"
 ---

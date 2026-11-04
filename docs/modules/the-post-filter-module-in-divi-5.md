@@ -3,7 +3,7 @@ title: "The Post Filter Module in Divi 5"
 category: modules
 tags: [modules]
 related: []
-divi_version: "5.x"
+divi_version: "5.10+"
 last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/16186978-the-post-filter-module-in-divi-5"
 ---

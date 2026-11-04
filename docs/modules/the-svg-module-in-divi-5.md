@@ -3,7 +3,7 @@ title: "The SVG Module in Divi 5"
 category: modules
 tags: ["modules", "svg", "icons", "graphics"]
 related: ["icon", "image"]
-divi_version: "5.x"
+divi_version: "5.5+"
 last_updated: 2026-08-10
 source_url: "https://help.elegantthemes.com/en/articles/15081438-the-svg-module-in-divi-5"
 status: stub

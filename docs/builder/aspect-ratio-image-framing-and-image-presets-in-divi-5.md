@@ -3,7 +3,7 @@ title: "Aspect Ratio, Image Framing, and Image Presets in Divi 5"
 category: builder
 tags: ["builder", "images", "aspect-ratio", "presets"]
 related: ["image", "gallery", "the-instagram-feed-module-in-divi-5"]
-divi_version: "5.x"
+divi_version: "5.5+"
 last_updated: 2026-05-22
 source_url: "https://help.elegantthemes.com/en/articles/15066231-aspect-ratio-image-framing-and-image-presets-in-divi-5"
 status: stub

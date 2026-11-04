@@ -3,7 +3,7 @@ title: "The Grid Editor in Divi 5"
 category: builder
 tags: [builder]
 related: []
-divi_version: "5.x"
+divi_version: "5.9+"
 last_updated: 2026-08-03
 source_url: "https://help.elegantthemes.com/en/articles/15847488-the-grid-editor-in-divi-5"
 ---

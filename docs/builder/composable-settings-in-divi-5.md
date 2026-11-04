@@ -3,7 +3,7 @@ title: "Composable Settings in Divi 5"
 category: builder
 tags: ["builder", "design-system", "option-groups", "composable-settings", "styling"]
 related: ["advanced-styling-using-option-group-presets-in-divi-5.md", "element-presets.md", "understanding-divi-5-design-options.md"]
-divi_version: "5.x"
+divi_version: "5.1+"
 last_updated: 2026-05-06
 source_url: "https://help.elegantthemes.com/en/articles/14332889-composable-settings-in-divi-5"
 ---

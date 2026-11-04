@@ -3,7 +3,7 @@ title: "Variable Generator in Divi 5"
 category: builder
 tags: ["builder", "variables", "design-system", "fluid-typography", "color-palette", "global-variables"]
 related: ["global-variables", "design-variables", "relative-colors-hsl", "advanced-css-units"]
-divi_version: "5.x"
+divi_version: "5.4+"
 last_updated: 2026-05-06
 source_url: "https://help.elegantthemes.com/en/articles/14851749-variable-generator-in-divi-5"
 ---

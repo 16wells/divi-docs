@@ -3,7 +3,7 @@ title: "The Gravity Form Module in Divi 5"
 category: modules
 tags: [modules]
 related: []
-divi_version: "5.x"
+divi_version: "5.11+"
 last_updated: 2026-09-07
 source_url: "https://help.elegantthemes.com/en/articles/15945400-the-gravity-form-module-in-divi-5"
 ---

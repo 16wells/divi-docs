@@ -45,3 +45,6 @@ Every entry should have a date, a short description, and ideally a one-line rati
 | Date | What changed |
 |---|---|
 | 2026-05-06 | Initial decisions log created |
+
+## OPEN 2026-11-04 — What to do with ~121 non-Divi-5 stub pages
+Option A: delete/exclude from nav (matches charter: Divi 5 only). Option B: keep as-is. Option C: move to an appendix section. Leaning A for Extra/Bloom/Monarch; billing/FAQ pages are ET account help, also off-charter. Awaiting Skip.

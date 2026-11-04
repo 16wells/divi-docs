@@ -3,7 +3,7 @@ title: "The Tooltip Module in Divi 5"
 category: modules
 tags: [modules]
 related: []
-divi_version: "5.x"
+divi_version: "5.8+"
 last_updated: 2026-07-06
 source_url: "https://help.elegantthemes.com/en/articles/15585511-the-tooltip-module-in-divi-5"
 ---

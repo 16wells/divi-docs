@@ -183,3 +183,7 @@ If you're ever unsure, err toward logging it here briefly with a pointer to wher
 - Replaced the 4 garbled auto-stubs with real pages: Slot module, Variable Math (5.18), Icon Manager (5.17), Multi-Select and Bulk Editing (5.16). Added `builder/variable-fonts-and-text-styling.md` (5.7/5.8.1).
 - Loop Filter modules already covered by the Post Filter pages (5.10); no new page needed.
 - Not done: the 24 flagged settings on `divi-5-update-status.md` (the page is a feature-overview table; the release history page covers the changelog instead); screenshots; ~700 older TODO pages.
+
+## 2026-11-04 (3) — Claude Code — divi_version tagging
+- Set accurate `divi_version` (introduced-in, from the Help Center changelog) on 18 feature pages: Chart/Gravity/Payment/Imagely (5.11), Post Filter + Items (5.10), Grid Editor (5.9), Tooltip (5.8), Workspaces (5.7), Instagram Feed/Table of Contents (5.6), Timeline/SVG/Aspect Ratio (5.5), Variable Generator (5.4), CF7 Styler (5.3), Composable Settings (5.1), AI Agent (5.12).
+- Triage of TODO pages: 738 pages carry TODO markers, 705 are AUTO-CREATED stubs (685 under docs/modules/), ~121 look like non-Divi-5 topics (Extra, Bloom, Monarch, Marketplace, billing/FAQ, hosting). Not bulk-enriched: no fabrication allowed, and a scrape-and-fill pass would reproduce the garbled-table problem.

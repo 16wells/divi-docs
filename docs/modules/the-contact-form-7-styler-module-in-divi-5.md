@@ -3,7 +3,7 @@ title: "The Contact Form 7 Styler Module in Divi 5"
 category: modules
 tags: ["modules", "contact-form-7", "form", "cf7", "third-party"]
 related: ["contact-form", "login"]
-divi_version: "5.x"
+divi_version: "5.3+"
 last_updated: 2026-05-06
 source_url: "https://help.elegantthemes.com/en/articles/14716484-the-contact-form-7-styler-module-in-divi-5"
 ---
