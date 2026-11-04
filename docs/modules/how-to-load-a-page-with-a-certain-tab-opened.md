@@ -1,54 +1,66 @@
 ---
 title: "How to Load a Page with a Certain Tab Opened"
+description: "Link visitors to a page with a specific Tabs module tab already open, using a dt-tabs ID attribute and a URL hash."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
-source_url: "https://help.elegantthemes.com/en/articles/2831095-how-to-load-a-page-with-a-certain-tab-opened"
+last_updated: 2026-11-04
+source_url: "https://help.elegantthemes.com/en/articles/16958621"
 ---
 
 # How to Load a Page with a Certain Tab Opened
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A link such as `https://your-domain-name.com/page-slug/#dt-tabs|1` that opens a chosen tab of the [Tabs module](the-divi-tabs-module.md).
+    **Setup:** Give the module the ID `dt-tabs` via an ID attribute, then link to the page with `#dt-tabs|N`.
+    **Numbering:** Zero-based. `|0` is the first tab, `|1` the second, `|2` the third.
 
-## Overview
+## Steps
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/2831095-how-to-load-a-page-with-a-certain-tab-opened).
+1. Open the page containing the Tabs module in the Visual Builder.
+2. Open the module's settings by clicking it or its **Gear icon**.
+3. Go to **Advanced tab → Attributes** and click **+ Add Attributes**.
+4. Choose **id** and set the **Attribute Value** to `dt-tabs`.
+5. Go to **WordPress Dashboard → Appearance → Menus**.
+6. Add a **Custom Link** with the URL `https://your-domain-name.com/page-slug/#dt-tabs|1` and any label.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+The same URL works as the Link on a Button module or anywhere else you can place a link.
 
-## Settings & Options
+## Scroll to the Tabs module too
 
-### General
+If the module sits far down the page, add this script so the browser scrolls to it after opening the tab.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Gear icon |  | Tabs module settings by clicking on theGear icon |
-| Advanced Tab → CSS ID & Classes → CSS ID |  | SS IDand type indt-tabs |
-| https://your-domain-name.com/page-slug/#dt-tabs\|1 |  | ebsite, add the link (this can also be used as the Button module's Link) ashttps://your-domain-name.com/page-slug/#dt-tabs\|1 |
-| WordPress Dashboard → Divi → Theme Options → Integrations Tab |  | s Tab |
+1. Go to **WordPress Dashboard → Divi → Theme Options → Integrations tab**.
+2. Paste the script below on that tab.
 
-## Code Examples
+```html
+<script>
+  (function ($) {
+    $(document).ready(function () {
+      var hash = document.location.hash;
+      if (hash) {
+        var hashLenght = hash.match(/#(.*?)(.*?)(?=\|)/);
+        if (hashLenght && hashLenght[0]) {
+          var loggedIn = ($('#wpadminbar').length) ? $('#wpadminbar').outerHeight() : 0;
+          var diviHeader = ($('#main-header').length) ? $('#main-header').outerHeight() : 0;
+          var tbHeader = ($('.et-l.et-l--header .et_pb_sticky_module').length) ? $('.et-l.et-l--header .et_pb_sticky_module').outerHeight() : 0;
+          var headerHeight = loggedIn + diviHeader + tbHeader;
+          $('html, body').animate({
+            scrollTop: ($(hashLenght[0]).offset().top - headerHeight)
+          }, 500);
+        }
+      }
+    });
+  })(jQuery);
+</script>
+```
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Gotchas
 
-## Common Patterns
+- Tab numbering starts at 0, so `|1` opens the second tab.
+- The script accounts for the admin bar, Divi's main header, and sticky Theme Builder headers when scrolling.
 
-<!-- TODO: Document 2-3 common usage patterns -->
+## Official documentation
 
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Load a Page with a Certain Tab Opened](https://help.elegantthemes.com/en/articles/16958621) (Elegant Themes Help Center)

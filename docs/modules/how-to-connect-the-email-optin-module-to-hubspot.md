@@ -1,71 +1,49 @@
 ---
 title: "How to Connect the Email Optin Module to HubSpot"
+description: "Create a HubSpot private app token and connect it to the Divi 5 Email Optin module so form submissions land in a HubSpot static list."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14086136-how-to-connect-the-email-optin-module-to-hubspot"
 ---
 
 # How to Connect the Email Optin Module to HubSpot
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+Once the [Email Optin module](email-optin.md) is linked to HubSpot, each submission is sent to the HubSpot list you choose.
 
-## Overview
+!!! abstract "Quick Reference"
+    **You need:** A HubSpot private app access token and a HubSpot **static** list.
+    **Where in Divi:** Email Optin settings → Content tab → Email Account.
+    **Gotcha:** The token you copy from HubSpot goes into the module's "API Key" field.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14086136-how-to-connect-the-email-optin-module-to-hubspot).
+## Get the HubSpot access token
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Log in to HubSpot.
+2. Click your profile at the top right and choose **Profile & Preferences**.
+3. In the left sidebar, choose **Integration → Legacy Apps**.
+4. Click **Create**, then choose **Private**.
+5. Optionally fill in the app details.
+6. Open the **Scopes** tab and click **+ Add new scope**.
+7. Under **CRM**, select every available scope, then click **Update**.
+8. Click **Create app**, then **Continue creating**.
+9. Open the **Auth** tab and copy the **Access token**.
 
-## Settings & Options
+## Connect it in Divi
 
-### General
+1. Open the Email Optin module's settings (click the module or its gear icon).
+2. Go to **Content tab → Email Account**.
+3. Select **HubSpot** from the provider list and click **Add**.
+4. Enter a **Name** (anything, such as `my-hubspot`) and paste the token into **API Key**.
+5. Click **Submit**.
+6. Choose the HubSpot list to receive subscribers.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| static |  | potstaticlist. This can be created in your HubSpot account. |
-| Log in |  | to your HubSpot account. |
-| Profile |  | n theProfilelink at the top right corner. |
-| Profile & Preferences |  | referencesoption. |
-| Integration → Legacy Apps |  | ooseIntegration → Legacy Apps. |
-| Create |  | theCreatebutton. |
-| Private |  | thePrivateoption. |
-| Scopes Tab, |  | copes Tab,and click on the+ Add new scopebutton. |
-| CRM option |  | RM option, select all the available scopes. |
-| Update |  | theUpdatebutton. |
-| Create app |  | reate appbutton. |
-| Continue creating |  | nue creatingbutton. |
-| Auth tab |  | heAuth taband from there copy theAccess tokento your clipboard. |
-| Gear icon |  | Email Opt-in module Settings modal window by clicking on the Email Optin module or by clicking on itsGear icon. |
-| Content Tab → Email Account |  | l Account. |
-| HubSpot |  | theHubSpotfrom the provider's list. |
-| Add |  | ck on theAddbutton. |
-| Name |  | in the following fields:Name- It can be anything you want. For example, you can usemy-hubspotAPI Key- Paste the HubSpot API key. |
-| Name |  | It can be anything you want. For example, you can usemy-hubspot |
-| API Key |  | Paste the HubSpot API key. |
-| Submit |  | theSubmitbutton. |
+## Gotchas
 
-## Code Examples
+- The list must be a static list; create it in HubSpot beforehand.
+- If no lists appear, recheck the token and that the CRM scopes were saved.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Official documentation
 
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Connect the Email Optin Module to HubSpot](https://help.elegantthemes.com/en/articles/14086136-how-to-connect-the-email-optin-module-to-hubspot)

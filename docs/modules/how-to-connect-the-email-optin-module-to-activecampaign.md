@@ -1,59 +1,45 @@
 ---
 title: "How to Connect the Email Optin Module to ActiveCampaign"
+description: "Connect the Divi 5 Email Optin module to ActiveCampaign using your account's API key and API URL."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14178447-how-to-connect-the-email-optin-module-to-activecampaign"
 ---
 
 # How to Connect the Email Optin Module to ActiveCampaign
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** The steps for linking the Divi 5 [Email Optin module](the-divi-email-optin-module.md) to ActiveCampaign so form submissions land in your chosen list.
+    **Where to set it:** Email Optin module settings → Content tab → Email Account.
+    **You need:** An ActiveCampaign API key and API URL, plus at least one list in your ActiveCampaign account.
 
-## Overview
+## Get your API credentials
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14178447-how-to-connect-the-email-optin-module-to-activecampaign).
+1. Log in to your ActiveCampaign account.
+2. Click the **Gear icon** at the top right (left of your profile icon).
+3. In the left sidebar, choose **Developers**.
+4. Copy the **URL** and the **Key** shown there.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
 
-## Settings & Options
+## Connect the module
 
-### General
+1. Open the Email Optin module's settings by clicking the module or its **Gear icon**.
+2. Go to **Content tab → Email Account**.
+3. Choose **ActiveCampaign** from the provider list and click **Add**.
+4. Enter an **Account Name**. It is only a label for you (for example `my-activecampaign`).
+5. Paste the key into **API Key** and the URL into **API URL**.
+6. Click **Submit**.
+7. Pick the ActiveCampaign list that should receive subscribers.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| ActiveCampaign account |  | mpaign account. |
-| Gear icon |  | Gear iconon the top right (on the left of your profile icon). |
-| Developers menu item |  | r, click theDevelopers menu item. |
-| Gear icon |  | Email Opt-in module Settings modal window by clicking on the Email Optin module or by clicking on itsGear icon. |
-| Content Tab → Email Account |  | l Account. |
-| ActiveCampaign |  | veCampaignfrom the provider's list and click theAddbutton. |
-| API Key |  | PI Keyfield, paste the Key copied from the previous step. |
-| API URL |  | PI URLfield, paste the URL value copied from the previous step. |
-| Submit |  | theSubmitbutton. |
+## Gotchas
 
-## Code Examples
+- The Account Name is arbitrary; only the key and URL authenticate the connection.
+- The source also lists an optional ActiveCampaign Form ID as a prerequisite but does not describe where it is used; the steps above work without it.
+- Create the target list in ActiveCampaign first, or it will not be available to choose.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Official documentation
 
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Connect the Email Optin Module to ActiveCampaign](https://help.elegantthemes.com/en/articles/14178447-how-to-connect-the-email-optin-module-to-activecampaign) (Elegant Themes Help Center)

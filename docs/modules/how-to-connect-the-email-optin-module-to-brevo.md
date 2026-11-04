@@ -1,69 +1,50 @@
 ---
 title: "How to Connect the Email Optin Module to Brevo"
+description: "Generate a Brevo API key, authorize your server IP, and connect it to the Divi 5 Email Optin module."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14087864-how-to-connect-the-email-optin-module-to-brevo"
 ---
 
 # How to Connect the Email Optin Module to Brevo
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+Brevo (formerly SendinBlue) connects to the [Email Optin module](email-optin.md) with an API key. Brevo also blocks API calls from unapproved IP addresses, so the IP step below matters.
 
-## Overview
+!!! abstract "Quick Reference"
+    **You need:** A Brevo API key, an existing Brevo list, and your server's IP authorized in Brevo.
+    **Where in Divi:** Email Optin settings → Content tab → Email Account (listed as Brevo (SendinBlue)).
+    **Gotcha:** With an unauthorized IP, no lists load even if the key is right.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14087864-how-to-connect-the-email-optin-module-to-brevo).
+## Create the Brevo API key
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Log in to Brevo.
+2. Open your profile (top right) and choose **My Profile**.
+3. In the left sidebar, choose **SMTP & API**.
+4. Open the **API Keys & MCP** tab.
+5. Click **Generate a new API key**.
+6. Name it, click **Generate**, then **Copy to Clipboard** and confirm.
 
-## Settings & Options
+## Connect it in Divi
 
-### General
+1. Open the Email Optin module's settings (click the module or its gear icon).
+2. Go to **Content tab → Email Account**.
+3. Select **Brevo(SendinBlue)** and click **Add**.
+4. Enter an **Account Name** (such as `my-brevo`) and paste the key into **API Key**.
+5. Click **Submit**.
+6. Choose the Brevo list.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| this section |  | ess is whitelisted in your Brevo account. Please checkthis sectionto learn how to do it. |
-| Brevo account |  | rBrevo account. |
-| My Profile |  | our Profile Account (top right corner) and select theMy Profileoption. |
-| SMTP & API |  | eft sidebar, click theSMTP & APIoption. |
-| API Keys & MCP |  | eys & MCPtab. |
-| Generate a new API |  | a new APIkey button. |
-| Generate |  | API key a name (it can be anything you want) and click theGeneratebutton. |
-| Copy to Clipboard |  | Clipboardbutton and finally click thebOkbutton. |
-| Gear icon |  | Email Opt-in module Settings modal window by clicking on the Email Optin module or by clicking on itsGear icon. |
-| Content Tab → Email Account |  | l Account. |
-| Brevo(SendinBlue) |  | endinBlue)from the provider's list and click theAddbutton. |
-| Account Name |  | following fields:Account Name- It can be anything you want. For example, you can usemy-brevo.API Key- Paste the Brevo API key (step 6). |
-| Account Name |  | It can be anything you want. For example, you can usemy-brevo. |
-| API Key |  | Paste the Brevo API key (step 6). |
-| Submit |  | theSubmitbutton. |
-| Brevo list |  | Brevo listyou want to use. |
-| Authorization page. |  | ion page. |
-| Unauthorized IP addresses |  | IP addressestab. |
-| Authorize IP addresses |  | addressesbutton (top right corner). |
+## Authorize your IP address
 
-## Code Examples
+1. In Brevo, open the Authorized IPs (Authorization) page.
+2. Open the **Unauthorized IP addresses** tab and copy your IP from there.
+3. Click **Authorize IP addresses** (top right).
+4. Paste the copied IP and save.
 
-<!-- TODO: Add CSS/PHP code examples -->
+If the list dropdown stays empty after connecting, check this step first.
 
-## Common Patterns
+## Official documentation
 
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Connect the Email Optin Module to Brevo](https://help.elegantthemes.com/en/articles/14087864-how-to-connect-the-email-optin-module-to-brevo)

@@ -1,56 +1,35 @@
 ---
 title: "How to Connect the Email Optin Module to AWeber"
+description: "Authorize AWeber from inside the Divi 5 Email Optin module with a one-time authorization code and pick your list."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14178319-how-to-connect-the-email-optin-module-to-aweber"
 ---
 
 # How to Connect the Email Optin Module to AWeber
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+AWeber uses an authorization code rather than an API key, and the code is generated during the connection itself.
 
-## Overview
+!!! abstract "Quick Reference"
+    **You need:** An AWeber account with at least one list.
+    **Where in Divi:** [Email Optin](email-optin.md) settings → Content tab → Email Account.
+    **Flow:** Add AWeber, log in to AWeber to get a code, paste it back into Divi.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14178319-how-to-connect-the-email-optin-module-to-aweber).
+## Steps
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Open the Email Optin module's settings (click the module or its gear icon).
+2. Go to **Content tab → Email Account**.
+3. Select **AWeber** and click **Add**.
+4. Log in to your AWeber account when prompted.
+5. Copy the code AWeber generates and return to the Divi page.
+6. Enter an **Account Name** (anything, such as `my-aweber`).
+7. Paste the code into **Authorization Code**.
+8. Click **Submit**.
+9. Select your AWeber list from the List dropdown.
 
-## Settings & Options
+## Official documentation
 
-### General
-
-| Setting | Type | Description |
-|---------|------|-------------|
-| Gear icon |  | Email Opt-in module Settings modal window by clicking on the Email Optin module or by clicking on itsGear icon. |
-| Content Tab → Email Account |  | l Account. |
-| AWeber |  | theAWeberfrom the provider's list and click theAddbutton. |
-| Account Name |  | t Name, type in the name of the account. It can be anything you want, for examplemy-aweber. |
-| Authorization Code |  | n Codefield, paste in the code copied from step 5. |
-| Submit |  | theSubmitbutton. |
-
-## Code Examples
-
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Connect the Email Optin Module to AWeber](https://help.elegantthemes.com/en/articles/14178319-how-to-connect-the-email-optin-module-to-aweber)

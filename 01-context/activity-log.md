@@ -194,3 +194,8 @@ If you're ever unsure, err toward logging it here briefly with a pointer to wher
 - 9 parallel agents rewrote ~95 stubs from Help Center sources (own wording, TODO/AUTO-CREATED markers removed); a second wave of 5 agents rewrote 74 more core module and option-group pages (Heading, Button, Image, Woo set, Border/Spacing/Sizing/etc.) from their Divi 5 counterpart articles. 168 pages modified in total; `mkdocs build` clean apart from the known screenshot warnings.
 - Wave 1 agents rewrote ~38 module pages from Divi 4 articles; caught before commit and reverted, then re-sourced (see insights).
 - Held, no Divi 5 article found: Fullwidth Slider/Header/Map/Portfolio/Menu, Post Navigation, Hover Options, Filter and Blend Mode (04-research/held-no-divi5-counterpart.txt). Still TODO:      571 pages (mostly how-to and troubleshooting).
+
+## 2026-11-04 (6) — Claude Code — stub enrichment tranche 2 (how-to / integrations)
+- Resolved Divi 5 counterparts for the older how-to stubs via Help Center search: only 17 of 408 had one. Rewrote 16 how-to pages (email-optin connectors x9, Stripe link, PayPal button, Instagram token, recover content, tab-opened, footer, delete presets); 2 more held as Divi 4 (Menu module, accessibility).
+- Removed two lines an agent added that the source did not state. Build clean.
+-      555 TODO pages remain; ~390 are Divi 4-era how-tos/troubleshooting with no Divi 5 article (list: 04-research/remaining-todo.txt). Marketplace/promo pages held in 04-research/held-marketplace-promo.txt.

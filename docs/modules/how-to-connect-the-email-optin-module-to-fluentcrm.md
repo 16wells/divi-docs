@@ -1,65 +1,44 @@
 ---
 title: "How to Connect the Email Optin Module to FluentCRM"
+description: "Connect the Divi 5 Email Optin module to the FluentCRM WordPress plugin so submissions are added to a FluentCRM list."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14178633-how-to-connect-the-email-optin-module-to-fluentcrm"
 ---
 
 # How to Connect the Email Optin Module to FluentCRM
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** The steps for linking the Divi 5 [Email Optin module](the-divi-email-optin-module.md) to FluentCRM so form submissions land in your chosen list.
+    **Where to set it:** Email Optin module settings → Content tab → Email Account.
+    **You need:** The FluentCRM plugin installed and active, and at least one FluentCRM list.
 
-## Overview
+## Install FluentCRM and create a list
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14178633-how-to-connect-the-email-optin-module-to-fluentcrm).
+1. In your WordPress dashboard, go to **Plugins → Add Plugin**.
+2. Search for **FluentCRM**, then click **Install Now** and **Activate**.
+3. Go to **FluentCRM → Lists** in the sidebar.
+4. Click **Create List**, name it, and click **Create**.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
 
-## Settings & Options
+## Connect the module
 
-### General
+1. Open the Email Optin module's settings by clicking the module or its **Gear icon**.
+2. Go to **Content tab → Email Account**.
+3. Choose **FluentCRM** from the provider list and click **Add**.
+4. Enter an **Account Name**. It can be anything (for example `my-fluentcrm`).
+5. Click **Submit**.
+6. Choose the FluentCRM list you want to use.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| FluentCRM – Email Newsletter, Automation, Email Marketing, Email Campaigns, Optins, Leads, and CRM Solution |  | plugin |
-| WordPress |  | yourWordPresswebsite's dashboard. |
-| Plugins → Add Plugin |  | lugin. |
-| FluentCRM – Email Newsletter, Automation, Email Marketing, Email Campaigns, Optins, Leads, and CRM Solution. |  | Solution. |
-| Install Now |  | stall Nowbutton. |
-| Activate |  | eActivatebutton. |
-| FluentCRM → Lists |  | dPress Sidebar, clickFluentCRM → Lists. |
-| Create List |  | eate Listbutton. |
-| Create |  | name for your list and click theCreatebutton. |
-| Gear icon |  | Email Opt-in module Settings modal window by clicking on the Email Optin module or by clicking on itsGear icon. |
-| Content Tab → Email Account |  | l Account. |
-| Fluent CMR |  | Fluent CMRfrom the provider's list and click theAddbutton. |
-| Account Name |  | ccount Name- It can be anything you want. For example, you can usemy-fluentcmr. |
-| Submit |  | theSubmitbutton. |
-| Fluent CRM list |  | t CRM listyou want to use. |
+## Gotchas
 
-## Code Examples
+- No API key is needed; FluentCRM runs on the same WordPress site as the module.
+- The provider appears in the list as **Fluent CMR** (the label as spelled in the source); look for that name.
+- The list must exist before you can select it.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Official documentation
 
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Connect the Email Optin Module to FluentCRM](https://help.elegantthemes.com/en/articles/14178633-how-to-connect-the-email-optin-module-to-fluentcrm) (Elegant Themes Help Center)

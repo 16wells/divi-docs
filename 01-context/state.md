@@ -103,6 +103,7 @@ None — agent is unblocked. (Prior item — the 36-file malformed-table fix —
 
 - Decision needed from Skip: ~121 TODO stub pages in docs/modules/ cover non-Divi-5 topics (Extra, Bloom, Monarch, Marketplace, billing/FAQ, hosting). Prune, move, or keep? Then enrich the rest in small batches.
 - 2026-11-04: tranche 1 enrichment done (168 pages, see activity-log 5).      571 TODO pages remain, mostly how-to/troubleshooting; 8 module pages held with no Divi 5 article (04-research/held-no-divi5-counterpart.txt).
+- 2026-11-04 tranche 2 done.      555 TODO pages left, ~390 with no Divi 5 article; decision pending with Skip (exclude from build vs keep as stubs).
 - Still to do (after 2026-11-04 passes): `divi_version` still `5.x` on most older pages; screenshots for Components, Icon Manager, variable fonts; the ~700 TODO pages; re-check when the official Divi MCP ships (update `playbooks/divi-mcp-servers.md`).
 
 > The shortest possible "do this next" message — what the next session should do first. One or two bullets. If it's longer than that, the active work is in `02-deliverables/{slug}/`, the chronology is in `activity-log.md`, and this section just points there.

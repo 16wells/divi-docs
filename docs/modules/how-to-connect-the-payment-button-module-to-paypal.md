@@ -1,56 +1,34 @@
 ---
 title: "How to Connect the Payment Button Module to PayPal"
+description: "Connect the Divi 5 Payment Button module to PayPal using only the email address on your PayPal account."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/16406268-how-to-connect-the-payment-button-module-to-paypal"
 ---
 
 # How to Connect the Payment Button Module to PayPal
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** Setting the [Payment Button module](the-payment-button-module-in-divi-5.md) to take PayPal payments.
+    **Where to set it:** Payment Button settings → Content tab → Payment → Provider → PayPal.
+    **You need:** The email address of your PayPal account. No payment links are required, unlike Stripe.
 
-## Overview
+## Steps
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/16406268-how-to-connect-the-payment-button-module-to-paypal).
+1. Add a **Payment Button** module to your page.
+2. In **Content tab → Payment → Provider**, choose **PayPal** and click **Add**.
+3. In **Account Name**, type a label (any name works).
+4. In **PayPal Email**, enter the email address tied to your PayPal account.
+5. Click **Submit**.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Gotchas
 
-## Settings & Options
+- Use the email that actually receives funds in PayPal; payments go to that address.
+- For Stripe instead, see [How to Create a Stripe Payment Link](how-to-create-a-stripe-payment-link.md).
 
-### General
+## Official documentation
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Payment Button |  | Buttonmodule. |
-| Content tab → Payment → Provider |  | Provider, choosePayPal. |
-| Add |  | ck theAddbutton. |
-| Account Name |  | t Namefield, type the account name.This can be anything you want. |
-| PayPal Email |  | Emailfield, add the email address associated with your PayPal account. |
-| Submit |  | theSubmitbutton. |
-
-## Code Examples
-
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Connect the Payment Button Module to PayPal](https://help.elegantthemes.com/en/articles/16406268-how-to-connect-the-payment-button-module-to-paypal) (Elegant Themes Help Center)

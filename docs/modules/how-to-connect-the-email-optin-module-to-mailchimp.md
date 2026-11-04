@@ -1,63 +1,40 @@
 ---
 title: "How to Connect the Email Optin Module to MailChimp"
+description: "Generate a MailChimp API key and connect it to the Divi 5 Email Optin module so signups go to your chosen audience."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14086375-how-to-connect-the-email-optin-module-to-mailchimp"
 ---
 
 # How to Connect the Email Optin Module to MailChimp
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+Linking the [Email Optin module](email-optin.md) to MailChimp sends every submission to the MailChimp list you select.
 
-## Overview
+!!! abstract "Quick Reference"
+    **You need:** A MailChimp API key and an existing MailChimp list.
+    **Where in Divi:** Email Optin settings → Content tab → Email Account.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14086375-how-to-connect-the-email-optin-module-to-mailchimp).
+## Create the MailChimp API key
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Log in to MailChimp.
+2. Click your profile at the top right and choose **Profile**.
+3. Open the **Extras** tab and choose **API Keys**.
+4. Click **Create A Key**.
+5. Name the key and click **Generate Key**.
+6. Copy the key.
 
-## Settings & Options
+## Connect it in Divi
 
-### General
+1. Open the Email Optin module's settings (click the module or its gear icon).
+2. Go to **Content tab → Email Account**.
+3. Select **MailChimp** and click **Add**.
+4. Enter a **Name** (anything, such as `my-mailchimp`) and paste the key into **API Key**.
+5. Click **Submit**.
+6. Select the MailChimp list.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Log in |  | to yourMailChimp account. |
-| Profile |  | n theProfilelink at the top right corner. |
-| Profile |  | theProfileoption. |
-| Extras tab |  | xtras taband chooseAPI Keys. |
-| Create A Key |  | ate A Keybutton. |
-| Generate Key |  | Key Name and click theGenerate Keybutton. |
-| Gear icon |  | Email Opt-in module Settings modal window by clicking on the Email Optin module or by clicking on itsGear icon. |
-| Content Tab → Email Account |  | l Account. |
-| MailChimp |  | lChimpfrom the provider's list and click theAdd Button. |
-| Name |  | in the following fields:Name- It can be anything you want. For example, you can usemy-mailchimp.API Key- Paste the MailChimp API key. |
-| Name |  | It can be anything you want. For example, you can usemy-mailchimp. |
-| API Key |  | Paste the MailChimp API key. |
-| Submit |  | theSubmitbutton. |
+## Official documentation
 
-## Code Examples
-
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Connect the Email Optin Module to MailChimp](https://help.elegantthemes.com/en/articles/14086375-how-to-connect-the-email-optin-module-to-mailchimp)

@@ -1,70 +1,55 @@
 ---
 title: "How to Delete All Presets and Global Variables on a Divi Website"
+description: "Use the Reset Divi Presets plugin to wipe Divi 5 element presets, option group presets, and global variables from a site."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/9910009-how-to-delete-all-presets-and-global-variables-on-a-divi-website"
 ---
 
 # How to Delete All Presets and Global Variables on a Divi Website
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+Divi has no built-in "reset everything" button for presets and variables. Elegant Themes points to a small helper plugin, **Reset Divi Presets**, that adds reset actions to the WordPress admin bar.
 
-## Overview
+!!! abstract "Quick Reference"
+    **Tool:** The Reset Divi Presets plugin (a third-party plugin hosted on GitHub).
+    **Can reset:** Element presets, option group presets, or both, plus global variables by type or all at once.
+    **Warning:** Resets are permanent. Take a full backup first, and remove the plugin when finished.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/9910009-how-to-delete-all-presets-and-global-variables-on-a-divi-website).
+!!! warning
+    Deleting presets and global variables cannot be undone. Create a full site backup before you start.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Install the plugin
 
-## Settings & Options
+1. Download the **Reset Divi Presets** zip from the link in the official article.
+2. In the WordPress dashboard, go to **Plugins → Add New**.
+3. Click **Upload Plugin** at the top and choose the zip.
+4. Install, then activate it.
 
-### General
+## Reset presets and variables in Divi 5
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Reset Divi Presets |  | ate theReset Divi Presetsplugin. |
-| Plugins → Add New |  | rdPress dashboard and navigate toPlugins → Add New. |
-| Upload Plugin |  | ad Pluginat the top. |
-| Reset Divi Presets |  | Divi Presetsplugin. |
-| Reset Divi Presets |  | your WordPress Admin bar, a new option calledReset Divi Presetsis added. |
-| Reset Divi 5 Presets |  | oose the action you want to perform:Reset Divi 5 Presets:Reset Element Presets: Resets element presets, such as Section presets, Row presets, and Module Presets.Reset Option Group Presets: Reset onlyoption group presets.Element Presets will not be reset.Reset All Presets: Reset both Element and Option Group Presets.Reset Divi 5Global Variables:Reset Global Colors: Resets only the global color variables.Reset Global Fonts: Resets only the global fonts variables.Reset Global Images: Resets only global image variables.Reset Global Links: Resets only the global links variables.Reset Global Numbers: Resets only the global links variables.Reset Global Text:Resets only the global links variables.Reset All Global Variables: Resets all global variables. |
-| Reset Divi 5 Presets |  | Reset Element Presets: Resets element presets, such as Section presets, Row presets, and Module Presets.Reset Option Group Presets: Reset onlyoption group presets.Element Presets will not be reset.Reset All Presets: Reset both Element and Option Group Presets. |
-| Reset Element Presets |  | Resets element presets, such as Section presets, Row presets, and Module Presets. |
-| Reset Option Group Presets |  | Reset onlyoption group presets.Element Presets will not be reset. |
-| Reset All Presets |  | Reset both Element and Option Group Presets. |
-| Reset Divi 5Global Variables |  | Reset Global Colors: Resets only the global color variables.Reset Global Fonts: Resets only the global fonts variables.Reset Global Images: Resets only global image variables.Reset Global Links: Resets only the global links variables.Reset Global Numbers: Resets only the global links variables.Reset Global Text:Resets only the global links variables.Reset All Global Variables: Resets all global variables. |
-| Reset Global Colors |  | Resets only the global color variables. |
-| Reset Global Fonts |  | Resets only the global fonts variables. |
-| Reset Global Images |  | Resets only global image variables. |
-| Reset Global Links |  | Resets only the global links variables. |
-| Reset Global Numbers |  | Resets only the global links variables. |
-| Reset Global Text |  | Resets only the global links variables. |
-| Reset All Global Variables |  | Resets all global variables. |
-| Reset Divi Presets |  | your WordPress Admin bar, a new option calledReset Divi Presetsis added. |
-| Reset Divi 4 Presets |  | ick theReset Divi 4 Presetsoption. |
+1. A new **Reset Divi Presets** item now appears in the WordPress admin bar. Hover over it.
+2. Pick the action you want.
 
-## Code Examples
+**Reset Divi 5 Presets**
 
-<!-- TODO: Add CSS/PHP code examples -->
+- **Reset Element Presets** clears presets for elements such as Sections, Rows, and Modules. See [Element Presets](../builder/element-presets.md).
+- **Reset Option Group Presets** clears only option group presets and leaves element presets alone. See [Option Group Presets](../builder/option-group-presets.md).
+- **Reset All Presets** clears both.
 
-## Common Patterns
+**Reset Divi 5 Global Variables** (see [Global Variables](../builder/global-variables.md))
 
-<!-- TODO: Document 2-3 common usage patterns -->
+- **Reset Global Colors**, **Fonts**, **Images**, **Links**, **Numbers**, or **Text** each clear only that variable type.
+- **Reset All Global Variables** clears every type.
 
-## Troubleshooting
+## Tips
 
-<!-- TODO: Document common issues and solutions -->
+- Choose the narrowest reset that does the job; for example, reset only colors if only your palette is the problem.
+- After you finish, deactivate and delete the plugin so the reset actions are not left available.
+- The official article's descriptions for Reset Global Numbers and Reset Global Text repeat the wording for links; each button affects its own variable type.
 
-## AI Interaction Notes
+## Official documentation
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Delete All Presets and Global Variables on a Divi Website](https://help.elegantthemes.com/en/articles/9910009-how-to-delete-all-presets-and-global-variables-on-a-divi-website)
