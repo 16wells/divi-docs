@@ -48,3 +48,6 @@ Every entry should have a date, a short description, and ideally a one-line rati
 
 ## OPEN 2026-11-04 — What to do with ~121 non-Divi-5 stub pages
 Option A: delete/exclude from nav (matches charter: Divi 5 only). Option B: keep as-is. Option C: move to an appendix section. Leaning A for Extra/Bloom/Monarch; billing/FAQ pages are ET account help, also off-charter. Awaiting Skip.
+
+## 2026-11-04 — Non-Divi-5 stubs: remove from nav (Skip) — partially moot
+Skip chose "remove from nav". Finding: none of the ~121 candidates were in the mkdocs.yml nav or linked from other pages; they are already orphans, still built and searchable. Refined list of 103 (false positives like Divi 5 Pricing Tables, Woo Checkout Billing, Divi Cloud in Divi 5 excluded) saved at `04-research/non-divi5-stub-pages.txt`. Nothing changed in nav. Open follow-up: also exclude from build/search via `exclude_docs`, or delete.
