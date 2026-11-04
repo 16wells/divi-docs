@@ -243,6 +243,7 @@ nav:
       - Loop Builder: builder/loop-builder.md
       - Divi AI: builder/divi-ai.md
       - Canvases: builder/canvases.md
+      - Components: builder/components.md
     - Editing Tools:
       - Multi-Select & Bulk Editing: builder/multi-select-bulk-editing.md
       - Attribute Management: builder/attribute-management.md
@@ -341,6 +342,7 @@ nav:
     - REST API Content: playbooks/rest-api-content.md
     - Browser Automation: playbooks/browser-automation.md
     - Theme Builder Ops: playbooks/theme-builder-ops.md
+    - Divi MCP Servers: playbooks/divi-mcp-servers.md
     - Known Limitations: playbooks/known-limitations.md
     - Troubleshooting Tree: playbooks/troubleshooting-tree.md
   - Internals:

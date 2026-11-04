@@ -13,7 +13,7 @@ Instruction guides that teach AI assistants how to operate Divi 5.
 !!! abstract "Quick Reference"
     **What these are:** LLM-first documentation designed for AI assistants helping users build and modify Divi 5 websites.
     **How to use:** Drop playbooks into your AI assistant's context (system prompt, project knowledge, etc.) before asking Divi questions.
-    **Playbooks available:** Design System Setup | Build a Page | Visual Builder Ops | CSS in Divi | Responsive Design | Layout Patterns | HTML Workarounds | REST API Content | Browser Automation | Theme Builder Ops | Known Limitations | Troubleshooting Tree
+    **Playbooks available:** Design System Setup | Build a Page | Visual Builder Ops | CSS in Divi | Responsive Design | Layout Patterns | HTML Workarounds | REST API Content | Browser Automation | Theme Builder Ops | Divi MCP Servers | Known Limitations | Troubleshooting Tree
 
 ## What These Are
 
@@ -54,6 +54,7 @@ Every Divi user who asks an AI assistant for help gets the same experience: the 
 ### Guardrails
 | Playbook | What It Teaches the LLM |
 |----------|------------------------|
+| [Divi MCP Servers](divi-mcp-servers.md) | Status of official and third-party MCP servers for Divi 5 |
 | [Known Limitations](known-limitations.md) | Things LLMs consistently get wrong about Divi 5 |
 | [Troubleshooting Decision Tree](troubleshooting-tree.md) | Systematic diagnosis for common problems |
 

@@ -107,3 +107,7 @@
 
 ---
 *Last updated: 2026-05-06*
+
+
+## 2026-11-04 — Monitor blind spot: Components collection
+`monitor_updates.py` reported "0 new articles" while 5 Components articles (IDs 17438180-193) had no local page; they were only visible via help-center search (`/en/search?q=`). Periodically search the help center for new feature names, not just the scanned collections. Also: official Divi MCP is not released; third-party ones exist (DiviOps, Wiplink, Respira, D5MCP).

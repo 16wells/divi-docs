@@ -169,3 +169,10 @@
 | Research findings | The appropriate file in `04-research/` |
 
 If you're ever unsure, err toward logging it here briefly with a pointer to where the full artifact lives.
+
+
+## 2026-11-04 — Claude Code — Divi update pass (Components, MCP status)
+- Ran weekly monitor (dry-run): 0 new ET help-center articles; 24 settings flagged on `builder/divi-5-update-status.md` (not applied); content hashes refreshed.
+- Found the monitor does not discover the Components help-center collection (articles 17438180/185/188/191/193). Wrote `docs/builder/components.md` (original wording, 5.15+) and added to nav + builder index.
+- Divi 5.15 (Oct 2026) is the latest numbered release-notes post; ET posts weekly feature releases (Icon Manager, Multi-Select, Variable Math, Loop Filter, Variable Fonts, Divi AI Agents) rather than numbered notes.
+- MCP: no official Elegant Themes Divi MCP exists as of this date (only an unconfirmed "coming" comment). Added `docs/playbooks/divi-mcp-servers.md` documenting the AI Agent plus third-party servers, flagged as unaffiliated.

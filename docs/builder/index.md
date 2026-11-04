@@ -43,6 +43,7 @@ The Divi Builder is the visual page building system at the core of Divi. It incl
 | [Nested Modules](nested-modules.md) | Nest modules inside other modules for complex layouts | ✅ Done |
 | [Nested Rows](nested-rows.md) | Place rows inside columns for sub-grid layouts | ✅ Done |
 | [Canvases](canvases.md) | Off-canvas workspaces for popups, menus, and staging | ✅ Done |
+| [Components](components.md) | Reusable synced modules, rows, and sections with selective sync and slots (Divi 5.15+) | ✅ Done |
 | [Command Center](command-center.md) | Keyboard-driven command palette for rapid builder actions | ✅ Done |
 | [Interactions](interactions.md) | Event-driven animations and dynamic behaviors | ✅ Done |
 | [Attribute Management](attribute-management.md) | Copy, paste, and reset element attributes | ✅ Done |
