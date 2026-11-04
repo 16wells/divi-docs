@@ -1,52 +1,45 @@
 ---
 title: "Using Divi Box Shadow Options"
+description: "How to add a drop shadow around Divi 5 modules from the Design tab Box Shadow option group."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
-source_url: "https://help.elegantthemes.com/en/articles/8671192-using-divi-box-shadow-options"
+last_updated: 2026-11-04
+source_url: "https://help.elegantthemes.com/en/articles/10102594"
 ---
 
 # Using Divi Box Shadow Options
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Where:** Module settings > Design tab > Box Shadow.
+    **Controls:** Horizontal and vertical position, blur, spread, color, and inside or outside placement.
 
-## Overview
+A box shadow adds depth around a whole module. See also the [Box Shadow option group reference](../options-groups/box-shadow.md).
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/8671192-using-divi-box-shadow-options).
+## Open the options
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Click the module or its Gear icon to open its settings.
+2. Go to the **Design** tab and open **Box Shadow**.
 
-## Settings & Options
+## Settings
 
-### General
+| Setting | Description |
+|---|---|
+| Box Shadow Horizontal Position | Moves the shadow sideways. Positive values go right, negative values go left. |
+| Box Shadow Vertical Position | Moves the shadow up or down. Positive values go down, negative values go up. |
+| Box Shadow Blur Strength | How soft the shadow is. Higher values give a wider, softer edge. |
+| Box Shadow Spread Strength | How dense the shadow is. More spread makes it darker and more pronounced. |
+| Shadow Color | Pick from the site palette or use the color picker. |
+| Box Shadow Position | Place the shadow outside the module or inside it. |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Outer |  | places the box shadow on the outside of the element |
-| Inner |  | places the box shadow inside the element |
+## Tips
 
-## Code Examples
+- Light, soft shadows add depth without overpowering the design.
+- Matching the shadow color to the module's background looks natural.
+- Inside shadows give a recessed look; outside shadows suggest elevation.
 
-<!-- TODO: Add CSS/PHP code examples -->
 
-## Common Patterns
+## Official documentation
 
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- [Using Divi Box Shadow Options (Elegant Themes Help Center)](https://help.elegantthemes.com/en/articles/10102594)

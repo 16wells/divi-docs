@@ -1,71 +1,82 @@
 ---
 title: "Nested Options Presets in Divi 5"
+description: "How Divi 5 lets you apply presets to sub-options and nest option presets inside other option presets, so one change propagates through every layer."
 category: builder
-tags: [builder]
-related: []
+tags: [builder, presets, nested-presets, design-system]
+related: [option-group-presets, element-presets, stacked-nested-presets, composable-settings-in-divi-5]
 divi_version: "5.x"
-last_updated: 2026-08-03
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14734094-nested-options-presets-in-divi-5"
 ---
 
 # Nested Options Presets in Divi 5
 
-<!-- AUTO-CREATED: 2026-08-03 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** An extension of Divi 5 presets that works on sub-options (such as the Border inside a Button group) and lets one option preset live inside another.
+    **How to use it:** Hover a nested option in the Design tab, click its **Preset icon**, and pick or create a preset.
+    **Key behavior:** Edit an inner preset and every preset that nests it, and every element using those presets, updates.
+    **Availability:** Divi 5 only.
 
-## Overview
+## What it adds
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14734094-nested-options-presets-in-divi-5).
+Divi 5 already had element presets and option group presets. Nested Options Presets add two things:
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+- **Presets on sub-options.** Sub-options inside an option group (for example Call To Action > Button > Border) now accept presets. Before, presets applied only to whole elements or top-level option groups.
+- **Option presets inside option presets.** An option preset can contain another option preset, adding a third layer of nesting beneath element and option group presets.
 
-## Settings & Options
+The payoff is reuse: one Border preset can sit inside a Button preset, inside a Call To Action preset, and directly on an Image module. Change it once and every use follows.
 
-### General
+## Where it fits in the preset system
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Presets on nested (sub) options. |  | Sub-options inside an option group (for example,Call To Action → Button → Border) now support presets. Previously, presets could only be applied at the element level or on top-level option groups. |
-| Option presets inside other option presets. |  | You can nest an option preset inside another option preset, creating a third layer of preset nesting on top of element presets and option group presets. |
-| Element Presets |  | apply a collection of styles to a specific element type (e.g., a Blurb module preset). |
-| Option Group Presets |  | apply styles to a single option group (e.g., a Border preset, a Button preset) and work across any module that contains that group. For details, seeHow to Use Option Group Presets in Divi 5. |
-| Stacked Presets |  | let you apply multiple presets to the same element or group at once. For details, seeStacked And Nested Presets in Divi 5. |
-| Nested Presets (element level) |  | let you nest an option preset inside an element preset - covered in the sameStacked And Nested Presetsarticle. |
-| Nested Options Presets (this article) |  | add presets on sub-options and presets nested inside other option presets. |
-| Visual Builder |  | Builder. |
-| Design |  | a module to open its settings and go to theDesigntab. |
-| Button |  | an option group that contains sub-options (for example,Button). |
-| Border |  | over the nested option (for example,Border) and click thePreset icon. |
-| Add New Preset |  | ting option preset, or clickAdd New Presetto create one. |
-| Save Preset |  | he styles and clickSave Preset. |
-| Border |  | a standalone option preset first - for example, aBorderpreset set to your site's default border style. |
-| Button |  | module's settings and hover over the option group you want to edit (for example,Button). Click thePreset iconand open an existing Button preset for editing, or create a new one. |
-| Border |  | the preset editor, expand the nested option (for example,Border). |
-| Preset icon |  | eset iconon that nested option and select the Border preset you created in step 1. |
-| Save Preset |  | reset. |
-| Pill Border |  | l Borderoption preset with a high border radius. |
-| Solid Button |  | d Buttonoption group preset. Inside it, nest thePill Borderpreset on the button'sBordersub-option. |
-| Dark Blurb |  | rDark BlurbandLight Blurbelement presets. Inside each, nest theSolid Buttonpreset. |
+| Preset type | What it does |
+|---|---|
+| Element presets | Apply a set of styles to one element type, such as a Blurb. |
+| Option group presets | Style a single option group (Border, Button) across any module that has it. See [Option Group Presets](option-group-presets.md). |
+| Stacked presets | Apply several presets to the same element or group at once. See [Stacked and Nested Presets](stacked-nested-presets.md). |
+| Nested presets (element level) | Nest an option preset inside an element preset; covered in the stacked and nested article. |
+| Nested options presets | This feature: presets on sub-options, and presets inside other option presets. |
 
-## Code Examples
+It also works with [Composable Settings](composable-settings-in-divi-5.md): any sub-element you enable there can have its own option preset.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Apply a preset to a nested option
 
-## Common Patterns
+1. Open the Visual Builder and click a module to open its settings.
+2. Go to the **Design** tab.
+3. Expand an option group that has sub-options, such as **Button**.
+4. Hover the nested option (for example **Border**) and click the **Preset icon**.
+5. Choose an existing option preset, or click **Add New Preset**.
+6. Set the styles and click **Save Preset**.
 
-<!-- TODO: Document 2-3 common usage patterns -->
+The same preset can then be reused on any matching nested option across the site.
 
-## Troubleshooting
+## Nest one option preset inside another
 
-<!-- TODO: Document common issues and solutions -->
+1. Create a standalone option preset first, for example a **Border** preset with your default border style.
+2. Open a module's settings, hover the option group to edit (such as **Button**), click the **Preset icon**, and open an existing Button preset for editing or create one.
+3. In the preset editor, expand the nested option (for example **Border**).
+4. Click that nested option's **Preset icon** and pick the Border preset from step 1.
+5. Click **Save Preset**.
 
-## AI Interaction Notes
+The Button preset now holds the Border preset as a reference. Any change to the Border preset flows into every Button preset that nests it, and into every element using those Button presets.
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+## Worked example
 
-## Related
+Goal: two element presets, **Dark Blurb** and **Light Blurb**, sharing one button style and one pill-shaped border.
 
-<!-- TODO: Add links to related documentation pages -->
+1. Create a **Pill Border** option preset with a high border radius.
+2. Create a **Solid Button** option group preset and nest **Pill Border** on its **Border** sub-option.
+3. Create the **Dark Blurb** and **Light Blurb** element presets, and nest **Solid Button** inside each.
+
+Every button inherits the Solid Button style and every button border inherits Pill Border. Changing the radius on Pill Border updates every button, whichever blurb preset it sits in.
+
+## FAQ
+
+- **How is this different from the nested presets in Stacked and Nested Presets?** That feature nests an option preset inside an element preset. This one adds option presets inside other option presets, plus presets on sub-options that could not take them before.
+- **Is Composable Settings required?** No, not for sub-options that already existed. Sub-elements you enable through Composable Settings gain preset support too.
+- **What happens when I change a nested preset?** Every preset that nests it updates, and so does every element using those presets. Changes pass through all layers.
+- **Can I override a nested preset on one element?** Yes. Static styles set directly on an element override preset values, as before.
+- **Does it work in Divi 4?** No. It is exclusive to Divi 5.
+
+## Official documentation
+
+- [Nested Options Presets in Divi 5](https://help.elegantthemes.com/en/articles/14734094-nested-options-presets-in-divi-5){:target="_blank"}

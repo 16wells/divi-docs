@@ -1,94 +1,62 @@
 ---
 title: "How to Create a One-Page Website in Divi 5"
+description: "Step-by-step guide to building a one-page site in Divi 5 with section anchors, a custom menu, a static homepage, and optional Dot Navigation."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15069550-how-to-create-a-one-page-website-in-divi-5"
 ---
 
 # How to Create a One-Page Website in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Goal:** One scrolling page where menu links jump to each section.
+    **Core technique:** Give each Section a CSS ID, then point custom menu links at `#that-id`.
+    **Extras:** Set the page as the static homepage; optionally turn on Dot Navigation in Divi Page Settings.
 
-## Overview
+## Before you begin
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15069550-how-to-create-a-one-page-website-in-divi-5).
+- Divi 5 is installed and activated.
+- You are logged in to WordPress as an Administrator.
+- You have planned the main content areas (for example Case Studies, Services, About Us, Contact Us). Each becomes a Section with its own anchor.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+!!! tip "Divi AI Agent"
+    The [Divi AI Agent](https://help.elegantthemes.com/en/articles/16798164-the-divi-ai-agent-in-divi-5) in the Visual Builder sidebar can create the page, sections, and the anchor menu from a plain-language prompt, and asks for approval before anything destructive. It is part of every Divi AI subscription.
 
-## Settings & Options
+## Steps
 
-### General
+1. **Create the page.** In WordPress go to **Pages → Add New Page** and give it a title (for example, Homepage).
+2. **Open the Visual Builder.** Click **Use Divi Builder**. The Page Flow modal offers Build From Scratch, Choose a Premade Layout, or Build with AI. The anchor steps work the same with any option; a Landing Page premade layout already follows a one-page structure.
+3. **Structure the content into Sections.** Create one Section per menu item (you can add more, such as a hero or footer call to action).
+4. **Add a CSS ID to each Section.** For each target Section:
+    1. Click the Section's gear icon.
+    2. Go to **Advanced → Attributes**.
+    3. Click **+ Add Attribute** and choose **ID**.
+    4. Enter the value (for example `case-studies`).
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Case Studies |  | major content areas of your page (for example:Case Studies,Services,About Us,Contact Us). Each one will become a Divi 5 Section with its own anchor point. |
-| Pages → Add New Page |  | Dashboard, go toPages → Add New Page.​ |
-| Homepage |  | r page a title (for example,Homepage). You can use any title you want​ |
-| Build From Scratch |  | start with a blank canvas. |
-| Choose a Premade Layout |  | load one of Divi's pre-designed layout packs. |
-| Build with AI |  | let Divi AI generate a layout based on a prompt. |
+    Save with the purple Save button, then exit the Visual Builder.
+5. **Create the menu.** Go to **Appearance → Menus**, edit or create a menu, and expand **Custom Links**. For each Section, set the URL to `#` plus the ID (for example `#case-studies`), enter the Link Text, and click **Add to Menu**. Under **Menu Settings → Display location** tick **Primary Menu** (or your theme's main location) and click **Save Menu**.
+6. **Set the homepage.** Go to **Settings → Reading**, choose **A static page** under Your homepage displays, select your page, and click **Save Changes**.
+7. **Optional: turn on Dot Navigation.** Edit the page, find the **Divi Page Settings** box in the sidebar, set **Dot Navigation** to On, and click **Update**.
 
-### Content Tab
+## CSS ID rules
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Case Studies |  | rCase Studies |
-| Services |  | n forServices |
-| About Us |  | n forAbout Us |
-| Contact Us |  | forContact Us |
-| gear icon |  | Section'sgear iconto open its settings. |
-| Advanced Tab → Attributes |  | butes. |
-| + Add Attribute |  | ibute |
-| ID |  | ooseID |
-| Attribute Value |  | ute Value(for example,case-studies). |
-| Use descriptive names |  | the ID should describe what the Section contains (case-studiesis better thansection-1). |
-| Stick to one naming convention |  | kebab-case (case-studies), camelCase (caseStudies), or snake_case (case_studies). Pick one and use it for every ID. |
-| Use only lowercase letters, numbers, and hyphens |  | avoid spaces and special characters. |
-| Keep IDs unique |  | the same ID must not be used twice on the same page. |
-| Keep IDs short and simple |  | descriptive but easy to type. |
-| WordPress Dashboard → Appearance → Menus |  | Menus. |
-| create a new menu |  | menu or create a new one by clickingcreate a new menu, giving it a name, and clickingCreate Menu. |
-| Custom Links |  | panel, clickCustom Linksto expand it. |
-| URL |  | each Section you want in the menu, add a custom link:In theURLfield, type#followed by the Section's CSS ID. For example,#case-studies.In theLink Textfield, type the label you want visitors to see (for example,Case Studies).ClickAdd to Menu. |
-| URL |  | theURLfield, type#followed by the Section's CSS ID. For example,#case-studies. |
-| Link Text |  | k Textfield, type the label you want visitors to see (for example,Case Studies). |
-| Add to Menu |  | Menu. |
-| #services |  | r each Section (#services,#about-us,#contact-us, etc.). |
-| Menu Settings → Display location |  | nu Settings → Display location, checkPrimary Menu(or whichever menu location your theme uses for the main navigation).Click theSave Menubutton. |
-| Menu Settings → Display location |  | ation, checkPrimary Menu(or whichever menu location your theme uses for the main navigation). |
-| Save Menu |  | Save Menubutton. |
-| WordPress Dashboard → Settings → Reading |  | ading. |
-| Your homepage displays |  | plays, selectA static page. |
-| Homepage |  | omepagedropdown, select the page you created in Step 1. |
-| Save Changes |  | anges. |
-| WordPress Dashboard → Pages → All Pages |  | Pages. |
-| Divi Page Settings |  | ar, find theDivi Page Settingsbox. |
-| Dot Navigation |  | iontoOn. |
-| Update |  | pdate. |
+- Only Sections, Rows, and Modules can have a CSS ID; attach it to the Section for a clean menu.
+- Use descriptive names (`case-studies`, not `section-1`).
+- Stick to one naming convention (kebab-case, camelCase, or snake_case).
+- Use only lowercase letters, numbers, and hyphens; no spaces or special characters.
+- Keep IDs unique on the page, short, and simple.
 
-## Code Examples
+## Dot Navigation
 
-<!-- TODO: Add CSS/PHP code examples -->
+Dot Navigation adds a floating vertical dot menu on the right side of the page, one dot per Section. Clicking a dot jumps to that Section. The number of dots matches the number of Sections on the page.
 
-## Common Patterns
+## Result
 
-<!-- TODO: Document 2-3 common usage patterns -->
+Visit the homepage and click each menu item; the page scrolls to the matching Section. After this you can keep refining spacing, typography, and Global Presets in the Visual Builder.
 
-## Troubleshooting
+## Official documentation
 
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Create a One-Page Website in Divi 5](https://help.elegantthemes.com/en/articles/15069550-how-to-create-a-one-page-website-in-divi-5)

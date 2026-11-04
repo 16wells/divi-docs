@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "gradients", "design", "backgrounds", "text-effects", "variables"]
 related: ["visual-builder", "presets", "global-variables", "copy-paste-attributes"]
 divi_version: "5.7+"
-last_updated: 2026-06-05
+last_updated: 2026-11-04
 source_url: "https://www.elegantthemes.com/documentation/divi/gradient-builder"
 ---
 
@@ -21,7 +21,7 @@ How to add, edit, and reuse gradients throughout your Divi designs — as backgr
     - **Gradient field type** — one unified attribute you can copy, paste, extend, inspect, and find/replace as a whole
     - **Gradient Picker panel** — consolidated editor (like the color picker) with stops, type, direction, and variables in one place
     - **Gradient variables** — save any gradient in the Variable Manager and reuse it site-wide
-    - Linear and radial types, repeating patterns, and background-image layering
+    - Linear, Circular (radial), Elliptical, and Conical types, repeating patterns, and background-image layering
     - **Text gradient fills** — apply gradients (including gradient variables) to text in any typography option group
 
     **ET Docs:** [Gradient Builder](https://www.elegantthemes.com/documentation/divi/gradient-builder){:target="_blank"}
@@ -36,7 +36,7 @@ All gradient editing in Divi 5.7 flows through the **Gradient Picker** — a ded
 
 The picker provides:
 
-- Gradient type (linear or radial), direction/angle, and radial position
+- Gradient type (Linear, Circular, Elliptical, or Conical), angle, and position
 - A visual stop bar for adding, reordering, and positioning color stops
 - Access to **gradient variables** and color variables from the same panel
 - Consistent behavior across every context where gradients are supported
@@ -63,7 +63,7 @@ When you edit a gradient variable, every field that references it updates across
 ### Creating a gradient variable
 
 1. Open the **Variable Manager** from the Visual Builder toolbar.
-2. Select the **Gradients** group (or add a new gradient variable from an existing gradient field via the dynamic content icon).
+2. Select the **Gradients** category and choose **Add Global Gradient** (or right-click an existing gradient field and choose **Convert to Variable**).
 3. Build the gradient in the Gradient Picker panel.
 4. Name the variable and click **Save Variables**.
 
@@ -103,9 +103,9 @@ See [Text Options](../options-groups/text.md) for the shared typography settings
 
 | Setting | Description | Default |
 |---------|-------------|---------|
-| **Gradient Type** | Linear (straight line) or Radial (circular). See types below. | Linear |
-| **Direction / Angle** | For linear gradients, the angle in degrees (0--360) that controls the gradient line direction. | 180 deg (top to bottom) |
-| **Radial Position** | For radial gradients, the center point of the gradient (center, top left, etc.). | Center |
+| **Gradient Type** | Linear, Circular (Divi's label for radial), Elliptical, or Conical. | Linear |
+| **Direction / Angle** | For Linear and Conical gradients, the angle in degrees (0--360) that controls the gradient line direction. | 180 deg (top to bottom) |
+| **Radial Position** | For Circular and Elliptical gradients, where the gradient originates (Center, Top Left, Bottom Right, etc.). | Center |
 | **Start Position** | Where the first color stop begins, as a percentage of the element. | 0% |
 | **End Position** | Where the last color stop ends, as a percentage of the element. | 100% |
 | **Color Stops** | Individual colors placed at specific positions along the gradient. Each stop has a color value and a position (%). | -- |
@@ -183,13 +183,6 @@ Percentage is the most portable unit since it scales with the element size. Use 
 
 !!! note "Divi 5 Only"
     This page documents Divi 5 behavior exclusively.
-
-## Troubleshooting
-
-!!! warning "Feature Not Available"
-    If this feature is not visible, ensure you are running the latest version of Divi 5 and that your user role has the appropriate permissions in the Role Editor.
-
-<!-- TODO: Add feature-specific troubleshooting items -->
 
 ## Related
 

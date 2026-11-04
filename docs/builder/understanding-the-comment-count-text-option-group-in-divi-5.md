@@ -1,110 +1,103 @@
 ---
 title: "Understanding the Comment Count Text Option Group in Divi 5"
+description: "The Comment Count Text design option group in Divi 5: typography, spacing, fill, stroke, and shadow settings for the comment count text in the Comments module."
 category: builder
-tags: [builder]
+tags: [builder, design-options, typography, comments]
 related: []
 divi_version: "5.x"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15419434-understanding-the-comment-count-text-option-group-in-divi-5"
 ---
 
 # Understanding the Comment Count Text Option Group in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** The design option group that styles the comment count text in modules such as [Comments](../modules/comments.md).
+    **Where to find it:** Open the Comments module settings, go to the **Design** tab, and find **Comment Count Text**.
+    **Key behavior:** Size, color, line height, and letter spacing accept Global Variables. Variable font controls appear only for variable fonts.
 
-## Overview
+## Where to find it
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15419434-understanding-the-comment-count-text-option-group-in-divi-5).
+1. Open the Comments module settings by clicking the gear icon or the module itself.
+2. Switch to the **Design** tab.
+3. Locate the **Comment Count Text** option group.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Settings
 
-## Settings & Options
+| Setting | Description |
+|---|---|
+| Comment Count Heading Level | Heading tag (H1-H6) used for the text, which sets its place in the page's HTML structure. |
+| Comment Count Font | Pick a font from the dropdown or upload a custom one. |
+| Comment Count Font Weight | Boldness of the text, from light to extra-bold. |
+| Variable font settings | Shown only when a Google variable font is selected. See the variable font options below. |
+| Comment Count Text Size | Font size, via slider or typed value. Accepts Global Variables. |
+| Comment Count Text Color | Color of the text. Accepts Global Variables. |
+| Comment Count Line Height | Space between lines of text. Accepts Global Variables. |
+| Comment Count Letter Spacing | Space between letters, via slider or typed value. Accepts Global Variables. |
+| Comment Count Text Alignment | Left, center, right, or justified. |
+| Comment Count Capitalization | Text case: Uppercase, Capitalize, Lowercase, Smallcaps, or All Small Caps. |
+| Comment Count Font Style | Italic, Underline, Overline, and Strikethrough toggles. See line options below. |
+| Comment Count Line Wrap Style | How text breaks across lines: Default, Balanced, or Pretty. |
+| Comment Count Text Direction | Standard Horizontal or one of two vertical modes. |
+| Comment Count Hyphenation | Lets the browser split long words with a hyphen when they do not fit on a line. |
+| Comment Count Fill Type | None, Gradient, Image, or Transparent text fill. |
+| Comment Count Stroke Width | Thickness of an outline around the text letters, with a stroke color setting. |
+| Comment Count Columns | Number of columns the text flows through. |
+| Comment Count Text Shadow | Adds a shadow with direction, blur, and color controls. |
 
-### General
+## Variable font options
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Open the Module Settings |  | Click the gear icon or the module itself to access the settings. |
-| Navigate to the Design Tab |  | Locate the Comment Count Text option group. |
-| Comment Count Heading Level |  | Choose the heading level you want to assign to the comment count text: h1, h2, h3, h4, h5, or h6. |
-| Comment Count Font |  | Choose a font from the dropdown or upload a custom font for unique styling. |
-| Comment Count Font Weight |  | Adjust the boldness of your Comment Count with options like light, bold, or extra-bold. |
-| Variable Font Options |  | those options will only be available if you are using a Google variable font such asRobo,Google Sans Flex, orBitcount):Variable Font Weight: Use the slider or type in a numeric value for the font weight.Optical Sizing: Enable automatic optical size handling.Variable Font Width: Fine-tune variable font width using variable font interpolation.Variable Font Slant: Fine-tune variable font slant using variable font interpolation.Variable Font Crsv: Fine-tune variable font crsv using variable font interpolation.Variable Font Element Shape: Fine-tune variable font element shape using variable font interpolation.Variable Font Element Expansion: Fine-tune variable font element expansion using variable font interpolation.Variable Font  Rond: Fine-tune variable font rond using variable font interpolation.Variable Font Grade: Fine-tune variable font grade using variable font interpolation.Variable Font Width: Fine-tune variable font width using variable font interpolation. |
-| Variable Font Weight |  | Use the slider or type in a numeric value for the font weight. |
-| Optical Sizing |  | Enable automatic optical size handling. |
-| Variable Font Width |  | Fine-tune variable font width using variable font interpolation. |
-| Variable Font Slant |  | Fine-tune variable font slant using variable font interpolation. |
-| Variable Font Crsv |  | Fine-tune variable font crsv using variable font interpolation. |
-| Variable Font Element Shape |  | Fine-tune variable font element shape using variable font interpolation. |
-| Variable Font Element Expansion |  | Fine-tune variable font element expansion using variable font interpolation. |
-| Variable Font  Rond |  | Fine-tune variable font rond using variable font interpolation. |
-| Variable Font Grade |  | Fine-tune variable font grade using variable font interpolation. |
-| Variable Font Width |  | Fine-tune variable font width using variable font interpolation. |
-| Comment Count Text Size |  | You can adjust the font size of your Comment Count text using the slider or by entering a specific value. It also acceptsGlobal Variables. |
-| Comment Count Text Color |  | Choose a color to be used for the Comment Count text. It also acceptsGlobal Variables. |
-| Comment Count Line Height |  | Set the space between the lines of the Comment Count text, helping to improve readability. It also acceptsGlobal Variables. |
-| Comment Count Letter Spacing |  | Control the space between letters by adjusting the slider or entering a value. It also acceptsGlobal Variables. |
-| Comment Count Text Alignment |  | Set the alignment for the Comment Count text - left, center, right, or justified. |
-| Comment Count Capitalization |  | Choose the Comment Count text's capitalization:Uppercase- All letters are in uppercase formatCapitalize- Makes the first letter of each word uppercase.Lowercase- All letters are in lowercase format.Smallcaps- Lowercase letters display as smaller uppercase letters.All Small Caps- all letters display as small caps, including letters that were already uppercase. |
-| Uppercase |  | All letters are in uppercase format |
-| Capitalize |  | Makes the first letter of each word uppercase. |
-| Lowercase |  | All letters are in lowercase format. |
-| Smallcaps |  | Lowercase letters display as smaller uppercase letters. |
-| All Small Caps |  | all letters display as small caps, including letters that were already uppercase. |
-| Comment Count Font Style |  | Select additional font styles, including:Italic: Makes the text lean to the right.Underline: Adds a line under the text.Overline: adds a line above the text.Strikethrough: draws a line through the middle of the text.⚠️Note: When Underline, Overline, and/or Strikethrough are enabled, you can also choose:Line Color: Choose the line's color. It also acceptsGlobal Variables.Line Thickness: Choose how thick or slim the line is.Line Type: Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Italic |  | Makes the text lean to the right. |
-| Underline |  | Adds a line under the text. |
-| Overline |  | adds a line above the text. |
-| Strikethrough |  | draws a line through the middle of the text.⚠️Note: When Underline, Overline, and/or Strikethrough are enabled, you can also choose:Line Color: Choose the line's color. It also acceptsGlobal Variables.Line Thickness: Choose how thick or slim the line is.Line Type: Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Line Color |  | Choose the line's color. It also acceptsGlobal Variables. |
-| Line Thickness |  | Choose how thick or slim the line is. |
-| Line Type |  | Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Comment Count Line Warp Style |  | Choose how text should wrap. Default keeps native browser wrapping, Balanced evens heading lines, and Pretty helps avoid single-word endings.Default: Text can move onto a new line when it runs out of space.Balanced:Short text breaks into lines with more even lengthsPretty:Text wrap in a cleaner, more visually pleasing way |
-| Default |  | Text can move onto a new line when it runs out of space. |
-| Balanced |  | Short text breaks into lines with more even lengths |
-| Pretty |  | Text wrap in a cleaner, more visually pleasing way |
-| Comment Count Text Direction |  | Choose text flow direction. Standard Horizontal reads left-to-right across lines, while vertical modes stack glyphs top-to-bottom.Standard HorizontalVertical (right to left): The text is displayed from top to bottom, and each new line starts to the left of the previous one.Vertical (left to right): The text is displayed from bottom to top, and each new line starts to the left of the previous one. |
-| Standard Horizontal |  |  |
-| Vertical (right to left) |  | The text is displayed from top to bottom, and each new line starts to the left of the previous one. |
-| Vertical (left to right) |  | The text is displayed from bottom to top, and each new line starts to the left of the previous one. |
-| Comment Count Hyphenation |  | When enabled, if a word is too long to fit nicely on one line, the browser can break it into parts and add a hyphen at the break. |
-| Comment Count Fill Type |  | Choose the Comment Count's text fill options:None- No Comment Count text fill.Gradient- Fill the Comment Count text with a GradientImage- Fill the Comment Count text with an ImageTransparent- Fill the Comment Count text with a transparent fill. |
-| None |  | No Comment Count text fill. |
-| Gradient |  | Fill the Comment Count text with a Gradient |
-| Image |  | Fill the Comment Count text with an Image |
-| Transparent |  | Fill the Comment Count text with a transparent fill. |
-| Comment Count Stroke Width |  | Choose the thickness of the stroke.Comment Count Stroke Color- Choose the Comment Count text's stroke color. |
-| Comment Count Stroke Color |  | Choose the Comment Count text's stroke color. |
-| Comment Count Columns |  | Set how many columns the text should flow through. |
-| Comment Count Text Shadow |  | Add a text shadow effect and customize its direction, blur, and color to add depth or emphasis to the Comment Count:Direction: Adjust horizontal and vertical placement.Blur: Control how soft or sharp the shadow appears.Color: Set a shadow color to complement the text.Tips for Using Heading Text Options |
-| Direction |  | Adjust horizontal and vertical placement. |
-| Blur |  | Control how soft or sharp the shadow appears. |
-| Color |  | Set a shadow color to complement the text.Tips for Using Heading Text Options |
-| Use Hierarchy Effectively |  | Assign heading levels (h1-h6) consistently to establish a clear content hierarchy. |
-| Match Design Aesthetics |  | Select fonts, colors, and styles that align with your site’s overall branding. |
-| Optimize Readability |  | Adjust size, spacing, and line height to make headings easy to read. |
-| Add Subtle Effects |  | Use text shadows sparingly to enhance contrast without overpowering the design. |
+These controls appear only when the selected font is a Google variable font (for example Google Sans Flex or Bitcount). Each one fine-tunes an axis of the font through variable font interpolation:
 
-## Code Examples
+- **Variable Font Weight:** slider or numeric value.
+- **Optical Sizing:** turns on automatic optical size handling.
+- **Variable Font Width and Slant:** adjust the width and slant axes.
+- **Crsv, Element Shape, Element Expansion, Rond, and Grade:** additional axes, shown when the font supports them.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Text details
 
-## Common Patterns
+**Capitalization**
 
-<!-- TODO: Document 2-3 common usage patterns -->
+- **Uppercase:** every letter is capital.
+- **Capitalize:** first letter of each word is capital.
+- **Lowercase:** every letter is small.
+- **Smallcaps:** lowercase letters render as smaller capitals.
+- **All Small Caps:** all letters render as small capitals, including ones that were already capital.
 
-## Troubleshooting
+**Font style**
 
-<!-- TODO: Document common issues and solutions -->
+- **Italic** slants the text; **Underline**, **Overline**, and **Strikethrough** add a line below, above, or through it.
+- When any line option is on, you can also set **Line Color** (accepts Global Variables), **Line Thickness**, and **Line Type** (Solid, Double, Dotted, Dashed, or Wavy).
 
-## AI Interaction Notes
+**Line wrap style**
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+- **Default:** native browser wrapping.
+- **Balanced:** short text breaks into lines of more even length.
+- **Pretty:** wraps in a cleaner way that avoids stray single words at the end.
 
-## Related
+**Text direction**
 
-<!-- TODO: Add links to related documentation pages -->
+- **Standard Horizontal:** reads left to right.
+- **Vertical (right to left)** and **Vertical (left to right):** stack the text top to bottom or bottom to top, with each new line starting to the left of the previous one.
+
+**Fill type and stroke**
+
+- **None** leaves the text unfilled, **Gradient** and **Image** fill the letters with that style, and **Transparent** makes the fill clear.
+- **Stroke Width** sets the outline thickness; **Comment Count Stroke Color** sets its color.
+
+**Text shadow**
+
+- **Direction:** horizontal and vertical offset.
+- **Blur:** how soft or sharp the shadow looks.
+- **Color:** the shadow color.
+
+## Tips
+
+- Assign heading levels consistently to keep a clear content hierarchy.
+- Choose fonts, colors, and styles that fit the site's branding.
+- Adjust size, spacing, and line height so the heading is easy to read.
+- Use text shadows sparingly so they add contrast without overpowering the design.
+
+## Official documentation
+
+[Understanding the Comment Count Text Option Group in Divi 5](https://help.elegantthemes.com/en/articles/15419434-understanding-the-comment-count-text-option-group-in-divi-5){:target="_blank"}

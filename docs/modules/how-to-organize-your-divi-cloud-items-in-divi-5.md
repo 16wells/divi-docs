@@ -1,66 +1,53 @@
 ---
 title: "How to Organize Your Divi Cloud Items in Divi 5"
+description: "Use favorites, Cloud categories, and Cloud tags in the Load From Library modal to keep a growing Divi Cloud collection easy to filter."
 category: modules
-tags: [modules]
+tags: [modules, divi-cloud, library]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14816718-how-to-organize-your-divi-cloud-items-in-divi-5"
 ---
 
 # How to Organize Your Divi Cloud Items in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Three tools:** Favorites, Cloud categories, and Cloud tags.
+    **Where:** The **Load From Library** modal (Add Layout icon in the builder's left sidebar, then the **Saved Layout** card).
+    **Key rule:** Cloud categories and tags are separate lists from local Divi Library ones, even when names match. Favorites work across local and Cloud items.
+    **Requirement:** Signed in to Divi Cloud in the Visual Builder.
 
-## Overview
+## Favorites
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14816718-how-to-organize-your-divi-cloud-items-in-divi-5).
+1. Open **Load From Library** and click the **Saved Layout** card.
+2. Hover over an item and click its **heart icon**.
+3. To pin favorites to the top, open the toolbar sort dropdown and choose **Favorites**.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+Premade layouts, page layouts, sections, rows, modules, and code snippets can all be favorited.
 
-## Settings & Options
+## Create Cloud categories and tags
 
-### General
+1. In the Load From Library sidebar, click **Manage Categories** or **Manage Tags**. The list shows both local and Cloud entries.
+2. Click **Add A New Cloud Category** (or **Add A New Cloud Tag**).
+3. Type a name.
+4. Click **Save Changes**.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| How to access your Divi Cloud in Divi 5 |  | uilder. SeeHow to access your Divi Cloud in Divi 5for the full sign-in steps. |
-| Load From Library |  | Librarymodal by clicking theAdd Layouticon in the left sidebar of the builder. |
-| Saved Layout |  | ed Layoutcard. |
-| heart icon |  | eart iconon the item. |
-| Favorites |  | orites. |
-| Load From Library |  | ibrarysidebar, clickManage CategoriesorManage Tags. The list opens, showing both local and Cloud entries. |
-| Add A New Cloud Category |  | egory(orAdd A New Cloud Tag). |
-| Save Changes |  | anges. |
-| Categories |  | are referring to categories that can be used only locally |
-| Divi Cloud Categories |  | are referring to categories that are related only to Divi Cloud. |
-| When you save the item. |  | The save dialog includes a category and tag picker. See How to Save Divi Elements to Divi Cloud for the full save flow. |
-| On an existing item. |  | Right-click the item in the Load From Library modal, or click its three-dots icon, and chooseEdit Tags & Categoriesfrom the quick actions menu. See the Divi Cloud interface overview in Divi 5 for the full list of quick actions. |
-| Locations |  | onsto narrow toMy Divi Cloudonly. |
-| Categories |  | r moreCategoriesto limit the list to items in those categories. |
-| Tags |  | one or moreTagsto narrow further. |
-| Favorites |  | e sort order toFavoritesin the top toolbar to push favorited items to the top. |
+While managing, you will see two groups: **Categories** (local only) and **Divi Cloud Categories** (Cloud only). Items saved to Cloud can only use the Cloud lists.
 
-## Code Examples
+## Assign categories and tags
 
-<!-- TODO: Add CSS/PHP code examples -->
+- **At save time:** the save dialog has a category and tag picker (see [How to Save Divi Elements to Divi Cloud](how-to-save-divi-elements-to-divi-cloud-in-divi-5.md)).
+- **On an existing item:** right-click it in Load From Library, or click its three-dot icon, and choose **Edit Tags & Categories**.
 
-## Common Patterns
+## Filter your collection
 
-<!-- TODO: Document 2-3 common usage patterns -->
+The Load From Library sidebar acts as a filter panel, and filters stack:
 
-## Troubleshooting
+- **Locations:** narrow to **My Divi Cloud** only.
+- **Categories:** tick one or more.
+- **Tags:** tick one or more to narrow further.
+- **Sort:** switch to **Favorites** to float favorited items to the top.
 
-<!-- TODO: Document common issues and solutions -->
+## Official documentation
 
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Organize Your Divi Cloud Items in Divi 5](https://help.elegantthemes.com/en/articles/14816718-how-to-organize-your-divi-cloud-items-in-divi-5)

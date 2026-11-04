@@ -109,8 +109,6 @@ Divi 5 provides four default global colors that serve as the foundation of the s
 | Modify | Layout JSON update or `update_option()` for globals | Needs Testing | Modifying a base global color should cause all filtered derivatives to update |
 | Create | Global Variables Manager or color picker UI | Needs Testing | Filters are applied per-field; global colors are created in the Variables Manager |
 
-<!-- TODO: Verify the storage format for relative color offsets — is it {base, hue_offset, sat_offset, light_offset, opacity}? -->
-<!-- TODO: Test whether exported layouts preserve color filter relationships or flatten to static values -->
 
 ## Elegant Themes tutorials
 

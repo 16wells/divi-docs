@@ -1,69 +1,104 @@
 ---
 title: "Why the Live Page Looks Different From the Visual Builder in Divi 5"
+description: "Step-by-step fixes for a Divi 5 page that looks right in the Visual Builder but broken or outdated on the live site."
 category: troubleshooting
 tags: [troubleshooting]
 related: []
 divi_version: "5.x"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15442759-why-the-live-page-looks-different-from-the-visual-builder-in-divi-5"
 ---
 
 # Why the Live Page Looks Different From the Visual Builder in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Symptom:** The Visual Builder looks right, but the live page has wrong spacing, missing styles, wrong fonts, or changes that do not show.
+    **Usual cause:** The live page is loading an outdated or conflicting copy of the styles, most often cached files.
+    **Fix order:** Confirm it is cache, clear Divi's CSS cache, clear plugin/server/CDN caches, review performance settings, test custom CSS, test Safe Mode.
 
-## Overview
+## Likely causes
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15442759-why-the-live-page-looks-different-from-the-visual-builder-in-divi-5).
+- Divi 5's static CSS cache is serving old styles.
+- A caching plugin, server cache, or CDN (such as Cloudflare) is serving an outdated page.
+- Your browser holds old files.
+- A Divi performance feature loads CSS in a way that does not suit your host.
+- Invalid custom CSS or broken HTML breaks the front-end layout.
+- A third-party plugin conflicts with Divi 5.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Fix 1: Confirm it is a cache problem
 
-## Settings & Options
+Add `?nocache=1` to the page address, for example `https://yoursite.com/your-page/?nocache=1`.
 
-### General
+- If the page looks right, cached files are the cause. Continue with Fixes 2 and 3.
+- If it still looks wrong, skip to Fix 4.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Fix 2 |  | e page looks correct with?nocache=1, the problem is cached files. Continue withFix 2andFix 3. |
-| WordPress Dashboard → Divi → Theme Options |  | me Options. |
-| Clear CSS Cache |  | CSS Cachebutton at the top right. |
-| Caching plugin |  | open your caching or optimization plugin's settings and use itsClear cacheorPurge alloption. If it has separate CSS and JavaScript cache options, clear those too. |
-| Server cache |  | log in to your hosting control panel and look for aCacheorPerformancesection with aPurgeorFlushcontrol. If you can't find one, ask your host to clear the server cache for you. |
-| CDN |  | if you use a CDN like Cloudflare, purge its cache too. While testing, temporarily pause or disable the CDN's caching so you can see changes immediately. |
-| Divi → Theme Options → General → Performance |  | mance. |
-| Critical CSS |  | em started recently and only affects the front end, temporarily turn off one performance option at a time (for example,Critical CSS), then clear the Divi CSS cache (Fix 2) and recheck the page. |
-| Divi → Theme Options → Custom CSS |  |  |
-| Page Settings → Advanced tab → Custom CSS |  |  |
-| Advanced tab → Custom CSS → Free-Form CSS |  | underAdvanced tab → Custom CSS → Free-Form CSS |
-| Divi → Theme Options → Custom CSS |  | ions → Custom CSSinto a text file as a backup, then remove it and save. |
-| How to Troubleshoot and Fix Custom CSS Issues in Divi 5 |  | or a deeper walkthrough, seeHow to Troubleshoot and Fix Custom CSS Issues in Divi 5. |
-| Divi → Support Center |  | enter. |
-| Safe Mode |  | theSafe Modesection and toggle it on. |
-| Divi → Theme Options |  | e latest version of Divi 5 inDivi → Theme Options. Display fixes ship regularly, and a rendering bug may already be fixed in a newer release. |
-| How to Fix Display Issues After Updating Divi 5 |  | dating Divi, followHow to Fix Display Issues After Updating Divi 5for the update-specific steps. |
-| Why your page is blank or missing content on the live site in Divi 5. |  | tyled differently), seeWhy your page is blank or missing content on the live site in Divi 5. |
-| Save |  | nly one page is affected, open it in the Visual Builder, make a small change, undo it, and clickSaveto force Divi to regenerate that page's CSS. |
+Also test in a private window or another browser. If it looks right there, only your browser cache was stale.
 
-## Code Examples
+!!! tip
+    If opening the page in the Visual Builder and clicking **Save** temporarily fixes the live page, that also points to caching. Saving regenerates Divi's CSS, but another cache layer keeps serving stale files until cleared.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Fix 2: Clear the Divi 5 CSS cache
 
-## Common Patterns
+Divi 5 saves much of your design as static CSS files. After you edit a page or update Divi, WordPress, or a plugin, those files can go stale while the Builder shows current styles. Try this first.
 
-<!-- TODO: Document 2-3 common usage patterns -->
+1. Go to **Divi > Theme Options**.
+2. Click **Clear CSS Cache** at the top right.
+3. Reload the live page.
 
-## Troubleshooting
+## Fix 3: Clear plugin, server, and CDN caches
 
-<!-- TODO: Document common issues and solutions -->
+Work through these in order, checking the page after each:
 
-## AI Interaction Notes
+1. **Caching plugin:** use its Clear cache or Purge all option, including separate CSS and JavaScript caches.
+2. **Server cache:** in your hosting panel, look for a Cache or Performance section with a Purge or Flush control, or ask your host.
+3. **CDN:** purge its cache, and consider pausing its caching while testing.
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+!!! note
+    A CDN can keep serving a cached page after the server cache is cleared. If the problem keeps returning on specific pages, ask your host or CDN provider whether those pages are cached at the CDN level.
 
-## Related
+## Fix 4: Review performance settings
 
-<!-- TODO: Add links to related documentation pages -->
+Divi 5 performance features decide how CSS is built and loaded. On some hosts they can leave a page incomplete until the cache rebuilds.
+
+1. Go to **Divi > Theme Options > General > Performance**.
+2. Turn off one option at a time (for example **Critical CSS**), clear the Divi CSS cache, and recheck.
+3. If one option fixes the display, leave it off and keep the others enabled. Re-enable anything that made no difference.
+
+## Fix 5: Test custom CSS and HTML
+
+A single missing brace or semicolon can break every rule after it. Custom CSS can live in:
+
+- **Divi > Theme Options > Custom CSS**
+- **Page Settings > Advanced > Custom CSS**
+- Section, Row, Column, or Module settings under **Advanced > Custom CSS > Free-Form CSS**
+- Code modules, or CSS pasted into a Text module
+
+To test:
+
+1. Back up the Theme Options CSS to a text file, remove it, and save.
+2. Clear the Divi CSS cache and reload the live page.
+3. If it looks right, re-add the CSS in small chunks, testing after each, to find the broken rule.
+4. Repeat for page-level and module-level CSS if needed.
+
+Also check content pasted from another site or builder, which can carry hidden HTML markup. Re-paste it as plain text if you suspect this.
+
+## Fix 6: Rule out a plugin conflict with Safe Mode
+
+Safe Mode disables plugins, your child theme, and custom code for your logged-in user only.
+
+1. Go to **Divi > Support Center** and toggle **Safe Mode** on.
+2. Reload the live page and compare it to the Builder.
+
+If it looks right, turn Safe Mode off, deactivate non-Divi plugins, and reactivate them one at a time, clearing caches and rechecking after each. The last plugin you turned on is the conflict.
+
+## Still having trouble
+
+- Confirm you are on the latest Divi 5 version in **Divi > Theme Options**, since display fixes ship regularly.
+- If the page broke right after updating Divi, follow Elegant Themes' article on fixing display issues after updating Divi 5.
+- If the page is blank rather than styled differently, see [Why the Page Is Blank or Missing Content](why-the-page-is-blank-or-missing-content-on-the-live-site-in-divi-5.md).
+- If only one page is affected, open it in the Visual Builder, make a small change, undo it, and click **Save** to regenerate that page's CSS.
+- Otherwise contact support with a link to the page, Builder and live screenshots, and a note that you cleared all caches and tested in Safe Mode.
+
+## Official documentation
+
+[Why the Live Page Looks Different From the Visual Builder in Divi 5](https://help.elegantthemes.com/en/articles/15442759-why-the-live-page-looks-different-from-the-visual-builder-in-divi-5)

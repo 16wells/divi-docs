@@ -1,97 +1,108 @@
 ---
 title: "The Post Filter Items in Divi 5"
+description: "The filter controls available inside the Post Filter module, how they depend on the target loop type, and how to add taxonomy, ACF, and ordering filters."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.10+"
-last_updated: 2026-08-10
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/16187393-the-post-filter-items-in-divi-5"
 ---
 
 # The Post Filter Items in Divi 5
 
-<!-- AUTO-CREATED: 2026-08-10 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** The individual controls (search box, category filter, reset button, and so on) that live inside a Post Filter module.
+    **Key rule:** The type of loop chosen as the module's **Target Loop** decides which filter items are available.
+    **Where to add them:** Post Filter settings > **Content** > **Elements** > **+ Add Post Filter Item**.
 
-## Overview
+## Post Loop
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/16187393-the-post-filter-items-in-divi-5).
+When the Target Loop is a Post Loop, the Post Filter module starts with these items already added:
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+| Item | Description |
+|---|---|
+| Search | Search box; shows only posts whose title or content contains the term |
+| Category Filter | Lists the post categories that have at least one published post |
+| Reset button | Clears any filters previously applied |
+| Apply button | Starts the filtering when the module's **Apply Mode** is set to **Submit** |
 
-## Settings & Options
+### Add a taxonomy or author filter
 
-### General
+1. Open the Post Filter module's settings.
+2. In **Content** > **Elements**, click **+ Add Post Filter Item**.
+3. Choose the **Post Filter Item** option.
+4. Click the pencil icon to edit the new item.
+5. In the item's **Content** tab, set **Field Type** to **Radio** or **Checkbox**.
+6. In the **Field Options** dropdown, choose **Tags** (or **Categories**).
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Search |  | Search box your visitor can use to filter the Loop based on a desired search term. The Search filter will only display posts that have the searched term in the post title and content. |
-| Category Filter |  | Displays all the Post Categories that have at least one published post. |
-| Reset button |  | Clicking on the Reset Button will reset the previously used filters. |
-| Apply button |  | Used to initiate the filtering if the Post Filter'sApply Modeis set toSubmit. |
-| Content tab → Element |  | lement, click the+ Add Post Filter Item. |
-| Post Filter Item |  | lter Itemoption |
-| Pencil Icon |  | ncil Iconto edit the newly added Post Filter Item. |
-| Post Filter Item's Content tab → Field Type |  | eld Type, chooseRadioorCheckbox. |
-| Tags |  | he Field Options dropdown, chooseTags. |
-| Content tab → Element |  | lement, click the+ Add Post Filter Item. |
-| Post Filter Item |  | lter Itemoption |
-| Pencil Icon |  | ncil Iconto edit the newly added Post Filter Item. |
-| Post Filter Item's Content tab → Field Type |  | eld Type, choose the type you want to use to display the ACF field's values:Text- The Text Field type also has Field Type Value:Text- If the ACF field is a Text Field typeNumber- If the ACF field is a Number field type.Date- If the ACF field is a Date Picker field typeDate Time- If the ACF field is a Date Time Picker field typeTime- If the ACF field is a Time Picker field typeSelectorRadio- Both of those field types allow the user to only use one value for filteringCheckbox- Allows the user to select multiple values. |
-| Text |  | The Text Field type also has Field Type Value:Text- If the ACF field is a Text Field typeNumber- If the ACF field is a Number field type.Date- If the ACF field is a Date Picker field typeDate Time- If the ACF field is a Date Time Picker field typeTime- If the ACF field is a Time Picker field type |
-| Text |  | If the ACF field is a Text Field type |
-| Number |  | If the ACF field is a Number field type. |
-| Date |  | If the ACF field is a Date Picker field type |
-| Date Time |  | If the ACF field is a Date Time Picker field type |
-| Time |  | If the ACF field is a Time Picker field type |
-| Select |  | orRadio- Both of those field types allow the user to only use one value for filtering |
-| Checkbox |  | Allows the user to select multiple values. |
-| Option Method |  | Choose how the ACF field values are being generated:Automatic- Displays all the ACF values for the selected ACF field. If nothing or new values are not displayed, clickClear Cached Options.Manual- Generates manual ACF values for the selected ACF field. This is useful if you don't want to display all the values of the selected ACF field. Instead of manually typing values for filters, click the Generate Options button. This will generate the correct ACF values for you. Once those values are generated, you can drag and drop them to change their sorting order, or delete the ones that you don't want to display. |
-| Automatic |  | Displays all the ACF values for the selected ACF field. If nothing or new values are not displayed, clickClear Cached Options. |
-| Manual |  | Generates manual ACF values for the selected ACF field. This is useful if you don't want to display all the values of the selected ACF field. Instead of manually typing values for filters, click the Generate Options button. This will generate the correct ACF values for you. Once those values are generated, you can drag and drop them to change their sorting order, or delete the ones that you don't want to display. |
-| Search |  | Search box your visitor can use to filter the Loop based on a desired search term. The Search filter will only display posts that have the searched term in the post title and content. |
-| Category Filter |  | You need to configure it to display the Product Categories, as follows:Open the Post Filter Item's settings.In theContent tab → Field → Field Options,chooseProduct Categories. |
-| Content tab → Field → Field Options, |  | tions,chooseProduct Categories. |
-| Reset button |  | Clicking on the Reset Button will reset the previously used filters. |
-| Apply button |  | Used to initiate the filtering if the Post Filter'sApply Modeis set toSubmit. |
-| + Add Post Filter |  | tab → Elements, click the+ Add Post Filteroption. |
-| Field Type dropdown |  | opdown, chooseOrder by. |
-| Default - |  | ich Post option should be avaiable in the Order by filter:Default -Uses the WordPress default Order by.Publish Date- Order by the post/page/product/custom post type's publish date.None.ID- Order by the post/page/product/custom post type's ID.Title- Order by the post/page/product/custom post type's title text.Post Name- Order by the post/page/product/custom post type's slug text.Last Modified Date- Order by the post/page/product/custom post type's last modified date.Random- Order by the post/page/product/custom post type randomly.Comment Count- Order by the post/page/product/custom post type's comment count.Price(only avaiable if the Post filter is connected to a WooCommerce Product Loop) - Order by the product post type's Price value.Popularity(Sales - only avaiable if the Post filter is connected to a WooCommerce Product Loop)- Order by the product post type's sales number.Rating(only avaiable if the Post filter is connected to a WooCommerce Product Loop). |
-| Default - |  | Uses the WordPress default Order by. |
-| Publish Date |  | Order by the post/page/product/custom post type's publish date. |
-| None. |  |  |
-| ID |  | Order by the post/page/product/custom post type's ID. |
-| Title |  | Order by the post/page/product/custom post type's title text. |
-| Post Name |  | Order by the post/page/product/custom post type's slug text. |
-| Last Modified Date |  | Order by the post/page/product/custom post type's last modified date. |
-| Random |  | Order by the post/page/product/custom post type randomly. |
-| Comment Count |  | Order by the post/page/product/custom post type's comment count. |
-| Price |  | (only avaiable if the Post filter is connected to a WooCommerce Product Loop) - Order by the product post type's Price value. |
-| Popularity |  | (Sales - only avaiable if the Post filter is connected to a WooCommerce Product Loop)- Order by the product post type's sales number. |
-| Rating |  | (only avaiable if the Post filter is connected to a WooCommerce Product Loop). |
-| Default |  | Default WordPress Order. |
-| Ascending |  | Shows the Filter result in ascending order, based on the Order By Filter's value. |
-| Descending |  | Shows the Filter result in descending order, based on the Order By Filter's value. |
+Selecting a taxonomy value shows only posts assigned to it. An **Authors** filter is built the same way; just choose **Authors** in the Field Options dropdown.
 
-## Code Examples
+### Add an ACF filter
 
-<!-- TODO: Add CSS/PHP code examples -->
+1. Follow steps 1 to 4 above.
+2. In the item's **Content** tab, set **Field Type** to match how you want the ACF field's values shown:
+    - **Text:** has a Field Type Value of **Text**, **Number**, **Date**, **Date Time**, or **Time**, matching the ACF field type (Text, Number, Date Picker, Date Time Picker, Time Picker).
+    - **Select** or **Radio:** the visitor picks a single value.
+    - **Checkbox:** the visitor can pick several values.
+3. In the **Field Option** dropdown, choose the ACF field.
+4. Set **Field Comparison**, the comparison used between the filter's value and the ACF field's value.
+5. Set **Option Method**, which controls how the ACF values are produced:
+    - **Automatic:** shows every value of the ACF field. If values are missing or new ones do not appear, click **Clear Cached Options**.
+    - **Manual:** lets you show only some values. Click **Generate Options** to create the correct ACF values, then drag to reorder them or delete the ones you do not want.
 
-## Common Patterns
+## WooCommerce Product Loop
 
-<!-- TODO: Document 2-3 common usage patterns -->
+When the Target Loop is a WooCommerce Product Loop, the module starts with the same four items (Search, Category Filter, Reset, Apply). The Category Filter needs one extra step: open the item's settings, go to **Content** > **Field** > **Field Options**, and choose **Product Categories**.
 
-## Troubleshooting
+You can add other product-related filters, built exactly as in the Post section above:
 
-<!-- TODO: Document common issues and solutions -->
+- Authors
+- Product attributes (such as color or size)
+- Product Tags
+- Product Brands
+- Product Shipping Classes
+- ACF or Custom Fields
+- Price Range
+- Stock status
 
-## AI Interaction Notes
+## Ordering filters
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+### Order By field type
 
-## Related
+Adds a control that lets visitors choose how results are ordered.
 
-<!-- TODO: Add links to related documentation pages -->
+1. Open the Post Filter settings.
+2. In **Content** > **Elements**, click **+ Add Post Filter Item**.
+3. Set **Field Type** to **Order by**.
+4. Select which options should be available:
+
+| Option | Orders by |
+|---|---|
+| Default | WordPress's default order |
+| Publish Date | Publish date of the post, page, product, or custom post type |
+| None | No ordering |
+| ID | Item ID |
+| Title | Title text |
+| Post Name | Slug text |
+| Last Modified Date | Last modified date |
+| Random | Random order |
+| Comment Count | Number of comments |
+| Price | Product price (WooCommerce Product Loop only) |
+| Popularity | Number of sales (WooCommerce Product Loop only) |
+| Rating | Product rating (WooCommerce Product Loop only) |
+
+### Order
+
+Offers the direction of the sort:
+
+- **Default:** WordPress's default order.
+- **Ascending** or **Descending:** sorts results by the value of the Order By filter.
+
+### Multiple Order
+
+Lets visitors combine several order and order-by choices on the front end. Results must satisfy all the combinations the visitor sets up.
+
+## Official documentation
+
+- [The Post Filter Items in Divi 5](https://help.elegantthemes.com/en/articles/16187393-the-post-filter-items-in-divi-5)

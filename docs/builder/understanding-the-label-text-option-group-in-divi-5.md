@@ -1,108 +1,55 @@
 ---
 title: "Understanding the Label Text Option Group in Divi 5"
+description: "The Label Text option group in Divi 5: font, size, spacing, fill, stroke, and shadow controls for the label text in the Countdown Timer."
 category: builder
-tags: [builder]
+tags: [builder, design, typography, text-options]
 related: []
 divi_version: "5.x"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15419962-understanding-the-label-text-option-group-in-divi-5"
 ---
 
 # Understanding the Label Text Option Group in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A Design-tab option group that styles the label text in the Countdown Timer.
+    **Where to find it:** Open the Countdown Timer module settings, go to the **Design** tab, and find **Label Text**.
+    **Key behavior:** Size, color, line height, and letter spacing also accept [Global Variables](global-variables.md).
 
-## Overview
+## Where to find it
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15419962-understanding-the-label-text-option-group-in-divi-5).
+1. Open the settings of the Countdown Timer module (click its gear icon or the module itself).
+2. Go to the **Design** tab.
+3. Locate the **Label Text** option group.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Settings
 
-## Settings & Options
+| Setting | Description |
+|---|---|
+| Label Font | Pick a font from the dropdown or upload a custom one. |
+| Label Font Weight | Boldness of the text, from light to extra-bold. |
+| Variable Font Options | Shown only when the chosen font is a Google variable font (the source names Google Sans Flex and Bitcount as examples). Axes include Weight, Optical Sizing, Width, Slant, Crsv, Element Shape, Element Expansion, Rond, and Grade. |
+| Label Text Size | Font size, set with the slider or a typed value. Accepts Global Variables. |
+| Label Text Color | Text color. Accepts Global Variables. |
+| Label Line Height | Space between lines of text. Accepts Global Variables. |
+| Label Letter Spacing | Space between letters. Accepts Global Variables. |
+| Label Text Alignment | Left, center, right, or justified. |
+| Label Capitalization | Uppercase, Capitalize, Lowercase, Smallcaps (lowercase letters shown as smaller capitals), or All Small Caps (every letter shown as a small cap, including existing capitals). |
+| Label Font Style | Italic, Underline, Overline, and Strikethrough. When any line style is on, you can also set Line Color (accepts Global Variables), Line Thickness, and Line Type (Solid, Double, Dotted, Dashed, or Wavy). |
+| Label Line Wrap Style | Default keeps the browser's native wrapping; Balanced breaks short text into lines of more even length; Pretty wraps text to avoid awkward endings. |
+| Label Text Direction | Standard Horizontal, Vertical (right to left), or Vertical (left to right). The vertical modes stack characters top to bottom or bottom to top, with new lines starting to the left of the previous one. |
+| Label Hyphenation | When on, the browser may break a word that is too long for the line and add a hyphen. |
+| Label Fill Type | None, Gradient, Image, or Transparent fill for the text itself. |
+| Label Stroke Width / Stroke Color | Thickness and color of an outline around the letters. |
+| Label Columns | Number of columns the text flows through. |
+| Label Text Shadow | Adds a shadow with Direction (horizontal and vertical offset), Blur, and Color. |
 
-### General
+## Tips
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Open the Countdown Timer's Module Settings |  | Click the gear icon or the module itself to access the settings. |
-| Navigate to the Design Tab |  | Locate theLabelTextoption group. |
-| Label Font |  | Choose a font from the dropdown or upload a custom font for unique styling. |
-| Label Font Weight |  | Adjust the boldness of your Label with options like light, bold, or extra-bold. |
-| Variable Font Options |  | those options will only be available if you are using a Google variable font such asRobo,Google Sans Flex, orBitcount):Variable Font Weight: Use the slider or type in a numeric value for the font weight.Optical Sizing: Enable automatic optical size handling.Variable Font Width: Fine-tune variable font width using variable font interpolation.Variable Font Slant: Fine-tune variable font slant using variable font interpolation.Variable Font Crsv: Fine-tune variable font crsv using variable font interpolation.Variable Font Element Shape: Fine-tune variable font element shape using variable font interpolation.Variable Font Element Expansion: Fine-tune variable font element expansion using variable font interpolation.Variable Font  Rond: Fine-tune variable font rond using variable font interpolation.Variable Font Grade: Fine-tune variable font grade using variable font interpolation.Variable Font Width: Fine-tune variable font width using variable font interpolation. |
-| Variable Font Weight |  | Use the slider or type in a numeric value for the font weight. |
-| Optical Sizing |  | Enable automatic optical size handling. |
-| Variable Font Width |  | Fine-tune variable font width using variable font interpolation. |
-| Variable Font Slant |  | Fine-tune variable font slant using variable font interpolation. |
-| Variable Font Crsv |  | Fine-tune variable font crsv using variable font interpolation. |
-| Variable Font Element Shape |  | Fine-tune variable font element shape using variable font interpolation. |
-| Variable Font Element Expansion |  | Fine-tune variable font element expansion using variable font interpolation. |
-| Variable Font  Rond |  | Fine-tune variable font rond using variable font interpolation. |
-| Variable Font Grade |  | Fine-tune variable font grade using variable font interpolation. |
-| Variable Font Width |  | Fine-tune variable font width using variable font interpolation. |
-| Label Text Size |  | You can adjust the font size of your Label text using the slider or by entering a specific value. It also acceptsGlobal Variables. |
-| Label Text Color |  | Choose a color to be used for the Label text. It also acceptsGlobal Variables. |
-| Label Line Height |  | Set the space between the lines of the Label text, helping to improve readability. It also acceptsGlobal Variables. |
-| Label Letter Spacing |  | Control the space between letters by adjusting the slider or entering a value. It also acceptsGlobal Variables. |
-| Label Text Alignment |  | Set the alignment for the Label text—left, center, right, or justified. |
-| Label Capitalization |  | Choose the Label text's capitalization:Uppercase- All letters are in uppercase formatCapitalize- Makes the first letter of each word uppercase.Lowercase- All letters are in lowercase format.Smallcaps- Lowercase letters display as smaller uppercase letters.All Small Caps- all letters display as small caps, including letters that were already uppercase. |
-| Uppercase |  | All letters are in uppercase format |
-| Capitalize |  | Makes the first letter of each word uppercase. |
-| Lowercase |  | All letters are in lowercase format. |
-| Smallcaps |  | Lowercase letters display as smaller uppercase letters. |
-| All Small Caps |  | all letters display as small caps, including letters that were already uppercase. |
-| Label Font Style |  | Select additional font styles, including:Italic: Makes the text lean to the right.Underline: Adds a line under the text.Overline: adds a line above the text.Strikethrough: draws a line through the middle of the text.⚠️Note: When Underline, Overline, and/or Strikethrough are enabled, you can also choose:Line Color: Choose the line's color. It also acceptsGlobal Variables.Line Thickness: Choose how thick or slim the line is.Line Type: Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Italic |  | Makes the text lean to the right. |
-| Underline |  | Adds a line under the text. |
-| Overline |  | adds a line above the text. |
-| Strikethrough |  | draws a line through the middle of the text.⚠️Note: When Underline, Overline, and/or Strikethrough are enabled, you can also choose:Line Color: Choose the line's color. It also acceptsGlobal Variables.Line Thickness: Choose how thick or slim the line is.Line Type: Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Line Color |  | Choose the line's color. It also acceptsGlobal Variables. |
-| Line Thickness |  | Choose how thick or slim the line is. |
-| Line Type |  | Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Label Line Warp Style |  | Choose how text should wrap. Default keeps native browser wrapping, Balanced evens heading lines, and Pretty helps avoid single-word endings.Default: Text can move onto a new line when it runs out of space.Balanced:Short text breaks into lines with more even lengthsPretty:Text wrap in a cleaner, more visually pleasing way |
-| Default |  | Text can move onto a new line when it runs out of space. |
-| Balanced |  | Short text breaks into lines with more even lengths |
-| Pretty |  | Text wrap in a cleaner, more visually pleasing way |
-| Label Text Direction |  | Choose text flow direction. Standard Horizontal reads left-to-right across lines, while vertical modes stack glyphs top-to-bottom.Standard HorizontalVertical (right to left): The text is displayed from top to bottom, and each new line starts to the left of the previous one.Vertical (left to right): The text is displayed from bottom to top, and each new line starts to the left of the previous one. |
-| Standard Horizontal |  |  |
-| Vertical (right to left) |  | The text is displayed from top to bottom, and each new line starts to the left of the previous one. |
-| Vertical (left to right) |  | The text is displayed from bottom to top, and each new line starts to the left of the previous one. |
-| Label Hyphenation |  | When enabled, if a word is too long to fit nicely on one line, the browser can break it into parts and add a hyphen at the break. |
-| Label Fill Type |  | Choose the Label's text fill options:None- No Label text fill.Gradient- Fill the Label text with a GradientImage- Fill the Label text with an ImageTransparent- Fill the Label text with a transparent fill. |
-| None |  | No Label text fill. |
-| Gradient |  | Fill the Label text with a Gradient |
-| Image |  | Fill the Label text with an Image |
-| Transparent |  | Fill the Label text with a transparent fill. |
-| Label Stroke Width |  | Choose the thickness of the stroke.Label Stroke Color- Choose the Label text's stroke color. |
-| Label Stroke Color |  | Choose the Label text's stroke color. |
-| Label Columns |  | Set how many columns the text should flow through. |
-| Label Text Shadow |  | Add a text shadow effect and customize its direction, blur, and color to add depth or emphasis to the Label:Direction: Adjust horizontal and vertical placement.Blur: Control how soft or sharp the shadow appears.Color: Set a shadow color to complement the text. |
-| Direction |  | Adjust horizontal and vertical placement. |
-| Blur |  | Control how soft or sharp the shadow appears. |
-| Color |  | Set a shadow color to complement the text. |
-| Focus on Readability |  | Use font sizes and line heights that are easy to read, especially on mobile devices. |
-| Complement Your Design |  | Match the text color and style to your site’s overall design for a cohesive look. |
-| Use Shadows Sparingly |  | Subtle shadows can enhance readability, but overly strong effects can distract. |
+- Keep font sizes and line heights readable, especially on mobile.
+- Match the text color and style to the rest of the design.
+- Use shadows sparingly; strong effects hurt readability.
 
-## Code Examples
+## Official documentation
 
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- [Understanding the Label Text Option Group in Divi 5](https://help.elegantthemes.com/en/articles/15419962-understanding-the-label-text-option-group-in-divi-5){:target="_blank"}

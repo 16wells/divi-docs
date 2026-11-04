@@ -1,127 +1,84 @@
 ---
 title: "The Chart Module in Divi 5"
+description: "How to add the Divi 5 Chart module, enter data in its table editor, pick one of nine chart types, and style the title, legend, and tooltip."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.11+"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/16196630-the-chart-module-in-divi-5"
 ---
 
 # The Chart Module in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A module that turns a spreadsheet-style table of labels and values into a chart, with no code or plugin.
+    **Chart types:** Line (default), Area, Bar, Radar, Pie, Doughnut, Polar Area, Scatter, Bubble. Switching types keeps your data.
+    **Colors:** Set in the data table, not the Design tab.
+    **Starts with sample data**, so a chart shows as soon as you add it.
 
-## Overview
+## Add the module
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/16196630-the-chart-module-in-divi-5).
+1. In the Visual Builder, click the green plus to add a Row inside a Section.
+2. Click the gray plus inside the Row.
+3. Find **Chart** in the module list (or search for it).
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Use cases
 
-## Settings & Options
+- **Reporting results:** revenue, traffic, or sign-ups over time as a line or bar chart.
+- **Breaking down a total:** a pie or doughnut for budget, market share, or survey splits.
+- **Comparing several things:** a radar chart scoring products, plans, or skills across the same categories.
 
-### General
+## How the data table is read
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Green Plus |  | reen Plusiconto insert aRow. |
-| Gray Plus |  | Gray Plusiconinside the Row, which will show the list of all available Divi modules. |
-| Chart module |  | t moduleand click on it to load it. Alternatively, you can use the Search option to find it. |
-| Reporting results |  | Show revenue, traffic, or sign-ups over time in a line or bar chart on a client report or an about page. |
-| Breaking down a total |  | Use a pie or doughnut chart to show how a budget, a market share, or a survey result splits up. |
-| Comparing several things at once |  | Use a radar chart to score products, plans, or team skills across the same set of categories. |
-| Line, Area, Bar, Radar |  | The first column holds your category labels (months, product names, and so on). Every column after it is a separate series, so you can plot several lines or bar groups on the same chart. |
-| Pie, Doughnut, Polar Area |  | The first column holds the slice labels and the second column holds the values. These types show one set of values at a time. |
-| Scatter |  | The second column is theX axisand the third column is theY axis. |
-| Bubble |  | The second column is theX axis, the third is theY axis, and the fourth sets each bubble'sSize. |
-| Content |  |  |
-| Design |  |  |
-| Advanced |  |  |
+All data lives in one table. A small label above each column header shows how that column is currently used: Category (labels), Series, Value, X axis, Y axis, Size, or Not Used.
 
-### Content Tab
+| Chart type | Reading of the table |
+|---|---|
+| Line, Area, Bar, Radar | First column is category labels; every later column is a separate series. |
+| Pie, Doughnut, Polar Area | First column is slice labels, second column is values. |
+| Scatter | Second column is the X axis, third is the Y axis. |
+| Bubble | Second is X, third is Y, fourth is bubble Size. |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Chart |  | Everything the chart is built from:Chart Type- Choose how your data is drawn:Line(default),Area,Bar,Radar,Pie,Doughnut,Polar Area,Scatter, orBubble.Data- Open the table editor to enter your chart's labels, values, and colors, or import the data from a CVS file by clicking theImport CVSbutton.​​Note:WordPress, out of the box, will block the upload of.cvsfiles. To learn more on how to properly set up WordPress to allow.cvsuploads, please check outHow to Upload CVS file Typesarticle.​Title- Set the chart's title text.Subtitle- Set the chart's subtitle text.Legend Title- Set the heading that appears above the legend. |
-| Chart Type |  | Choose how your data is drawn:Line(default),Area,Bar,Radar,Pie,Doughnut,Polar Area,Scatter, orBubble. |
-| Data |  | Open the table editor to enter your chart's labels, values, and colors, or import the data from a CVS file by clicking theImport CVSbutton.​​Note:WordPress, out of the box, will block the upload of.cvsfiles. To learn more on how to properly set up WordPress to allow.cvsuploads, please check outHow to Upload CVS file Typesarticle.​ |
-| Title |  | Set the chart's title text. |
-| Subtitle |  | Set the chart's subtitle text. |
-| Legend Title |  | Set the heading that appears above the legend. |
-| Elements |  | Show or hide the pieces drawn on the chart:Show Title- Display the chart title. On by default.Show Subtitle- Display the chart subtitle. On by default.Show Legend- Display the legend. On by default.Show Legend Title- Display the legend title. Off by default.Show Tooltip- Display a tooltip with the value when a visitor hovers over the chart. On by default.You can also addnested modulesto the Chart module. |
-| Show Title |  | Display the chart title. On by default. |
-| Show Subtitle |  | Display the chart subtitle. On by default. |
-| Show Legend |  | Display the legend. On by default. |
-| Show Legend Title |  | Display the legend title. Off by default. |
-| Show Tooltip |  | Display a tooltip with the value when a visitor hovers over the chart. On by default. |
-| nested modules |  | ddnested modulesto the Chart module. |
-| Link |  | Make the entire Chart module clickable, creating a seamless way to direct users to another page, section, or external site. |
-| Background |  | Choose the Chart module's background styles. |
-| Loop |  | Enables the loop builder. |
-| Order |  | Choose the order in which the Chart module appears inside a Flexbox and Grid layout. |
-| Meta |  | Choose the Chart module's Label text and force its Visibility inside the Visual Builder. |
+Click a color swatch on a column (Line, Area, Bar, Radar) or on a row (Pie, Doughnut, Polar Area, Scatter, Bubble) to set colors. Unset colors are filled in automatically, and chosen colors carry over when you switch to a type that colors the other way.
 
-### Design Tab
+In the table you can add and remove rows and columns, drag rows to reorder, move a column left or right, and hide a column. A hidden column stays in the table but is left off the chart.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Layout |  | Choose how the Chart module is displayed and how its content is arranged, using Flex, Grid, or Block layout options. |
-| Title Text |  | Choose the chart title's styles. |
-| Subtitle Text |  | Choose the chart subtitle's styles: |
-| Legend |  | Choose the legend's styles:Title Text- Choose the legend title's font, weight, italic style, color, size, and line height.Label Text- Choose the legend labels' font, weight, italic style, color, size, and line height.Layout- Set theLegend Position(Top(default),Left,Bottom,Right, orChart Area) and theLegend Align(Start,Center(default), orEnd).Markers- Style the small color markers next to each legend label. Set theLegend Label Padding, and turn onUse Point Styleto draw the marker as aCircle,Cross,Star, orTriangleinstead of a box. When Use Point Style is off, set theLegend Label Box WidthandLegend Label Box Heightinstead. |
-| Title Text |  | Choose the legend title's font, weight, italic style, color, size, and line height. |
-| Label Text |  | Choose the legend labels' font, weight, italic style, color, size, and line height. |
-| Layout |  | Set theLegend Position(Top(default),Left,Bottom,Right, orChart Area) and theLegend Align(Start,Center(default), orEnd). |
-| Markers |  | Style the small color markers next to each legend label. Set theLegend Label Padding, and turn onUse Point Styleto draw the marker as aCircle,Cross,Star, orTriangleinstead of a box. When Use Point Style is off, set theLegend Label Box WidthandLegend Label Box Heightinstead. |
-| Tooltip |  | Choose the styles for the tooltip that appears on hover:Title Text- Choose the tooltip title's font, weight, italic style, color, size, and line height.Body Text- Choose the tooltip body's font, weight, italic style, color, size, and line height.Box- Set the tooltip'sBackground Color,Border Color,Border Width,Corner Radius, andPadding.Color Boxes- TurnDisplay Color Boxeson or off to show a small color swatch inside the tooltip, and set itsWidthandHeight. |
-| Title Text |  | Choose the tooltip title's font, weight, italic style, color, size, and line height. |
-| Body Text |  | Choose the tooltip body's font, weight, italic style, color, size, and line height. |
-| Box |  | Set the tooltip'sBackground Color,Border Color,Border Width,Corner Radius, andPadding. |
-| Color Boxes |  | TurnDisplay Color Boxeson or off to show a small color swatch inside the tooltip, and set itsWidthandHeight. |
-| Sizing |  | Choose the Chart module's sizing. |
-| Spacing |  | Choose the Chart module's spacing. |
-| Border |  | Choose the Chart module's border styles. |
-| Box Shadow |  | Choose the Chart module's Box Shadow styles. |
-| Filters |  | Choose the Chart module's filters, such as hue shifts, saturation changes, and blending modes. |
-| Transform |  | Choose the Chart module's advanced design effects, such as scaling, rotating, skewing, and translating. |
-| Animation |  | Choose the Chart module's animation styles. |
+## Content tab
 
-### Advanced Tab
+| Group | Settings |
+|---|---|
+| Chart | **Chart Type**; **Data** (table editor, or import from a CSV file with the import button); Title; Subtitle; Legend Title. |
+| Elements | Show Title (on), Show Subtitle (on), Show Legend (on), Show Legend Title (off), Show Tooltip (on). Nested modules can also be added. |
+| Link | Makes the whole module clickable. |
+| Background | Module background styles. |
+| Loop | Enables the loop builder. |
+| Order | Position inside Flexbox and Grid layouts. |
+| Meta | Label text and forced visibility in the Visual Builder. |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. |
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Chart module, including aChart Canvasfield that targets the chart area itself. |
-| HTML |  | Choose the semantic HTML tag for the Chart module. |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. |
-| Interactions |  | Create custom interactions, such as showing or hiding the Chart, and many more. |
-| Visibility |  | Choose the Chart module's visibility based on different devices. |
-| Transitions |  | Choose how long the Chart module's animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. |
-| Position |  | Choose precise control of the Chart module's placement and create dynamic, visually engaging designs. |
-| Scroll Effects |  | Control how the Chart module behaves and transforms during scrolling. |
-| Save |  | k on theSavebutton. |
-| Exit |  | k on theExitbutton. |
+!!! note
+    The source article refers to the import as "CVS"; it means CSV. WordPress blocks some data-file uploads by default, and Elegant Themes has a separate article on allowing them.
 
-## Code Examples
+## Design tab
 
-<!-- TODO: Add CSS/PHP code examples -->
+The Title Text, Subtitle Text, Legend, and Tooltip groups appear only while the matching element is on in Elements.
 
-## Common Patterns
+| Group | Settings |
+|---|---|
+| Layout | Flex, Grid, or Block. |
+| Title Text / Subtitle Text | Text styles for each. |
+| Legend | Title text and label text (font, weight, italic, color, size, line height); **Legend Position** (Top default, Left, Bottom, Right, Chart Area) and **Legend Align** (Start, Center default, End); Markers: Legend Label Padding, **Use Point Style** (Circle, Cross, Star, Triangle) or, when off, Label Box Width and Height. |
+| Tooltip | Title and body text styles; Box: background color, border color and width, corner radius, padding; Color Boxes: Display Color Boxes toggle with width and height. Opening this group shows a live tooltip while you style. |
+| General | Sizing, Spacing, Border, Box Shadow, Filters, Transform, Animation. |
 
-<!-- TODO: Document 2-3 common usage patterns -->
+## Advanced tab
 
-## Troubleshooting
+Attributes (CSS ID, classes, custom attributes), CSS (including a **Chart Canvas** field that targets the chart area), HTML (semantic tag), Conditions, Interactions, Visibility, Transitions, Position, and Scroll Effects.
 
-<!-- TODO: Document common issues and solutions -->
+## Save
 
-## AI Interaction Notes
+Press `CMD + S` (Mac) or `CTRL + S` (PC), or use the Save and Exit buttons.
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+## Official documentation
 
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[The Chart Module in Divi 5](https://help.elegantthemes.com/en/articles/16196630-the-chart-module-in-divi-5) on the Elegant Themes Help Center.

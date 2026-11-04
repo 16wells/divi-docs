@@ -1,55 +1,34 @@
 ---
 title: "How to Save Premade Layouts to Divi Cloud in Divi 5"
+description: "Steps for copying a premade layout from the Divi 5 library into Divi Cloud so it is available as a personal favorite on every site you build."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14816772-how-to-save-premade-layouts-to-divi-cloud-in-divi-5"
 ---
 
 # How to Save Premade Layouts to Divi Cloud in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it does:** Saves a premade layout to Divi Cloud so you can reuse it on any Divi site without searching the full library.
+    **Requires:** Being signed in to Divi Cloud from the Visual Builder. **Copy to Divi Cloud** does not appear otherwise.
+    **Later:** Find it in the **Load From Library** modal on any Divi 5 site signed in to your Elegant Themes account.
 
-## Overview
+## Steps
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14816772-how-to-save-premade-layouts-to-divi-cloud-in-divi-5).
+1. Open a page in the Visual Builder.
+2. Click the **Add Layout** icon in the left sidebar.
+3. Click the **Premade Layout** card.
+4. Click the layout pack containing the layout you want.
+5. Right-click the layout, or click its three-dots quick actions icon.
+6. Choose **Copy to Divi Cloud**.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Tip
 
-## Settings & Options
+Hover a saved layout and click the heart icon to mark it a favorite, then sort by **Favorites** in the toolbar of the Load From Library modal to bring those to the top. See [Divi Cloud interface overview](divi-cloud-interface-overview-in-divi-5.md) for the toolbar.
 
-### General
+## Official documentation
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Copy to Divi Cloud |  | oudoption only appears when you're signed in. If you can't see it on the quick actions menu, sign in first. |
-| Visual Builder |  | theVisual Builder. |
-| Add Layout |  | dd Layouticon in the left sidebar of the builder. |
-| Premade Layout |  | de Layoutcard. |
-| Copy to Divi Cloud |  | Cloudfrom the menu. |
-
-## Code Examples
-
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Save Premade Layouts to Divi Cloud in Divi 5](https://help.elegantthemes.com/en/articles/14816772-how-to-save-premade-layouts-to-divi-cloud-in-divi-5) on the Elegant Themes Help Center.

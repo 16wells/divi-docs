@@ -1,47 +1,25 @@
 ---
 title: "Where do I get access to the perk discounts or Black Friday Cyber Monday Divi 5 Design System?"
+description: "Where Elegant Themes members find the sale-only perk discounts and the Divi 5 Design System download."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/10202188-where-do-i-get-access-to-the-perk-discounts-or-black-friday-cyber-monday-divi-5-design-system"
 ---
 
 # Where do I get access to the perk discounts or Black Friday Cyber Monday Divi 5 Design System?
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Where:** The Perks page in the Elegant Themes members area (`elegantthemes.com/members-area/perks/`).
+    **Availability:** The exclusive perk discounts and the Divi 5 Design System are offered only during the sale.
+    **After downloading:** Import the Design System using the Elegant Themes import guide linked below.
 
-## Overview
+Sign in to the members area and open the Perks page. Both the perk discounts and the Divi 5 Design System download are listed there, but only while the sale is running.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10202188-where-do-i-get-access-to-the-perk-discounts-or-black-friday-cyber-monday-divi-5-design-system).
+To bring the downloaded Design System into a site, follow the Elegant Themes guide to importing it: <https://help.elegantthemes.com/en/articles/12915434>.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Official documentation
 
-## Settings & Options
-
-<!-- TODO: Document all settings from the three tabs (Content, Design, Advanced) -->
-
-## Code Examples
-
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[Where do I get access to the perk discounts or Black Friday Cyber Monday Divi 5 Design System?](https://help.elegantthemes.com/en/articles/10202188-where-do-i-get-access-to-the-perk-discounts-or-black-friday-cyber-monday-divi-5-design-system)

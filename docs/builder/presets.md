@@ -1,258 +1,87 @@
 ---
 title: "Divi Presets"
-description: "Divi 5 Presets system overview — save, apply, and manage reusable design configurations across modules for consistent site-wide styling."
+description: "Overview of Divi 5 element presets: creating, applying, editing, defaulting, stacking, and nesting reusable module styles."
 category: builder
 tags: [builder, presets, global-styles, design-system]
 related: [visual-builder, global-elements, library]
 divi_version: "5.x"
-last_updated: 2026-04-21
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/13349150"
 ---
 
 # Divi Presets
 
-Divi Presets are saved design configurations that can be applied to any section, row, column, or module to maintain consistent styling across your website.
-
 !!! abstract "Quick Reference"
-    **What it does:** Saves reusable design settings for element types; updating a preset propagates changes to all elements using it.
-    **Where to find it:** Any element's settings → Presets dropdown below the element name, or Left sidebar → Preset Manager.
-    **Key features:**
+    **What it is:** An Element Preset saves a module's design so it can be reused on any element of the same type and updated in one place.
+    **Where to find it:** The Preset icon next to the element name at the top of its settings panel.
+    **Key behavior:** Each element type has its own preset list, and each type can have one default preset that new elements start with.
 
-    - Default Preset per element type sets the base appearance for all new instances
-    - Custom presets for styling variations (Primary Button, Dark Section, etc.)
-    - Element-level overrides take priority over preset values
-    - Edit a preset to update every element using it site-wide
+Element Presets are part of Divi 5's preset-based design system, alongside Default Presets, Option Group Presets, and Design Variables.
 
-    **ET Docs:** [Divi Presets](https://help.elegantthemes.com/en/articles/13349150){:target="_blank"}
+## Where presets live
 
-## Overview
+Open the settings of any element (section, row, column, or module) and use the Preset dropdown. From it you can apply a preset, create one from the element's current styles, edit one, or set a default with the star icon. Button presets apply only to buttons, blurb presets only to blurbs, and so on.
 
-Presets allow you to define a set of design settings once and apply them to multiple elements throughout your site. When you update a preset, every element using that preset updates automatically. This makes presets one of the most powerful tools for maintaining a consistent design system.
+## What a preset holds
 
-Every module, row, section, and column in Divi has a **Default Preset** that defines its base appearance. You can modify the default preset to change how every instance of that element looks across your entire website, or create additional custom presets for different styling variations.
+A preset stores the modified settings for that element type: colors and typography, spacing and alignment, borders, shadows and effects, and interactions, hover states, and responsive adjustments. Applying it to another element of the same type copies those settings, and editing the preset updates all elements using it. Presets can use [Design Variables](design-variables.md) and can include [Option Group Presets](option-group-presets.md).
 
-Presets work similarly to CSS classes in concept -- they define a reusable set of styles. But unlike CSS, presets are managed entirely through the Visual Builder's interface with no code required.
+## Create a preset
 
-**Form field presets:** On form-based modules, Divi exposes presets on the **Input**, **Checkbox**, and **Radio** design groups (April 2026). Saving a preset for each group lets you “style all your forms” from a shared baseline—the same workflow as other option group presets, scoped to field types. See [Form field design (Input, Checkbox, Radio)](../options-groups/fields.md).
+**From scratch**
 
-<!-- ![Presets overview](../assets/screenshots/builder/presets/overview.png){ loading=lazy }
-*The presets dropdown in the element settings window showing available presets.* -->
+1. Add the module (for example a Button).
+2. Open the **Preset dropdown** and click **Add New Preset**.
+3. In **Content tab → Preset Settings → Preset name**, enter a descriptive name.
+4. Style it in the Design tab.
+5. Click **Save Preset**.
 
-## How Presets Work
+**From existing styles**
 
-When you apply a preset to an element:
+1. Style the module in the Design tab.
+2. Open the Preset dropdown and choose **New Preset From Current Styles**.
+3. Name it (for example "Primary Button") and click **Save Preset**.
 
-1. The element inherits all design settings from the preset
-2. You can still override individual settings on the element level
-3. Changes to the preset automatically propagate to all elements using it
-4. Element-level overrides are preserved when the preset changes
+## Default presets
 
-| Concept | Description |
-|---------|-------------|
-| **Preset** | A saved collection of design settings for an element type |
-| **Default Preset** | The base preset applied to all new instances of an element type |
-| **Custom Preset** | An additional preset you create for a specific styling variation |
-| **Override** | A setting changed on an individual element that takes priority over the preset |
-| **Inheritance** | Elements automatically receive styles from their assigned preset |
+Every element type has a Default Preset that new elements use. Click the star icon on a preset to set it. Editing the default updates every element using it. A simple baseline: a neutral Section preset, a Row preset with your usual grid spacing, and defaults for Text, Heading, Button, Image, and Blurb.
 
-## Creating a Preset
+## Stacked presets
 
-### Method 1: From the Presets Dropdown
+[Stacked presets](stacked-nested-presets.md) apply several element presets to one element. Divi combines their styles, and when two define the same property the last one applied wins, as in CSS. Examples: a base Row preset plus a second preset that changes padding, or a Column preset plus a "Background / Dark" preset.
 
-1. Open any element's settings in the Visual Builder
-2. Click the **Presets dropdown** below the element name
-3. Click **Create New Preset**
-4. Name your preset (e.g., "Primary Button", "Dark Section", "Card Row")
-5. The new preset is created with the element's current settings
-6. Click **Save** to confirm
+## Nested presets
 
-### Method 2: From the Three-Dot Menu
+Nested presets put Option Group Presets inside an element preset, keeping them linked.
 
-1. Open an element's settings
-2. Design the element as desired
-3. Click the **three-dot menu** (vertical ellipsis)
-4. Select **Apply Styles To Active Preset** to save current styles to the active preset
-5. Or select **Edit Preset Style** to open the preset editor directly
+1. Open a module that uses the preset to edit.
+2. In the preset dropdown, hover over the preset and click the gear icon.
+3. In the preset editor, go to a group such as Spacing, Borders, or Shadows.
+4. Apply existing Option Group Presets instead of manual styles.
+5. Save the preset.
 
-### Method 3: From an Existing Element
+Editing an option group preset later updates every element preset using it, and every element using those presets.
 
-1. Design an element with the exact styling you want
-2. Open the element's settings
-3. Click the **Presets dropdown**
-4. Click **Create New Preset**
-5. The preset captures all current design settings from the element
+Nesting defines a component's core rules (such as a card's spacing, corners, and shadow); stacking adds variations (light vs. dark, hero vs. compact).
 
-## Applying a Preset
+## Edit and maintain presets
 
-1. Open the target element's settings in the Visual Builder
-2. Click the **Presets dropdown** below the element name
-3. Select the desired preset from the list
-4. The element's design updates immediately to match the preset
+To edit globally: open a module using the preset, open the Preset dropdown, hover over the preset name, click the gear icon, adjust styles, and click **Save Preset**. To change the default, click the star icon on the chosen preset. To opt a single module out, uncheck any selected element preset in its dropdown.
 
-!!! tip "Preset Scope"
-    Presets are specific to element types. A Button module preset can only be applied to other Button modules. A Text module preset can only be applied to other Text modules.
+## Suggested workflow
 
-## Editing a Preset
+1. Define Global Variables for colors, fonts, and spacing.
+2. Create one clean base preset per core element and set the most-used as defaults.
+3. Turn repeated design decisions into Option Group Presets.
+4. Nest those into your Module Presets.
+5. Stack one or two variation presets for special cases.
 
-When you edit a preset, the changes apply to every element using that preset across your entire website.
+## Examples
 
-### Editing from the Settings Window
+- **Button system:** a base Button preset, Option Group Presets for text, spacing, and border, and stacked "Hero" or "Ghost" variations.
+- **Card grid:** Row and Column presets with nested padding, radius, and shadow presets, plus "Dark" and "Compact" stacked variations.
+- **Typography:** base Text and Heading presets, typography Option Group Presets for H1, H2, and Body, reused in other modules.
 
-1. Open any element that uses the preset
-2. Click the **three-dot menu**
-3. Select **Edit Preset Style**
-4. The settings window switches to preset editing mode (indicated by a visual change)
-5. Make your design changes
-6. Click **Save** -- changes apply globally to all elements using this preset
+## Official documentation
 
-### Editing from the Presets Dropdown
-
-1. Open any element's settings
-2. Click the **Presets dropdown**
-3. Hover over the preset you want to edit
-4. Click the **edit** (pencil) icon
-5. Make changes and save
-
-!!! warning "Preset Edits Are Global"
-    Editing a preset affects every element on your website that uses it. If you want to change only one element, override the setting at the element level instead of editing the preset.
-
-## The Default Preset
-
-Every element type has a **Default Preset** that defines its base appearance. The default preset is special:
-
-| Behavior | Description |
-|----------|-------------|
-| **Automatic assignment** | All new instances of the element type use the default preset |
-| **Site-wide impact** | Changes to the default preset affect every instance of that element across the entire website |
-| **Cannot be deleted** | The default preset always exists for every element type |
-| **Baseline styles** | Serves as the foundation; custom presets and element overrides build on top of it |
-
-### Modifying the Default Preset
-
-1. Open any instance of the element type
-2. Make sure the **Default** preset is selected in the Presets dropdown
-3. Click the **three-dot menu**
-4. Select **Edit Preset Style**
-5. Make your design changes
-6. Click **Save**
-
-All instances of that element type across your site now reflect the updated defaults.
-
-## Managing Presets
-
-### Viewing All Presets for an Element
-
-1. Open the element's settings
-2. Click the **Presets dropdown**
-3. All available presets for that element type are listed
-
-### Deleting a Preset
-
-1. Open the element's settings
-2. Click the **Presets dropdown**
-3. Hover over the preset to delete
-4. Click the **delete** (trash) icon
-5. Confirm deletion
-
-!!! warning "Deleting a Preset"
-    When you delete a preset, elements that were using it revert to the Default Preset. Any element-level overrides are preserved.
-
-### Renaming a Preset
-
-1. Open the Presets dropdown
-2. Hover over the preset
-3. Click the edit icon
-4. Change the preset name at the top of the editor
-5. Save
-
-## Presets vs. Global Elements
-
-Presets and [Global Elements](global-elements.md) both provide reusability, but they work differently:
-
-| Feature | Presets | Global Elements |
-|---------|---------|-----------------|
-| **What is shared** | Design settings only | Entire element (content + design) |
-| **Content independence** | Each element has its own content | All instances share the same content |
-| **Use case** | Consistent styling with different content | Identical element repeated across pages |
-| **Example** | All buttons share the same style but different labels | The same CTA block on every page |
-
-## Best Practices
-
-### Build a Design System with Presets
-
-Create presets for your core design elements early in a project:
-
-- **Button presets**: Primary, Secondary, Outline, Ghost
-- **Section presets**: Light Background, Dark Background, Gradient
-- **Text presets**: Body Text, Heading, Caption, Pull Quote
-- **Row presets**: Standard Content, Card Grid, Full-Width
-
-### Use Descriptive Names
-
-Name presets clearly so you and other editors can identify them:
-
-- "Primary CTA Button" instead of "Button Style 1"
-- "Dark Hero Section" instead of "Section 2"
-- "Blog Card Row" instead of "Custom Row"
-
-### Limit Element-Level Overrides
-
-Keep overrides to a minimum. If you find yourself overriding the same preset settings repeatedly, consider creating a new preset for that variation.
-
-## Code Examples
-
-### Targeting Preset Styles with CSS
-
-```css
-/* Presets apply styles through Divi's inline style system.
-   To override a preset with custom CSS, use the element's
-   CSS class or ID from the Advanced tab. */
-
-/* Example: Override a specific preset's button styling */
-.primary-cta-button .et_pb_button {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-```
-
-<!-- TODO: Verify Divi 5 preset CSS class naming conventions -->
-
-## Version Notes
-
-!!! note "Divi 5 Only"
-    This page documents Divi 5 behavior exclusively. Presets in Divi 5 build on the Global Presets system introduced in Divi 4 with an improved management interface.
-
-## Troubleshooting
-
-!!! warning "Preset Changes Not Appearing"
-    If changes to a preset are not reflected on your site:
-
-    1. Verify you are editing the preset and not the individual element (look for the preset editing indicator)
-    2. Clear any page caching plugins
-    3. Hard-refresh the browser (Cmd/Ctrl + Shift + R)
-    4. Check that the affected elements are actually using the preset you edited
-
-!!! warning "Element Override Not Working"
-    If an element-level override is being ignored:
-
-    1. Make sure you are editing the element, not the preset
-    2. Check that the setting you changed is not being overridden by a parent element's style
-    3. Verify the override is saved (click the green Save button)
-
-## Dedicated Preset Pages
-
-For deeper coverage of specific preset features, see:
-
-- [Element Presets](element-presets.md) -- Creating, managing, and applying per-element-type presets, including stacked presets and nested option group presets.
-- [Copy & Paste Attributes](copy-paste-attributes.md) -- Transfer preset assignments between elements using the attribute copy/paste system.
-- [Find & Replace Attributes](find-replace-attributes.md) -- Bulk-replace design values across elements, complementing presets for one-off value changes.
-
-## Related
-
-- [Visual Builder](visual-builder.md) -- The editor where presets are created and managed
-- [Global Elements](global-elements.md) -- Reusable elements that sync content and design
-- [Divi Library](library.md) -- Saving and loading complete layouts
-- [Theme Builder](theme-builder.md) -- Templates that benefit from preset-based design systems
-- [Design Variables](design-variables.md) -- Reusable values that presets can reference
-- [Preset Manager](preset-manager.md) -- Manage and organize presets across element types
-- [Stacked & Nested Presets](stacked-nested-presets.md) -- Layer multiple presets for compound styling
+[Element Presets in Divi 5](https://help.elegantthemes.com/en/articles/13349150){:target="_blank"}

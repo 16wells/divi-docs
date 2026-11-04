@@ -1,118 +1,97 @@
 ---
 title: "The Tooltip Module in Divi 5"
+description: "The Divi 5 Tooltip module: a floating popup panel anchored to a parent element, shown on hover, click, or always."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.8+"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15585511-the-tooltip-module-in-divi-5"
 ---
 
 # The Tooltip Module in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A nestable container that appears as a floating popup next to another element (a hint, label, or mini-card).
+    **How it attaches:** Add it as a child of the element it describes; that parent is the tooltip's *anchor*.
+    **Defaults:** Shows on hover, sits outside top center of the anchor, floats on a high z-index, with a solid black background (`#000000`), `3px` rounded corners, and padding of `3px` top and bottom and `6px` left and right.
+    **Design tip:** Turn on **Force Visible** (Meta group) while designing so the popup shows on the canvas.
 
-## Overview
+## How it works
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15585511-the-tooltip-module-in-divi-5).
+- The **anchor** is the parent element (button, image, text, icon, or any module) the tooltip points at.
+- The **Tooltip module** is a child of that anchor and holds the popup content: rich text, other modules, or both.
+- Because the popup appears only when triggered, use **Force Visible** (Meta > **While In Builder**) to see and style it.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Add the module
 
-## Settings & Options
+1. In the Visual Builder, click the green plus icon to insert a Row into the Section.
+2. Click the gray plus icon inside the Row to open the module list.
+3. Find **Tooltip** (or search for it) and click it.
 
-### General
+## Use cases
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| anchor |  | horis the parent element (a button, image, text, icon, or any module) the tooltip points at. |
-| Tooltip module |  | uleis added as a child of that anchor and holds the popup content. |
-| hover |  | fault the popup shows onhover, sitsoutside top centerof the anchor, and floats above the page on a high z-index so it is never hidden behind other content. |
-| Green Plus |  | reen Plusiconto insert aRow. |
-| Gray Plus |  | Gray Plusiconinside the Row, which will show the list of all available Divi modules. |
-| Tooltip module |  | p moduleand click on it to load it. Alternatively, you can use the Search option to find it. |
-| Form field hints |  | Explain what a field expects without cluttering the form. |
-| Icon and image labels |  | Reveal a caption or short description when a visitor hovers over an icon or thumbnail. |
-| Definitions and footnotes |  | Surface extra context for a term inline, on demand. |
-| Mini promo cards |  | Show a small rich-content panel - text plus other modules - beside a button or product. |
-| Content |  |  |
-| Design |  |  |
-| Advanced |  |  |
+- **Form field hints** explaining what a field expects.
+- **Icon and image labels** revealed on hover.
+- **Definitions and footnotes** shown inline, on demand.
+- **Mini promo cards** with text plus other modules beside a button or product.
 
-### Content Tab
+## Content tab
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Text |  | Edit the Tooltip's content text using the rich text editor. |
-| Link |  | make the whole module link to a page, section, or external URL. |
-| Elements |  | Addnested module. |
-| Background |  | set the Tooltip's background color, gradient, image, or video. The default background color is solid black. |
-| Loop |  | repeat the module's content from a data source. |
-| Order |  | control the module's order when it is generated dynamically. |
-| Meta |  | label the module and, importantly, turn onForce Visible(theWhile In Builderoption) to preview the popup on the canvas while you design. |
+| Setting | Description |
+|---|---|
+| Text | The tooltip's content, edited in the rich text editor |
+| Link | Makes the whole module link to a page, section, or external URL |
+| Elements | Add nested modules |
+| Background | Background color, gradient, image, or video (default is solid black) |
+| Loop | Repeats the module's content from a data source |
+| Order | Controls the module's order when generated dynamically |
+| Meta | Label, plus Force Visible (While In Builder) to preview the popup on the canvas |
 
-### Design Tab
+## Design tab
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Tooltip |  | the module's signature group, and it allows you to choose how the Tooltip module behaves:Show Tooltip on:Hover- Show the tooltip's content when you hover the target element.Click- Show the tooltip's content when you click the target element.Always- The tooltip's content is always visible; it doesn't require any interactions such as hover/click.Tooltip Movement:Anchored- By default, the tooltip is displayed at the top of the target element. You can change that using the Tooltip Position optionFollow Cursor- The Tooltip will show depending on the type of Show option you choose, and it will follow the mouse cursor.Tooldip Position- Choose the Tooltip display position - where the tooltip will show in relation to the target element.Tooltip Skid- Shifts the tooltip along the target edge (cross-axis offset from the placement).Tooltip Distance- Choose the gap from the target along the placement direction (main-axis offset).Tooltip Open Delay- Set the delay before the tooltip opens.Tooltip Close Delay- Set the delay before the tooltip closes.Show Tooltip Arrow- Display a small pointer arrow toward the parent module. |
-| Show Tooltip on |  | Hover- Show the tooltip's content when you hover the target element.Click- Show the tooltip's content when you click the target element.Always- The tooltip's content is always visible; it doesn't require any interactions such as hover/click. |
-| Hover |  | Show the tooltip's content when you hover the target element. |
-| Click |  | Show the tooltip's content when you click the target element. |
-| Always |  | The tooltip's content is always visible; it doesn't require any interactions such as hover/click. |
-| Tooltip Movement |  | Anchored- By default, the tooltip is displayed at the top of the target element. You can change that using the Tooltip Position optionFollow Cursor- The Tooltip will show depending on the type of Show option you choose, and it will follow the mouse cursor. |
-| Anchored |  | By default, the tooltip is displayed at the top of the target element. You can change that using the Tooltip Position option |
-| Follow Cursor |  | The Tooltip will show depending on the type of Show option you choose, and it will follow the mouse cursor. |
-| Tooldip Position |  | Choose the Tooltip display position - where the tooltip will show in relation to the target element. |
-| Tooltip Skid |  | Shifts the tooltip along the target edge (cross-axis offset from the placement). |
-| Tooltip Distance |  | Choose the gap from the target along the placement direction (main-axis offset). |
-| Tooltip Open Delay |  | Set the delay before the tooltip opens. |
-| Tooltip Close Delay |  | Set the delay before the tooltip closes. |
-| Show Tooltip Arrow |  | Display a small pointer arrow toward the parent module. |
-| Layout |  | controls how child modules inside the tooltip are arranged. |
-| Body Text |  | style the font, size, color, and spacing of the popup text. |
-| Sizing |  | set the popup's width, max width, height, and alignment. |
-| Spacing |  | adjust the popup's padding and margin. The default padding is3pxtop and bottom,6pxleft and right. |
-| Border |  | add borders and round the corners. The default corner radius is3px. |
-| Box Shadow |  | add depth with a drop shadow around the popup. |
-| Filters |  | apply visual effects such as hue, saturation, and blend modes. |
-| Transform |  | scale, rotate, skew, or move the popup. |
-| Animation |  | add a motion effect when the popup appears. |
+### Tooltip group (unique to this module)
 
-### Advanced Tab
+| Setting | Description |
+|---|---|
+| Show Tooltip on | **Hover**, **Click**, or **Always** (always visible, no interaction needed) |
+| Tooltip Movement | **Anchored** (shown relative to the target; top by default, changeable with Tooltip Position) or **Follow Cursor** (follows the mouse, following the Show option) |
+| Tooltip Position | Where the tooltip appears relative to the target element |
+| Tooltip Skid | Shifts the tooltip along the target edge (cross-axis offset) |
+| Tooltip Distance | Gap from the target along the placement direction (main-axis offset) |
+| Tooltip Open Delay | Delay before the tooltip opens |
+| Tooltip Close Delay | Delay before the tooltip closes |
+| Show Tooltip Arrow | Displays a small pointer arrow toward the parent module |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes |  | assign a CSS ID and classes for custom styling. |
-| HTML |  | add custom HTML attributes to the module. |
-| Conditions |  | show or hide the tooltip based on rules such as login status or device. |
-| Interactions |  | trigger actions in response to visitor interaction. |
-| Visibility |  | disable the tooltip on specific screen sizes (Disabled On) and control contentOverflow. |
-| Transition |  | set the timing and speed of hover transitions. |
-| Position |  | control placement and the module'sZ-Index(the tooltip floats on a high Z-Index by default). |
-| Scroll Effects |  | add scroll-based motion and sticky behavior. |
-| Save |  | k on theSavebutton. |
-| Exit |  | k on theExitbutton. |
+### Other Design settings
 
-## Code Examples
+| Setting | Description |
+|---|---|
+| Layout | How child modules inside the tooltip are arranged |
+| Body Text | Font, size, color, and spacing of the popup text |
+| Sizing | Width, max width, height, and alignment |
+| Spacing | Padding and margin (default padding `3px` top/bottom, `6px` left/right) |
+| Border | Borders and rounded corners (default radius `3px`) |
+| Box Shadow | Drop shadow around the popup |
+| Filters | Hue, saturation, blend modes |
+| Transform | Scale, rotate, skew, move |
+| Animation | Motion effect when the popup appears |
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Advanced tab
 
-## Common Patterns
+| Setting | Description |
+|---|---|
+| Attributes | CSS ID and classes |
+| HTML | Custom HTML attributes |
+| Conditions | Show or hide based on rules such as login status or device |
+| Interactions | Trigger actions in response to visitor interaction |
+| Visibility | **Disabled On** for specific screen sizes, and content **Overflow** |
+| Transition | Timing and speed of hover transitions |
+| Position | Placement and **Z-Index** (high by default) |
+| Scroll Effects | Scroll-based motion and sticky behavior |
 
-<!-- TODO: Document 2-3 common usage patterns -->
+Save the page with `CMD + S` (Mac) or `CTRL + S` (PC), or use the **Save** and **Exit** buttons.
 
-## Troubleshooting
+## Official documentation
 
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- [The Tooltip Module in Divi 5](https://help.elegantthemes.com/en/articles/15585511-the-tooltip-module-in-divi-5)

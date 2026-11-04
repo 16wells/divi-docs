@@ -1,108 +1,101 @@
 ---
 title: "Understanding the Filter Criteria Text Option Group in Divi 5"
+description: "The Filter Criteria Text design option group in Divi 5: typography, spacing, fill, stroke, and shadow settings for the filter criteria text in the Filterable Portfolio module."
 category: builder
-tags: [builder]
+tags: [builder, design-options, typography, filterable-portfolio]
 related: []
 divi_version: "5.x"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15420172-understanding-the-filter-criteria-text-option-group-in-divi-5"
 ---
 
 # Understanding the Filter Criteria Text Option Group in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** The design option group that styles the filter criteria text in modules such as [Filterable Portfolio](../modules/filterable-portfolio.md).
+    **Where to find it:** Open the Filterable Portfolio module settings, go to the **Design** tab, and find **Filter Criteria Text**.
+    **Key behavior:** Size, color, line height, and letter spacing accept Global Variables. Variable font controls appear only for variable fonts.
 
-## Overview
+## Where to find it
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15420172-understanding-the-filter-criteria-text-option-group-in-divi-5).
+1. Open the Filterable Portfolio module settings by clicking the gear icon or the module itself.
+2. Switch to the **Design** tab.
+3. Locate the **Filter Criteria Text** option group.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Settings
 
-## Settings & Options
+| Setting | Description |
+|---|---|
+| Filter Criteria Font | Pick a font from the dropdown or upload a custom one. |
+| Filter Criteria Font Weight | Boldness of the text, from light to extra-bold. |
+| Variable font settings | Shown only when a Google variable font is selected. See the variable font options below. |
+| Filter Criteria Text Size | Font size, via slider or typed value. Accepts Global Variables. |
+| Filter Criteria Text Color | Color of the text. Accepts Global Variables. |
+| Filter Criteria Line Height | Space between lines of text. Accepts Global Variables. |
+| Filter Criteria Letter Spacing | Space between letters, via slider or typed value. Accepts Global Variables. |
+| Filter Criteria Text Alignment | Left, center, right, or justified. |
+| Filter Criteria Capitalization | Text case: Uppercase, Capitalize, Lowercase, Smallcaps, or All Small Caps. |
+| Filter Criteria Font Style | Italic, Underline, Overline, and Strikethrough toggles. See line options below. |
+| Filter Criteria Line Wrap Style | How text breaks across lines: Default, Balanced, or Pretty. |
+| Filter Criteria Text Direction | Standard Horizontal or one of two vertical modes. |
+| Filter Criteria Hyphenation | Lets the browser split long words with a hyphen when they do not fit on a line. |
+| Filter Criteria Fill Type | None, Gradient, Image, or Transparent text fill. |
+| Filter Criteria Stroke Width | Thickness of an outline around the text letters, with a stroke color setting. |
+| Filter Criteria Columns | Number of columns the text flows through. |
+| Filter Criteria Text Shadow | Adds a shadow with direction, blur, and color controls. |
 
-### General
+## Variable font options
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Open the Filterable Portfolio's Module Settings |  | Click the gear icon or the module itself to access the settings. |
-| Navigate to the Design Tab |  | Locate theFilter CriteriaTextoption group. |
-| Filter Criteria Font |  | Choose a font from the dropdown or upload a custom font for unique styling. |
-| Filter Criteria Font Weight |  | Adjust the boldness of your Filter Criteria with options like light, bold, or extra-bold. |
-| Variable Font Options |  | those options will only be available if you are using a Google variable font such asRobo,Google Sans Flex, orBitcount):Variable Font Weight: Use the slider or type in a numeric value for the font weight.Optical Sizing: Enable automatic optical size handling.Variable Font Width: Fine-tune variable font width using variable font interpolation.Variable Font Slant: Fine-tune variable font slant using variable font interpolation.Variable Font Crsv: Fine-tune variable font crsv using variable font interpolation.Variable Font Element Shape: Fine-tune variable font element shape using variable font interpolation.Variable Font Element Expansion: Fine-tune variable font element expansion using variable font interpolation.Variable Font  Rond: Fine-tune variable font rond using variable font interpolation.Variable Font Grade: Fine-tune variable font grade using variable font interpolation.Variable Font Width: Fine-tune variable font width using variable font interpolation. |
-| Variable Font Weight |  | Use the slider or type in a numeric value for the font weight. |
-| Optical Sizing |  | Enable automatic optical size handling. |
-| Variable Font Width |  | Fine-tune variable font width using variable font interpolation. |
-| Variable Font Slant |  | Fine-tune variable font slant using variable font interpolation. |
-| Variable Font Crsv |  | Fine-tune variable font crsv using variable font interpolation. |
-| Variable Font Element Shape |  | Fine-tune variable font element shape using variable font interpolation. |
-| Variable Font Element Expansion |  | Fine-tune variable font element expansion using variable font interpolation. |
-| Variable Font  Rond |  | Fine-tune variable font rond using variable font interpolation. |
-| Variable Font Grade |  | Fine-tune variable font grade using variable font interpolation. |
-| Variable Font Width |  | Fine-tune variable font width using variable font interpolation. |
-| Filter Criteria Text Size |  | You can adjust the font size of your Filter Criteria text using the slider or by entering a specific value. It also acceptsGlobal Variables. |
-| Filter Criteria Text Color |  | Choose a color to be used for the Filter Criteria text. It also acceptsGlobal Variables. |
-| Filter Criteria Line Height |  | Set the space between the lines of the Filter Criteria text, helping to improve readability. It also acceptsGlobal Variables. |
-| Filter Criteria Letter Spacing |  | Control the space between letters by adjusting the slider or entering a value. It also acceptsGlobal Variables. |
-| Filter Criteria Text Alignment |  | Set the alignment for the Filter Criteria text—left, center, right, or justified. |
-| Filter Criteria Capitalization |  | Choose the Filter Criteria text's capitalization:Uppercase- All letters are in uppercase formatCapitalize- Makes the first letter of each word uppercase.Lowercase- All letters are in lowercase format.Smallcaps- Lowercase letters display as smaller uppercase letters.All Small Caps- all letters display as small caps, including letters that were already uppercase. |
-| Uppercase |  | All letters are in uppercase format |
-| Capitalize |  | Makes the first letter of each word uppercase. |
-| Lowercase |  | All letters are in lowercase format. |
-| Smallcaps |  | Lowercase letters display as smaller uppercase letters. |
-| All Small Caps |  | all letters display as small caps, including letters that were already uppercase. |
-| Filter Criteria Font Style |  | Select additional font styles, including:Italic: Makes the text lean to the right.Underline: Adds a line under the text.Overline: adds a line above the text.Strikethrough: draws a line through the middle of the text.⚠️Note: When Underline, Overline, and/or Strikethrough are enabled, you can also choose:Line Color: Choose the line's color. It also acceptsGlobal Variables.Line Thickness: Choose how thick or slim the line is.Line Type: Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Italic |  | Makes the text lean to the right. |
-| Underline |  | Adds a line under the text. |
-| Overline |  | adds a line above the text. |
-| Strikethrough |  | draws a line through the middle of the text.⚠️Note: When Underline, Overline, and/or Strikethrough are enabled, you can also choose:Line Color: Choose the line's color. It also acceptsGlobal Variables.Line Thickness: Choose how thick or slim the line is.Line Type: Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Line Color |  | Choose the line's color. It also acceptsGlobal Variables. |
-| Line Thickness |  | Choose how thick or slim the line is. |
-| Line Type |  | Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Filter Criteria Line Warp Style |  | Choose how text should wrap. Default keeps native browser wrapping, Balanced evens heading lines, and Pretty helps avoid single-word endings.Default: Text can move onto a new line when it runs out of space.Balanced:Short text breaks into lines with more even lengthsPretty:Text wrap in a cleaner, more visually pleasing way |
-| Default |  | Text can move onto a new line when it runs out of space. |
-| Balanced |  | Short text breaks into lines with more even lengths |
-| Pretty |  | Text wrap in a cleaner, more visually pleasing way |
-| Filter Criteria Text Direction |  | Choose text flow direction. Standard Horizontal reads left-to-right across lines, while vertical modes stack glyphs top-to-bottom.Standard HorizontalVertical (right to left): The text is displayed from top to bottom, and each new line starts to the left of the previous one.Vertical (left to right): The text is displayed from bottom to top, and each new line starts to the left of the previous one. |
-| Standard Horizontal |  |  |
-| Vertical (right to left) |  | The text is displayed from top to bottom, and each new line starts to the left of the previous one. |
-| Vertical (left to right) |  | The text is displayed from bottom to top, and each new line starts to the left of the previous one. |
-| Filter Criteria Hyphenation |  | When enabled, if a word is too long to fit nicely on one line, the browser can break it into parts and add a hyphen at the break. |
-| Filter Criteria Fill Type |  | Choose the Filter Criteria's text fill options:None- No Filter Criteria text fill.Gradient- Fill the Filter Criteria text with a GradientImage- Fill the Filter Criteria text with an ImageTransparent- Fill the Filter Criteria text with a transparent fill. |
-| None |  | No Filter Criteria text fill. |
-| Gradient |  | Fill the Filter Criteria text with a Gradient |
-| Image |  | Fill the Filter Criteria text with an Image |
-| Transparent |  | Fill the Filter Criteria text with a transparent fill. |
-| Filter Criteria Stroke Width |  | Choose the thickness of the stroke.Filter Criteria Stroke Color- Choose the Filter Criteria text's stroke color. |
-| Filter Criteria Stroke Color |  | Choose the Filter Criteria text's stroke color. |
-| Filter Criteria Columns |  | Set how many columns the text should flow through. |
-| Filter Criteria Text Shadow |  | Add a text shadow effect and customize its direction, blur, and color to add depth or emphasis to the Filter Criteria:Direction: Adjust horizontal and vertical placement.Blur: Control how soft or sharp the shadow appears.Color: Set a shadow color to complement the text. |
-| Direction |  | Adjust horizontal and vertical placement. |
-| Blur |  | Control how soft or sharp the shadow appears. |
-| Color |  | Set a shadow color to complement the text. |
-| Focus on Readability |  | Use font sizes and line heights that are easy to read, especially on mobile devices. |
-| Complement Your Design |  | Match the text color and style to your site’s overall design for a cohesive look. |
-| Use Shadows Sparingly |  | Subtle shadows can enhance readability, but overly strong effects can distract. |
+These controls appear only when the selected font is a Google variable font (for example Google Sans Flex or Bitcount). Each one fine-tunes an axis of the font through variable font interpolation:
 
-## Code Examples
+- **Variable Font Weight:** slider or numeric value.
+- **Optical Sizing:** turns on automatic optical size handling.
+- **Variable Font Width and Slant:** adjust the width and slant axes.
+- **Crsv, Element Shape, Element Expansion, Rond, and Grade:** additional axes, shown when the font supports them.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Text details
 
-## Common Patterns
+**Capitalization**
 
-<!-- TODO: Document 2-3 common usage patterns -->
+- **Uppercase:** every letter is capital.
+- **Capitalize:** first letter of each word is capital.
+- **Lowercase:** every letter is small.
+- **Smallcaps:** lowercase letters render as smaller capitals.
+- **All Small Caps:** all letters render as small capitals, including ones that were already capital.
 
-## Troubleshooting
+**Font style**
 
-<!-- TODO: Document common issues and solutions -->
+- **Italic** slants the text; **Underline**, **Overline**, and **Strikethrough** add a line below, above, or through it.
+- When any line option is on, you can also set **Line Color** (accepts Global Variables), **Line Thickness**, and **Line Type** (Solid, Double, Dotted, Dashed, or Wavy).
 
-## AI Interaction Notes
+**Line wrap style**
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+- **Default:** native browser wrapping.
+- **Balanced:** short text breaks into lines of more even length.
+- **Pretty:** wraps in a cleaner way that avoids stray single words at the end.
 
-## Related
+**Text direction**
 
-<!-- TODO: Add links to related documentation pages -->
+- **Standard Horizontal:** reads left to right.
+- **Vertical (right to left)** and **Vertical (left to right):** stack the text top to bottom or bottom to top, with each new line starting to the left of the previous one.
+
+**Fill type and stroke**
+
+- **None** leaves the text unfilled, **Gradient** and **Image** fill the letters with that style, and **Transparent** makes the fill clear.
+- **Stroke Width** sets the outline thickness; **Filter Criteria Stroke Color** sets its color.
+
+**Text shadow**
+
+- **Direction:** horizontal and vertical offset.
+- **Blur:** how soft or sharp the shadow looks.
+- **Color:** the shadow color.
+
+## Tips
+
+- Pick font sizes and line heights that stay readable on mobile.
+- Match the text color and style to the rest of the site design.
+- Use shadows sparingly; strong effects distract from the filter labels.
+
+## Official documentation
+
+[Understanding the Filter Criteria Text Option Group in Divi 5](https://help.elegantthemes.com/en/articles/15420172-understanding-the-filter-criteria-text-option-group-in-divi-5){:target="_blank"}

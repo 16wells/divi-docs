@@ -107,8 +107,6 @@ Once defined, variables are entered into value fields using `var(--variable-name
 | Modify | Layout JSON update or `update_post_meta()` | Needs Testing | Must preserve the full function syntax (e.g., the entire `clamp()` expression) |
 | Create | Custom CSS injection via Theme Options or page/element CSS fields | Needs Testing | CSS variables must be defined before they can be referenced in value fields |
 
-<!-- TODO: Verify how calc/clamp expressions are stored in the layout JSON — as raw strings or parsed objects? -->
-<!-- TODO: Test whether CSS variables defined in element-level custom CSS are available in sibling elements -->
 
 ## Elegant Themes tutorials
 

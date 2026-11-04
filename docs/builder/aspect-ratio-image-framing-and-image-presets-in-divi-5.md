@@ -1,53 +1,105 @@
 ---
 title: "Aspect Ratio, Image Framing, and Image Presets in Divi 5"
+description: "How to set an aspect ratio, control image fit and position with Framing, and save image presets for any Divi 5 module that shows an image."
 category: builder
 tags: ["builder", "images", "aspect-ratio", "presets"]
 related: ["image", "gallery", "the-instagram-feed-module-in-divi-5"]
 divi_version: "5.5+"
-last_updated: 2026-05-22
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15066231-aspect-ratio-image-framing-and-image-presets-in-divi-5"
-status: stub
 ---
 
 # Aspect Ratio, Image Framing, and Image Presets in Divi 5
 
-Divi 5 ships a unified image-handling system — **aspect ratio**, **framing**, and reusable **image presets** — that applies across image-bearing modules (Image, Gallery, Instagram Feed, Woo Product Gallery, etc.) so visuals can be normalized into consistent shapes regardless of their source dimensions.
+!!! abstract "Quick Reference"
+    **What it is:** Three related image tools: an Aspect Ratio field in Sizing, a Framing group (Object Fit and Object Position), and preset support for the Image option group.
+    **Where to find it:** Aspect Ratio in **Design → Sizing**; Framing in **Design → Framing** (Image, Woo Product Images) or **Design → Image → Framing** (Person, Blurb); presets via the preset chip at the top of the Image option group.
+    **Key behavior:** Object Fit only shows an effect when the image's rendered size differs from its natural size, so set an aspect ratio or a custom width and height first.
 
-## Overview
+Image option groups are now consistent across Divi 5 modules, so the same controls sit in the same place wherever an image appears. The Image, Person, Blurb, and Woo Product Images modules are the main examples, but the changes apply to every module that displays an image.
 
-<!-- TODO: Expand from ET help article 15066231 once network access permits a full scrape. -->
+## Aspect Ratio
 
-This system underpins several Divi 5 features:
+Aspect Ratio ties an element's height to its width. Set it once and Divi keeps the proportion as the element scales across phone, tablet, and desktop.
 
-- **Aspect Ratio** — lock images to a chosen ratio (e.g. 16:9, 4:5, square) regardless of the source asset.
-- **Image Framing** — control how the image fits inside the locked ratio (cover, contain, alignment).
-- **Image Presets** — save aspect-ratio + framing combinations as named presets for reuse across modules.
+1. Open the module settings and go to **Design → Sizing**.
+2. Find the **Aspect Ratio** field.
+3. Enter a ratio as W:H, for example `16:9`, `1:1`, or `4:5`.
+4. Save.
 
-It was referenced in the *Five New Modules for Divi 5* release announcement as the styling layer the new **Instagram Feed** module uses to render a clean gallery from mixed-ratio Instagram posts.
+The height is calculated from the element's rendered width, so when a parent container narrows on smaller screens the height adjusts automatically.
 
-![Aspect ratio and framing controls](../assets/screenshots/builder/aspect-ratio-image-framing-and-image-presets/overview.png){ loading=lazy }
-*Caption: Placeholder — capture once a working install is available.*
+| Ratio | Typical use |
+|---|---|
+| 16:9 | Widescreen video, hero images, video-style thumbnails |
+| 4:3 | Classic photo prints and slideshow images |
+| 1:1 | Square gallery images, social cards, avatar-style cards |
+| 3:4 or 4:5 | Portrait product photos and team headshots |
+| 21:9 | Cinematic banners |
 
-## How it works
+## Framing
 
-<!-- TODO: Document the setting locations, defaults, and interaction with the Image options group from the ET help article. -->
+If an image has an aspect ratio, or an explicit width and height, it stretches to fill that frame by default, which can distort it. The **Framing** group decides how the image fills the frame and where it sits inside it.
 
-## Settings reference
+### Object Fit
 
-<!-- TODO: Settings tables. -->
+| Value | Behavior |
+|---|---|
+| Fill (default) | Stretches the image to the frame; may distort it |
+| Contain | Shows the whole image inside the frame; may leave empty space on two sides |
+| Cover | Fills the frame completely and crops what does not fit, keeping proportions |
+| None | Shows the image at its natural size with no scaling |
+| Scale Down | Acts like None for images smaller than the frame and like Contain for larger ones |
 
-## Elegant Themes tutorials
+### Object Position
 
-- [Five New Modules for Divi 5 (Timeline, Breadcrumbs, Table of Contents, SVG, Instagram Feed)](https://www.elegantthemes.com/blog/theme-releases/five-new-modules){:target="_blank"} — release announcement; calls out aspect ratio and framing as the styling system used by the new Instagram Feed module.
+Object Position picks which part of the image stays visible when Object Fit crops it. Use the position selector to anchor to a corner, edge, or the center, or enter custom X and Y percentage values. The nine presets are Top Left, Top Center, Top Right, Center Left, Center, Center Right, Bottom Left, Bottom Center, and Bottom Right.
 
-## Version Notes
+### Where Framing lives
 
-!!! note "Divi 5 Only"
-    This page documents Divi 5 behavior exclusively.
+- **Image module:** Design → Framing
+- **Person module:** Design → Image → Framing
+- **Blurb module** (image instead of icon): Design → Image → Framing
+- **Woo Product Images module:** Design → Framing
 
-## Related
+## Image presets
 
-- [Image Module](../modules/image.md)
-- [Gallery Module](../modules/gallery.md)
-- [Instagram Feed Module](../modules/the-instagram-feed-module-in-divi-5.md)
-- [Element Presets](element-presets.md)
+The Image option group supports presets, like Button, Text, and other option groups. Style an image once (corners, border, shadow, filters, framing) and reuse that preset on every image on the site.
+
+**Create a preset**
+
+1. Open a module that displays an image.
+2. Go to **Design → Image** (or **Design → Image & Icon** in modules that use that group).
+3. Style the image as you want it.
+4. Click the preset chip at the top of the Image option group.
+5. Choose **Save As Preset** and give it a descriptive name, such as "Brand Card Image".
+
+**Apply a preset:** open a module with an image, go to **Design → Image**, click the preset chip, and pick the preset.
+
+**Update or reset**
+
+- **Update:** change the image styles in a module that uses the preset, click the chip, and choose **Update Preset**. Every image using it updates.
+- **Reset:** choose **Reset** from the chip to detach the current module from the preset without altering the preset.
+
+All image option groups also support composable settings, so any sub-element of a module, including its image, can use the full design option set without custom CSS.
+
+## Tips
+
+- Pair Aspect Ratio with Object Fit **Cover** when contributors upload images of different sizes; the images crop cleanly instead of stretching.
+- Save a site-wide image preset early to keep brand styling consistent.
+- Set framing inside a Loop Builder template so every loop item shares the same ratio and crop.
+- Anchor headshots to **Top Center** with Object Position so heads are not trimmed.
+
+## FAQ
+
+**I set Object Fit but nothing changed.** Object Fit only has a visible effect when the rendered size differs from the natural size. Set an Aspect Ratio, or both a custom Width and Height in Sizing.
+
+**Will an Aspect Ratio crop my image?** Not by itself. It sets the frame; Object Fit decides whether the image is cropped (Cover), letterboxed (Contain), or stretched (Fill).
+
+**Does this apply to WooCommerce product images?** Yes. The Woo Product Images module uses the same harmonized Image group and the Framing group.
+
+**Where do I edit a saved image preset?** Update it from any module that uses it, or manage it in the Preset Manager.
+
+## Official documentation
+
+[Aspect Ratio, Image Framing, and Image Presets in Divi 5](https://help.elegantthemes.com/en/articles/15066231-aspect-ratio-image-framing-and-image-presets-in-divi-5){:target="_blank"}

@@ -1,107 +1,83 @@
 ---
 title: "The Instagram Feed Module in Divi 5"
+description: "How to add the Instagram Feed module, connect an account with an access token, and what each Content, Design, and Advanced setting group does."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.6+"
-last_updated: 2026-06-01
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15250319-the-instagram-feed-module-in-divi-5"
 ---
 
 # The Instagram Feed Module in Divi 5
 
-<!-- AUTO-CREATED: 2026-06-01 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A module that shows your Instagram posts on a Divi page as a live feed.
+    **Where it lives:** Add it to a Row from the module list (search for "Instagram").
+    **Setup:** Content tab → Account → Add, name the account, paste an Instagram access token, Submit.
 
-## Overview
+## Adding the module
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15250319-the-instagram-feed-module-in-divi-5).
+1. In the Visual Builder, click the Green Plus in the Section to insert a Row.
+2. Click the Gray Plus inside the Row to open the module list.
+3. Find the Instagram Feed module, or use Search.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Connecting an Instagram account
 
-## Settings & Options
+The feed shows nothing until an account is connected. See [How to Connect the Instagram Feed Module with an Instagram Account in Divi 5](https://help.elegantthemes.com/en/articles/15175737-how-to-connect-the-instagram-feed-module-with-an-instagram-account-in-divi-5) for how to obtain a token.
 
-### General
+1. Open the module's settings and go to **Content → Account**.
+2. Click **Add**.
+3. Give the account any name.
+4. Paste the Instagram access token.
+5. Click **Submit**.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Green Plus |  | reen Plusiconto insert aRow. |
-| Gray Plus |  | Gray Plusiconinside the Row, which will show the list of all available Divi modules. |
-| Instagram module |  | m moduleand click on it to load it. Alternatively, you can use the Search option to find it. |
-| Account |  | Connect the Instagram accountwhose posts you want to display. |
-| Feed |  | Control how many Instagram posts the module will display. |
-| Content tab → Account |  | → Account. |
-| Add button |  | dd button. |
-| Instagram Access token |  | ess token. |
-| Submit |  | theSubmitbutton. |
-| Content |  |  |
-| Design |  |  |
-| Advanced |  |  |
+## Settings
 
-### Content Tab
+### Content tab
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Account |  | Connect the Instagram account whose posts you want to display. |
-| Feed |  | Choose how many Instagram posts the module displays. |
-| Link |  | Make the entire Instagram Feed module clickable, creating a seamless way to direct users to another page, section, or external site. |
-| Button |  | Choose to display the Follow Us on Instagram button and the button's text. |
-| Elements- |  | Choose which other module should be nested inside the Instagram Feed module. |
-| Background |  | Choose the Instagram Feed module's background styles. |
-| Meta |  | Choose the Instagram Feed module's Label text and force its Visibility inside the Visual Builder. |
+| Group | Description |
+|---|---|
+| Account | Connect the Instagram account whose posts are displayed. |
+| Feed | Set how many posts the module shows. |
+| Link | Make the whole module clickable. |
+| Button | Show the Follow Us on Instagram button and set its text. |
+| Elements | Choose another module to nest inside the Instagram Feed module. |
+| Background | Background styles for the module. |
+| Meta | Label text and forced visibility inside the Visual Builder. |
 
-### Design Tab
+### Design tab
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Layout |  | Choose between the Block and Flexbox layout. |
-| Image |  | Choose the desing styles applied to each image in the feed. |
-| Button |  | Choose the Follow us button's desing styles. |
-| Feed |  | Choose the feed's desing styles, including the layout, background, sizing, spacing, and more. |
-| Item |  | Choose the feed's individual item (images) such as background, sizing, spacing, and more. |
-| Sizing |  | Choose the Instagram Feed module's sizing. |
-| Spacing |  | Choose the Instagram Feed module's spacing. |
-| Border |  | Choose the Instagram Feed module's border styles. |
-| Box Shadow |  | Choose the Instagram Feed module's Box Shadow styles. |
-| Filters |  | Choose the Instagram Feed module's filters, such as hue shifts, saturation changes, and blending modes. |
-| Transform |  | Choose the Instagram Feed module's advanced design effects, such as scaling, rotating, skewing, and translating. |
-| Animation |  | Choose the Instagram Feed module's animation styles. |
+| Group | Description |
+|---|---|
+| Layout | Block or Flexbox. |
+| Image | Design styles for each image in the feed. |
+| Button | Design styles for the Follow Us button. |
+| Feed | Styles for the feed as a whole, including layout, background, sizing, and spacing. |
+| Item | Styles for individual feed items (images): background, sizing, spacing, and more. |
+| Sizing, Spacing, Border, Box Shadow | Standard option groups. |
+| Filters | Hue shifts, saturation changes, and blend modes. |
+| Transform | Scale, rotate, skew, and translate. |
+| Animation | Animation styles. |
 
-### Advanced Tab
+### Advanced tab
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. |
-| CSS |  | Add custom CSS to fine-tune the Instagram Feed module. |
-| HTML |  | Choose the semantic HTML tag for the Instagram Feed module. |
-| Conditions |  | Display the Instagram Feed module dynamically based on rules you set, so the right content reaches the right audience. |
-| Interactions |  | Create custom interactions, such as showing or hiding the Icon List module, and many more. |
-| Visibility |  | Choose the Instagram Feed module's visibility across different devices. |
-| Transitions |  | Choose how long the Instagram Feed module's animations take. |
-| Position |  | Control the placement of the Instagram Feed module precisely. |
-| Scroll Effects |  | Control how the Instagram Feed module behaves and transforms during scrolling. |
-| Save |  | k on theSavebutton. |
-| Exit |  | k on theExitbutton. |
+| Group | Description |
+|---|---|
+| Attributes | CSS ID, reusable classes, and custom HTML attributes. |
+| CSS | Custom CSS for the module. |
+| HTML | The semantic HTML tag. |
+| Conditions | Show the module based on rules you set. |
+| Interactions | Custom interactions, such as showing or hiding another module. |
+| Visibility | Visibility across devices. |
+| Transitions | How long animations take. |
+| Position | Precise placement. |
+| Scroll Effects | Behavior and transforms while scrolling. |
 
-## Code Examples
+## Saving
 
-<!-- TODO: Add CSS/PHP code examples -->
+Press `CMD + S` (Mac) or `CTRL + S` (PC), or click **Save** and then **Exit**.
 
-## Common Patterns
+## Official documentation
 
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[The Instagram Feed Module in Divi 5](https://help.elegantthemes.com/en/articles/15250319-the-instagram-feed-module-in-divi-5)

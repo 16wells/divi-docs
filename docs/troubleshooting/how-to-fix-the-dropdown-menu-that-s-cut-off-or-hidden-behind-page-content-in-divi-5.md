@@ -1,75 +1,68 @@
 ---
 title: "How to Fix the Dropdown Menu That's Cut Off or Hidden Behind Page Content in Divi 5"
+description: "Fix Divi 5 dropdown menus that are clipped by a parent container or stacked behind page content, using Visibility and Position settings."
 category: troubleshooting
 tags: [troubleshooting]
 related: []
 divi_version: "5.x"
-last_updated: 2026-06-01
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15324394-how-to-fix-the-dropdown-menu-that-s-cut-off-or-hidden-behind-page-content-in-divi-5"
 ---
 
 # How to Fix the Dropdown Menu That's Cut Off or Hidden Behind Page Content in Divi 5
 
-<!-- AUTO-CREATED: 2026-06-01 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Cut off at an edge:** An overflow clipping problem. Set Overflow to Visible on parent elements (Advanced tab, Visibility).
+    **Partly or fully invisible:** A z-index stacking problem. Raise the header section's Z-index (Advanced tab, Position).
+    **Both symptoms:** Apply both fixes, in order.
 
-## Overview
+Hover over a parent menu item on desktop, or tap the hamburger icon on mobile, and look closely:
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15324394-how-to-fix-the-dropdown-menu-that-s-cut-off-or-hidden-behind-page-content-in-divi-5).
+- **Opens but is sliced off where the header ends:** overflow clipping.
+- **Opens but is partly or fully invisible, with page text bleeding through or no dropdown at all:** z-index stacking.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Fix 1: Let the dropdown overflow its parent
 
-## Settings & Options
+A parent **Section**, **Row**, or **Column** with overflow set to **Hidden** clips anything extending past its box. Dropdowns extend below the Menu module, so a header section with hidden overflow cuts them off.
 
-### General
+1. Open the header template in Theme Builder, or the page in the Visual Builder.
+2. Click the **Section** containing the Menu module.
+3. On the **Advanced** tab, open the **Visibility** option group.
+4. Set **Horizontal Overflow** and **Vertical Overflow** to **Visible**.
+5. If the dropdown is still clipped, repeat on the parent **Row** and **Column**.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| The dropdown opens but gets cut off at an edge. |  | You can see the top items but the rest is sliced off where the header ends. This is an overflow clipping problem. |
-| The dropdown opens but is partially or fully invisible. |  | You can sometimes see text from the page bleeding through the menu, or the dropdown doesn't appear at all. This is a z-index stacking problem. |
-| Theme Builder |  | der template in theTheme Builder, or open the page in theVisual Builder. |
-| Section |  | heSectionthat contains your Menu module. |
-| Advanced |  | eAdvancedtab. |
-| Visibility |  | sibilityoption group. |
-| Horizontal Overflow |  | lowandVertical OverflowtoVisible. |
-| Row |  | eat the same check on the parentRowandColumnif the dropdown is still clipped. |
+!!! note
+    Work outward from the Menu module to the section, changing only elements that actually need it. Do not change overflow on a deeply nested element if the clipping happens at section level.
 
-### Content Tab
+## Fix 2: Raise the dropdown above page content
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Section |  | heSectionthat contains your Menu module. |
-| Advanced |  | eAdvancedtab. |
-| Position |  | Positionoption group. |
-| Z-index |  | dexto a high number like100,999, or9999. |
-| Section |  | he firstSectionbelow your header. |
-| Advanced |  | eAdvancedtab. |
-| Scroll Effects |  | Effectsoption group. |
-| Sticky Position |  | onis set, or if anyScroll Transform Effectsare active, the dropdown will likely stack behind them. |
-| Position |  | isable the effect, or open the section'sPositionoption group and setZ-indexto0so the header's higher z-index wins. |
-| Divi → Theme Options → Clear CSS Cache |  | heme Options → Clear CSS Cachein the top right, then reload in an incognito window. |
-| Safe Mode |  | e ModeunderDivi → Support Centerto rule out a plugin or custom code conflict. |
-| Divi → Theme Options → General → Custom CSS |  | m CSSfor rules that setoverflow: hiddenon.et-l-header,.et_pb_menu, or any related selectors. These will clip the dropdown regardless of your Visibility settings. |
+If the dropdown opens at full size but disappears behind content below the header, that content sits on a higher stacking layer.
 
-## Code Examples
+1. Click the **Section** containing the Menu module.
+2. On the **Advanced** tab, open the **Position** option group.
+3. Set **Z-index** to a high number such as `100`, `999`, or `9999`.
+4. Save.
 
-<!-- TODO: Add CSS/PHP code examples -->
+If it is still hidden, another section is usually pushing itself up the stack.
 
-## Common Patterns
+## Scroll Effects on the first content section
 
-<!-- TODO: Document 2-3 common usage patterns -->
+**Scroll Effects** on the first section below the header are a common source of z-index trouble. A sticky position or transform effect makes the browser promote the section to its own stacking layer, which can place it above the header menu.
 
-## Troubleshooting
+1. Click the first **Section** below the header.
+2. On the **Advanced** tab, open **Scroll Effects**.
+3. If **Sticky Position** is set or any **Scroll Transform Effects** are active, the dropdown will likely stack behind them.
+4. Either disable the effect, or open the section's **Position** option group and set **Z-index** to `0` so the header's higher z-index wins.
 
-<!-- TODO: Document common issues and solutions -->
+!!! tip
+    To keep both the scroll effect and the dropdown, make sure the header's Z-index is always higher than any section using Scroll Effects.
 
-## AI Interaction Notes
+## Still not working
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+- Clear the cache at **Divi > Theme Options > Clear CSS Cache**, then reload in a private window.
+- Enable **Safe Mode** under **Divi > Support Center** to rule out a plugin or custom code conflict.
+- Check **Divi > Theme Options > General > Custom CSS** for `overflow: hidden` on `.et-l-header`, `.et_pb_menu`, or related selectors, which clip the dropdown regardless of Visibility settings.
 
-## Related
+## Official documentation
 
-<!-- TODO: Add links to related documentation pages -->
+[How to Fix the Dropdown Menu That's Cut Off or Hidden Behind Page Content in Divi 5](https://help.elegantthemes.com/en/articles/15324394-how-to-fix-the-dropdown-menu-that-s-cut-off-or-hidden-behind-page-content-in-divi-5)

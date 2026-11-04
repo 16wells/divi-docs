@@ -1,65 +1,71 @@
 ---
 title: "The Support Center in Divi 5"
+description: "Overview of the Divi Support Center: system status, remote access, documentation, Safe Mode, and the debug log."
 category: builder
-tags: [builder]
+tags: [builder, support-center, troubleshooting, safe-mode]
 related: []
 divi_version: "5.x"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15501073-the-support-center-in-divi-5"
 ---
 
 # The Support Center in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A single admin screen for system status reports, remote support access, documentation, Safe Mode, and the debug log.
+    **Where to find it:** Log in to WordPress and go to **Divi → Support Center**.
+    **Key behavior:** Only a WordPress Administrator can enable Remote Access, and it switches itself off after 4 days.
 
-## Overview
+## System Status
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15501073-the-support-center-in-divi-5).
+System Status shows how your site is configured and flags problems since your last login. It monitors PHP, CSS, JavaScript, and WordPress core files, using a stoplight scheme:
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+- **Green:** no detectable issues.
+- **Yellow:** a potential issue worth fixing soon.
+- **Red:** fix immediately.
 
-## Settings & Options
+Two actions are available: **Show Full Report** displays the complete system report, and **Copy Full Report** copies it so you can hand it to Elegant Themes support if asked.
 
-### General
+Typical triggers for yellow or red include a PHP memory limit set too low or an outdated PHP version, plus problems with CSS, JavaScript, or WordPress core files.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Log in |  | to your WordPress website |
-| Divi → Support Center |  | enter |
-| green, |  | r lights aregreen,there are no detectable issues,so you are good to go |
-| Yellow |  | lights indicate a potential issue that you should consider fixing soon |
-| red |  | you haveredlights, it's time to look at issues and fix them immediately |
-| Show Full Report |  | Display a full system report revealing any issues that may exist |
-| Copy Full Report - |  | Allows you to copy your system report to provide to a member of Elegant Theme's support staff, should they request it. |
-| Divi → Support Center |  | enter |
-| Remote Access |  | ote Access |
-| Divi → Support Center |  | enter |
-| Remote Access |  | ote Access |
-| Copy Access Token |  | Access Tokenlink |
-| Third-party plugins are being used |  | . As previously mentioned, WordPress is an open-source platform. Because of this, hundreds of developers create plugins for WordPress. There are times when a plugin may need to be updated to be compatible with the latest version of WordPress. Running outdated versions of your plugins can sometimes cause issues or break your website. |
-| WordPress child themes are being used |  | . Child themes are useful for adding custom code to your site, so you don't have to alter the parent theme. Sometimes, errors can occur during the creation process. This can cause a variety of issues, including the white screen of death (WSOD). Safe Mode will disable any child theme you have installed so that your site becomes functional again, allowing you to determine the cause of the problem. |
-| Added custom CSS or JavaScript can cause conflicts |  | . While adding custom code is typically a great way to add new features, there are times when your code can break your site. It can be as simple as a missing semicolon that throws your site into a tailspin. Thankfully, Divi's Safe Mode option will disable any code you have installed, restoring functionality to your site. |
+## Remote Access
 
-## Code Examples
+Remote Access lets Elegant Themes support staff securely log in to your site. Turning it on sends a secure token with login credentials to the support team.
 
-<!-- TODO: Add CSS/PHP code examples -->
+- Access lasts up to 4 days, then disables automatically. You can turn it off earlier.
+- Only a WordPress Administrator can enable it.
+- After enabling it, an extra toggle appears to grant **Admin Access** if support requests it.
 
-## Common Patterns
+To enable it:
 
-<!-- TODO: Document 2-3 common usage patterns -->
+1. Log in to your Divi website.
+2. Go to **Divi → Support Center**.
+3. Turn on **Remote Access**.
 
-## Troubleshooting
+When you request support, include the exact URL of the affected page(s) and as much detail as possible.
 
-<!-- TODO: Document common issues and solutions -->
+### Copy Support Token
 
-## AI Interaction Notes
+If Remote Access does not work, or you have enabled it on several Divi sites, support will need the Support Token. With Remote Access on, click the **Copy Access Token** link (called Copy Support Token in the text), then paste the token into the support chat.
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+## Documentation
 
-## Related
+The Support Center embeds Divi documentation with step-by-step guides, videos, and overviews of modules and features such as the Theme Builder and Visual Builder. Use **View Full Divi Documentation** to open the full library.
 
-<!-- TODO: Add links to related documentation pages -->
+## Safe Mode
+
+Safe Mode disables third-party plugins, child themes, and custom code **for you only**, so you can troubleshoot while visitors keep seeing the normal site. You or an Elegant Themes support agent can enable it with one toggle. If you find a problem you are not comfortable fixing, turn on Remote Access so support can take over.
+
+Common reasons to use it:
+
+1. **Third-party plugins:** a plugin may be out of date for the current WordPress version and break the site.
+2. **Child themes:** errors in a child theme can cause problems such as the white screen of death; Safe Mode disables the child theme.
+3. **Custom CSS or JavaScript:** even a missing semicolon can break a site; Safe Mode disables installed custom code.
+
+## Debug Log
+
+If WordPress debugging is enabled, you can read the debug log from the Support Center. If not, you will need to enable WordPress debug mode first.
+
+## Official documentation
+
+[The Support Center in Divi 5](https://help.elegantthemes.com/en/articles/15501073-the-support-center-in-divi-5){:target="_blank"}

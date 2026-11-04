@@ -1,61 +1,55 @@
 ---
 title: "How to Save Divi Elements to Divi Cloud in Divi 5"
+description: "Save page layouts, sections, rows, modules, and code snippets to Divi Cloud from the Divi 5 Visual Builder so you can reuse them on any connected site."
 category: modules
-tags: [modules]
+tags: [modules, divi-cloud, library]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14816649-how-to-save-divi-elements-to-divi-cloud-in-divi-5"
 ---
 
 # How to Save Divi Elements to Divi Cloud in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it does:** Stores a design online so it is available on every Divi site signed in to your Elegant Themes account.
+    **What you can save:** Page layouts, sections, rows, modules, and code snippets.
+    **Requirement:** You must be signed in to Divi Cloud in the Visual Builder, or the **Save to Divi Cloud** option does not appear.
+    **Same dialog everywhere:** Only the way you open it differs by element type.
 
-## Overview
+## Save a page layout
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14816649-how-to-save-divi-elements-to-divi-cloud-in-divi-5).
+A page layout is the whole structure and content of a page.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Open the page in the Visual Builder.
+2. Click the **Gear icon** at the top left.
+3. Choose **Add to Library**.
+4. Enter a descriptive name.
+5. Turn on **Save to Divi Cloud**.
+6. Optionally assign an existing category or tag, or create new ones.
+7. Click **Save To Divi Cloud**.
 
-## Settings & Options
+!!! tip
+    The dialog's **Save Individual Items** section lets you also save the page's sections, rows, and modules as separate items for later reuse.
 
-### General
+## Save a section, row, or module
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Save to Divi Cloud |  | oud from the Visual Builder. TheSave to Divi Cloudoption only appears when you're signed in. See How to access your Divi Cloud in Divi 5 for the full sign-in steps. |
-| Visual Builder |  | in theVisual Builder. |
-| Gear icon |  | Gear iconlocated at the top left corner. |
-| Add to Library |  | ibrary. |
-| Save to Divi Cloud |  | ivi Cloud. |
-| Save To Divi Cloud |  | ivi Cloudbutton. |
-| Visual Builder |  | in theVisual Builder. |
-| Triple-dot icon |  | section, row, or module you want to save or hover over it and click theTriple-dot icon. |
-| Save to Library |  | ibraryfrom the contextual menu. |
-| Save to Divi Cloud |  | ivi Cloud. |
-| Save To Divi Cloud |  | ivi Cloudbutton. |
+All three are saved the same way.
 
-## Code Examples
+1. Open the page in the Visual Builder.
+2. Right-click the element, or hover over it and click the **triple-dot icon**.
+3. Choose **Save to Library**.
+4. Enter a descriptive name.
+5. Turn on **Save to Divi Cloud**.
+6. Optionally assign categories or tags.
+7. Click **Save To Divi Cloud**.
 
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+Saving a section offers to save its rows and modules as individual items too. Saving a row offers the same for its modules.
 
 ## Related
 
-<!-- TODO: Add links to related documentation pages -->
+- [How to Organize Your Divi Cloud Items in Divi 5](how-to-organize-your-divi-cloud-items-in-divi-5.md)
+
+## Official documentation
+
+[How to Save Divi Elements to Divi Cloud in Divi 5](https://help.elegantthemes.com/en/articles/14816649-how-to-save-divi-elements-to-divi-cloud-in-divi-5)

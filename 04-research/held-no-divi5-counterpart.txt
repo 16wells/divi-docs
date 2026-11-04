@@ -1,0 +1,8 @@
+modules/the-divi-fullwidth-header-module.md
+modules/the-divi-fullwidth-map-module.md
+modules/the-divi-fullwidth-menu-module.md
+modules/the-divi-fullwidth-portfolio-module.md
+modules/the-divi-fullwidth-slider-module.md
+modules/the-divi-post-navigation-module.md
+modules/using-divi-filter-and-blend-mode-options.md
+modules/using-divi-hover-options.md

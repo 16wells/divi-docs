@@ -126,7 +126,6 @@ After selecting multiple elements, drag any one of them to move the entire group
 !!! warning "Feature Not Available"
     If this feature is not visible, ensure you are running the latest version of Divi 5 and that your user role has the appropriate permissions in the Role Editor.
 
-<!-- TODO: Add feature-specific troubleshooting items -->
 
 ## Related
 

@@ -1,114 +1,96 @@
 ---
 title: "The Payment Button Module in Divi 5"
+description: "The Divi 5 module that adds a PayPal or Stripe checkout button, styled like the regular Button module."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.11+"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15944794-the-payment-button-module-in-divi-5"
 ---
 
 # The Payment Button Module in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A button that sends visitors straight to a PayPal or Stripe payment. It styles like the regular [Button module](https://help.elegantthemes.com/en/articles/10259665-the-button-module-divi-5), with an extra **Payment** group for the provider and amount.
+    **Three concepts:** *Provider* (PayPal or Stripe, one per button), *Resource* (the account that receives the money), *Environment* (Sandbox for testing, Live for real payments).
+    **Stripe prerequisite:** Each Stripe product needs its own Stripe Payment Link.
 
-## Overview
+## Concepts
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15944794-the-payment-button-module-in-divi-5).
+- **Provider:** PayPal or Stripe, chosen per button.
+- **Resource:** the destination account: a **PayPal business email** or a **Stripe hosted checkout link**. Save it once and reuse it on any Payment Button.
+- **Environment:** **Sandbox** tests the button without moving real money; switch to **Live** to accept payments.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Add the module
 
-## Settings & Options
+1. In the Visual Builder, click the green plus icon to insert a Row into the Section.
+2. Click the gray plus icon inside the Row to open the module list.
+3. Find **Payment Button** (or search for it) and click it.
 
-### General
+## Use cases
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Provider |  | The Payment Button works withPayPalorStripe. You choose one per button. |
-| Resource |  | This is the account the payment goes to: yourPayPal business emailor yourStripe hosted checkout link. You save it once and then reuse it on any Payment Button. |
-| Environment |  | UseSandboxto test the button without taking real money, then switch toLivewhen you're ready to accept payments. |
-| Green Plus |  | reen Plusiconto insert aRow. |
-| Gray Plus |  | Gray Plusiconinside the Row, which will show the list of all available Divi modules. |
-| Payment Button module |  | n moduleand click on it to load it. Alternatively, you can use the Search option to find it. |
-| Selling a single product |  | Add a "Buy Now" button that sends the buyer straight to checkout for a fixed price. |
-| Accepting donations |  | Let visitors enter their own amount by setting the button to a user-defined amount. |
-| Collecting a booking or deposit fee |  | Charge a fixed fee to reserve a spot, a table, or an appointment. |
-| Content |  |  |
-| Design |  |  |
-| Advanced |  |  |
+- **Selling a single product** with a Buy Now button at a fixed price.
+- **Accepting donations** by setting the button to a user-defined amount.
+- **Collecting a booking or deposit fee** to reserve a spot, table, or appointment.
 
-### Content Tab
+## Content tab
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Payment |  | Holds everything the button needs to start a checkout:Provider- Choose the payment provider for this button:PayPalorStripe.​​Note:Stripe requires you to create a Stripe Payment Link for each Stripe product you want to link to the Payment Button module. Check theHow to Create a Stripe Payment Linkarticle for more information.​Resource- Choose the account the payment goes to. ClickAddto save a new one (give it a name and enter yourPayPal business emailorStripe hosted checkout link), then select it from the list. You canEditorRemovea saved resource at any time.Environment- ChooseSandboxto test the button safely, orLiveto accept real payments.Amount Mode- ChooseFixedto charge a set price, orUser Definedto let the visitor enter their own amount.Amount- Set the price to charge. This is used when Amount Mode is set toFixed.Currency- Choose the currency for the payment. Start typing to search by currency or country. The default isUSD.Return URL(only applies if the chosen provider is PayPal) - Choose the page the visitor is sent to after a successful payment.Cancel URL(only applies if the chosen provider is PayPal) - Choose the page the visitor is sent to if they cancel the payment.Open In New Tab- Choose whether the checkout opens in a new browser tab. |
-| Provider |  | Choose the payment provider for this button:PayPalorStripe.​​Note:Stripe requires you to create a Stripe Payment Link for each Stripe product you want to link to the Payment Button module. Check theHow to Create a Stripe Payment Linkarticle for more information.​ |
-| Resource |  | Choose the account the payment goes to. ClickAddto save a new one (give it a name and enter yourPayPal business emailorStripe hosted checkout link), then select it from the list. You canEditorRemovea saved resource at any time. |
-| Environment |  | ChooseSandboxto test the button safely, orLiveto accept real payments. |
-| Amount Mode |  | ChooseFixedto charge a set price, orUser Definedto let the visitor enter their own amount. |
-| Amount |  | Set the price to charge. This is used when Amount Mode is set toFixed. |
-| Currency |  | Choose the currency for the payment. Start typing to search by currency or country. The default isUSD. |
-| Return URL |  | (only applies if the chosen provider is PayPal) - Choose the page the visitor is sent to after a successful payment. |
-| Cancel URL |  | (only applies if the chosen provider is PayPal) - Choose the page the visitor is sent to if they cancel the payment. |
-| Open In New Tab |  | Choose whether the checkout opens in a new browser tab. |
-| Text |  | Choose the button's text, such as "Buy Now" or "Donate". |
-| Loop |  | Enables the loop builder. |
-| Order |  | Choose the order in which the Payment Button module appears inside a Flexbox and Grid layout. |
-| Meta |  | Choose the Payment Button module's Label text and force its Visibility inside the Visual Builder. |
+### Payment group
 
-### Design Tab
+| Setting | Description |
+|---|---|
+| Provider | PayPal or Stripe. Stripe requires a [Stripe Payment Link](https://intercom.help/elegantthemes/en/articles/16160284-how-to-create-a-stripe-payment-link) for each product linked to the button |
+| Resource | The account the payment goes to. Click **Add**, name it, and enter the PayPal business email or Stripe hosted checkout link, then select it. Saved resources can be edited or removed |
+| Environment | Sandbox (safe testing) or Live (real payments) |
+| Amount Mode | **Fixed** charges a set price; **User Defined** lets the visitor enter an amount |
+| Amount | The price to charge; used when Amount Mode is Fixed |
+| Currency | Payment currency; type to search by currency or country. Default is USD |
+| Return URL | PayPal only: the page visitors land on after a successful payment |
+| Cancel URL | PayPal only: the page visitors land on if they cancel |
+| Open In New Tab | Whether checkout opens in a new browser tab |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Layout |  | Choose the text and logo alignment, and whether the module should be full-screen. In addition, you can also change the Layout Style:BlockFlex(default)Grid |
-| Block |  |  |
-| Flex |  | (default) |
-| Grid |  |  |
-| Alignment |  | Choose the Payment Button module's alignment on the page. |
-| Text |  | Choose the overall Payment Button module's text styles for this module. |
-| Button |  | Choose the Payment Button module's design styles. |
-| Spacing |  | Choose the Payment Button module's spacing. |
-| Box Shadow |  | Choose the Payment Button module's Box Shadow styles. |
-| Filters |  | Choose the Payment Button module's filters, such as hue shifts, saturation changes, and blending modes. |
-| Transform |  | Choose the Payment Button module's advanced design effects, such as scaling, rotating, skewing, and translating. |
-| Animation |  | Choose the Payment Button module's animation styles, adding personality and interactivity while keeping a polished, professional feel. |
+### Other Content settings
 
-### Advanced Tab
+| Setting | Description |
+|---|---|
+| Text | The button label, such as "Buy Now" or "Donate" |
+| Loop | Enables the Loop Builder |
+| Order | Position in a Flexbox or Grid layout |
+| Meta | Label text and forced visibility inside the Visual Builder |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. |
-| CSS- |  | Allows you to add custom CSS code to fine-tune your Payment Button module, enabling advanced styling that perfectly aligns with your vision. |
-| HTML |  | Choose the semantic HTML tag for the Payment Button module. |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. |
-| Interactions |  | Create custom interactions, such as showing or hiding the Payment Button, and many more. |
-| Visibility |  | Choose the Payment Button's module visibility based on different devices. |
-| Transitions |  | Choose how long the Payment Button's module animation takes, adding subtle, impactful animations that enhance user experience and make your modules stand out. |
-| Position |  | Choose precise control of the Payment Button's module placement and create dynamic, visually engaging designs. |
-| Scroll Effects |  | Control how the Payment Button module behaves and transforms during scrolling. |
-| Save |  | k on theSavebutton. |
-| Exit |  | k on theExitbutton. |
+## Design tab
 
-## Code Examples
+The module shares the Button module's styling, so these controls behave the same way.
 
-<!-- TODO: Add CSS/PHP code examples -->
+| Setting | Description |
+|---|---|
+| Layout | Text and logo alignment, full-width option, and Layout Style (Block, Flex by default, or Grid) |
+| Alignment | Position of the module on the page |
+| Text | Overall text styles |
+| Button | Button design styles |
+| Spacing | Module spacing |
+| Box Shadow | Box shadow styles |
+| Filters | Hue shifts, saturation changes, blend modes |
+| Transform | Scale, rotate, skew, translate |
+| Animation | Animation styles |
 
-## Common Patterns
+## Advanced tab
 
-<!-- TODO: Document 2-3 common usage patterns -->
+| Setting | Description |
+|---|---|
+| Attributes | CSS ID, reusable CSS classes, or custom HTML attributes |
+| CSS | Custom CSS for the module |
+| HTML | Semantic HTML tag |
+| Conditions | Show content based on conditions |
+| Interactions | Custom interactions such as showing or hiding the button |
+| Visibility | Visibility per device |
+| Transitions | Duration of animations |
+| Position | Precise placement |
+| Scroll Effects | Behavior during scrolling |
 
-## Troubleshooting
+Save the page with `CMD + S` (Mac) or `CTRL + S` (PC), or use the **Save** and **Exit** buttons.
 
-<!-- TODO: Document common issues and solutions -->
+## Official documentation
 
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- [The Payment Button Module in Divi 5](https://help.elegantthemes.com/en/articles/15944794-the-payment-button-module-in-divi-5)

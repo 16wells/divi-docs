@@ -1,102 +1,126 @@
 ---
 title: "Part 4: Mastering Divi 5 Presets For Faster, More Consistent Web Design"
+description: "Part 4 of the Divi 5 Mastery Course: build a preset system from Design Variables using the Preset Manager, Option Group Presets, Element Presets, stacking, and nesting."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15530394-part-4-mastering-divi-5-presets-for-faster-more-consistent-web-design"
 ---
 
 # Part 4: Mastering Divi 5 Presets For Faster, More Consistent Web Design
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Goal:** Turn the Design Variables from Part 3 into a reusable preset system before building the homepage in Part 5.
+    **Hierarchy:** Design Variables (base) > Option Group Presets (one option group) > Element Presets (a full element) > pages and Theme Builder templates.
+    **Where to manage:** The Preset Manager icon in the Visual Builder's left sidebar.
+    **Course position:** Part 4 of 16. Previous: Part 3 (Design Variables). Next: Part 5 (homepage).
 
-## Overview
+!!! tip "Divi AI Agent"
+    With a Divi AI subscription, the Divi AI Agent can find a repeated combination of settings (for example a border plus shadow on several modules), turn it into an Option Group Preset, and apply it to every module that already matches. It stops for approval before anything destructive.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15530394-part-4-mastering-divi-5-presets-for-faster-more-consistent-web-design).
+## Why build presets now
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+- Applying a full set of styles takes a few clicks instead of adjusting typography, spacing, colors, and borders on every module.
+- Styling stays consistent across the homepage, inner pages, and templates.
+- Changing a color, spacing value, or button style in one preset updates it everywhere the preset is used.
 
-## Settings & Options
+## The Preset Manager
 
-### General
+Open a page in the Visual Builder and click the **Preset Manager** icon in the left sidebar. From here you create, organize, edit, duplicate, reorder, and set default presets. Presets are grouped by type:
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Border | Top Border | 1px#000000, 12% opacity |
-| Border | Outlined - Dark | 8px1px#000000, 12% opacity |
-| Border | Rounded - Regular | 8px |
-| Border | Bottom Border | 1px#000000, 12% opacity |
-| Spacing | Padding - Medium | 30px |
-| Spacing | Padding - Large | 60px |
-| Font Body | Dark Text | #0000001.8emclamp(0.875rem, 0.2824vw + 0.8067rem, 1rem) |
-| Font Body | Small Text | clamp(0.8125rem, 0.2824vw + 0.7442rem, 0.9375rem)1.55em |
-| Buttons (inside other modules) | Filled - Primary Color | #2176ff500px0px#ffffff14px16px32px |
-| Buttons (inside other modules) | Filled - Black | #000000500px0px#ffffff14px16px32px |
-| Buttons (inside other modules) | Filled - White | #000000500px0px#00000014px16px32px |
-| Buttons (inside other modules) | Text - Primary Color | #ffffff#ffffff14px |
-| Buttons (inside other modules) | Text - White | #ffffff#2176ff14px |
-| Heading Text | Heading 1 | clamp(1.75rem, 4.4975vw + 0.6254rem, 3.75rem) |
-| Heading Text | Heading 2 | clamp(1.5rem, 2.2596vw + 0.9534rem, 2.5rem) |
-| Heading Text | Heading 3 | clamp(1.25rem, 1.4122vw + 0.9085rem, 1.875rem) |
-| Heading Text | Heading 4 | clamp(1.0625rem, 0.9831vw + 0.8155rem, 1.5rem) |
-| Heading Text | Heading 5 | clamp(0.9375rem, 0.7007vw + 0.7588rem, 1.25rem) |
-| Heading Text | Heading 6 | clamp(0.875rem, 0.2824vw + 0.8067rem, 1rem) |
-| Body Text | Dark Text | #000000, 70% opacityclamp(0.875rem, 0.2824vw + 0.8067rem, 1rem)1.8em |
-| Body Text | Small Text | clamp(0.8125rem, 0.2824vw + 0.7442rem, 0.9375rem)1.55em |
-| Background | Background - Light Gray | Hex color: #f5f5f5 |
-| Heading | Heading 1 - Big | H1 Desktop Big: clamp(3rem, 7.3219vw + 1.1924rem, 6.25rem)Line-Height Headings |
-| Heading | Heading 1 | H1: clamp(1.75rem, 4.4975vw + 0.6254rem, 3.75rem)Line-Height Headings |
-| Heading | Heading 2 | H2: clamp(1.5rem, 2.2596vw + 0.9534rem, 2.5rem)Line-Height Headings |
-| Heading | Heading 3 | H3: clamp(1.25rem, 1.4122vw + 0.9085rem, 1.875rem)Line-Height Headings |
-| Heading | Heading 4 | H4: clamp(1.0625rem, 0.9831vw + 0.8155rem, 1.5rem)Line-Height Headings |
-| Heading | Heading 5 | H5: clamp(0.9375rem, 0.7007vw + 0.7588rem, 1.25rem)Line-Height Headings |
-| Heading | Heading 6 | H6: clamp(0.875rem, 0.2824vw + 0.8067rem, 1rem)Line-Height Headings |
-| Text | Dark Text | Body Text Color (color)Body: clamp(0.875rem, 0.2824vw + 0.8067rem, 1rem)Line Height - Body |
-| Text | Light Text | White (color)Body: clamp(0.875rem, 0.2824vw + 0.8067rem, 1rem)Line Height - Body |
-| Text | Small Text | White (color)Body: clamp(0.875rem, 0.2824vw + 0.8067rem, 1rem) |
-| Button | Filled - Primary Color | Button Vertical PaddingButton Horizontal Padding |
-| Button | Text - Primary Color | Button Font SizeButton Text Color: Primary Color variable |
-| Button | Filled - Black | Button Vertical PaddingButton Horizontal PaddingBlack (color) |
-| Button | Filled - White | Button Vertical PaddingButton Horizontal PaddingWhite (color) |
-| Image | Rounded | Rounded Corners - Images |
-| Video | Rounded | Rounded - Regular |
-| Icon | Dark - Small - Contained | Color variable: WhiteSpacing - XSmall |
-| Icon | Dark - Small | N/A |
-| Icon List | Light Text | Heading Text Light (color)Body: clamp(0.875rem, 0.2824vw + 0.8067rem, 1rem) |
-| Blurb | Dark Text | Rounded Corners - Images |
-| Blurb | Dense | Body Small: clamp(0.8125rem, 0.2824vw + 0.7442rem, 0.9375rem)​ |
-| Group | Contained - Light | Spacing - MediumRounded Corners - RegularBackground - Light Gray (color) |
-| Group | Contained - Dark | Spacing - MediumRounded Corners - RegularBlack (color) |
-| Countdown Timer | Light Text | H3H1Line Height - Headings |
-| Accordion | Dark Text | Black (color)Body Text Color (color)Body: clamp(0.875rem, 0.2824vw + 0.8067rem, 1rem)Line Height - Body |
-| Menu | Dark Text | Menu Text Color: Black (color)Menu Text Size: Body variable |
-| Social Media Follow | Isolated Icons – Dark | Horizontal Gap: Border Width - ButtonsIcon Color: Black (Color) |
-| Social Newtork | No Background | Background Color: Black (color) with 0 Opacity |
-| Social Media Follow | Isolated Icons – Light | Horizontal Gap: Border Width - ButtonsIcon Color: White (Color) |
-| ← Part 3: Creating A Divi 5 Global Design System With Design Variables |  | Part 5: Building A Divi 5 Homepage From Scratch → |
+- **Element Presets** belong to an element such as Heading, Blurb, or Call to Action.
+- **Option Group Presets** belong to an option group such as Background, Heading, or Text.
 
-## Code Examples
+Expand an element's menu to see its presets. A preset applied to a module appears beside the module title in the settings panel.
 
-<!-- TODO: Add CSS/PHP code examples -->
+To edit one, click its pencil icon to open the **Preset Preview**, adjust it, and save. Saved changes apply everywhere the preset is used.
 
-## Common Patterns
+## Create Option Group Presets
 
-<!-- TODO: Document 2-3 common usage patterns -->
+An Option Group Preset saves the styling for one option group and applies wherever that group appears. Create these before Element Presets.
 
-## Troubleshooting
+Example, a Heading Text preset:
 
-<!-- TODO: Document common issues and solutions -->
+1. Open the Heading module's settings and go to **Design tab > Heading Text**.
+2. Hover over the group title and click the **Option Group Preset** icon.
+3. Click **New Preset From Current Styles** (if you already styled it) or **Add New Preset** (to start blank).
+4. Give it a descriptive title and make your changes.
+5. Click **Save Preset**.
 
-## AI Interaction Notes
+Start with the groups used most:
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+- **Typography:** style Heading Text and Body Text with the Part 3 font and fluid number variables.
+- **Spacing:** keeps rhythm consistent across sections, rows, columns, groups, and modules.
+- **Border:** apply your border width and rounded-corner variables for a unified look.
+- **Buttons:** buttons live inside many modules, so add a module with a button (such as Email Optin), style its Button group with your variables, and save it as an Option Group Preset.
 
-## Related
+### Core Option Group Presets used in the course
 
-<!-- TODO: Add links to related documentation pages -->
+| Option group | Presets |
+|---|---|
+| Border | Top Border, Outlined - Dark, Rounded - Regular, Bottom Border |
+| Spacing | Padding - Medium, Padding - Large |
+| Font Body | Dark Text, Small Text |
+| Buttons (inside other modules) | Filled - Primary Color, Filled - Black, Filled - White, Text - Primary Color, Text - White |
+| Heading Text | Heading 1 through Heading 6 (each tied to its H1 to H6 variable) |
+| Body Text | Dark Text, Small Text |
+| Background | Background - Light Gray |
+
+The official article lists the exact variables and values behind each preset; use that table as your build checklist.
+
+## Create Element Presets
+
+An Element Preset saves the full design of one element type (Button, Blurb, Image, Section, Row, Column, or Group). It can nest Option Group Presets, so updating a nested group flows through every Element Preset that uses it. For example, a Blurb preset can nest title typography, body text, spacing, background, and border presets.
+
+Key Element Presets to build:
+
+1. **Primary Button:** your button Option Group Preset plus any extra styling.
+2. **Email Opt-In:** the button preset with title typography, description text, and field styling.
+3. **Module Group:** a Group module with related modules inside, saved as a reusable container for feature, pricing, or testimonial cards.
+
+### Core Element Presets used in the course
+
+| Module | Presets |
+|---|---|
+| Heading | Heading 1 - Big, Heading 1 through Heading 6 |
+| Text | Dark Text, Light Text, Small Text |
+| Button | Filled - Primary Color, Text - Primary Color, Filled - Black, Filled - White |
+| Image / Video | Rounded |
+| Icon | Dark - Small - Contained, Dark - Small |
+| Icon List | Light Text |
+| Blurb | Dark Text, Dense |
+| Group | Contained - Light, Contained - Dark |
+| Countdown Timer | Light Text |
+| Accordion | Dark Text |
+| Menu | Dark Text |
+| Social Media Follow | Isolated Icons - Dark, Isolated Icons - Light |
+| Social Network | No Background |
+
+## Stack and nest presets
+
+You can stack several presets on one element, each handling a different job. With a Blurb:
+
+1. Click the preset icon next to the module header and choose a first preset.
+2. Click the applied preset to open its options and select a second one.
+
+Divi 5 applies both. When an underlying preset changes, every module using it updates.
+
+## Best practices
+
+- **Preview before saving.** The pencil icon opens a preview where you can test against sample content and background colors. Saved changes are global.
+- **Set defaults.** Select the applied preset in the module header and click the star icon so new modules of that type start with it.
+- **Name clearly.** Use role-based names for reusable design decisions and component-based names for complete Element Presets.
+- **Export your library.** Export as a backup or to reuse on other sites. Make sure any Design Variables a preset references already exist before importing.
+
+## Import the ready-made presets
+
+1. Download the JSON file from the official article.
+2. Open any page in the Visual Builder and click the Preset Manager icon.
+3. Click the **Import/Export** icon.
+4. Choose the JSON file.
+
+## Official documentation
+
+[Part 4: Mastering Divi 5 Presets For Faster, More Consistent Web Design](https://help.elegantthemes.com/en/articles/15530394-part-4-mastering-divi-5-presets-for-faster-more-consistent-web-design)

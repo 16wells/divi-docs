@@ -1,66 +1,67 @@
 ---
 title: "How to Control the Contact Form Module's Field Widths in Divi 5"
+description: "Set Contact Form field widths in Divi 5 with the Column Class setting: full width, side by side, spacing, and per-device stacking."
 category: troubleshooting
 tags: [troubleshooting]
 related: []
 divi_version: "5.x"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15443972-how-to-control-the-contact-form-module-s-field-widths-in-divi-5"
 ---
 
 # How to Control the Contact Form Module's Field Widths in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Where:** Each field's settings, Design tab, Sizing, **Column Class**.
+    **Requires:** The Contact Form layout set to Flex (the default). Column Class has no effect in Block layout.
+    **Divi 4 note:** The old "Make Fullwidth" toggle no longer exists; Column Class replaces it.
 
-## Overview
+The Contact Form module lays out its fields with Flexbox, and every field has its own width setting. No custom CSS is needed.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15443972-how-to-control-the-contact-form-module-s-field-widths-in-divi-5).
+## Where field widths are set
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Click the gear icon on the Contact Form module.
+2. On the **Content** tab, find the field and click the pencil icon next to it.
+3. In the field's settings, go to the **Design** tab and open **Sizing**.
+4. Set **Column Class**, which defines the field's width as a column in the flex layout (for example **Fullwidth**, **1/2**, or **1/3**).
 
-## Settings & Options
+## Make a field full width
 
-### General
+1. Open the field's settings as above.
+2. Go to **Design > Sizing > Column Class** and choose **Fullwidth**.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Contact Form module settings |  | settingsby clicking the gear icon on the module. |
-| Content |  | ontenttab, find the field you want to resize and click thePencilicon next to it. |
-| Design |  | field's settings, go to theDesigntab and open theSizingoption group. |
-| Column Class |  | n Classoption. |
-| Contact Form module settings |  | settings. |
-| Pencil |  | thePencilicon next to the field. |
-| Design tab |  | esign tab→Sizing→Column Class. |
-| Fullwidth |  | lwidth. |
-| Pencil |  | thePencilicon next to the first field. |
-| Design |  | esign→Sizing→Column Classand choose1/2. |
-| Column Class |  | he second field, setting itsColumn Classto1/2as well. |
-| Contact Form module settings |  | settings(the module, not an individual field). |
-| Design |  | theDesigntab and open theLayoutoption group. |
-| Desing tab → Sizing. |  | → Sizing. |
-| tablet and/or Phone breakpoint |  | ne breakpoint. |
-| Column Class |  | lumn Classto 100%. |
+The field spans the whole form, and later fields move to the next line.
 
-## Code Examples
+## Place fields side by side
 
-<!-- TODO: Add CSS/PHP code examples -->
+1. Set the first field's **Column Class** to **1/2**.
+2. Set the second field's **Column Class** to **1/2** as well.
 
-## Common Patterns
+They now share one line. The same approach works for three fields at **1/3**, four at **1/4**, and so on.
 
-<!-- TODO: Document 2-3 common usage patterns -->
+!!! note
+    The two fields must sit directly next to each other in the field list. A Fullwidth field between them forces a line break.
 
-## Troubleshooting
+## Adjust spacing between fields
 
-<!-- TODO: Document common issues and solutions -->
+Adjust spacing on the Contact Form module itself, not on an individual field:
 
-## AI Interaction Notes
+1. Open the module's settings.
+2. On the **Design** tab, open the **Layout** option group.
+3. Adjust the horizontal and/or vertical gap values.
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+!!! tip
+    Avoid using the Row's gap settings for field spacing, since they apply to the whole layout and can shift the entire form. Fields Margin targets only the form fields.
 
-## Related
+## Different widths per device
 
-<!-- TODO: Add links to related documentation pages -->
+Field widths are responsive. To make side-by-side fields stack on smaller screens:
+
+1. Edit each field whose Column Class is 1/2, 1/3, and so on.
+2. Go to **Design > Sizing**.
+3. Switch to the tablet and/or phone breakpoint.
+4. Change **Column Class** to 100%.
+
+## Official documentation
+
+[How to Control the Contact Form Module's Field Widths in Divi 5](https://help.elegantthemes.com/en/articles/15443972-how-to-control-the-contact-form-module-s-field-widths-in-divi-5)

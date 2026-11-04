@@ -1,53 +1,46 @@
 ---
 title: "Using Divi Transform Options"
+description: "How to scale, translate, rotate, and skew Divi 5 modules from the Design tab Transform option group."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
-source_url: "https://help.elegantthemes.com/en/articles/8671537-using-divi-transform-options"
+last_updated: 2026-11-04
+source_url: "https://help.elegantthemes.com/en/articles/10102613"
 ---
 
 # Using Divi Transform Options
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Where:** Module settings > Design tab > Transform.
+    **Controls:** Scale, translate, rotate, skew, and the origin point they pivot around.
 
-## Overview
+Transform reshapes or repositions a module without changing the layout around it. See also the [Transform option group reference](../options-groups/transform.md).
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/8671537-using-divi-transform-options).
+## Open the options
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Click the module or its Gear icon to open its settings.
+2. Go to the **Design** tab and open **Transform**.
 
-## Settings & Options
+## Settings
 
-### General
+| Setting | Description |
+|---|---|
+| Scale | Resize horizontally, vertically, or both. Keep the chainlink on for uniform scaling, or unlink it to set each direction on its own. |
+| Translate | Shift the module horizontally or vertically from its original position, using positive or negative values. |
+| Rotate | Rotate around the X, Y, or Z axis for 2D or 3D effects, using a number or slider. |
+| Skew | Slant the module horizontally, vertically, or both with exact values. |
+| Origin Points | The anchor the transforms pivot around. Use the preset grid or drag to a custom point. |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| gear icon |  | element's modal Settings window by clicking on thegear icon |
-| Design tab |  | esign tab |
-| Transform |  | eTransformoptions group |
+Changing the origin point changes how scaling and rotation look.
 
-## Code Examples
+## Tips
 
-<!-- TODO: Add CSS/PHP code examples -->
+- Small skew, rotate, or translate amounts add interest without clutter.
+- Heavy use of transforms can make a layout feel chaotic.
+- Lock values with the chainlink to preserve proportions.
 
-## Common Patterns
 
-<!-- TODO: Document 2-3 common usage patterns -->
+## Official documentation
 
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- [Using Divi Transform Options (Elegant Themes Help Center)](https://help.elegantthemes.com/en/articles/10102613)

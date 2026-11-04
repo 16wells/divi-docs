@@ -1,90 +1,71 @@
 ---
 title: "Divi Cloud Interface Overview in Divi 5"
+description: "A tour of the Divi Cloud interface inside the Load From Library modal: sidebar filters, toolbar views and sorting, item quick actions, deleting, and restoring from Trash."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/14816640-divi-cloud-interface-overview-in-divi-5"
 ---
 
 # Divi Cloud Interface Overview in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Where it lives:** The **Load From Library** modal in the Divi 5 Visual Builder.
+    **Open it:** Click the **Add Layout** icon in the left sidebar, then the **Premade Layout** or **Saved Layout** card. Sign in via the button at the top right if needed.
+    **Three areas:** Sidebar (search and filters), top toolbar (views, sorting), and the item list.
 
-## Overview
+## Sidebar
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/14816640-divi-cloud-interface-overview-in-divi-5).
+| Element | What it does |
+|---|---|
+| Search Filter | Filters the whole collection by keyword. |
+| Locations | **This Website** shows items saved locally; **My Divi Cloud** shows Cloud items. Both checked, or both unchecked, shows everything. |
+| Categories | Lists Cloud, local Library, or both, depending on Locations. **Manage Categories** adds, renames, or removes them. |
+| Tags | Works like Categories, with **Manage Tags**. |
+| Trash | Holds deleted items until restored or permanently removed. |
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Top toolbar
 
-## Settings & Options
+- **Item count** for the current filters and context.
+- **Views:** Grid, Tag (grouped by tag), or List (single column).
+- **Sorting:** New To Old (default), Old To New, Name, or Favorites (favorited items first).
+- **Profile picture:** your Gravatar when signed in, a placeholder otherwise.
 
-### General
+## Item list
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Visual Builder |  | theVisual Builder. |
-| Add Layout |  | dd Layouticon in the left sidebar of the builder. The Load From Library modal opens. |
-| Premade Layout |  | hePremade Layoutor theSaved Layoutcards. |
-| Sign In To Divi Cloud |  | signed in, click theSign In To Divi Cloudbutton in the top right corner of the modal and enter your Elegant Themes account credentials. |
-| The sidebar |  | on the left, for searching and filtering by location, category, and tag, plus access to the Trash. |
-| The top toolbar |  | , for switching views, sorting, and seeing how many items are available. |
-| The item list |  | , where every saved item appears based on your current filters. |
-| Search Filter |  | filters your entire collection by keyword. |
-| Locations |  | let you narrow the list down. CheckThis Websiteto see only items saved locally to the current Divi site, orMy Divi Cloudto see only items saved to your Cloud. Leave both checked, or both unchecked, to see everything. |
-| Categories |  | list the categories used to organize your layouts. Depending on whichLocationsoption is selected, the list shows Cloud categories, local Library categories, or both. ClickManage Categoriesto add, rename, or remove categories. |
-| Tags |  | work the same way as Categories, with aManage Tagslink for editing. |
-| Trash |  | opens the bin where deleted items live until you restore or permanently remove them. |
-| Item count |  | shows how many items are currently available based on your filters and the context you opened the modal from. |
-| View options |  | switch how items are displayed:Grid viewdisplays items in a grid layout.Tag viewgroups items by their tags.List viewdisplays items as a single column list. |
-| Grid view |  | displays items in a grid layout. |
-| Tag view |  | groups items by their tags. |
-| List view |  | displays items as a single column list. |
-| Sorting options |  | change the order of the list:New To Old(default) sorts from newest to oldest.Old To Newsorts from oldest to newest.Namesorts alphabetically.Favoritesbrings favorited items to the top. |
-| New To Old |  | (default) sorts from newest to oldest. |
-| Old To New |  | sorts from oldest to newest. |
-| Name |  | sorts alphabetically. |
-| Favorites |  | brings favorited items to the top. |
-| Profile picture |  | shows the Gravatar tied to your Elegant Themes account email when you're signed in, or a generic placeholder when you're not. |
-| Use This Layout |  | (orUse This Section,Use This Row,Use This Module) imports the item into your page. |
-| Edit With Divi |  | opens the item for editing without leaving the modal. |
-| Live Preview |  | opens a preview of the item. |
-| Rename |  | changes the item's name. |
-| Remove from Cloud |  | removes the item from Divi Cloud. Available on items saved to the Cloud. |
-| Remove from Favorites |  | , unfavorite the item. Available on items currently marked as favorites. |
-| Split Into Sections |  | splits a Page Layout into its sections. |
-| Split Into Rows |  | splits a Section into its rows. |
-| Split Into Modules |  | splits a Row into its modules. |
-| Edit Tags & Categories |  | opens a dialog to change the item's category and tag assignments. |
-| Duplicate |  | creates a copy of the item. |
-| Export |  | downloads the item as a JSON file. |
-| Delete |  | moves the item to the Trash. |
-| List view |  | List viewusing the list view icon in the top toolbar. |
-| Delete Selected Items |  | ted Itemsbutton. |
-| Trash |  | theTrashlink in the top toolbar. |
-| Restore |  | heRestorebutton. |
+Shows every saved item matching the filters. With no Locations selected, local Library and Cloud items appear together. What appears also depends on where you opened the modal: from **Add Section**, only saved sections show; from **Add Layout**, every item type shows.
 
-## Code Examples
+## Quick actions
 
-<!-- TODO: Add CSS/PHP code examples -->
+Right-click an item or click its three-dots icon.
 
-## Common Patterns
+| Action | Result |
+|---|---|
+| Use This Layout / Section / Row / Module | Imports the item into the page. |
+| Edit With Divi | Edits the item without leaving the modal. |
+| Live Preview | Opens a preview. |
+| Rename | Changes the name. |
+| Remove from Cloud | Removes a Cloud item from Divi Cloud. |
+| Remove from Favorites | Unfavorites a favorited item. |
+| Split Into Sections / Rows / Modules | Splits a Page Layout, Section, or Row into its parts. |
+| Edit Tags & Categories | Changes category and tag assignments. |
+| Duplicate | Copies the item. |
+| Export | Downloads the item as JSON. |
+| Delete | Moves the item to Trash. |
 
-<!-- TODO: Document 2-3 common usage patterns -->
+## Delete and restore
 
-## Troubleshooting
+To delete several items, switch to List view, check them, and click **Delete Selected Items**. Deleted items go to Trash, not straight to permanent deletion.
 
-<!-- TODO: Document common issues and solutions -->
+To restore: click **Trash** in the toolbar, hover the item, and click **Restore**.
 
-## AI Interaction Notes
+!!! warning
+    **Empty Trash** permanently removes everything in it; those items cannot be recovered.
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+Sign-in steps are covered in Elegant Themes' [How to access your Divi Cloud in Divi 5](https://help.elegantthemes.com/en/articles/14816590-how-to-access-your-divi-cloud-in-divi-5). To save a premade layout to the Cloud, see [How to Save Premade Layouts to Divi Cloud](how-to-save-premade-layouts-to-divi-cloud-in-divi-5.md).
 
-## Related
+## Official documentation
 
-<!-- TODO: Add links to related documentation pages -->
+[Divi Cloud Interface Overview in Divi 5](https://help.elegantthemes.com/en/articles/14816640-divi-cloud-interface-overview-in-divi-5) on the Elegant Themes Help Center.

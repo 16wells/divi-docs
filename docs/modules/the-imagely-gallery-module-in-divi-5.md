@@ -1,111 +1,68 @@
 ---
 title: "The Imagely Gallery Module in Divi 5"
+description: "The Divi 5 Imagely Gallery module embeds a NextGEN Gallery gallery and exposes separate styling for images, text, pagination, and navigation arrows."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.11+"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15946069-the-imagely-gallery-module-in-divi-5"
 ---
 
 # The Imagely Gallery Module in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A module that displays a gallery built with the NextGEN Gallery plugin (by Imagely) and lets you style it with Divi's design controls.
+    **Requires:** The NextGEN Gallery plugin installed and activated. Galleries are still created and managed in NextGEN.
+    **Supported display types:** Image Browser, Gallery (thumbnails), and Slideshow.
+    **Key setting:** Content tab > Gallery, a dropdown of your NextGEN galleries.
 
-## Overview
+## Adding the module
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15946069-the-imagely-gallery-module-in-divi-5).
+1. Click the **Green Plus** icon to insert a Row.
+2. Click the **Gray Plus** icon inside the Row to open the module list.
+3. Choose **Imagely Gallery**, or search for it.
+4. In the Content tab, select the NextGEN gallery to show.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Use cases
 
-## Settings & Options
+- Show a gallery you already built in NextGEN without recreating it in Divi.
+- Style a gallery's images, text, pagination, and arrows so it matches the rest of the site.
+- Keep existing NextGEN galleries during a Divi rebuild and restyle them in place.
 
-### General
+## Content tab
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Green Plus |  | reen Plusiconto insert aRow. |
-| Gray Plus |  | Gray Plusiconinside the Row, which will show the list of all available Divi modules. |
-| Imagely Gallery module |  | y moduleand click on it to load it. Alternatively, you can use the Search option to find it. |
-| Displaying an existing NextGEN gallery |  | Show a gallery you've already built in NextGEN Gallery without recreating it in Divi. |
-| Styling galleries to match your site |  | Apply Divi's design controls to the gallery's images, text, pagination, and navigation arrows for a consistent look. |
-| Restyling galleries during a redesign |  | Keep the NextGEN galleries from a site you're rebuilding with Divi and restyle them in place. |
-| Content |  |  |
-| Design |  |  |
-| Advanced |  |  |
+| Setting | Description |
+|---|---|
+| Gallery | Which NextGEN gallery to display. |
+| Elements | Adds nested modules. |
+| Background | Module background styles. |
+| Link | Wraps the whole module in a link. |
+| Loop | Enables the Loop Builder. |
+| Order | Position within a Flexbox or Grid layout. |
+| Meta | Label text and forced Visual Builder visibility. |
 
-### Content Tab
+## Design tab
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Gallery |  | Choose which NextGEN gallery to display from the dropdown of galleries you've created in the NextGEN Gallery plugin. |
-| Elements |  | Allows addingnested modules. |
-| Background |  | Choose the Imagely Gallery module's background styles. |
-| Link |  | Wrap the whole module in a link and choose where it points. |
-| Loop |  | Enables the loop builder. |
-| Order |  | Choose the order in which the Imagely Gallery module appears inside a Flexbox and Grid layout. |
-| Meta |  | Choose the Imagely Gallery module's Label text and force its Visibility inside the Visual Builder. |
+Each part of a NextGEN gallery has its own group. Some apply only to certain display types; for example the counter and arrows appear in the Image Browser and Slideshow views.
 
-### Design Tab
+| Group | Styles |
+|---|---|
+| Image | Sizing (aspect ratio, width, height, alignment), Border, Box Shadow, Framing (how the image fits its frame), Filters. |
+| Title Text | The gallery title. |
+| Counter Text | The image counter such as "1 of 12" in Image Browser view. |
+| Description Text | Image descriptions or captions. |
+| Tag Cloud Text | Tag links in tag-based galleries. |
+| Pagination Text | Links for moving between pages of images. |
+| View Link Text | The "view" text, shown only when the gallery layout is Slideshow. |
+| EXIF Meta Data Text | EXIF details. Applies only if the uploaded images contain EXIF data, the layout is ImageBrowser, and the Legacy Template is NextGEN Legacy: imagebrowser-exif.php. |
+| Navigation Arrows | Previous/next arrows in Slideshow and Image Browser views: Arrow Size, Arrow Color, plus Background, Border, Box Shadow, Spacing, and Sizing for the arrow buttons (use Toggle Options to show or hide each). |
+| Sizing, Spacing, Border, Box Shadow, Filters, Transform, Animation | Standard groups for the whole module. |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Image |  | Style the gallery images. This group includesSizing(aspect ratio, width, height, and alignment),Border,Box Shadow,Framing(how the image fits its frame), andFilters. |
-| Title Text |  | Style the gallery's title text. |
-| Counter Text |  | Style the image counter (for example, "1 of 12") shown in the Image Browser view. |
-| Description Text |  | Style the image description or caption text. |
-| Tag Cloud Text |  | Style the tag cloud links shown in tag-based galleries. |
-| Pagination Text |  | Style the pagination links used to move between pages of images. |
-| View Link Text |  | Style theView Textwhich displays only for the Imagely Galleries which have the Layout set toSlideShow. |
-| EXIF Meta Data Text |  | Style the EXIF information. This only applies ifThe uploaded imagescontain EXIF information.The Gallery's layout is set toImageBrowser.The Legacy Templateis set toNextGEN Legacy: imagebrowser-exif.php. |
-| contain EXIF information |  | in EXIF information. |
-| ImageBrowser |  | s layout is set toImageBrowser. |
-| The Legacy Template |  | is set toNextGEN Legacy: imagebrowser-exif.php. |
-| Navigation Arrows |  | Style the previous and next arrows used in the Slideshow and Image Browser views. This group includesArrow SizeandArrow Color, plusBackground,Border,Box Shadow,Spacing, andSizingfor the arrow buttons (useToggle Optionsto show or hide each one). |
-| Sizing |  | Choose the Imagely Gallery module's sizing. |
-| Spacing |  | Choose the Imagely Gallery module's spacing. |
-| Border |  | Choose the Imagely Gallery module's border styles. |
-| Box Shadow |  | Choose the Imagely Gallery module's Box Shadow styles. |
-| Filters |  | Choose the Imagely Gallery module's filters, such as hue shifts, saturation changes, and blending modes. |
-| Transform |  | Choose the Imagely Gallery module's advanced design effects, such as scaling, rotating, skewing, and translating. |
-| Animation |  | Choose the Imagely Gallery module's animation styles. |
+## Advanced tab
 
-### Advanced Tab
+Attributes, CSS, HTML (semantic tag), Conditions, Interactions, Visibility, Transitions, Position, and Scroll Effects, as on other modules.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Attributes |  | Assign a CSS ID, reusable CSS classes, or custom HTML attributes to the element. Use these to apply advanced styling via your child theme's stylesheet or Divi's custom CSS settings. |
-| CSS |  | Allows you to add custom CSS code to fine-tune your Imagely Gallery module. |
-| HTML |  | Choose the semantic HTML tag for the Imagely Gallery module. |
-| Conditions |  | Allows you to create dynamic, personalized content, ensuring the right message reaches the right audience at the right time. |
-| Interactions |  | Create custom interactions, such as showing or hiding the module, and many more. |
-| Visibility |  | Choose the module's visibility based on different devices. |
-| Transitions |  | Choose how long the module's animation takes. |
-| Position |  | Choose precise control of the module's placement and create dynamic, visually engaging designs. |
-| Scroll Effects |  | Control how the module behaves and transforms during scrolling. |
-| Save |  | k on theSavebutton. |
-| Exit |  | k on theExitbutton. |
+## Official documentation
 
-## Code Examples
-
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[The Imagely Gallery Module in Divi 5](https://help.elegantthemes.com/en/articles/15946069-the-imagely-gallery-module-in-divi-5)

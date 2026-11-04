@@ -1,67 +1,73 @@
 ---
 title: "New Gradient Editor, Gradient Variables, Text Effects in Divi 5"
+description: "Divi 5's unified gradient picker, gradient variables, and the Text Effects group for gradient or image text fills and text strokes."
 category: builder
-tags: [builder]
-related: []
+tags: [builder, gradients, variables, text-effects, design-system]
+related: [gradient-builder, global-variables, design-variables]
 divi_version: "5.x"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15418463-new-gradient-editor-gradient-variables-text-effects-in-divi-5"
 ---
 
 # New Gradient Editor, Gradient Variables, Text Effects in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A single gradient picker panel, a gradient variable type, and a Text Effects group for filling and outlining text.
+    **Where it appears:** The picker is used in the Background option group, Text Effects, and the Variables manager. Text Effects is on the Design tab inside text and font settings.
+    **Key behavior:** A gradient is now one field, so it can be copied, pasted, extended, found and replaced, inspected, and converted to a variable.
 
-## Overview
+## The gradient picker panel
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15418463-new-gradient-editor-gradient-variables-text-effects-in-divi-5).
+All gradient options live in one panel that behaves the same wherever a gradient can be set: the [Background](https://help.elegantthemes.com/en/articles/10063358-understanding-the-background-option-group-in-divi-5){:target="_blank"} option group, Text Effects, and the Variables manager. It resembles the color picker and also exposes your saved gradient variables.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Building a gradient
 
-## Settings & Options
+| Control | What it does |
+|---|---|
+| Gradient Type | Linear, Circular (Divi's name for radial), Elliptical, or Conical. |
+| Gradient Stops | Add, remove, recolor, and reposition color stops. |
+| Gradient Angle | Sets direction; applies to Linear and Conical. |
+| Gradient Position | Sets the origin for Circular and Elliptical, for example Center, Top Left, or Bottom Right. |
 
-### General
+## Gradients as a single field
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Gradient Type |  | ChooseLinear,Circular,Elliptical, orConical. Circular is Divi's label for a radial gradient. |
-| Gradient Stops |  | Add, remove, recolor, and reposition the color stops that make up the gradient. |
-| Gradient Angle |  | Set the direction of the gradient. This applies to Linear and Conical types. |
-| Gradient Position |  | Set where the gradient originates for Circular and Elliptical types, such asCenter,Top Left, orBottom Right. |
-| Copy |  | a gradient andpasteit onto another element. |
-| Extend |  | a gradient to other elements. |
-| Find and replace |  | a gradient across your design. |
-| Inspect |  | a gradient to see its settings. |
-| Convert |  | a gradient into a Global Gradient variable. |
-| Variables |  | ariablesmanager, select theGradientscategory, and chooseAdd Global Gradient. Then build the gradient with the gradient picker. |
-| Convert to Variable |  | ting gradient field and chooseConvert to Variableto turn that gradient into a reusable variable right away. |
-| None |  | The text uses its normal text color. This is the default. |
-| Gradient |  | Fills the letters with a gradient. AGradient Fillcontrol appears so you can add and position the gradient stops or pick a gradient variable. |
-| Image |  | Fills the letters with an image. AnImage Fillcontrol appears, along with adjustment settings for size, width, height, position, horizontal and vertical offset, repeat, and blend. |
-| Transparent |  | Makes the text fill see-through, which works well combined with a stroke for hollow, outlined text. |
-| Stroke Width |  | dthto a value above 0px. The default is 0px, which means no stroke. |
-| Stroke Color |  | is set, theStroke Colorsetting appears. Choose the color of the outline. |
+Because a gradient is a single field like any other attribute, you can:
 
-## Code Examples
+- **Copy** it and **paste** it onto another element.
+- **Extend** it to other elements.
+- **Find and replace** it across your design.
+- **Inspect** its settings.
+- **Convert** it to a Global Gradient variable.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Gradient variables
 
-## Common Patterns
+A gradient variable defines a gradient once for the whole site; editing it updates every place it is used. It is the gradient counterpart of Global Colors. Two ways to create one:
 
-<!-- TODO: Document 2-3 common usage patterns -->
+1. Open the **Variables** manager, pick the **Gradients** category, choose **Add Global Gradient**, and build it in the picker.
+2. Right-click an existing gradient field and choose **Convert to Variable**.
 
-## Troubleshooting
+Saved gradient variables can be used anywhere a gradient is, including backgrounds and text fills. If a gradient will be reused, save it as a variable first.
 
-<!-- TODO: Document common issues and solutions -->
+## Text Effects
 
-## AI Interaction Notes
+The **Text Effects** group sits on the **Design** tab within text and font settings, such as [Text](https://help.elegantthemes.com/en/articles/10102451-understanding-the-text-option-group-in-divi-5){:target="_blank"}, Heading Text, and Title Text. It controls how letters are filled and outlined.
 
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
+**Fill Type**:
 
-## Related
+| Value | Result |
+|---|---|
+| None | Normal text color (default). |
+| Gradient | Fills letters with a gradient; a Gradient Fill control lets you set stops or pick a gradient variable. |
+| Image | Fills letters with an image; an Image Fill control appears with settings for size, width, height, position, horizontal and vertical offset, repeat, and blend. |
+| Transparent | See-through fill, useful with a stroke for hollow outlined text. |
 
-<!-- TODO: Add links to related documentation pages -->
+**Text stroke**:
+
+1. Set **Stroke Width** above 0px (the default 0px means no stroke).
+2. Choose a **Stroke Color**, which appears once a width is set.
+
+Fill and stroke are independent, so you can use either or both.
+
+## Official documentation
+
+- [New Gradient Editor, Gradient Variables, Text Effects in Divi 5](https://help.elegantthemes.com/en/articles/15418463-new-gradient-editor-gradient-variables-text-effects-in-divi-5){:target="_blank"}

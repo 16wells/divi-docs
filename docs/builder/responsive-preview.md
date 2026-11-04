@@ -103,7 +103,6 @@ Use landscape mode to verify that your design works well when users rotate their
 !!! warning "Feature Not Available"
     If this feature is not visible, ensure you are running the latest version of Divi 5 and that your user role has the appropriate permissions in the Role Editor.
 
-<!-- TODO: Add feature-specific troubleshooting items -->
 
 ## Related
 

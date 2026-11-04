@@ -1,110 +1,56 @@
 ---
 title: "Understanding the Excluded Item Text Option Group in Divi 5"
+description: "The Excluded Item Text option group in Divi 5: font, size, spacing, fill, stroke, and shadow controls for the excluded-item text in modules such as Pricing Tables."
 category: builder
-tags: [builder]
+tags: [builder, design, typography, text-options]
 related: []
 divi_version: "5.x"
-last_updated: 2026-07-06
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15421080-understanding-the-excluded-item-text-option-group-in-divi-5"
 ---
 
 # Understanding the Excluded Item Text Option Group in Divi 5
 
-<!-- AUTO-CREATED: 2026-07-06 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A Design-tab option group that styles the excluded-item text in modules such as Pricing Tables.
+    **Where to find it:** Open the Pricing Tables module settings, go to the **Design** tab, and find **Excluded Item Text**.
+    **Key behavior:** Size, color, line height, and letter spacing also accept [Global Variables](global-variables.md).
 
-## Overview
+## Where to find it
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15421080-understanding-the-excluded-item-text-option-group-in-divi-5).
+1. Open the settings of the Pricing Tables module (click its gear icon or the module itself).
+2. Go to the **Design** tab.
+3. Locate the **Excluded Item Text** option group.
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+## Settings
 
-## Settings & Options
+| Setting | Description |
+|---|---|
+| Featured Excluded Item | Text color used when the item is set as Featured. |
+| Excluded Item Font | Pick a font from the dropdown or upload a custom one. |
+| Excluded Item Font Weight | Boldness of the text, from light to extra-bold. |
+| Variable Font Options | Shown only when the chosen font is a Google variable font (the source names Google Sans Flex and Bitcount as examples). Axes include Weight, Optical Sizing, Width, Slant, Crsv, Element Shape, Element Expansion, Rond, and Grade. |
+| Excluded Item Text Size | Font size, set with the slider or a typed value. Accepts Global Variables. |
+| Excluded Item Text Color | Text color. Accepts Global Variables. |
+| Excluded Item Line Height | Space between lines of text. Accepts Global Variables. |
+| Excluded Item Letter Spacing | Space between letters. Accepts Global Variables. |
+| Excluded Item Text Alignment | Left, center, right, or justified. |
+| Excluded Item Capitalization | Uppercase, Capitalize, Lowercase, Smallcaps (lowercase letters shown as smaller capitals), or All Small Caps (every letter shown as a small cap, including existing capitals). |
+| Excluded Item Font Style | Italic, Underline, Overline, and Strikethrough. When any line style is on, you can also set Line Color (accepts Global Variables), Line Thickness, and Line Type (Solid, Double, Dotted, Dashed, or Wavy). |
+| Excluded Item Line Wrap Style | Default keeps the browser's native wrapping; Balanced breaks short text into lines of more even length; Pretty wraps text to avoid awkward endings. |
+| Excluded Item Text Direction | Standard Horizontal, Vertical (right to left), or Vertical (left to right). The vertical modes stack characters top to bottom or bottom to top, with new lines starting to the left of the previous one. |
+| Excluded Item Hyphenation | When on, the browser may break a word that is too long for the line and add a hyphen. |
+| Excluded Item Fill Type | None, Gradient, Image, or Transparent fill for the text itself. |
+| Excluded Item Stroke Width / Stroke Color | Thickness and color of an outline around the letters. |
+| Excluded Item Columns | Number of columns the text flows through. |
+| Excluded Item Text Shadow | Adds a shadow with Direction (horizontal and vertical offset), Blur, and Color. |
 
-### General
+## Tips
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Open the Pricing Tables module Settings |  | Click the gear icon or the module itself to access the settings. |
-| Navigate to the Design Tab |  | Locate theExcluded Item Textoption group. |
-| Featured Excluded Item |  | Select the Excluded Item text color if the item is set as Featured. |
-| Excluded Item Font |  | Choose a font from the dropdown or upload a custom font for unique styling. |
-| Excluded Item Font Weight |  | Adjust the boldness of your Excluded Item with options like light, bold, or extra-bold. |
-| Variable Font Options |  | those options will only be available if you are using a Google variable font such asRobo,Google Sans Flex, orBitcount):Variable Font Weight: Use the slider or type in a numeric value for the font weight.Optical Sizing: Enable automatic optical size handling.Variable Font Width: Fine-tune variable font width using variable font interpolation.Variable Font Slant: Fine-tune variable font slant using variable font interpolation.Variable Font Crsv: Fine-tune variable font crsv using variable font interpolation.Variable Font Element Shape: Fine-tune variable font element shape using variable font interpolation.Variable Font Element Expansion: Fine-tune variable font element expansion using variable font interpolation.Variable Font  Rond: Fine-tune variable font rond using variable font interpolation.Variable Font Grade: Fine-tune variable font grade using variable font interpolation.Variable Font Width: Fine-tune variable font width using variable font interpolation. |
-| Variable Font Weight |  | Use the slider or type in a numeric value for the font weight. |
-| Optical Sizing |  | Enable automatic optical size handling. |
-| Variable Font Width |  | Fine-tune variable font width using variable font interpolation. |
-| Variable Font Slant |  | Fine-tune variable font slant using variable font interpolation. |
-| Variable Font Crsv |  | Fine-tune variable font crsv using variable font interpolation. |
-| Variable Font Element Shape |  | Fine-tune variable font element shape using variable font interpolation. |
-| Variable Font Element Expansion |  | Fine-tune variable font element expansion using variable font interpolation. |
-| Variable Font  Rond |  | Fine-tune variable font rond using variable font interpolation. |
-| Variable Font Grade |  | Fine-tune variable font grade using variable font interpolation. |
-| Variable Font Width |  | Fine-tune variable font width using variable font interpolation. |
-| Excluded Item Text Size |  | You can adjust the font size of your Excluded Item text using the slider or by entering a specific value. It also acceptsGlobal Variables. |
-| Excluded Item Text Color |  | Choose a color to be used for the Excluded Item text. It also acceptsGlobal Variables. |
-| Excluded Item Line Height |  | Set the space between the lines of the Excluded Item text, helping to improve readability. It also acceptsGlobal Variables. |
-| Excluded Item Letter Spacing |  | Control the space between letters by adjusting the slider or entering a value. It also acceptsGlobal Variables. |
-| Excluded Item Text Alignment |  | Set the alignment for the Excluded Item text—left, center, right, or justified. |
-| Excluded Item Capitalization |  | Choose the Excluded Item text's capitalization:Uppercase- All letters are in uppercase formatCapitalize- Makes the first letter of each word uppercase.Lowercase- All letters are in lowercase format.Smallcaps- Lowercase letters display as smaller uppercase letters.All Small Caps- all letters display as small caps, including letters that were already uppercase. |
-| Uppercase |  | All letters are in uppercase format |
-| Capitalize |  | Makes the first letter of each word uppercase. |
-| Lowercase |  | All letters are in lowercase format. |
-| Smallcaps |  | Lowercase letters display as smaller uppercase letters. |
-| All Small Caps |  | all letters display as small caps, including letters that were already uppercase. |
-| Excluded Item Font Style |  | Select additional font styles, including:Italic: Makes the text lean to the right.Underline: Adds a line under the text.Overline: adds a line above the text.Strikethrough: draws a line through the middle of the text.⚠️Note: When Underline, Overline, and/or Strikethrough are enabled, you can also choose:Line Color: Choose the line's color. It also acceptsGlobal Variables.Line Thickness: Choose how thick or slim the line is.Line Type: Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Italic |  | Makes the text lean to the right. |
-| Underline |  | Adds a line under the text. |
-| Overline |  | adds a line above the text. |
-| Strikethrough |  | draws a line through the middle of the text.⚠️Note: When Underline, Overline, and/or Strikethrough are enabled, you can also choose:Line Color: Choose the line's color. It also acceptsGlobal Variables.Line Thickness: Choose how thick or slim the line is.Line Type: Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Line Color |  | Choose the line's color. It also acceptsGlobal Variables. |
-| Line Thickness |  | Choose how thick or slim the line is. |
-| Line Type |  | Choose the Line's type:SolidDoubleDottedDashedWavy |
-| Excluded Item Line Warp Style |  | Choose how text should wrap. Default keeps native browser wrapping, Balanced evens heading lines, and Pretty helps avoid single-word endings.Default: Text can move onto a new line when it runs out of space.Balanced:Short text breaks into lines with more even lengthsPretty:Text wrap in a cleaner, more visually pleasing way |
-| Default |  | Text can move onto a new line when it runs out of space. |
-| Balanced |  | Short text breaks into lines with more even lengths |
-| Pretty |  | Text wrap in a cleaner, more visually pleasing way |
-| Excluded Item Text Direction |  | Choose text flow direction. Standard Horizontal reads left-to-right across lines, while vertical modes stack glyphs top-to-bottom.Standard HorizontalVertical (right to left): The text is displayed from top to bottom, and each new line starts to the left of the previous one.Vertical (left to right): The text is displayed from bottom to top, and each new line starts to the left of the previous one. |
-| Standard Horizontal |  |  |
-| Vertical (right to left) |  | The text is displayed from top to bottom, and each new line starts to the left of the previous one. |
-| Vertical (left to right) |  | The text is displayed from bottom to top, and each new line starts to the left of the previous one. |
-| Excluded Item Hyphenation |  | When enabled, if a word is too long to fit nicely on one line, the browser can break it into parts and add a hyphen at the break. |
-| Excluded Item Fill Type |  | Choose the Excluded Item's text fill options:None- No Excluded Item text fill.Gradient- Fill the Excluded Item text with a GradientImage- Fill the Excluded Item text with an ImageTransparent- Fill the Excluded Item text with a transparent fill. |
-| None |  | No Excluded Item text fill. |
-| Gradient |  | Fill the Excluded Item text with a Gradient |
-| Image |  | Fill the Excluded Item text with an Image |
-| Transparent |  | Fill the Excluded Item text with a transparent fill. |
-| Excluded Item Stroke Width |  | Choose the thickness of the stroke.Excluded Item Stroke Color- Choose the Excluded Item text's stroke color. |
-| Excluded Item Stroke Color |  | Choose the Excluded Item text's stroke color. |
-| Excluded Item Columns |  | Set how many columns the text should flow through. |
-| Excluded Item Text Shadow |  | Add a text shadow effect and customize its direction, blur, and color to add depth or emphasis to the Excluded Item:Direction: Adjust horizontal and vertical placement.Blur: Control how soft or sharp the shadow appears.Color: Set a shadow color to complement the text. |
-| Direction |  | Adjust horizontal and vertical placement. |
-| Blur |  | Control how soft or sharp the shadow appears. |
-| Color |  | Set a shadow color to complement the text. |
-| Ensure Clarity |  | Use bold fonts and sufficient spacing to make the image's Excluded Item text easy to read. |
-| Highlight Interaction |  | Apply contrasting colors or subtle text shadows to draw attention to the image's Excluded Item text. |
-| Stay Consistent |  | Align the image's Excluded Item text style with the rest of your module design, including fonts and colors. |
-| Test Across Devices |  | Preview on various screen sizes to ensure alignment and readability. |
+- Keep font sizes and line heights readable, especially on mobile.
+- Match the text color and style to the rest of the design.
+- Use shadows sparingly; strong effects hurt readability.
 
-## Code Examples
+## Official documentation
 
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- [Understanding the Excluded Item Text Option Group in Divi 5](https://help.elegantthemes.com/en/articles/15421080-understanding-the-excluded-item-text-option-group-in-divi-5){:target="_blank"}

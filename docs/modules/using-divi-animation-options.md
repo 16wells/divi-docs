@@ -1,98 +1,46 @@
 ---
 title: "Using Divi Animation Options"
+description: "Add entrance animations to Divi 5 modules and tune their style, duration, delay, starting opacity, speed curve, and repeat behavior."
 category: modules
-tags: [modules]
+tags: [modules, options, animation]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
-source_url: "https://help.elegantthemes.com/en/articles/8671783-using-divi-animation-options"
+last_updated: 2026-11-04
+source_url: "https://help.elegantthemes.com/en/articles/10102631"
 ---
 
 # Using Divi Animation Options
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** The Animation option group, which adds motion effects to a module.
+    **Where it lives:** Module settings, Design tab, Animation.
+    **Key settings:** Style, Duration, Delay, Starting Opacity, Speed Curve, Repeat.
 
-## Overview
+For the full option-group reference, see [Animation Options](../options-groups/animation.md).
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/8671783-using-divi-animation-options).
+## Open the options
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Click the module's gear icon, or the module itself, to open its settings.
+2. Go to the **Design** tab and find the **Animation** option group.
 
-## Settings & Options
+## Settings
 
-### General
+| Setting | Description |
+|---|---|
+| Animation Style | The type of motion applied, such as fade, slide, zoom, or bounce. |
+| Animation Duration | How long one animation cycle takes. Short values feel quick; longer ones feel smoother. |
+| Animation Delay | Time before the animation starts, useful for staggering several modules. |
+| Animation Starting Opacity | The module's transparency at the start. Lower values produce a fade-in effect. |
+| Animation Speed Curve | The easing: Ease-In (slow start), Ease-Out (slow finish), Ease-In-Out (slow start and finish), or Linear (constant speed). |
+| Animation Repeat | Whether the animation plays once or loops. |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| gear icon |  | the element'sgear iconto open up the element's settings Settings modal window |
-| Design tab |  | esign tab |
-| Animation Duration |  | Speed up or slow down your animation by adjusting the duration. Units are in milliseconds, and the default animation duration is one second. |
-| Animation Delay |  | If you want to add a delay before your animation runs, you can designate that delay here in milliseconds. This can be useful when using multiple animated modules together. |
-| Animation Starting Opacity |  | By increasing the starting opacity, you can reduce or remove the applied fade effect. |
-| Animation Speed Curve |  | Adjust the easing method of your animation. Easing your animation in and out will create a smoother effect than a linear speed curve. |
-| Animation Repeat |  | By default, animations will only be placed once. If you want to loop your animation continuously, choose the Loop option here. |
-| Animation Direction |  | Pick up to five different animation directions, each of which will adjust your animated element's starting and ending position. |
-| Animation Duration |  | Speed up or slow down your animation by adjusting the duration. Units are in milliseconds, and the default animation duration is one second. |
-| Animation Delay |  | If you want to add a delay before your animation runs, you can designate that delay here in milliseconds. This can be useful when using multiple animated modules together. |
-| Animation Intensity |  | Intensity affects how subtle or aggressive your animation will be. Lowering the intensity will create a smoother and more subtle animation while increasing the intensity will create a snappier, more aggressive animation. |
-| Animation Starting Opacity |  | By increasing the starting opacity, you can reduce or remove the applied fade effect. |
-| Animation Speed Curve |  | Adjust the easing method of your animation. Easing your animation in and out will create a smoother effect than a linear speed curve. |
-| Animation Repeat |  | By default, animations will only be placed once. If you want to loop your animation continuously, choose the Loop option here. |
-| Animation Direction |  | Pick up to five different animation directions, each of which will adjust your animated element's starting and ending position. |
-| Animation Duration |  | Speed up or slow down your animation by adjusting the duration. Units are in milliseconds, and the default animation duration is one second. |
-| Animation Delay |  | Add a delay before your animation runs. You can designate that delay here in milliseconds. This can be useful when using multiple animated modules together. |
-| Animation Starting Opacity |  | By increasing the starting opacity, you can reduce or remove the applied fade effect. |
-| Animation Speed Curve |  | Adjust the easing method of your animation. Easing your animation in and out will create a smoother effect than a linear speed curve. |
-| Animation Repeat |  | By default, animations will only be placed once. If you want to loop your animation continuously, choose the Loop option here. |
-| Animation Direction |  | Pick up to five different animation directions, each of which will adjust your animated element's starting and ending position. |
-| Animation Duration |  | Speed up or slow down your animation by adjusting the duration. Units are in milliseconds, and the default animation duration is one second. |
-| Animation Delay |  | Add a delay before your animation runs. You can designate that delay here in milliseconds. This can be useful when using multiple animated modules together. |
-| Animation Intensity |  | Intensity affects how subtle or aggressive your animation will be. Lowering the intensity will create a smoother and more subtle animation while increasing the intensity will create a snappier, more aggressive animation. |
-| Animation Starting Opacity |  | By increasing the starting opacity, you can reduce or remove the applied fade effect. |
-| Animation Speed Curve |  | Adjust the easing method of your animation. Easing your animation in and out will create a smoother effect than a linear speed curve. |
-| Animation Repeat |  | By default, animations will only be placed once. If you want to loop your animation continuously, choose the Loop option here. |
-| Animation Direction |  | Pick up to five different animation directions, each of which will adjust your animated element's starting and ending position. |
-| Animation Duration |  | Speed up or slow down your animation by adjusting the duration. Units are in milliseconds, and the default animation duration is one second. |
-| Animation Delay |  | Add a delay before your animation runs. You can designate that delay here in milliseconds. This can be useful when using multiple animated modules together. |
-| Animation Intensity |  | Intensity affects how subtle or aggressive your animation will be. Lowering the intensity will create a smoother and more subtle animation while increasing the intensity will create a snappier, more aggressive animation. |
-| Animation Starting Opacity |  | By increasing the starting opacity, you can reduce or remove the applied fade effect. |
-| Animation Speed Curve |  | Adjust the easing method of your animation. Easing your animation in and out will create a smoother effect than a linear speed curve. |
-| Animation Repeat |  | By default, animations will only be placed once. If you want to loop your animation continuously, choose the Loop option here. |
-| Animation Direction |  | Pick up to five different animation directions, each of which will adjust your animated element's starting and ending position. |
-| Animation Duration |  | Speed up or slow down your animation by adjusting the duration. Units are in milliseconds, and the default animation duration is one second. |
-| Animation Delay |  | Add a delay before your animation runs. You can designate that delay here in milliseconds. This can be useful when using multiple animated modules together. |
-| Animation Intensity |  | Intensity affects how subtle or aggressive your animation will be. Lowering the intensity will create a smoother and more subtle animation while increasing the intensity will create a snappier, more aggressive animation. |
-| Animation Starting Opacity |  | By increasing the starting opacity, you can reduce or remove the applied fade effect. |
-| Animation Speed Curve |  | Adjust the easing method of your animation. Easing your animation in and out will create a smoother effect than a linear speed curve. |
-| Animation Repeat |  | By default, animations will only be placed once. If you want to loop your animation continuously, choose the Loop option here. |
-| Animation Direction |  | Pick up to five different animation directions, each of which will adjust your animated element's starting and ending position. |
-| Animation Duration |  | Speed up or slow down your animation by adjusting the duration. Units are in milliseconds, and the default animation duration is one second. |
-| Animation Delay |  | Add a delay before your animation runs. You can designate that delay here in milliseconds. This can be useful when using multiple animated modules together. |
-| Animation Intensity |  | Intensity affects how subtle or aggressive your animation will be. Lowering the intensity will create a smoother and more subtle animation while increasing the intensity will create a snappier, more aggressive animation. |
-| Animation Starting Opacity |  | By increasing the starting opacity, you can reduce or remove the applied fade effect. |
-| Animation Speed Curve |  | Adjust the easing method of your animation. Easing your animation in and out will create a smoother effect than a linear speed curve. |
-| Animation Repeat |  | By default, animations will only be placed once. If you want to loop your animation continuously, choose the Loop option here. |
+## Tips
 
-## Code Examples
+- Keep animations subtle so they support the design instead of distracting from it.
+- Combine different delays across neighboring modules for a cascading effect.
+- Test on mobile and slower connections.
+- Match the motion to the tone of the site.
 
-<!-- TODO: Add CSS/PHP code examples -->
+## Official documentation
 
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- [Using Divi Animation Options](https://help.elegantthemes.com/en/articles/10102631)

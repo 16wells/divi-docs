@@ -323,7 +323,6 @@ Learning keyboard shortcuts significantly speeds up your workflow. Common shortc
 | Cmd + C | Ctrl + C | Copy |
 | Cmd + V | Ctrl + V | Paste |
 
-<!-- TODO: Verify full keyboard shortcuts list for Divi 5 -->
 
 ### Use Presets for Consistent Design
 

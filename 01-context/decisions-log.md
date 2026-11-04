@@ -54,3 +54,6 @@ Skip chose "remove from nav". Finding: none of the ~121 candidates were in the m
 
 ## 2026-11-04 — CLOSED: 103 non-Divi-5 stub pages excluded from build
 Skip chose exclude. Added `exclude_docs` to mkdocs.yml (list from 04-research/non-divi5-stub-pages.txt). Files remain in repo; delete a line to restore a page.
+
+## 2026-11-04 — Enrichment approach: rewrite from Divi 5 articles only
+Skip said "do the rest". Did tranche 1 (Divi 5 modules, option groups, builder) via parallel agents, own-wording rewrites. Pages whose only source is a Divi 4 article are held and left as stubs (`04-research/held-no-divi5-counterpart.txt`). Remaining ~how-to/troubleshooting stubs need the same Divi 4/5 source check; not started.

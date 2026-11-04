@@ -5,7 +5,7 @@ category: builder
 tags: ["builder", "conditions", "display-logic", "dynamic"]
 related: ["visual-builder", "theme-builder"]
 divi_version: "5.x"
-last_updated: 2026-03-12
+last_updated: 2026-11-04
 source_url: "https://www.elegantthemes.com/documentation/divi/divi-condition-options"
 ---
 
@@ -121,13 +121,6 @@ Display a "For the best experience, use Chrome" notice to visitors using Interne
 
 !!! note "Divi 5 Only"
     This page documents Divi 5 behavior exclusively.
-
-## Troubleshooting
-
-!!! warning "Feature Not Available"
-    If this feature is not visible, ensure you are running the latest version of Divi 5 and that your user role has the appropriate permissions in the Role Editor.
-
-<!-- TODO: Add feature-specific troubleshooting items -->
 
 ## Related
 

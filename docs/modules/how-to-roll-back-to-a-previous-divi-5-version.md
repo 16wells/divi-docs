@@ -1,57 +1,48 @@
 ---
 title: "How to Roll Back to a Previous Divi 5 Version"
+description: "Back up your site, then use the Divi Theme Options Updates tab to revert to the previously installed Divi version."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/16329250-how-to-roll-back-to-a-previous-divi-5-version"
 ---
 
 # How to Roll Back to a Previous Divi 5 Version
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it is:** A built-in way to revert Divi to the version you ran before the latest update, for getting a broken site back online.
+    **Where:** **Divi > Theme Options > Updates** tab > **Rollback to the previous version**.
+    **Limit:** Only works if an earlier version was previously installed on the site.
 
-## Overview
+!!! warning
+    Take a full backup (database and files) before rolling back. An older version can introduce compatibility problems or security vulnerabilities.
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/16329250-how-to-roll-back-to-a-previous-divi-5-version).
+## Back up your website
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Use a WordPress backup plugin such as [UpdraftPlus](https://wordpress.org/plugins/updraftplus/) to create a full backup of the database and all files.
+2. For help, see [How to Take a Backup of your Website](https://help.elegantthemes.com/en/articles/2821284-how-to-take-a-backup-of-your-website).
 
-## Settings & Options
+## Roll back
 
-### General
+1. Go to **Divi > Theme Options > Updates** tab.
+2. Click **Rollback to the previous version**.
+3. In the Version Rollback popup, click **Rollback to the previous version** again.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| UpdraftPlus |  | ress backup plugin likeUpdraftPlusto create a full website backup, including the database and all files. |
-| How to Take a Backup of your Website |  | s, check out theHow to Take a Backup of your Websitearticle. |
-| Divi → Theme Options → Updates tab |  | s tab |
-| Rollback to the previous version |  | s versionbutton. |
-| Rollback to the previous version |  | lick theRollback to the previous versionbutton |
-| WordPress Dashboard →  Appearance →  Themes |  | hemes |
-| Divi Theme image |  | Theme image |
+A green check mark appears when the rollback succeeds.
 
-## Code Examples
+## Confirm the theme version
 
-<!-- TODO: Add CSS/PHP code examples -->
+1. Go to **WordPress Dashboard > Appearance > Themes**.
+2. Click the **Divi** theme image.
+3. Check the version number.
 
-## Common Patterns
+## Things to keep in mind
 
-<!-- TODO: Document 2-3 common usage patterns -->
+- A rollback is a temporary fix, not a long-term solution. Use it until you can resolve the problem with the latest version or find an alternative.
+- Rolling back is only possible if a previous version was installed on the site before. On a fresh Divi install there is nothing to go back to.
 
-## Troubleshooting
+## Official documentation
 
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Roll Back to a Previous Divi 5 Version](https://help.elegantthemes.com/en/articles/16329250-how-to-roll-back-to-a-previous-divi-5-version)

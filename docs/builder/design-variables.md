@@ -138,8 +138,6 @@ When a variable is assigned to a field, the field displays a chip instead of a r
 | Modify | Divi REST API or direct `wp_options` update | Needs Testing | Changing a variable value should propagate to all referencing fields on next render |
 | Create | Divi REST API or `wp_options` insert | Needs Testing | Must include name, value, and type; unit validation applies to number variables |
 
-<!-- TODO: Verify exact storage location — is it wp_options, a custom post type, or embedded in layout JSON? -->
-<!-- TODO: Test whether variables are exported with Divi Library layouts -->
 
 ## Elegant Themes tutorials
 

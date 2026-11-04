@@ -114,3 +114,6 @@
 
 ## 2026-11-04 (2) — Where the real Divi version/changelog lives
 The authoritative per-version changelog is the Help Center article `9973580-divi-5-update-status` (ET blog "release notes" posts stopped at 5.15). Feature dates map to versions there; use it to set `divi_version`. Gmail ET marketing emails are a useful early signal (the MCP preview arrived by email before any post/article).
+
+## 2026-11-04 (3) — ET Help Center has parallel Divi 4 and Divi 5 articles
+"The Divi Heading Module" (9552416) is the Divi 4 article; "The Heading Module in Divi 5" (10315593) is the Divi 5 one. Our scraped stubs were pointing at the Divi 4 versions (IDs 86xxxxx-95xxxxx), so rewriting from `source_url` publishes wrong content. Find the Divi 5 article with `/en/search?q=<name>` and prefer IDs >= 9.9M titled "... in Divi 5". Option groups: "Understanding the X Option Group in Divi 5". Check for Divi 5 markers (Flexbox, Loop, Meta, Conditions) before rewriting; Divi 4 tells are Admin Label, "Disable on", Module Elements, classic modal.

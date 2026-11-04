@@ -1,126 +1,58 @@
 ---
 title: "Option Group Presets"
-description: "Divi 5 Option Group Presets — reusable style blocks for typography, borders, spacing, buttons, and more, applicable across any element type."
+description: "How to create, apply, edit, and manage Divi 5 option group presets, reusable styles for a single option group that work across element types."
 category: builder
 tags: [builder, presets, option-group-presets, design-system, reusable-styles]
 related: [stacked-nested-presets, preset-manager, presets]
 divi_version: "5.x"
-last_updated: 2026-03-16
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/10725144"
 ---
 
 # Option Group Presets
 
-Option group presets are reusable style blocks scoped to a single design option group — such as typography, background, borders, or buttons — that can be applied across any element type in Divi 5.
-
 !!! abstract "Quick Reference"
-    **What it does:** Saves styling for a single option group (Typography, Background, Border, etc.) and applies it across any element type.
-    **Where to find it:** Hover over any option group title in the Design tab → click the preset icon.
-    **Key features:**
+    **What it is:** A preset for one option group (such as Title Text, Background, or Button) that can be applied to any element type that has that group.
+    **Where to find it:** Hover over an option group name in an element's settings and click the **Preset icon**.
+    **Key behavior:** Editing an option group preset updates every element using it across the whole site.
 
-    - Cross-element reusability: a Typography preset from a Text module works on Blurbs, CTAs, etc.
-    - Create from scratch or capture current styles
-    - Edit, duplicate, delete, and set defaults from the preset icon dropdown
-    - Functions like CSS utility classes within the Visual Builder
+Option group presets work like element presets but can stack on top of elements and be shared across all element types, which suits base styles such as buttons, title text, and body text. They resemble adding one CSS class to many HTML elements.
 
-    **ET Docs:** [Option Group Presets](https://help.elegantthemes.com/en/articles/10725144){:target="_blank"}
+## Element presets vs. option group presets
 
-## Overview
+- **Element presets** save design choices for one element type. A Text module preset (background, text, spacing) can only be applied to other Text modules, not to a Blurb.
+- **Option group presets** cover a single option group. A title text preset can go on any module that supports the Title Text group; the same goes for background, button, and other groups.
 
-Unlike [element presets](presets.md), which apply a full set of design settings to a specific element type, option group presets target a single option group and work across element boundaries. A typography preset created on a Text module can be applied to the title text of a Blurb, the heading of a Call to Action, or any other element that has a matching option group. This cross-element reusability makes option group presets function like CSS utility classes.
+## Create a preset
 
-When you edit an option group preset, the change propagates site-wide to every element using it. This makes them a powerful tool for maintaining consistent typography scales, button styles, spacing rules, and background treatments across an entire site.
+1. Open an element's settings with the gear icon or by clicking the element.
+2. Hover over the option group and click the **Preset icon**.
+3. Click **Add New Preset**.
+4. Optionally name it and make the design changes.
+5. Click **Save Preset**.
 
-For additional reference, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/10725144) and the [expanded guide](https://help.elegantthemes.com/en/articles/13349301).
+## Assign a preset
 
-## Element Presets vs. Option Group Presets
+1. Open the element's settings.
+2. Hover over the option group and click the **Preset icon**.
+3. Choose a preset from the list.
 
-| Feature | Element Presets | Option Group Presets |
-|---------|-----------------|----------------------|
-| Scope | Applies to one element type only | Applies to any element with a matching option group |
-| Coverage | Full element styling (all settings) | Single option group (e.g., Typography, Background) |
-| Cross-element reuse | No | Yes |
-| Use case | Complete module designs | Shared style fragments |
+## Edit a preset
 
-## Available Option Group Types
+1. Open the settings, hover over the option group, and click the **Preset icon**.
+2. Choose the preset and click its **Gear icon**.
+3. Make your changes and click **Save Preset**.
 
-Option group presets can be created for any option group that appears in the Design tab of an element's settings. Common groups include:
+## Preset actions
 
-| Option Group | Description |
-|--------------|-------------|
-| Typography | Font family, size, weight, line height, letter spacing, color |
-| Background | Background color, gradient, image, video |
-| Borders | Border width, style, color, radius |
-| Spacing | Margin and padding values |
-| Buttons | Button text, background, border, spacing, hover states |
-| Shadows | Box shadow settings |
-| Effects | Filters, transforms, and scroll effects |
+| Action | Icon | Result |
+|---|---|---|
+| Change settings | Gear | Edit the selected preset |
+| Update with current styles | Update | Writes the static styles applied outside the preset into it |
+| Duplicate | Duplicate | Copies the preset |
+| Delete | Trash | Removes the preset |
+| Make default | Star | Sets it as the default |
 
-## Creating an Option Group Preset
+## Official documentation
 
-1. Open any element's settings in the Visual Builder
-2. Navigate to the **Design** tab
-3. Hover over the target option group title to reveal the **preset icon**
-4. Click the preset icon
-5. Select **"Add New Preset"** or **"New Preset From Current Styles"**
-6. Name the preset descriptively (e.g., "Section Heading H2", "Primary Button", "Card Background")
-7. Adjust settings if needed
-8. Click **"Save Preset"**
-
-## Applying an Option Group Preset
-
-1. Open any element's settings
-2. Navigate to the relevant option group in the Design tab
-3. Hover the option group title and click the **preset icon**
-4. Select a preset from the dropdown list
-
-## Management Actions
-
-| Action | Icon | Description |
-|--------|------|-------------|
-| Edit | Gear | Open and modify the preset's settings; changes apply site-wide |
-| Update from current | Arrow | Overwrite the preset with the element's current static styles |
-| Duplicate | Copy | Clone the preset as a starting point for a variation |
-| Delete | Trash | Remove the preset permanently |
-| Set as default | Star | Make the preset the default for this option group on new elements |
-
-## Design System Patterns
-
-Option group presets work best when organized around a consistent design vocabulary:
-
-| Pattern | Examples | Description |
-|---------|----------|-------------|
-| Heading scale | H1 Preset, H2 Preset, H3 Preset | Typography presets matching your typographic hierarchy |
-| Button variants | Primary Button, Secondary Button, Ghost Button | Button style presets for different emphasis levels |
-| Spacing rules | Section Large, Section Medium, Card Padding | Consistent spacing applied via preset |
-| Card surfaces | Card Background, Dark Card, Elevated Card | Background + shadow combinations for card-like elements |
-
-## Best Practices
-
-- Keep each preset focused on a single function — avoid bundling unrelated settings
-- Create presets after you notice two or more elements sharing the same styles
-- Set core typography and button presets as defaults so new elements start consistently
-- Use descriptive names reflecting the role, not the specific values
-
-## AI Interaction Notes
-
-!!! info "Data Storage — Needs Testing"
-    Option group presets are stored separately from element presets. They are likely serialized in `wp_options` or a custom post type, with each preset containing the option group type, name, and a settings object. The exact storage key and data format need verification.
-
-**Programmatic access:**
-
-| Operation | Method | Status | Notes |
-|-----------|--------|--------|-------|
-| Read | Divi REST API or `wp_options` query | Needs Testing | Presets likely stored as serialized arrays keyed by option group type |
-| Modify | Divi REST API or `update_option()` | Needs Testing | Editing a preset should update all elements using it on next render |
-| Create | Divi REST API or `update_option()` | Needs Testing | Must specify the option group type, name, and settings values |
-
-<!-- TODO: Verify storage format — is it one option key per preset type or a single serialized array? -->
-<!-- TODO: Confirm how presets are referenced in layout JSON (by ID? by name?) -->
-
-## Related
-
-- [Stacked & Nested Presets](stacked-nested-presets.md) — Layering multiple presets on one element
-- [Preset Manager](preset-manager.md) — Centralized interface for managing all presets
-- [Presets](presets.md) — Element-level presets overview
-- [Design Variables](design-variables.md) — Variables that can be used within presets
+[How to Use Option Group Presets in Divi 5](https://help.elegantthemes.com/en/articles/10725144){:target="_blank"}

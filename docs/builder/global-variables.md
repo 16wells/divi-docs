@@ -118,8 +118,6 @@ Global variables are embedded in the layout JSON when you export layouts from th
 | Modify | `update_option()` or Divi REST endpoint | Needs Testing | Changes should propagate on next page render to all references |
 | Create | `update_option()` or Divi REST endpoint | Needs Testing | Must specify type, name, and value; color variables integrate with the global color system |
 
-<!-- TODO: Identify the exact wp_options key or custom post type used for global variable storage -->
-<!-- TODO: Confirm export/import behavior — are variables deduplicated on import? -->
 
 ## Elegant Themes tutorials
 

@@ -1,53 +1,31 @@
 ---
 title: "How to Send the Contact Form's Message to Multiple E-mail Addresses in Divi 5"
+description: "Enter several comma-separated addresses in the Contact Form module's Email Address field so each submission goes to all of them."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
+last_updated: 2026-11-04
 source_url: "https://help.elegantthemes.com/en/articles/15529313-how-to-send-the-contact-form-s-message-to-multiple-e-mail-addresses-in-divi-5"
 ---
 
 # How to Send the Contact Form's Message to Multiple E-mail Addresses in Divi 5
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **What it does:** Delivers each Contact Form submission to more than one recipient.
+    **How:** Put the addresses in the **Email Address** field of the module's **Email** option group, separated by commas.
+    **Default:** If the field is empty, submissions go to the email address set when WordPress was installed.
 
-## Overview
+## Steps
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/15529313-how-to-send-the-contact-form-s-message-to-multiple-e-mail-addresses-in-divi-5).
+1. Open the **Contact Form** module's settings.
+2. Expand the **Email** option group.
+3. In **Email Address**, enter the recipients separated by commas, with no placeholders:
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+```text
+first@example.com,second@example.com,third@example.com
+```
 
-## Settings & Options
+## Official documentation
 
-### General
-
-| Setting | Type | Description |
-|---------|------|-------------|
-| Contact Form module's |  | module'ssettings. |
-| Email option group |  | tion group. |
-| Email Address |  | mail Addressfield with the list of emails separated by a comma (,). |
-
-## Code Examples
-
-<!-- TODO: Add CSS/PHP code examples -->
-
-## Common Patterns
-
-<!-- TODO: Document 2-3 common usage patterns -->
-
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+[How to Send the Contact Form's Message to Multiple E-mail Addresses in Divi 5](https://help.elegantthemes.com/en/articles/15529313-how-to-send-the-contact-form-s-message-to-multiple-e-mail-addresses-in-divi-5)

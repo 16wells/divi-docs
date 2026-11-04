@@ -115,8 +115,6 @@ The Style Inspector is not read-only. You can modify values directly within the 
 | Modify | Layout JSON update or Divi REST API | Needs Testing | Modifications through the inspector are equivalent to modifying the underlying element/preset data directly |
 | Create | N/A | N/A | The inspector does not create new data structures — it surfaces existing ones |
 
-<!-- TODO: Verify whether the inspector exposes any data not visible through individual element settings -->
-<!-- TODO: Test whether page-level color/font counts are accessible via API for automated auditing -->
 
 ## Related
 

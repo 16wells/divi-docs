@@ -1,66 +1,45 @@
 ---
 title: "Using Divi Spacing Options"
+description: "How to set margin and padding on Divi 5 elements from the Design tab Spacing option group."
 category: modules
 tags: [modules]
 related: []
 divi_version: "5.x"
-last_updated: 2026-09-07
-source_url: "https://help.elegantthemes.com/en/articles/8671186-using-divi-spacing-options"
+last_updated: 2026-11-04
+source_url: "https://help.elegantthemes.com/en/articles/10102490"
 ---
 
 # Using Divi Spacing Options
 
-<!-- AUTO-CREATED: 2026-09-07 — stub from ET Help Center, needs enrichment -->
+!!! abstract "Quick Reference"
+    **Where:** Module settings > Design tab > Spacing.
+    **Controls:** Margin (outside) and padding (inside), per side.
+    **Defaults:** Both start at 0.
 
-## Overview
+Spacing sets how much room an element has around it (margin) and inside it (padding). See also the [Spacing option group reference](../options-groups/spacing.md).
 
-For detailed information, see the [official Elegant Themes documentation](https://help.elegantthemes.com/en/articles/8671186-using-divi-spacing-options).
+## Open the options
 
-<!-- TODO: Write a 2-3 paragraph overview of this feature/module -->
+1. Click the module or its Gear icon to open its settings.
+2. Go to the **Design** tab and open **Spacing**.
 
-## Settings & Options
+## Settings
 
-### General
+| Setting | Description |
+|---|---|
+| Margin | Space outside the element that separates it from neighbors. Set top, right, bottom, and left individually. |
+| Padding | Space between the element's content and its edge. Also set per side. |
+| Chainlink icon | Links top and bottom, or left and right, so they stay equal. |
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| Margin |  | Margins control the space around an element |
-| Padding |  | Padding controls the space inside an element |
-| padding |  | addingto a Row would create spacing around the column(s) it contains. |
-| padding |  | addingto a column would create spacing between its borders and any elements it contains. |
-| gear icon |  | element's Settings window by clicking on thegear icon |
-| Design tab |  | esign tab |
-| Spacing |  | theSpacingsettings group. |
-| gear icon |  | element's Settings window by clicking on thegear icon |
-| Design tab |  | esign tab |
-| Spacing |  | theSpacingsettings group. |
-| Padding |  | Paddingoption to add/change the default padding values |
-| margin |  | over themarginorpaddingtext |
-| phone icon |  | hone icon |
-| Desktop |  |  |
-| Tablet |  |  |
-| Phone |  | . |
+Values accept units such as px, %, em, rem, vw, and vh. For the full list, including CSS functions, see [Advanced units](../builder/advanced-units.md).
 
-## Code Examples
+## Tips
 
-<!-- TODO: Add CSS/PHP code examples -->
+- Use padding to give content breathing room.
+- Use margin to keep nearby elements from crowding each other.
+- Lock values with the chainlink for symmetrical spacing.
 
-## Common Patterns
 
-<!-- TODO: Document 2-3 common usage patterns -->
+## Official documentation
 
-## Troubleshooting
-
-<!-- TODO: Document common issues and solutions -->
-
-## AI Interaction Notes
-
-| Task | Confidence | Notes |
-|------|-----------|-------|
-| Basic placement | 🔬 Needs Testing | Untested — stub page |
-| Settings configuration | 🔬 Needs Testing | Untested — stub page |
-| Custom styling | 🔬 Needs Testing | Untested — stub page |
-
-## Related
-
-<!-- TODO: Add links to related documentation pages -->
+- [Using Divi Spacing Options (Elegant Themes Help Center)](https://help.elegantthemes.com/en/articles/10102490)
