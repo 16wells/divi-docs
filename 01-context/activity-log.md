@@ -199,3 +199,6 @@ If you're ever unsure, err toward logging it here briefly with a pointer to wher
 - Resolved Divi 5 counterparts for the older how-to stubs via Help Center search: only 17 of 408 had one. Rewrote 16 how-to pages (email-optin connectors x9, Stripe link, PayPal button, Instagram token, recover content, tab-opened, footer, delete presets); 2 more held as Divi 4 (Menu module, accessibility).
 - Removed two lines an agent added that the source did not state. Build clean.
 -      555 TODO pages remain; ~390 are Divi 4-era how-tos/troubleshooting with no Divi 5 article (list: 04-research/remaining-todo.txt). Marketplace/promo pages held in 04-research/held-marketplace-promo.txt.
+
+## 2026-11-04 (7) — Claude Code — excluded 452 TODO stubs from the build
+- Added the remaining TODO-bearing pages (452) to `exclude_docs`; build clean, no broken links, none in the search index. The site now serves only enriched pages plus any that never carried TODO.

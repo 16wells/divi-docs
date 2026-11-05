@@ -57,3 +57,6 @@ Skip chose exclude. Added `exclude_docs` to mkdocs.yml (list from 04-research/no
 
 ## 2026-11-04 — Enrichment approach: rewrite from Divi 5 articles only
 Skip said "do the rest". Did tranche 1 (Divi 5 modules, option groups, builder) via parallel agents, own-wording rewrites. Pages whose only source is a Divi 4 article are held and left as stubs (`04-research/held-no-divi5-counterpart.txt`). Remaining ~how-to/troubleshooting stubs need the same Divi 4/5 source check; not started.
+
+## 2026-11-04 — CLOSED: 452 Divi 4-only stubs excluded from build
+Skip chose exclude. After enrichment, every page still carrying TODO (Divi 4-era how-tos, troubleshooting, held modules, marketplace/promo) was added to `exclude_docs` in mkdocs.yml. List: `04-research/divi4-only-stub-pages.txt`. Files stay in the repo; delete a line to restore a page. Revisit if ET publishes Divi 5 versions of those articles (the monitor/Help Center search can find them).
