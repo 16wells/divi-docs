@@ -43,7 +43,7 @@ Work may happen across multiple Claude surfaces (Cursor/Cowork, Claude Code, and
 
 If `state.md` is current, the chat history should be irrelevant to resumption.
 
-**Checkpoint triggers — update the appropriate file IMMEDIATELY when:**
+**Checkpoint triggers: update the matching file as part of the step when:**
 
 | Event | Update |
 |---|---|
